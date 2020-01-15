@@ -58,6 +58,7 @@ interoperability between tools
 * Thanh Ha (Lumina Networks)
 * Tracy Miranda (Cloudbees)
 * Wavel Watson (Vulk Coop)
+* Eric Sorenson (Puppet)
 
 ## Governance
 
