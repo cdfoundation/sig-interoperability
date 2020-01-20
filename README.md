@@ -1,5 +1,9 @@
 # CDF Interoperability SIG
 
+## Quick links
+
+- [Meeting Information](#meetings)
+
 ## Overview
 
 The emergence of new open technologies and methodologies such as cloud native and
@@ -84,6 +88,9 @@ https://lists.cd.foundation/g/sig-interoperability
 
 ## Meetings
 
-The Interoperability SIG meets every other week at/on *TBD*.
+The Interoperability SIG meets every even week on Thursdays at 15:00UTC. (*See your timezone [here](https://time.is/1500_in_UTC)*).
 
-Meeting agendas and minutes are here: *TBD*
+* Meeting agenda and minutes: [docs/meetings.md](docs/meetings.md)
+* Zoom Bridge: https://zoom.us/my/cdf.toc
+* Zoom International dial-in numbers: https://zoom.us/zoomconference
+* CDF Public Calendar: [here](https://calendar.google.com/calendar/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24%40group.calendar.google.com&ctz=America%2FLos_Angeles)
