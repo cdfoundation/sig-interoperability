@@ -3,6 +3,7 @@
 ## Quick links
 
 - [Meeting Information](#meetings)
+- [Communication](#communication)
 
 ## Overview
 
@@ -33,10 +34,10 @@ the risks of outage in their CI/CD pipelines due to the potential changes (ie no
 changes to the APIs, changes in data models) that happens to the tools in respective
 projects.
 
-The interoperability SIG will focus on addressing these challenges and further work with
+SIG Interoperability will focus on addressing these challenges and further work with
 projects to achieve a common set of solutions.
 
-CDF Interoperability SIG aims to enable a dialog in the interoperability area by bringing
+SIG Interoperability aims to enable a dialog in the interoperability area by bringing
 CI/CD users together with the open source projects in order to
 
 * clarify what interoperability means for the CI/CD ecosystem
@@ -82,13 +83,17 @@ Chairs and the TOC Sponsor of the SIG are
 
 ## Communication
 
-Interoperability SIG communication happens via a public mailing list:
+SIG Interoperability communication happens via a public mailing list and everyone is
+welcome to join our open discussions.
 
-https://lists.cd.foundation/g/sig-interoperability
+SIG Interoperability also uses Slack for additional collaboration opportunities.
+
+* Maillist: https://lists.cd.foundation/g/sig-interoperability
+* Slack Channel: #sig-interoperability on [CDF Slack](https://join.slack.com/t/cdeliveryfdn/shared_invite/enQtODM2NDI1NDc0MzIxLTA1MDcxMzUyMGU2NWVlNmQwN2M1N2M4MWJjOWFkM2UzMDY0OWNkNjAzNzM0NzVkNjQ5M2NkMmY2MTRkMWY4MWY)
 
 ## Meetings
 
-The Interoperability SIG meets every even week on Thursdays at 15:00UTC. (*See your timezone [here](https://time.is/1500_in_UTC)*).
+SIG Interoperability meets every even week on Thursdays at 15:00UTC. (*See your timezone [here](https://time.is/1500_in_UTC)*).
 
 * Meeting agenda and minutes: [docs/meetings.md](docs/meetings.md)
 * Zoom Bridge: https://zoom.us/my/cdf.toc
