@@ -3,6 +3,7 @@
 ## Quick links
 
 - [Meeting Information](#meetings)
+- [Members](#members)
 - [Communication](#communication)
 
 ## Overview
@@ -54,16 +55,16 @@ interoperability between tools
 
 ## Members
 
-* Andy Glover (Netflix)
-* Christie Wilson (Google)
-* Fatih Degirmenci (Ericsson Software Technology)
-* FuQiao (China Mobile)
-* Kara de la Marck (Cloudbees)
-* Priyanka Sharma (Gitlab)
-* Thanh Ha (Lumina Networks)
-* Tracy Miranda (Cloudbees)
-* Wavel Watson (Vulk Coop)
-* Eric Sorenson (Puppet)
+* Andy Glover ([@aglover](https://github.com/aglover)), Netflix
+* Christie Wilson ([@bobcatfish](https://github.com/bobcatfish)), Google
+* Eric Sorenson ([@ahpook](https://github.com/ahpook)), Puppet
+* Fatih Degirmenci ([@fdegir](https://github.com/fdegir)), Ericsson Software Technology
+* FuQiao ([@fuqiao123](https://github.com/fuqiao123)) (China Mobile)
+* Kara de la Marck ([@MarckK](https://github.com/MarckK)), Cloudbees
+* Priyanka Sharma ([@pritianka](https://github.com/pritianka)), Gitlab
+* Thanh Ha ([@zxiiro](https://github.com/zxiiro)), Lumina Networks
+* Tracy Miranda ([@tracymiranda](https://github.com/tracymiranda)), Cloudbees
+* Wavell Watson ([@wavell](https://github.com/wavell)), Vulk Coop
 
 ## Governance
 
@@ -77,9 +78,9 @@ Charter, roles, and process of the SIG will be documented and made available onc
 
 Chairs and the TOC Sponsor of the SIG are
 
-* Fatih Degirmenci (Ericsson Software Technology) - Chair
+* Fatih Degirmenci ([@fdegir](https://github.com/fdegir)), Ericsson Software Technology - Chair
 * *TBD* - Co-chair
-* Dan Lorenc (Google) - TOC Sponsor
+* Dan Lorenc ([@dlorenc](https://github.com/dlorenc)), Google - TOC Sponsor
 
 ## Communication
 
