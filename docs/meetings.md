@@ -9,7 +9,7 @@
 
 * Google Doc: https://docs.google.com/document/d/13hCBpmuAj3e0gADo1TCjsEwmz57_fw74OhQmeY1extk
 * When: every even week on Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
-* Zoom Bridge: https://zoom.us/my/cdf.toc
+* Zoom Bridge: https://zoom.us/j/827082528
 * Zoom International dial-in numbers: https://zoom.us/zoomconference
 * CDF Public Calendar: [here](https://calendar.google.com/calendar/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 
