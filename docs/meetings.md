@@ -24,7 +24,23 @@ the topic you would like discussed into the agenda.
 ### January 23, 2020
 
 - *Participants*
-  - <addme>
+  - \<addme\>
 
 - *Agenda and Notes*
-  - <addme>
+  - Introductions
+  - Logistics
+    - Meeting day/time
+    - Meeting agenda/notes
+    - Recording meetings
+  - SIG Governance & Process
+    - Proposal is to have TOC document governance for the SIGs and we adapt it. See [the corresponding issue](https://github.com/cdfoundation/toc/issues/70) on TOC repo.
+    - Adapting co-chair setup
+    - Members of sig-interoperability team/repo
+    - How new-members could sign-up?
+  - Presentations from users and projects
+    - The challenges, the ideas, and the solutions faced/employed by users
+    - Existing work going on within interoperability area across projects
+  - Discussion on our objectives as SIG
+  - First topic to start brain-storming around
+    - Define what interoperability means in CI/CD domain?
+  - \<addme\>
