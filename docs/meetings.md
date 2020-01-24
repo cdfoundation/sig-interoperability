@@ -4,6 +4,7 @@
 
 - [Logistics](#logistics)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-02-06 Meeting](#february-06-2020)
   - [2020-01-23 Meeting](#january-23-2020)
 
 ## Logistics
@@ -21,6 +22,20 @@ and synched back to this file after the meeting.
 
 If you have trouble accessing to the document on Google, please send a PR to add
 the topic you would like discussed into the agenda.
+
+### February 06, 2020
+
+- **Participants**
+  - \<addme\>
+
+- **Agenda and Notes**
+  - Action Item Review
+  - Co-chair nomination and election
+  - Eiffel Presentation and Discussion, Emil Bäckmark, Ericsson
+  - Work on common vocabulary/terminology
+
+- **Action Items**
+  - \<addme\>
 
 ### January 23, 2020
 
