@@ -4,6 +4,7 @@
 
 - [Meeting Information](#meetings)
 - [Members](#members)
+- [New Members](#new-members)
 - [Communication](#communication)
 
 ## Overview
@@ -59,12 +60,31 @@ interoperability between tools
 * Christie Wilson ([@bobcatfish](https://github.com/bobcatfish)), Google
 * Eric Sorenson ([@ahpook](https://github.com/ahpook)), Puppet
 * Fatih Degirmenci ([@fdegir](https://github.com/fdegir)), Ericsson Software Technology
-* FuQiao ([@fuqiao123](https://github.com/fuqiao123)) (China Mobile)
+* FuQiao ([@fuqiao123](https://github.com/fuqiao123)), China Mobile
 * Kara de la Marck ([@MarckK](https://github.com/MarckK)), Cloudbees
 * Priyanka Sharma ([@pritianka](https://github.com/pritianka)), Gitlab
 * Thanh Ha ([@zxiiro](https://github.com/zxiiro)), Lumina Networks
 * Tracy Miranda ([@tracymiranda](https://github.com/tracymiranda)), Cloudbees
 * Wavell Watson ([@wavell](https://github.com/wavell)), Vulk Coop
+
+## New Members
+
+Membership to SIG Interoperability is open to public and self-declared.
+
+New members are advised to:
+
+* Join the [SIG](https://lists.cd.foundation/g/sig-interoperability) and
+[CDF TOC](https://lists.cd.foundation/g/cdf-toc) maillists.
+* Join the #sig-interoperability channel on [CDF Slack](https://join.slack.com/t/cdeliveryfdn/shared_invite/enQtODM2NDI1NDc0MzIxLTA1MDcxMzUyMGU2NWVlNmQwN2M1N2M4MWJjOWFkM2UzMDY0OWNkNjAzNzM0NzVkNjQ5M2NkMmY2MTRkMWY4MWY) and introduce yourself.
+* Go through the [README.md](README.md) document.
+* Regularly join the [SIG meetings](docs/meetings.md).
+* Submit a PR to add yourself to the [members list](#members).
+* Here are various ways to get involved:
+  * Share your thoughts by joining the meetings or by posting to maillist and Slack channel.
+  * Add a topic you would like to discuss to [the agenda](docs/meetings.md) of upcoming meeting.
+  * Create a [new issue](https://github.com/cdfoundation/sig-interoperability/issues) to start gathering feedback and collaborating.
+  * Choose an issue where [help is needed](https://github.com/cdfoundation/sig-interoperability/issues/labels/help%20wanted)
+  and comment on it expressing interest.
 
 ## Governance
 
