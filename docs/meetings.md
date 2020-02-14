@@ -26,16 +26,44 @@ the topic you would like discussed into the agenda.
 ### February 06, 2020
 
 - **Participants**
-  - \<addme\>
+  - Fatih Degirmenci, Ericsson Software Technology
+  - Emil Bäckmark, Ericsson
+  - Emelie Pettersson, Ericsson
+  - Terry Cox, Bootstrap
+  - Jeremy Stanley, OpenDev/Zuul
+  - Ramin Akhbari, ebay
+  - Christie Wilson, Google
+  - Tracy Miranda, Cloudbees
+  - Dan Lopez, Linux Foundation
 
 - **Agenda and Notes**
   - Action Item Review
+    - FD: All action items are closed.
   - Co-chair nomination and election
-  - Eiffel Presentation and Discussion, Emil Bäckmark, Ericsson
+    - FD: Christie Wilson and Wavell Watson have been nominated
+    - FD: Co-chair nominations open until February 10
+    - DLz: We don’t have to have a charter but good to adapt one.
+    - DLz: Some CNCF SIGs have their own charters. https://github.com/cncf/sig-security/blob/master/governance/charter.md
+    - FD + CW: Goals: Define interoperability
+    - TM: ml-ops approach is good, initial roadmap, taking time to define what areas they can tackle: divide up topics, map them up
+  - CD Summit Europe 2020
+    - FD: CFP closes on February 7
+    - FD: Event takes place on March 30
+    - CW: CFPs will be reviewed by the programming committee. Program chairs will be putting the final schedule.
+      The notifications will be sent out February 17th and the program will be announced after that. Lightning talks are also possible.
+    - CW: Registration is open for CD Summit.
   - Work on common vocabulary/terminology
+    - FD: PR is up for [review](https://github.com/cdfoundation/sig-interoperability/pull/14)
+  - Presentation Template
+    - DLz: CDF has a presentation template for the community to use.
+    - DLz: https://github.com/cdfoundation/presentations/tree/master/templates
+  - Eiffel Presentation and Discussion, Emil Bäckmark, Ericsson
+    - FD: Eiffel presentation by Emil to SIG.
+      Recording: https://www.youtube.com/watch?v=thr8-duWvt0
+      Slides: https://github.com/cdfoundation/presentations/tree/master/sig-interoperability
 
 - **Action Items**
-  - \<addme\>
+  - N/A
 
 ### January 23, 2020
 
@@ -149,8 +177,8 @@ the topic you would like discussed into the agenda.
     what people are actually dealing with.
 
 - **Action Items**
-  - Join to maillist and Slack channel, All
-  - Summarize governance discussion on maillist and ask for feedback, Fatih Degirmenci
-  - Start nominations for co-chair, Fatih Degirmenci
-  - Add members listed in README.md as maintainers to sig-interoperability Github repository, Fatih Degirmenci
-  - Help us get in touch with ebay and CDF projects so we can invite them for presenting to SIG, Tracy Miranda
+  - ~~Join to maillist and Slack channel, All~~
+  - ~~Summarize governance discussion on maillist and ask for feedback, Fatih Degirmenci~~
+  - ~~Start nominations for co-chair, Fatih Degirmenci~~
+  - ~~Add members listed in README.md as maintainers to sig-interoperability Github repository, Fatih Degirmenci~~
+  - ~~Help us get in touch with ebay and CDF projects so we can invite them for presenting to SIG, Tracy Miranda~~
