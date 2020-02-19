@@ -4,6 +4,7 @@
 
 - [Logistics](#logistics)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-02-20 Meeting](#february-20-2020)
   - [2020-02-06 Meeting](#february-06-2020)
   - [2020-01-23 Meeting](#january-23-2020)
 
@@ -22,6 +23,23 @@ and synched back to this file after the meeting.
 
 If you have trouble accessing to the document on Google, please send a PR to add
 the topic you would like discussed into the agenda.
+
+### February 20, 2020
+
+- **Participants**
+  - \<addme\>
+
+- **Agenda and Notes**
+  - SIG Interoperability Co-chairs
+  - [Common vocabulary/terminology](https://github.com/cdfoundation/sig-interoperability/pull/14)
+  - [Starting the work on SIG Goals, Roadmap](https://github.com/cdfoundation/sig-interoperability/issues/15)
+  - Discussion around [standardization of container-based step execution](https://docs.google.com/document/d/1geL8hMN3Qy5C7lJTb6MUCPquDzwsU022eRUr4nGdI44/edit)
+    Jason Yavorska, GitLab
+  - Tekton Presentation & Discussion, Christie Wilson, Google
+  - \<addme\>
+
+- **Action Items**
+  - \<addme\>
 
 ### February 06, 2020
 
