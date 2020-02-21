@@ -27,19 +27,56 @@ the topic you would like discussed into the agenda.
 ### February 20, 2020
 
 - **Participants**
-  - \<addme\>
+  - Jason Yavorska, GitLab
+  - Emelie Pettersson, Ericsson
+  - Ramin Akhbari, eBay
+  - Fatih Degirmenci, Ericsson Software Technology
+  - Kara de la Marck, CloudBees
+  - Christie Wilson, Google
+  - Tracy Miranda, CloudBees
+  - Jeremy Hartley, CloudBees
+  - Orit Golowinski, GitLab
+  - Ignacio Pascual, Ericsson
+
 
 - **Agenda and Notes**
   - SIG Interoperability Co-chairs
+    - FD: Nomination period ended on February 10th and 2 people were nominated by others  - Christie Wilson and Wavell Watson.
+    - FD: Christie Wilson accepted the nomination but Wavell Watson didn’t by the time the nomination ended so Christie Wilson becomes the new co-chair.
   - [Common vocabulary/terminology](https://github.com/cdfoundation/sig-interoperability/pull/14)
+    - TM: We can merge the document as is and ask people to contribute it by issuing new PRs
+    - TM: A blog post can be published to promote the vocabulary/terminology
   - [Starting the work on SIG Goals, Roadmap](https://github.com/cdfoundation/sig-interoperability/issues/15)
+    - FD: Looking for contributors
+    - CW: One way this could go is that this SIG could work on creating standards.Another idea about the SIG is to keep track of what’s happening in industry.
+    - TM: Roadmap is important to identify low hanging fruits to get momentum, get more people, starting to tackle some challenges
+    - CW: We could start highlighting some tools that are currently interoperate and highlighting some challenges to make sure people know why this topic is important.
+    - TM: Initial categories, the way to deal with them. Rather than laying out that we will do this or that in specific time, we could focus on what we are doing now,
+      what we will focus next so people can start contributing to those ideas. Will take first stab.
   - Discussion around [standardization of container-based step execution](https://docs.google.com/document/d/1geL8hMN3Qy5C7lJTb6MUCPquDzwsU022eRUr4nGdI44/edit)
     Jason Yavorska, GitLab
+    - Also look at CircleCI orbs, Github Actions e.g. how do we run sth from github actions in Tekton
+    - CW: [Tekton Notifications Proposal](https://docs.google.com/document/d/1ehhGngn2ulnjYX0HUxSyhQGAvcbabSa27UZs3RvZWwU/edit)
+    - CW: This might take Christie a bit to figure out how to share the document but in the meantime if you join the tekton-dev@ mailing list you’ll get access right away!
+    - CW: Tekton docs: https://github.com/tektoncd/pipeline/tree/master/docs#tekton-pipelines
+    - CW: Tekton task docs: https://github.com/tektoncd/pipeline/blob/master/docs/tasks.md
+    - FD: Please see the meeting recording for the discussion.
+  - KubeCon Amsterdam
+    - TM: Who is going? There will be discussions around common metadata to describe deployments.
+    - FD: It might be a good idea to send mail to CDF SIG and/or TOC maillists to let people know about the discussions during KubeCon.
+    - CW: CD Summit will happen as day-zero event on March 30.
+    - CW: [CD Summit Schedule](https://events.linuxfoundation.org/continuous-delivery-summit/program/schedule/)
   - Tekton Presentation & Discussion, Christie Wilson, Google
-  - \<addme\>
+    - FD: Presentation will be stored in CDF presentations repo sig-interoperability folder on GitHub and recording will be posted to CDF Youtube channel.
+    - CW: https://github.com/tektoncd/community#want-to-get-involved
+    - FD: Presentation is available on [this link](https://github.com/cdfoundation/presentations/tree/master/sig-interoperability).
 
 - **Action Items**
-  - \<addme\>
+  - Take the first stab on Roadmap, Tracy Miranda
+  - Provide basic examples for GitHub Actions and CircleCI Orbs, Jason Yavorska
+  - Tekton Notifications Proposal is not public, Christie Wilson
+  - DONE: Upload presentation to CDF presentations repo sig-interoperability folder on GitHub, Christie Wilson
+  - Schedule a presentation from Jenkins X - presentation schedule is here, Tracy Miranda, Jeremy Harley
 
 ### February 06, 2020
 
