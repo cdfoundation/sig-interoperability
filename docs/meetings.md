@@ -7,6 +7,7 @@
   - [2020-02-20 Meeting](#february-20-2020)
   - [2020-02-06 Meeting](#february-06-2020)
   - [2020-01-23 Meeting](#january-23-2020)
+- [Meeting recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 
 ## Logistics
 
