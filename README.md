@@ -120,3 +120,4 @@ SIG Interoperability meets every even week on Thursdays at 15:00UTC. (*See your 
 * Zoom Bridge: https://zoom.us/j/827082528
 * Zoom International dial-in numbers: https://zoom.us/zoomconference
 * CDF Public Calendar: [here](https://calendar.google.com/calendar/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+* Meeting recordings: [here](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
