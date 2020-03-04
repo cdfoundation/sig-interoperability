@@ -106,16 +106,17 @@ software.
 
 Some of the core Jenkins terms are listed below. [[4]]
 
-- **Project**: A user-configured description of work which Jenkins should
+- **Job**: A user-configured description of work which Jenkins should
 perform, such as building a piece of software, etc.
-- **Job**: A deprecated term, synonymous with Project.
+- **Project**: A deprecated term, synonymous with Job.
 - **Stage**: Stage is part of Pipeline, and used for defining a conceptually
 distinct subset of the entire Pipeline
-- **Pipeline**: A user-defined model of a continuous delivery pipeline.
-- **Node**: A machine which is part of the Jenkins environment and capable of
-executing Pipelines or Projects. Both the Master and Agents are considered to
-be Nodes.
-- **Trigger**: A criteria for triggering a new Pipeline run or Build.
+- **Pipeline**: A user-defined model of a continuous delivery pipeline (see [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/)).
+- **Agent**: A machine or a container which is connected to the Jenkins master and capable of executing Pipelines or Jobs.
+Both the Master and Agents are considered to be Nodes.
+- **Node**: A machine or a container which is part of the Jenkins environment and capable of executing Pipelines or Jobs.
+Both the Master and Agents are considered to be Nodes.
+- **Trigger**: A criteria for triggering a new Pipeline run or a Job.
 
 ### Jenkins X
 
@@ -281,7 +282,7 @@ in corresponding documentation.
 | **CircleCI**       | N/A    | Step    | Job     | Workflow | Trigger | Executor     |
 | **GitHub Actions** | Action | Step    | Job     | Workflow | Event   | Runner       |
 | **GitLab CI/CD**   | N/A    | Job     | Stage   | Pipeline | Trigger | Runner       |
-| **Jenkins**        | N/A    | Project | Stage   | Pipeline | Trigger | Node         |
+| **Jenkins**        | N/A    | Job     | Stage   | Pipeline | Trigger | Agent/Node   |
 | **Jenkins X**      | N/A    | Step    | Stage   | Pipeline | Trigger | Agent        |
 | **Screwdriver**    | N/A    | Step    | Job     | Pipeline | Trigger | N/A          |
 | **Spinnaker**      | N/A    | Task    | Stage   | Pipeline | Trigger | Cluster      |
