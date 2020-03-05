@@ -29,18 +29,38 @@ the topic you would like discussed into the agenda.
 ### March 05, 2020
 
 - **Participants**
-  - \<addme\>
+  - Andrew Bayer, CloudBees
+  - James Rawlings CloudBees
+  - Emil Bäckmark, Ericsson
+  - Fatih Degirmenci, Ericsson Software Technology
+  - Ethan Jones, CloudBees
+  - Andreas Grimmer, Dynatrace
+  - Ramin Akhbari (eBay)
+  - Terry Cox, Bootstrap
+  - Jeremy Hartley, CloudBees
+  - Christie Wilson, Google
+  - David Blaisonneau, Orange
+  - Minoru Nitta
+  - Tracy Miranda, CloudBees
+  - Jeremy Stanley, OpenDev
 
 - **Agenda and Notes**
   - Action Item Review, All
   - SIG Interoperability Roadmap, Tracy Miranda, Cloudbees
+    - FD: Postponed to the next meeting.
   - Google Summer of Code, All
+    - FD: CDF is taking part in [Google Summer of Code](https://summerofcode.withgoogle.com/organizations/5550056498790400/)
+      If anyone has a project idea, please reach out to Dan Lopez and Jacqueline Salinas to find out how you can get your project part of GSoC.
   - [Keptn](https://keptn.sh/), Andreas Grimmer, Dynatrace
+    - FD: Meeting is recorded and it will be published on CDF Youtube Channel.
+    - FD: Presentation will be stored in [cdf presentations repository sig-interoperability folder](https://github.com/cdfoundation/presentations/tree/master/sig-interoperability)
   - GitLab Pipelines, David Blaisonneau, Orange
-  - \<addme\>
+    - FD: Meeting is recorded and it will be published on CDF Youtube Channel.
+    - FD: Presentation will be stored in [cdf presentations repository sig-interoperability folder](https://github.com/cdfoundation/presentations/tree/master/sig-interoperability)
 
 - **Action Items**
-  - \<addme\>
+  - Store Keptn presentation in cdf/presentations repository sig-interoperability folder, Andreas Grimmer, Dynatrace
+  - DONE: Store Orange Gitlab Pipelines presentation in cdf/presentations repository sig-interoperability folder, David Blaisonneau, Orange
 
 ### February 20, 2020
 
@@ -55,7 +75,6 @@ the topic you would like discussed into the agenda.
   - Jeremy Hartley, CloudBees
   - Orit Golowinski, GitLab
   - Ignacio Pascual, Ericsson
-
 
 - **Agenda and Notes**
   - SIG Interoperability Co-chairs
@@ -94,7 +113,7 @@ the topic you would like discussed into the agenda.
   - Provide basic examples for GitHub Actions and CircleCI Orbs, Jason Yavorska
   - Tekton Notifications Proposal is not public, Christie Wilson
   - DONE: Upload presentation to CDF presentations repo sig-interoperability folder on GitHub, Christie Wilson
-  - Schedule a presentation from Jenkins X - presentation schedule is here, Tracy Miranda, Jeremy Harley
+  - DONE: Schedule a presentation from Jenkins X - presentation schedule is here, Tracy Miranda, Jeremy Harley
 
 ### February 06, 2020
 
