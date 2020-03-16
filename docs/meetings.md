@@ -36,7 +36,7 @@ the topic you would like discussed into the agenda.
   - Action Item Review, All
   - SIG Interoperability Roadmap, Tracy Miranda, Cloudbees
   - Do we want to have any kind of facilitator rotation? Christie Wilson, Google
-  - [Zuul](https://zuul-ci.org/) Presentation, Jeremy Stabley, OpenDev
+  - [Zuul](https://zuul-ci.org/) Presentation, Jeremy Stanley, OpenDev
   - \<addme\>
 
 - **Action Items**
