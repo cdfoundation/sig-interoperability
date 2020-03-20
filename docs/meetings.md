@@ -18,6 +18,7 @@
 * Zoom Bridge: https://zoom.us/j/827082528
 * Zoom International dial-in numbers: https://zoom.us/zoomconference
 * CDF Public Calendar: [here](https://calendar.google.com/calendar/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+* Presentation Schedule: https://docs.google.com/document/d/1Owg_I52WEXzqF8g_lX6OTdwbHkH4Z2-7TBA7eCSVMqY/edit
 
 ## Agenda and Notes
 
@@ -30,17 +31,39 @@ the topic you would like discussed into the agenda.
 ### March 19, 2020
 
 - **Participants**
-  - \<addme\>
+  - Ramin Akhbari (eBay)
+  - Fatih Degirmenci, Ericsson Software Technology
+  - Andreas Grimmer, Dynatrace
+  - Emelie Pettersson, Ericsson
+  - Jeremy Stanley, OpenDev
+  - Eric Sorenson, Puppet
+  - Terry Cox, Bootstrap
+  - Andrew Bayer, CloudBees
+  - Tracy Miranda, CloudBees
+  - Emil Bäckmark, Ericsson (last half hour only)
 
 - **Agenda and Notes**
-  - Action Item Review, All
-  - SIG Interoperability Roadmap, Tracy Miranda, Cloudbees
+  - SIG Interoperability Roadmap, Tracy Miranda, CloudBees
+    - TM: WIP/Draft Roadmap: https://docs.google.com/document/d/1QSzcV-rl3XwkNh4_5a_0YCugF5gprtBR-xRlzuEJ-NA/edit?usp=sharing
+    - TM: Best practices for the roadmap for groups like this is not to focus on specific dates but use time horizon.
+    - TM: Charter for the SIG is summarized in the document.
+    - TM: Some of the outcomes are knowledge transfer of CI/CD tools, the terminology, end user requirements and keeping them in mind, shared reference terminology to enable people communicate with each other, interoperable tools, standardized frameworks, promoting best practices
+    - TM: Time horizons in the document are current, near term, and future.
+    - TM: Some of the topics for each of these are listed there as an input.
+    - RA: Are Spinnaker and Codefresh represented in the SIG since they are gathering different use cases from the industry and can provide a lot of input to the SIG.
+    - FD: Unfortunately not.
+    - TM: Feel free to contribute!
+  - Next steps with the vocabulary, All
+    - FD: Should we try to come up with something like “shared vocabulary” as it was intended originally?
+    - TM: CDF Outreach Committee started working on different posts on various areas and this could be something to get the word out.
   - Do we want to have any kind of facilitator rotation? Christie Wilson, Google
-  - [Zuul](https://zuul-ci.org/) Presentation, Jeremy Stanley, OpenDev
-  - \<addme\>
+    - ES: I can help out with this.
+  - Zuul Presentation, Jeremy Stanley, OpenDev
+    - JS: Slides: http://fungi.yuggoth.org/presentations/2020-cdf/slides.html
+
 
 - **Action Items**
-  - \<addme\>
+  - Reach out to Spinnaker (Netflix/Armory) and Codefresh and invite them, Fatih Degirmenci
 
 ### March 05, 2020
 
@@ -62,7 +85,7 @@ the topic you would like discussed into the agenda.
 
 - **Agenda and Notes**
   - Action Item Review, All
-  - SIG Interoperability Roadmap, Tracy Miranda, Cloudbees
+  - SIG Interoperability Roadmap, Tracy Miranda, CloudBees
     - FD: Postponed to the next meeting.
   - Google Summer of Code, All
     - FD: CDF is taking part in [Google Summer of Code](https://summerofcode.withgoogle.com/organizations/5550056498790400/)
