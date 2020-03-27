@@ -143,7 +143,7 @@ Some of the core Keptn terms are listed below. [[6]]
 - **Workflow**: A workflow declares a set of tasks for realizing a delivery or operations process. A workflow is triggered by an external event, i.e., by a *domain event*. Examples for domain events would be the availablity of a new artifact which should be deployed (i.e., a `new-artifact` event) or the occurence of a problem (i.e., a `problem` event).
 - **Task**: A task is the smallest executable unit in a workflow. A task is triggered by an event.
 - **Event**: An event triggers a task and contains relevant data for the respective task.
-- **Service:** A service is the unit executing a task. It can be responsible for executing one or many tasks. It is triggered by an event of a task.
+- **Service:** A service is the unit executing a task. It can be responsible for executing one or many tasks and is triggered by an event of a task.
 
 ### Screwdriver
 
