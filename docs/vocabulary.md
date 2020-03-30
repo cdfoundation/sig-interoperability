@@ -139,11 +139,11 @@ Some of the core Jenkins X terms are listed below. [[5]]
 
 Some of the core Keptn terms are listed below. [[6]]
 
-- **Shipyard:** A shipyard is the declarative means to divide an environment into stages and to specify workflows for each project stage.
-- **Workflow**: A workflow declares a set of tasks for realizing a delivery or operations process. A workflow is triggered by an external event, i.e., by a *domain event*. Examples for domain events would be the availablity of a new artifact which should be deployed (i.e., a `new-artifact` event) or the occurence of a problem (i.e., a `problem` event).
+- **Shipyard:** A shipyard is the declarative means to divide an environment into stages and to specify workflows for each stage.
+- **Workflow**: A workflow declares a set of tasks for implementing a delivery or operations process. A workflow is triggered by an external event, i.e., by a *domain event*. Examples for domain events would be the availablity of a new artifact that should be deployed (i.e., a `new-artifact` event) or the occurence of a problem (i.e., a `problem` event).
 - **Task**: A task is the smallest executable unit in a workflow. A task is triggered by an event.
 - **Event**: An event triggers a task and contains relevant data for the respective task.
-- **Service:** A service is the unit executing a task. It can be responsible for executing one or many tasks and is triggered by an event of a task.
+- **Keptn-service:** A Keptn-service is the unit executing a task. It can be responsible for executing one or many tasks and is triggered by an event of a task.
 
 ### Screwdriver
 
@@ -297,7 +297,7 @@ in corresponding documentation.
 | **GitLab CI/CD**   | N/A    | Job     | Stage   | Pipeline | Trigger | Runner       |
 | **Jenkins**        | N/A    | Job     | Stage   | Pipeline | Trigger | Agent/Node   |
 | **Jenkins X**      | N/A    | Step    | Stage   | Pipeline | Trigger | Agent        |
-| **Keptn**          | N/A    | N/A     | Task    | N/A      | Event   | Service      |
+| **Keptn**          | N/A    | N/A     | Task    | Workflow | Event   | Keptn-service|
 | **Screwdriver**    | N/A    | Step    | Job     | Pipeline | Trigger | N/A          |
 | **Spinnaker**      | N/A    | Task    | Stage   | Pipeline | Trigger | Cluster      |
 | **Tekton**         | N/A    | Step    | Task    | Pipeline | Trigger | Resource (?) |
@@ -318,7 +318,7 @@ TBD
 [3]: https://about.gitlab.com/blog/2019/07/12/guide-to-ci-cd-pipelines/
 [4]: https://jenkins.io/doc/book/glossary/
 [5]: https://jenkins-x.io/docs/concepts/
-[6]: https://keptn.sh/docs/0.6.0/concepts/gloassary/
+[6]: https://keptn.sh/docs/0.6.0/concepts/glossary/
 [7]: https://docs.screwdriver.cd/user-guide/quickstart
 [8]: https://www.spinnaker.io/concepts/
 [9]: https://github.com/tektoncd/pipeline/blob/master/docs/README.md
