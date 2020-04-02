@@ -7,6 +7,7 @@
   - [GitLab CI/CD](#gitlab-cicd)
   - [Jenkins](#jenkins)
   - [Jenkins X](#jenkins-x)
+  - [Keptn](#Keptn)
   - [Screwdriver](#screwdriver)
   - [Spinnaker](#spinnaker)
   - [Tekton](#tekton)
@@ -132,12 +133,24 @@ Some of the core Jenkins X terms are listed below. [[5]]
 - **Agent**: Container image or Jenkins agent to schedule pipelines on.
 - **Trigger**: A pipeline trigger defines when to automatically run a pipeline.
 
+### Keptn
+
+[Keptn](https://keptn.sh/) is an event-based control plane for continuous delivery and automated operations for cloud-native applications.
+
+Some of the core Keptn terms are listed below. [[6]]
+
+- **Shipyard:** A shipyard is the declarative means to divide an environment into stages and to specify workflows for each stage.
+- **Workflow**: A workflow declares a set of tasks for implementing a delivery or operations process. A workflow is triggered by an external event, i.e., by a *domain event*. Examples for domain events would be the availablity of a new artifact that should be deployed (i.e., a `new-artifact` event) or the occurence of a problem (i.e., a `problem` event).
+- **Task**: A task is the smallest executable unit in a workflow. A task is triggered by an event.
+- **Event**: An event triggers a task and contains relevant data for the respective task.
+- **Keptn-service:** A Keptn-service is the unit executing a task. It can be responsible for executing one or many tasks and is triggered by an event of a task.
+
 ### Screwdriver
 
 [Screwdriver](https://screwdriver.cd) is an open source build platform designed
 for Continuous Delivery.
 
-Some of the core Screwdriver terms are listed below. [[6]]
+Some of the core Screwdriver terms are listed below. [[7]]
 
 - **Step**: List of commands to execute.
 - **Job**: Collection of the steps to run.
@@ -152,7 +165,7 @@ or job. (*citation needed*)
 delivery platform for releasing software changes with high velocity and
 confidence.
 
-Some of the core Spinnaker terms are listed below. [[7]]
+Some of the core Spinnaker terms are listed below. [[8]]
 
 - **Task**: An atomic function to perform.
 - **Stage**: A collection of sequential Tasks and composed Stages that describe
@@ -175,7 +188,7 @@ that Spinnaker has control over.
 [The Tekton Pipelines](https://github.com/tektoncd/pipeline) project provides
 k8s-style resources for declaring CI/CD-style pipelines.
 
-Some of the core Tekton terms are listed below. [[8]]
+Some of the core Tekton terms are listed below. [[9]]
 
 - **Step**: a specific function to perform.
 - **Task**: is a collection of sequential steps you would want to run as part of your
@@ -195,7 +208,7 @@ Kubernetes resources.
 delivery, and deployment systems with a focus on project gating and
 interrelated projects.
 
-Some of the core Zuul terms are listed below. [[9]]
+Some of the core Zuul terms are listed below. [[10]]
 
 - **Job**: A job is a unit of work performed by Zuul on an item enqueued into
 a pipeline.
@@ -217,7 +230,7 @@ technologies.
 [Gerrit](https://www.gerritcodereview.com/) is a free, web-based team code
 collaboration tool.
 
-Some of the core Gerrit terms are listed below. [[10]]
+Some of the core Gerrit terms are listed below. [[11]]
 
 - **Change**: The unit of review. Results in a single commit when merged
 to the Git repository. Change numbers (identifiers) are unique and never
@@ -237,7 +250,7 @@ repository.
 [GitHub](https://www.github.com) is a hosted software development version
 control system using Git.
 
-Some of the core GitHub terms are listed below. [[11]]
+Some of the core GitHub terms are listed below. [[12]]
 
 - **Pull Request**: Proposed changes to a repository submitted by a user
 and accepted or rejected by a repository's collaborators.
@@ -254,7 +267,7 @@ integration builds, which run for each commit you make in a repository.
 provides a Git-repository manager providing wiki, issue-tracking and CI/CD
 pipeline features.
 
-Some of the core GitLab terms are listed below. [[12]]
+Some of the core GitLab terms are listed below. [[13]]
 
 - **Merge Request**: MR is the basis of GitLab as a code collaboration and
 version control platform. It is as simple as the name implies: a request to
@@ -284,6 +297,7 @@ in corresponding documentation.
 | **GitLab CI/CD**   | N/A    | Job     | Stage   | Pipeline | Trigger | Runner       |
 | **Jenkins**        | N/A    | Job     | Stage   | Pipeline | Trigger | Agent/Node   |
 | **Jenkins X**      | N/A    | Step    | Stage   | Pipeline | Trigger | Agent        |
+| **Keptn**          | N/A    | N/A     | Task    | Workflow | Event   | Keptn-service|
 | **Screwdriver**    | N/A    | Step    | Job     | Pipeline | Trigger | N/A          |
 | **Spinnaker**      | N/A    | Task    | Stage   | Pipeline | Trigger | Cluster      |
 | **Tekton**         | N/A    | Step    | Task    | Pipeline | Trigger | Resource (?) |
@@ -304,10 +318,11 @@ TBD
 [3]: https://about.gitlab.com/blog/2019/07/12/guide-to-ci-cd-pipelines/
 [4]: https://jenkins.io/doc/book/glossary/
 [5]: https://jenkins-x.io/docs/concepts/
-[6]: https://docs.screwdriver.cd/user-guide/quickstart
-[7]: https://www.spinnaker.io/concepts/
-[8]: https://github.com/tektoncd/pipeline/blob/master/docs/README.md
-[9]: https://zuul-ci.org/docs/zuul/discussion/concepts.html
-[10]: https://wiki.qt.io/Gerrit_Introduction#Terminology
-[11]: https://help.github.com/en/github/getting-started-with-github/github-glossary
-[12]: https://docs.gitlab.com/ee/user/project/merge_requests/
+[6]: https://keptn.sh/docs/0.6.0/concepts/glossary/
+[7]: https://docs.screwdriver.cd/user-guide/quickstart
+[8]: https://www.spinnaker.io/concepts/
+[9]: https://github.com/tektoncd/pipeline/blob/master/docs/README.md
+[10]: https://zuul-ci.org/docs/zuul/discussion/concepts.html
+[11]: https://wiki.qt.io/Gerrit_Introduction#Terminology
+[12]: https://help.github.com/en/github/getting-started-with-github/github-glossary
+[13]: https://docs.gitlab.com/ee/user/project/merge_requests/
