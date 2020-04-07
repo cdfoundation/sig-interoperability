@@ -4,10 +4,11 @@
 
 - [Logistics](#logistics)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-04-02 Meeting](#april-2-2020)
   - [2020-03-19 Meeting](#march-19-2020)
-  - [2020-03-05 Meeting](#march-05-2020)
+  - [2020-03-05 Meeting](#march-5-2020)
   - [2020-02-20 Meeting](#february-20-2020)
-  - [2020-02-06 Meeting](#february-06-2020)
+  - [2020-02-06 Meeting](#february-6-2020)
   - [2020-01-23 Meeting](#january-23-2020)
 - [Meeting recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 
@@ -101,7 +102,7 @@ the topic you would like discussed into the agenda.
 - **Action Items**
   - Reach out to Spinnaker (Netflix/Armory) and Codefresh and invite them, Fatih Degirmenci
 
-### March 05, 2020
+### March 5, 2020
 
 - **Participants**
   - Andrew Bayer, CloudBees
@@ -190,7 +191,7 @@ the topic you would like discussed into the agenda.
   - DONE: Upload presentation to CDF presentations repo sig-interoperability folder on GitHub, Christie Wilson
   - DONE: Schedule a presentation from Jenkins X - presentation schedule is here, Tracy Miranda, Jeremy Harley
 
-### February 06, 2020
+### February 6, 2020
 
 - **Participants**
   - Fatih Degirmenci, Ericsson Software Technology
