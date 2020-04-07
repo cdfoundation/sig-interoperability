@@ -23,10 +23,46 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [Google Doc](https://docs.google.com/document/d/13hCBpmuAj3e0gADo1TCjsEwmz57_fw74OhQmeY1extk)
-and synched back to this file after the meeting.
+and synced back to this file after the meeting.
 
 If you have trouble accessing to the document on Google, please send a PR to add
 the topic you would like discussed into the agenda.
+
+### April 2, 2020
+
+
+#### Participants
+  - Ramin Akhbari (eBay)
+  - Fatih Degirmenci, Ericsson Software Technology
+  - Andreas Grimmer (Dynatrace)
+  - James Rawlings (CloudBees)
+  - Eric Sorenson (Puppet)
+  - Emil Bäckmark, Ericsson
+  - Tracy Miranda, CloudBees
+  - Jacqueline Salinas, LF/CDF
+  - Minoru Nitta
+  - Jack Morgan
+  - Emelie Pettersson, Ericsson
+
+#### Agenda and Notes
+ - Action Item Review, All
+    - FD - reached out to Spinnaker/Armory to get representation, hasn't gotten response
+    - TM - will ask Rosalind next week. Could do shout-out at next TOC to see if there are additional folks who would like to join.
+    - AG - Sumit Nagal from Argo/Intuit
+    - All - open PR on vocabulary addition from Keptn, review and merge
+    - SIG Interoperability Roadmap, All
+    - TM: Folks started contributing. The doc started to take shape. Everyone is welcomed to provide feedback, put comments, new suggestions. The document can later be moved to GitHub repo.
+    - ES: Is there a target date to finish the initial work?
+    - TM: Would be good to get the first working version ready during next month.
+    - CDF Newsletter: Interoperability Theme for April, Tracy M
+    - TM: A lot of things are happening in CDF Outreach Committee and one of the ideas is to drive specific topics. April topic is Interoperability. In terms of the newsletter is to curate articles on interoperability and articles from Eric & Andreas are under the radar. Articles on how Tekton works with Jenkins X, how Spinnaker works with Jenkins, etc. If anyone has interest in writing an article for the newsletter, reach out to Tracy. They will be reviewed by Outreach Committee.
+    - TM: Coming months have topics on MLOps, Security.
+    - Jaque Salinas: about 866 people currently subscribed.
+    - ES: The article was about on the latest changes in Tekton, triggers and so on.
+    - Andreas article here: https://medium.com/keptn/scaling-continuous-delivery-and-runbook-automation-via-tool-interoperability-interfaces-5ded97eceb3b
+    - Eric part1: https://medium.com/relay-sh/whats-going-on-with-tekton-part-1-9c3e006d39fc , part 2: https://medium.com/relay-sh/whats-going-on-with-tekton-part-2-ab39176c9c45
+  - Jenkins X Presentation, James Rawlings, CloudBees (See video)
+
 
 ### March 19, 2020
 
