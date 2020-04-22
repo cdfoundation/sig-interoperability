@@ -4,6 +4,7 @@
 
 - [Logistics](#logistics)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-04-16 Meeting](#april-16-2020)
   - [2020-04-02 Meeting](#april-2-2020)
   - [2020-03-19 Meeting](#march-19-2020)
   - [2020-03-05 Meeting](#march-5-2020)
@@ -29,8 +30,37 @@ and synced back to this file after the meeting.
 If you have trouble accessing to the document on Google, please send a PR to add
 the topic you would like discussed into the agenda.
 
-### April 2, 2020
 
+### April 16, 2020
+
+#### Participants
+  - Eric Sorenson (Puppet)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - Emelie Pettersson (Ericsson)
+  - Andreas Grimmer (Dynatrace)
+  - Tracy Miranda (CloudBees)
+  - Ramin Akhbari (eBay)
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - Hackmd.io migration for meeting agenda and minutes, All
+    - FD: Integration with GitHub - single source of truth
+    - FD: Collaborative editing
+    - TM: Used it and it seems to be straightforward.
+    - Agree: Meeting minutes will be moved to HackMD.io from the meeting on 2020-04-30 and onwards
+  - CDF Newsletter, All
+    - TM: Newsletter will go out end of April 30
+    - TM: Few article proposals have been received on Tekton, Jenkins X, SIG Vocabulary, Jenkins and Spinnaker Integration
+    - TM: Newsletter is open to contributions from anyone.
+    - TM: Jacqueline is looking for a panel and there may be a virtual session.
+  - SIG Interoperability Roadmap, All
+    - TM: The document outlines the charter
+    - AG: End users could be software engineers, managers and so on. What kind of tools they use and the types of requirements the different audiences have.
+    - AG: In order to identify the interfaces, it is important to understand common tasks first - deployment, testing, release, and so on. This could help us to identify the interfaces.
+    - Discussion on how to highlight, share, and reach to a shared vocabulary in CI/CD domain. Reaching out to projects, experts, bringing this to CDF TOC’s attention.
+
+
+### April 2, 2020
 
 #### Participants
   - Ramin Akhbari (eBay)
