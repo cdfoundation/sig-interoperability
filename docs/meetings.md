@@ -15,7 +15,7 @@
 
 ## Logistics
 
-* Google Doc: https://docs.google.com/document/d/13hCBpmuAj3e0gADo1TCjsEwmz57_fw74OhQmeY1extk
+* Meeting notes on HackMD.io: https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL
 * When: every even week on Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
 * Zoom Bridge: https://zoom.us/j/827082528
 * Zoom International dial-in numbers: https://zoom.us/zoomconference
@@ -24,11 +24,7 @@
 
 ## Agenda and Notes
 
-Meeting agenda and notes are kept on [Google Doc](https://docs.google.com/document/d/13hCBpmuAj3e0gADo1TCjsEwmz57_fw74OhQmeY1extk)
-and synced back to this file after the meeting.
-
-If you have trouble accessing to the document on Google, please send a PR to add
-the topic you would like discussed into the agenda.
+Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 
 ### April 16, 2020
