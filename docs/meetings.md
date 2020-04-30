@@ -3,7 +3,9 @@
 ## Quick links
 
 - [Logistics](#logistics)
+- [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-04-30 Meeting](#april-30-2020)
   - [2020-04-16 Meeting](#april-16-2020)
   - [2020-04-02 Meeting](#april-2-2020)
   - [2020-03-19 Meeting](#march-19-2020)
@@ -11,7 +13,7 @@
   - [2020-02-20 Meeting](#february-20-2020)
   - [2020-02-06 Meeting](#february-6-2020)
   - [2020-01-23 Meeting](#january-23-2020)
-- [Meeting recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
+
 
 ## Logistics
 
@@ -26,6 +28,49 @@
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
+### April 30, 2020
+
+#### Participants
+  - Emil Bäckmark, Ericsson
+  - Emelie Pettersson, Ericsson
+  - Max Körbächer, Storm Reply
+  - Stefan Prodan, Weaveworks
+  - James Rawlings, CloudBees
+  - Tracy Miranda, CloudBees
+  - Ramin Akhbari (eBay)
+  - Fatih Degirmenci, Ericsson Software Technology
+  - Kara de la Marck, CloudBees
+  - Jack Morgan
+  - Ignacio Pascual, Ericsson
+
+#### Agenda and Notes
+  - Action Item Review, All
+      - FD: No action item.
+  - [CDF Newsletter](https://github.com/cdfoundation/newsletter) May Issue, Tracy Miranda
+      - TM: CDF Newsletter is scheduled to go out soon - today or tomorrow
+      - TM: Thanks to everyone who submitted articles to the newsletter
+      - TM: Please subscribe to the newsletter if you haven't done it yet and share it with your contacts
+      - TM: Podcast will be published coming weeks on the topic of Interoperability.
+      - TM: [Sign up for newsletter](https://cd.foundation/stay-connected/)
+  - [SIG Update to TOC](https://docs.google.com/presentation/d/169XI0xHzltPJfGI4ZBSoZ1-y0DLabe8uKueDbsW9f8E/edit?usp=sharing), All
+      - FD: The update to the CDF TOC will be given during the meeting on May 5th which starts at 16:00UtC. The agenda/logistics are available [here](https://docs.google.com/document/d/1uBHar55fTInWF9Li4t0lyG3tTC8BRLU0FfBfsgk_Jrs/edit?ts=5c9580be#heading=h.9z0srzj4rtji).
+  - Discussion on proposed [SIG/WG CI Robots](https://github.com/cdfoundation/toc/issues/77), Max Korbi, All
+      - MK: Noticed some challenges when integrating various tools/projects together.
+      - MK: Everyhing that happens before CI/CD starts but on the technical level there is too much to be visible to everyone. Some auidences may not be familiar with the technical details of CI/CD and it is important to make this visible to thhose people as well.
+      - MK: Three tools are mentioned - [PRobot](https://github.com/probot/probot), [Robot Framework](https://robotframework.org/) even though it is a test framework, and GitHub Bot which is an alternative, being a kind of communication interface between the pipelines and users.
+      - JR: Jenkins X has automation around approving PRs, etc. using Lighthouse. When one repo changes, it is necessary to keep things in sync especially towards downstream repos.
+      - MK: It is really about bridging the gap between human and the technical part of the deployment.
+      - JR: ChatOps. Having ability to control and being able to extend in order to add custom controls. Related to developer experience, helping them due to having consistent way to interact with the pipelines. This is more and more important in microservices world.
+      - TM: It points the need for clarity for the users.
+      - RA: What is the proposal? Is it to create a standard interface for all the existing and future tools to adhere to?
+      - MK: It could be one of the outcomes and there is not much available in the market. It is not utilized well and there is still quite big gap.
+      - MK: SIG may be big to start with so it could be a WG to identify what we are going to work with. We will identify if this WG has any value or not during the process.
+      - RA: Trying to understand what is the gap. For example Robot framework already has a protocol and interfaces of doing things, and also have libraries so what the work would be for SIG/WG to do.
+      - MK: This could be one of the outcome of the work proposed SIG/WG does. It would be interesting to understand to see how the integration between Robot & Prow with Github and so on. It may be difficult to adapt these to your own tools and pipelines. It's not yet a field with many options/tools around so we are at the phase to identify it.
+      - TM: One way to approach this is to break tasks down. Everybody understtands one set of tools but not all and we can identify what tool is doing what and how these tools could operate and so on. Will look at the roadmap to see where this could be put under.
+      - AP to all: Look at the roadmap to see if this fits under Next section in [Roadmap](https://docs.google.com/document/d/1QSzcV-rl3XwkNh4_5a_0YCugF5gprtBR-xRlzuEJ-NA/edit#heading=h.8ve85us1mswx)
+  - [Flagger](https://flagger.app/) Presentation, Stefan Prodan, Weave Works
+      - FD: Slides will be available in [CDF Presentations repository sig-interoperability folder](https://github.com/cdfoundation/presentations/tree/master/sig-interoperability).
 
 ### April 16, 2020
 
