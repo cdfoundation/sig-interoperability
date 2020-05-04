@@ -47,7 +47,7 @@ humans to communicate and collaborate better.
 ## Terminology Used by CI/CD Tools and Technologies
 
 This section contains list of some key terms used by various CI/CD tools and
-technologies. For the mapping between different terms used in different CI/CD tools see the [mapping table below](#mapping-cicd).
+technologies.
 
 ### CircleCI
 
@@ -225,7 +225,7 @@ enqueued into a pipeline.
 ## Terminology Used by SCM Tools and Technologies
 
 This section contains list of some key terms of various SCM tools and
-technologies. For the mapping between different terms used in different SCM tools see the [mapping table below](#mapping-scm).
+technologies.
 
 ### Gerrit
 
