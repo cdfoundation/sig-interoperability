@@ -17,6 +17,8 @@
   - [GitHub](#github)
   - [GitLab](#gitlab)
 - [Mapping of Terms](#mapping-of-terms)
+  - [CI/CD Tools and Technologies](#mapping-cicd)
+  - [SCM Tools and Technologies](#mapping-scm)
 - [Shared Vocabulary](#shared-vocabulary)
 
 ## Introduction
@@ -279,35 +281,47 @@ code.
 
 ## Mapping of Terms
 
-The CI/CD Tools and Technologies listed in this document use more or less
-same terminology for naming things with few differences, workflow vs pipeline
-or runner vs node except the smaller units of work.
+The Tools and Technologies listed in this document use more or less same
+terminology for naming things with few differences, workflow vs pipeline or
+runner vs node except the smaller units of work.
+
+Fields marked as *N/A* in the tables below means that the author of this
+document failed to identify corresponding term in the documentation of those
+tools and does not mean those units of work are not supported by the tools.
+Fields containing a question mark is the author's guess and might be incorrect.
+
+### CI/CD Tools and Technologies
 
 The table below is an attempt to create a mapping of different terms used
 by CI/CD Tools and Technologies and could contain errors. The main term used
 while creating the table is **pipeline** since almost all the tools listed in
 this document use the word pipeline to describe pretty similar things. Smaller
-units of terms then mapped based on how they are described in relation to pipeline
-in corresponding documentation.
+units of terms then mapped based on how they are described in relation to
+pipeline in corresponding documentation.
 
-| Project            |        |         |         |          |         |              |
-|--------------------|--------|---------|---------|----------|---------|--------------|
-| **CircleCI**       | N/A    | Step    | Job     | Workflow | Trigger | Executor     |
-| **GitHub Actions** | Action | Step    | Job     | Workflow | Event   | Runner       |
-| **GitLab CI/CD**   | N/A    | Job     | Stage   | Pipeline | Trigger | Runner       |
-| **Jenkins**        | N/A    | Job     | Stage   | Pipeline | Trigger | Agent/Node   |
-| **Jenkins X**      | N/A    | Step    | Stage   | Pipeline | Trigger | Agent        |
-| **Keptn**          | N/A    | N/A     | Task    | Workflow | Event   | Keptn-service|
-| **Screwdriver**    | N/A    | Step    | Job     | Pipeline | Trigger | N/A          |
-| **Spinnaker**      | N/A    | Task    | Stage   | Pipeline | Trigger | Cluster      |
-| **Tekton**         | N/A    | Step    | Task    | Pipeline | Trigger | Resource (?) |
-| **Zuul**           | N/A    | N/A     | Job     | Pipeline | Trigger | Node (?)     |
+| Project            |        |      |       |          |         |              |
+|--------------------|--------|------|-------|----------|---------|--------------|
+| **CircleCI**       | N/A    | Step | Job   | Workflow | Trigger | Executor     |
+| **GitHub Actions** | Action | Step | Job   | Workflow | Event   | Runner       |
+| **GitLab CI/CD**   | N/A    | Job  | Stage | Pipeline | Trigger | Runner       |
+| **Jenkins**        | N/A    | Job  | Stage | Pipeline | Trigger | Agent/Node   |
+| **Jenkins X**      | N/A    | Step | Stage | Pipeline | Trigger | Agent        |
+| **Keptn**          | N/A    | N/A  | Task  | Workflow | Event   | Keptn-service|
+| **Screwdriver**    | N/A    | Step | Job   | Pipeline | Trigger | N/A          |
+| **Spinnaker**      | N/A    | Task | Stage | Pipeline | Trigger | Cluster      |
+| **Tekton**         | N/A    | Step | Task  | Pipeline | Trigger | Resource (?) |
+| **Zuul**           | N/A    | N/A  | Job   | Pipeline | Trigger | Node (?)     |
 
-Fields marked as *N/A* means that the author of this document failed to identify
-corresponding term in the documentation of those tools and does not mean those units
-of work are not supported by the tools. (this could be the case...)
+### SCM Tools and Technologies
 
-Fields contain question mark is the author's guess and might be incorrect.
+The table below is an attempt to create a mapping of different terms used
+by SCM Tools and Technologies.
+
+| Project    |               |             |        |               |        |
+|------------|---------------|-------------|--------|---------------|--------|
+| **Gerrit** | Change        | Patch Set   | Review | Change State? | Submit |
+| **GitHub** | Pull Request  | (PR commit) | Review | Check?        | Merge  |
+| **GitLab** | Merge Request | (MR commit) | Review | Merge Check?  | Merge  |
 
 ## Shared Vocabulary
 
