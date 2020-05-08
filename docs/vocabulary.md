@@ -3,6 +3,7 @@
 - [Introduction](#introduction)
 - [Terminology Used by CI/CD Tools and Technologies](#terminology-used-by-cicd-tools-and-technologies)
   - [CircleCI](#circleci)
+  - [Eiffel](#eiffel)
   - [GitHub Actions](#github-actions)
   - [GitLab CI/CD](#gitlab-cicd)
   - [Jenkins](#jenkins)
@@ -63,6 +64,21 @@ jobs and their run order. (used interchangeably with pipeline)
 - **Pipeline**: A pipeline is an object that you may configure and run on
 the CircleCI platform.
 - **Executor**: Defines the underlying technology to run a job.
+
+### Eiffel
+
+[Eiffel](https://eiffel-community.github.io/) is a technology agnostic CI/CD event protocol. The events and their parameters are generic enough to cover any kind of CI/CD engine/framework and SCMs.
+
+Some of the terms used in Eiffel events are listed below. [[14]]
+
+- **Activity**: An activity is any kind of action in a CI/CD system, normally triggered by an operation done in an SCM system or by a previous activity. Activities are hierarchical. Activities could be whole pipelines, pipeline steps or any level of pipeline sub steps.
+- **Event**: An Eiffel event is a broadcast notification telling any consumer about an event occurring in the CI/CD pipeline.
+- **Artifact**: Artifacts are items or software packages generated in a CI/CD pipeline, for example a built binary or a Docker image. An artifact should be possible to identify using a purl ([package URL](https://github.com/package-url/purl-spec)). An artifact is often the subject of a test executed or a delivery performed within a CI/CD pipeline.
+- **Environment**: An Eiffel environment defines the environment in which an activity is executed. Could be for example a host, node, service name/uri, a Docker image or some other kind of machine configuration definition.
+- **Source Change**: A source change is the unit of a review. It results in a single commit when merged to the Git repository.
+- **Submit**: A submit is the action of merging a source change to its intended target branch.
+- *Pipeline*: A pipeline is not a term defined by Eiffel, but it is used in the Eiffel protocol documentation when explaining how Eiffel events can be combined to form a chain of activities often triggered by a source change being created or submitted.
+- *Step*: A step is not a term defined by Eiffel, but it is used in the Eiffel protocol documentation to exemplify activities executed in a pipeline.
 
 ### GitHub Actions
 
@@ -299,29 +315,31 @@ this document use the word pipeline to describe pretty similar things. Smaller
 units of terms then mapped based on how they are described in relation to
 pipeline in corresponding documentation.
 
-| Project            |        |      |       |          |         |              |
-|--------------------|--------|------|-------|----------|---------|--------------|
-| **CircleCI**       | N/A    | Step | Job   | Workflow | Trigger | Executor     |
-| **GitHub Actions** | Action | Step | Job   | Workflow | Event   | Runner       |
-| **GitLab CI/CD**   | N/A    | Job  | Stage | Pipeline | Trigger | Runner       |
-| **Jenkins**        | N/A    | Job  | Stage | Pipeline | Trigger | Agent/Node   |
-| **Jenkins X**      | N/A    | Step | Stage | Pipeline | Trigger | Agent        |
-| **Keptn**          | N/A    | N/A  | Task  | Workflow | Event   | Keptn-service|
-| **Screwdriver**    | N/A    | Step | Job   | Pipeline | Trigger | N/A          |
-| **Spinnaker**      | N/A    | Task | Stage | Pipeline | Trigger | Cluster      |
-| **Tekton**         | N/A    | Step | Task  | Pipeline | Trigger | Resource (?) |
-| **Zuul**           | N/A    | N/A  | Job   | Pipeline | Trigger | Node (?)     |
+| Project            |          |          |          |          |         |              |
+|--------------------|----------|----------|----------|----------|---------|--------------|
+| **CircleCI**       | N/A      | Step     | Job      | Workflow | Trigger | Executor     |
+| **Eiffel**         | Activity | Activity | Activity | Activity | Event   | Environment  |
+| **GitHub Actions** | Action   | Step     | Job      | Workflow | Event   | Runner       |
+| **GitLab CI/CD**   | N/A      | Job      | Stage    | Pipeline | Trigger | Runner       |
+| **Jenkins**        | N/A      | Job      | Stage    | Pipeline | Trigger | Agent/Node   |
+| **Jenkins X**      | N/A      | Step     | Stage    | Pipeline | Trigger | Agent        |
+| **Keptn**          | N/A      | N/A      | Task     | Workflow | Event   | Keptn-service|
+| **Screwdriver**    | N/A      | Step     | Job      | Pipeline | Trigger | N/A          |
+| **Spinnaker**      | N/A      | Task     | Stage    | Pipeline | Trigger | Cluster      |
+| **Tekton**         | N/A      | Step     | Task     | Pipeline | Trigger | Resource (?) |
+| **Zuul**           | N/A      | N/A      | Job      | Pipeline | Trigger | Node (?)     |
 
 ### SCM Tools and Technologies
 
 The table below is an attempt to create a mapping of different terms used
 by SCM Tools and Technologies.
 
-| Project    |               |             |        |               |        |
-|------------|---------------|-------------|--------|---------------|--------|
-| **Gerrit** | Change        | Patch Set   | Review | Change State? | Submit |
-| **GitHub** | Pull Request  | (PR commit) | Review | Check?        | Merge  |
-| **GitLab** | Merge Request | (MR commit) | Review | Merge Check?  | Merge  |
+| Project    |               |               |          |               |        |
+|------------|---------------|---------------|----------|---------------|--------|
+| **Eiffel** | (Change)      | Source Change | Activity | N/A           | Submit |
+| **Gerrit** | Change        | Patch Set     | Review   | Change State? | Submit |
+| **GitHub** | Pull Request  | (PR commit)   | Review   | Check?        | Merge  |
+| **GitLab** | Merge Request | (MR commit)   | Review   | Merge Check?  | Merge  |
 
 ## Shared Vocabulary
 
@@ -340,3 +358,4 @@ TBD
 [11]: https://wiki.qt.io/Gerrit_Introduction#Terminology
 [12]: https://help.github.com/en/github/getting-started-with-github/github-glossary
 [13]: https://docs.gitlab.com/ee/user/project/merge_requests/
+[14]: https://github.com/eiffel-community/eiffel/tree/master/eiffel-vocabulary
