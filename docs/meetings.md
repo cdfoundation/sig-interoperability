@@ -5,6 +5,7 @@
 - [Logistics](#logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-05-14 Meeting](#may-14-2020)
   - [2020-04-30 Meeting](#april-30-2020)
   - [2020-04-16 Meeting](#april-16-2020)
   - [2020-04-02 Meeting](#april-2-2020)
@@ -13,8 +14,6 @@
   - [2020-02-20 Meeting](#february-20-2020)
   - [2020-02-06 Meeting](#february-6-2020)
   - [2020-01-23 Meeting](#january-23-2020)
-
-
 ## Logistics
 
 * Meeting notes on HackMD.io: https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL
@@ -27,6 +26,47 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### May 14, 2020
+
+#### Participants
+  - Fatih Degirmenci, Ericsson Software Technology
+  - Emelie Pettersson, Ericsson
+  - Kara de la Marck, CloudBees
+  - James Rawlings, CloudBees
+  - Christie Wilson, Google
+  - Vincent Demeester, Red Hat
+  - Tracy Miranda, CloudBees
+  - Eric Sorenson, Puppet
+  - Ramin Akhbari (eBay)
+  - Manuel Stein
+  - Jack Morgan
+  - Jeremy Stanley, OpenDev
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - SIG Co-chair, All
+      - CW: I was excited to contribute as co-chair the SIG but I don't think I will have time to do that.
+      - Agree: Nomination period will start on 2020-05-15 on the SIG Maillist
+  - [SIG Update to TOC](https://docs.google.com/presentation/d/169XI0xHzltPJfGI4ZBSoZ1-y0DLabe8uKueDbsW9f8E/edit?usp=sharing), All
+      - TM: The update was well received by the TOC.
+  - SIG Outreach
+      - TM: [CDF Interoperability Newsletter](https://cd.foundation/stay-connected/newsletter-archive/) went out. 4 articles, including the shared vocabulary article was published.  
+      - TM: Highlighted at CDF member meeting.
+      - TM: The theme for the June issue of the newsletter is MLOps.
+  - [SIG Roadmap](https://docs.google.com/document/d/1QSzcV-rl3XwkNh4_5a_0YCugF5gprtBR-xRlzuEJ-NA/edit#heading=h.8ve85us1mswx), All
+      - FD: A new chapter, Focus Areas, has been added, listing few uses cases based on the discussions taken during the past meeetings and from project & end user presentations.
+      - FD: In addition to use cases, some areas to focus also proposed together with possible way to work on them by creating a workstream per area.
+      - FD: A discussion will be kicked off on maillist to see if the areas proposed on the roadmap make sense and identify what other areas we could focus on.
+      - RA: One of the challenges we see is the quality gates in the pipelines.
+  - Presentation on Tekton Catalog + Tekton Hub, Christie Wilson + Vincent Demeester 👼
+  - SIG Meeting Recordings
+      - FD: All the meeting recordings (except the very first one) is available on CDF Youtube Channel.
+      - FD: See [SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG) for the list of recordings.
+
+#### Action Items
+  - Kick of co-chair nominations on SIG Maillist, Fatih Degirmenci
+  - Start the discussion around SIG Roadmap on Maillist
 
 ### April 30, 2020
 
@@ -42,6 +82,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Kara de la Marck, CloudBees
   - Jack Morgan
   - Ignacio Pascual, Ericsson
+
 
 #### Agenda and Notes
   - Action Item Review, All
