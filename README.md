@@ -66,6 +66,7 @@ interoperability between tools
 * Thanh Ha ([@zxiiro](https://github.com/zxiiro)), Lumina Networks
 * Tracy Miranda ([@tracymiranda](https://github.com/tracymiranda)), Cloudbees
 * Wavell Watson ([@wavell](https://github.com/wavell)), Vulk Coop
+* Ravi Lachhman ([@ravilach](https://github.com/ravilach)), Harness
 
 ## New Members
 

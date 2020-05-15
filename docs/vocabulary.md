@@ -6,6 +6,7 @@
   - [Eiffel](#eiffel)
   - [GitHub Actions](#github-actions)
   - [GitLab CI/CD](#gitlab-cicd)
+  - [Harness](#harness)
   - [Jenkins](#jenkins)
   - [Jenkins X](#jenkins-x)
   - [Keptn](#Keptn)
@@ -116,6 +117,25 @@ previous stage completed successfully.
 - **Runner**: An agent or server that executes each job individually that can
 spin up or down as needed.
 - **Trigger**: Trigger allows you to define downstream pipeline trigger.
+
+### Harness
+
+[Harness](https://harness.io/) is a Continuous Delivery as a Service platform 
+which enables confidence building orchestration and release strategies across a 
+multitude of platforms. 
+
+Some of the core Harness terms are listed below. [[15]]
+
+- **Manager**: Where your deployment configurations are stored and pipelines are managed.
+Either available as a SaaS or on-prem. 
+- **Delegate**: Worker node that is installed in your environment which performs Continuous
+Delivery tasks by connecting to your infrastructure. 
+- **Application**: How a deployment project is organized. 
+- **Service**: Represent your microservices and applications. 
+- **Environment**: Represent your deployment infrastructure e.g Dev, QA, Prod. 
+- **Workflow**: Model how your application is deployed, verified, and rolled back in steps. 
+- **Pipeline**: Model your entire release process in stages. 
+- **Infrastructure Provisioner**: Infrastructure as code orchestration. 
 
 ### Jenkins
 
@@ -321,6 +341,7 @@ pipeline in corresponding documentation.
 | **Eiffel**         | Activity | Activity | Activity | Activity | Event   | Environment  |
 | **GitHub Actions** | Action   | Step     | Job      | Workflow | Event   | Runner       |
 | **GitLab CI/CD**   | N/A      | Job      | Stage    | Pipeline | Trigger | Runner       |
+| **Harness**        | N/A      | Step     | Pipeline | Workflow | Trigger | Delegate     |
 | **Jenkins**        | N/A      | Job      | Stage    | Pipeline | Trigger | Agent/Node   |
 | **Jenkins X**      | N/A      | Step     | Stage    | Pipeline | Trigger | Agent        |
 | **Keptn**          | N/A      | N/A      | Task     | Workflow | Event   | Keptn-service|
@@ -359,3 +380,4 @@ TBD
 [12]: https://help.github.com/en/github/getting-started-with-github/github-glossary
 [13]: https://docs.gitlab.com/ee/user/project/merge_requests/
 [14]: https://github.com/eiffel-community/eiffel/tree/master/eiffel-vocabulary
+[15]: https://docs.harness.io/article/4o7oqwih6h-harness-key-concepts
