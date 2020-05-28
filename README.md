@@ -67,6 +67,7 @@ interoperability between tools
 * Tracy Miranda ([@tracymiranda](https://github.com/tracymiranda)), Cloudbees
 * Wavell Watson ([@wavell](https://github.com/wavell)), Vulk Coop
 * Ravi Lachhman ([@ravilach](https://github.com/ravilach)), Harness
+* Andreas Grimmer ([@agrimmer](https://github.com/agrimmer)), Dynatrace
 
 ## New Members
 
