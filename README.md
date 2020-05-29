@@ -68,6 +68,7 @@ interoperability between tools
 * Wavell Watson ([@wavell](https://github.com/wavell)), Vulk Coop
 * Ravi Lachhman ([@ravilach](https://github.com/ravilach)), Harness
 * Andreas Grimmer ([@agrimmer](https://github.com/agrimmer)), Dynatrace
+* Chun-Hung Hsiao ([@chhsia0](https://github.com/chhsia0)), D2iQ
 
 ## New Members
 
