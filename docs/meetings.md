@@ -5,6 +5,7 @@
 - [Logistics](#logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-06-11 Meeting](#june-11-2020)
   - [2020-05-28 Meeting](#may-28-2020)
   - [2020-05-14 Meeting](#may-14-2020)
   - [2020-04-30 Meeting](#april-30-2020)
@@ -28,6 +29,23 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### June 11, 2020
+
+#### Participants
+  - \<addme\>
+
+#### Meeting Recording
+  - \<addme\>
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - Reusable Libraries, Tracy Miranda, Chun-Hung Hsiao
+  - Event Driven CI/CD, Emil Bäckmark, Andreas Grimmer, Ravi Lachhman, Ramin Akhbari
+  - \<addme\>
+
+#### Action Items
+  - \<addme\>
 
 ### May 28, 2020
 
