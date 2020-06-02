@@ -5,6 +5,7 @@
 - [Logistics](#logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-05-28 Meeting](#may-28-2020)
   - [2020-05-14 Meeting](#may-14-2020)
   - [2020-04-30 Meeting](#april-30-2020)
   - [2020-04-16 Meeting](#april-16-2020)
@@ -20,12 +21,67 @@
 * When: every even week on Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
 * Zoom Bridge: https://zoom.us/j/827082528
 * Zoom International dial-in numbers: https://zoom.us/zoomconference
+* Meeting Recordings: [CDF Youtube Channel SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * CDF Public Calendar: [here](https://calendar.google.com/calendar/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 * Presentation Schedule: https://docs.google.com/document/d/1Owg_I52WEXzqF8g_lX6OTdwbHkH4Z2-7TBA7eCSVMqY/edit
 
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### May 28, 2020
+
+#### Participants
+  - Ramin Akhbari (eBay)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - Ravi Lachhman (Harness)
+  - Emil Bäckmark (Ericsson)
+  - Kara de la Marck (CloudBees)
+  - Chun-Hung Hsiao (D2iQ)
+  - Tracy Miranda (CloudBees)
+  - Jerop Kipruto (Google)
+  - Andreas Grimmer (Dynatrace)
+  - Jeremy Stanley (OpenDev)
+  - Jacqueline Salinas (LF/CDF)
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=Z-Ihwminsc0
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - SIG Co-chair, All
+      - FD: [Nomination period started](https://lists.cd.foundation/g/sig-interoperability/message/38) on 2020-05-19 and ended on 2020-05-28.
+      - FD: Kara de la Marck was [nominated by](https://lists.cd.foundation/g/sig-interoperability/message/40) Tracy Miranda as SIG co-chair and she [accepted](https://lists.cd.foundation/g/sig-interoperability/message/43) the nomination.
+      - FD: Kara is the new co-chair for the SIG.
+      - Kara introduces herself.
+  - New Member Introduction
+      - Chun from D2IQ
+      - Jerop from Google from Tekton Community
+      - Ravi from Harness
+  - [Proposed focus areas in SIG Roadmap](https://docs.google.com/document/d/1QSzcV-rl3XwkNh4_5a_0YCugF5gprtBR-xRlzuEJ-NA/edit#heading=h.bb9yec6zfdei), All
+      - FD: The areas proposed on the document has been discussed.
+      - FD: The 2 of them, reusable libraries and event driven CI/CD, got interest from the meeting participants.
+      - FD: The people who shown interest to these areas could perhaps start talking about how to move this forward and SIG could then take another discussion on the proposed way forward.
+      - FD: Please see the [meeting recording](https://www.youtube.com/watch?v=Z-Ihwminsc0) for the discussion.
+  - Interoperability Summit
+      - TM: To bring representatives from various projects to discuss topics. Reach out to Dan Lorenc for more details.
+  - Topics for upcoming meetings
+      - TM: Do we need more outreach?
+      - Spinnaker?
+      - Harness presentation/demo from Ravi
+      - Argo presentation/demo
+      - Tekton based platforms?
+      - GitHub?
+  - Interoperability Podcast
+      - JS: Published - 101 downloads - [Podcast](https://cdeliveryfdn.buzzsprout.com/1008697/3778943-cdf-sig-interoperability-chair-cloudbees-puppet-discuss-interoperability)
+      - JS: Followup podcasts - anyone interested to take part in the podcast, please reach out to Jacque
+ 
+
+#### Action Items
+  - Chun to reach out to Brandon from Drone community for go-scm library
+  - Tracy to invite Andy Bayer, Christie Wilson, and James Rawlings to discuss go-scm
+  - Andreas to reach out to Argo folks
+  - Tracy to reach out to Spinnaker folks
 
 ### May 14, 2020
 
