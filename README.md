@@ -117,7 +117,7 @@ SIG Interoperability also uses Slack for additional collaboration opportunities.
 
 ## Meetings
 
-SIG Interoperability meets every even week on Thursdays at 15:00UTC. (*See your timezone [here](https://time.is/1500_in_UTC)*).
+SIG Interoperability meets every even week on Thursdays at 17:00UTC. (*See your timezone [here](https://time.is/1700_in_UTC)*).
 
 * Meeting agenda and minutes: [docs/meetings.md](docs/meetings.md)
 * Zoom Bridge: https://zoom.us/j/827082528

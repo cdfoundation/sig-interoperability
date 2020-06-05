@@ -19,7 +19,7 @@
 ## Logistics
 
 * Meeting notes on HackMD.io: https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL
-* When: every even week on Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
+* When: every even week on Thursdays at 17:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
 * Zoom Bridge: https://zoom.us/j/827082528
 * Zoom International dial-in numbers: https://zoom.us/zoomconference
 * Meeting Recordings: [CDF Youtube Channel SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
