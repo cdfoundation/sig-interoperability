@@ -33,19 +33,75 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### June 11, 2020
 
 #### Participants
-  - \<addme\>
+  - Andreas Grimmer (Dynatrace)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - Max Körbächer (Storm Reply)
+  - Kara de la Marck (CloudBees)
+  - Christie Wilson (Google) (first half only 🙏)
+  - Emil Bäckmark (Ericsson)
+  - Alejandro Andreu (N26)
+  - Thanh Ha (Lumina Networks)
+  - Danny Thomson (Intuit)
+  - Vaidik Kapoor (Grofers)
+  - Ramin Akhbari (eBay)
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - Way forward with [SIG Roadmap](https://docs.google.com/document/d/1QSzcV-rl3XwkNh4_5a_0YCugF5gprtBR-xRlzuEJ-NA/edit#heading=h.eqpoxxy8gmzz), All
+      - FD: Should we move the current version to the repo, review, and approve it as the first version?
+      - FD: The topic will be discussed again coming weeks
+  - Way of working with focus areas (workstream, eg.), All
+      - FD: Could be taken out of Roadmap and documented in the repo as part of SIG Governance
+      - KM: Can start the document.
+  - Reusable Libraries, Tracy Miranda, Chun-Hung Hsiao
+      - CW: go-scm is a go library lets you interact with SCM in an easier way. Tekton used go-scm to interact with SCM.
+      - CW: Jenkins X also uses it but on a fork so there are 2 versions of it (Tekton uses this fork).
+      - CW: Reached out to Drone folks about it but not much feedback. (https://discourse.drone.io/t/go-scm-jenkins-x-tekton-and-cdf/6698)
+      - EB: Is there shared/common vocabulary defined in this library?
+      - CW: Definitely there is and the terminology can be extracted from it.
+          - I think this is the interface that go-scm defines: https://github.com/jenkins-x/go-scm/blob/ece1d8bc9314201c3a29d9b042e209e40bdcec89/scm/client.go#L83-L117 (go-scm could definitely use some more docs - have to point at the code to show you the interface)
+      - KM: Andrew Bayer can do a presentation on it, from Jenkins X point of view, and on [Lighthouse](https://github.com/jenkins-x/lighthouse). 
+  - Events in CI/CD, Emil Bäckmark, Andreas Grimmer, Ravi Lachhman, Ramin Akhbari
+      - EB: The workstream was initiated and the first meeting happened on June 8. Emil, Andreas, Ramin, Ravi, and Emelie started talking about what the workstream is about.
+      - EB: The proposed name "Event Driven CI/CD" feels a bit restrictive so we renamed it to "Events in CI/CD" in order not to restrict ourselves at this phase.
+      - EB: Discussed the terminology such as "what is event" and so on
+      - EB: Minutes are added to sig-interoperability repository and available on [HackMD](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w).
+      - RA: The meeting recordings could be put on non-personal channel. 
+      - EB: Not sure how valuable it is to put it on Youtube.
+      - AG: Agreed with question of value of having the recordings on YouTube
+      - CW: Good to have recordings for those who can't attend. Could use a Google Drive.
+      - Other possibility is to have second YT channel.
+  - [WG/SIG CI Robots](https://github.com/cdfoundation/toc/issues/77) proposal to be discussed, Max Körbächer
+      - MK: Use of robots in pipelines quite common, eg Robot Framework, CI/CD testing framework. 
+      - MK: These robots are often focused on interfacing with humans (ChatOps)
+      - MK: Would be good to explore how these tools can be interchanged
+      - AG: Would be great to have this initiative join SIG "Events in CI/CD" workstream. Invitation to join the SIG
+      - MK: That would be good.
+      - FD: As the proposal to create the WG/SIG CI Robots was made to the TOC, this invitation needs to be recorded on that proposal. 
+  - Presentation on [Argo Rollouts](https://argoproj.github.io/argo-rollouts/) by Danny Thomson from the Argo Team
+      - How does this differ from native Kubernetes capabilities?
+      - DT: Deployment object provides ability to do rolling updates, but not blue/green deployments, canary deployments, etc
+      - AG: GitOps friendly? Persist state of Argo Rollout in GH? 
+      - DT: what is stored in git repo is analysis template. That is blueprint stored in git while analysis runs as an instantiation of that template.
+      - AG: duration for rollouts can be limited by external factors such as time of day, number of users at that tim, etc.
+      - DT: in template can set benchmarks that need to be met in the analysis prior to promotions
+      - AA: motivation for creating Argo Rollouts (given Flagger).
+      - DT: 1) work started soon after Flagger released, so wasn't on their map yet 2) Argo Rollouts initially focused on blue/green use case. 3) differnces in approaches
+ 
+
+#### Action Items
+  - Fatih to talk to Dan Lopez to update the invitation with HackMD link
+  - Everyone to review the roadmap and provide feedback as to whether it is ready to be added to GitHub.
+  - Kara to start the document on SIG governance, esp workstreams. 
+  - Fatih/Kara to check with Dan Lopez and Jacque the possibility of storing none-meeting recordings on Youtube
+  - Chun to reach out to Brandon from Drone community for go-scm library
+  - Tracy and Kara to invite Andy Bayer, Christie Wilson, and James Rawlings to discuss go-scm
+  - ~~Andreas to reach out to Argo folks~~
+  - Tracy to reach out to Spinnaker folks
 
 #### Meeting Recording
   - \<addme\>
 
-#### Agenda and Notes
-  - Action Item Review, All
-  - Reusable Libraries, Tracy Miranda, Chun-Hung Hsiao
-  - Event Driven CI/CD, Emil Bäckmark, Andreas Grimmer, Ravi Lachhman, Ramin Akhbari
-  - \<addme\>
-
-#### Action Items
-  - \<addme\>
 
 ### May 28, 2020
 
@@ -61,9 +117,6 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Andreas Grimmer (Dynatrace)
   - Jeremy Stanley (OpenDev)
   - Jacqueline Salinas (LF/CDF)
-
-#### Meeting Recording
-  - https://www.youtube.com/watch?v=Z-Ihwminsc0
 
 #### Agenda and Notes
   - Action Item Review, All
@@ -94,6 +147,8 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
       - JS: Published - 101 downloads - [Podcast](https://cdeliveryfdn.buzzsprout.com/1008697/3778943-cdf-sig-interoperability-chair-cloudbees-puppet-discuss-interoperability)
       - JS: Followup podcasts - anyone interested to take part in the podcast, please reach out to Jacque
  
+ #### Meeting Recording
+  - https://www.youtube.com/watch?v=Z-Ihwminsc0
 
 #### Action Items
   - Chun to reach out to Brandon from Drone community for go-scm library
