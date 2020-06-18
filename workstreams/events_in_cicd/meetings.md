@@ -1,8 +1,17 @@
 # Events in CICD Workstream Meeting Notes
 
-The first meeting in this workstream is scheduled for June 8th, at 6.30pm CET
+This workstream meet every second Monday at 6.30pm CET  (See your timezone [here](https://time.is/1830_in_CET)). Register in advance for this meeting and get an invite to your calendar:
+https://zoom.us/meeting/register/tJMrcemvrzksGtSgbE3-44y5nBvCkKI6X2MT
 
-The forming of this workstream was suggested on last weeks SIG Interoperability meeting: https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#may-28-2020
+The forming of this workstream was suggested on a [recent SIG Interoperability meeting]( https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#may-28-2020) and its first meeting was held on June 8th.
+
+Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
+
+## Meeting June 22th
+Meeeting time in your timezone [here](https://time.is/1830_22_June_2020_in_CET). You're welcome to join!
+
+### Topics
+TBD
 
 ## Meeting June 8th
 
