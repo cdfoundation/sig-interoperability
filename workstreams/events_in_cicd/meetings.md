@@ -1,17 +1,63 @@
 # Events in CICD Workstream Meeting Notes
 
-This workstream meet every second Monday at 6.30pm CET  (See your timezone [here](https://time.is/1830_in_CET)). Register in advance for this meeting and get an invite to your calendar:
+This workstream meet every second Monday at 16.30 UTC  (See your timezone [here](https://time.is/1630_in_UTC)). Register in advance for this meeting and get an invite to your calendar:
 https://zoom.us/meeting/register/tJMrcemvrzksGtSgbE3-44y5nBvCkKI6X2MT
 
 The forming of this workstream was suggested on a [recent SIG Interoperability meeting]( https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#may-28-2020) and its first meeting was held on June 8th.
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
-## Meeting June 22th
-Meeeting time in your timezone [here](https://time.is/1830_22_June_2020_in_CET). You're welcome to join!
+## Meeting July 6th
 
 ### Topics
-TBD
+
+#### What is an event?
+* Third iteration of this topic :)
+* What does cloudevents mean with events?
+
+#### Common vocabulary
+* What's the next step with the 'Rosetta Stone'? Frameworks/tools missing there?
+
+#### Existing event handling frameworks
+The million dollar question is what to publish!
+
+* Tekton Triggers
+* [Keptn](https://keptn.sh/)
+* [Eiffel](https://eiffel-community.github.io/)
+* [Cloud Events](https://cloudevents.io/)
+* [Argo Events](https://github.com/argoproj/argo-events)
+
+## Meeting June 22nd
+Meeeting time in your timezone [here](https://time.is/1630_22_June_2020_in_UTC). You're welcome to join!
+
+Participants:
+* Ravi Lachhman, Harness
+* Andreas Grimmer, Dynatrace
+* Emil Bäckmark, Ericsson
+* Ramin Akhbari, eBay
+* Andrea Frittoli, IBM
+
+### Topics
+* Tekton Events: (Need to join the SIG/Get Access) https://docs.google.com/document/d/1ehhGngn2ulnjYX0HUxSyhQGAvcbabSa27UZs3RvZWwU/edit#heading=h.fekiyq267j9v
+* Google Group -> https://groups.google.com/forum/#!forum/tekton-dev
+* Tekton Triggers (Easy Reading) https://medium.com/@dlorenc/tekton-triggers-3aba132c6344
+* Readme doc: https://hackmd.io/AnVkdMb3QEeVQXKfIj4tNQ
+ 
+#### My First Event aka Hello/MVP Event
+What would be the very first event? 
+
+* Start/Stop
+* Error
+* Pause
+* Regression
+* etc
+
+Tekton Trigger Start/Stop: https://github.com/tektoncd/pipeline/issues/742
+
+#### What is an event?
+* We re-iterated this discussion from last meeting.
+* Is an even only what occurs in the (CD) system? Or is it also the entity that is sent out from the system at that point? Or is that a 'Notification' about the event that occured?
+* To be continued in next meeting
 
 ## Meeting June 8th
 
@@ -22,8 +68,7 @@ Participants:
 * Emil Bäckmark, Ericsson
 * Emelie Pettersson, Ericsson
 
-Recording: https://ebay.zoom.us/rec/share/9O9TNa3C2HtJAdbs9HjBc4wwOJTbT6a81XJK86ZbmhlxbyK0_xpQnMmRfY5QWq-O
-
+Recording: https://youtu.be/l7YrA7kBw7I
 
 The intention with this initial meeting is to get a common understanding of what areas to cover in this workstream and to identify the way forward for the workstream.
 
