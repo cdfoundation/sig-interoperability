@@ -1,11 +1,23 @@
-# Events in CI/CD
+# Events in CI/CD Readme
 
 This is a workstream within the CDF SIG Interoperability.
 
 The forming of this workstream was suggested on a [recent SIG Interoperability meeting]( https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#may-28-2020) and its first meeting was held on June 8th.
 
 ## Scope
-To be defined
+Discuss all about what events should be used for in a CI/CD process
+
+## Mission
+Standardize events to be used in a CD process
+
+## What is an event?
+To be defined. Event vs. Message vs. Notification
+Proposal:
+* Things that happen/occur in a CD process.
+* Notifications that are sent out due to things that happen/occur in a CD process.
+* Message = Routable
+* Event has no recipient
+* Event is decoupled from consumers
 
 ## Communication Channels
 There is a [Slack channel](https://cdeliveryfdn.slack.com/archives/C0151BTKEJX) for this workstream.
