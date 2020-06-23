@@ -14,6 +14,6 @@ Working groups are temporary in nature. They are formed to focus on specific goa
 
 ## Current Workstreams
 
-Current workstreams can be found in the [worksreams directory](../workstreams/).
+Current workstreams can be found in the [workstreams directory](../workstreams/).
 
 * [Events in CICD](../workstreams/events_in_cicd/)
