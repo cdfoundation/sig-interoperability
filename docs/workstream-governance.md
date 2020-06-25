@@ -12,6 +12,12 @@ Workstreams should, at a regular cadence, share their progress with the rest of 
 
 Working groups are temporary in nature. They are formed to focus on specific goals and can be disbanded after reaching their goals. Upon formation, leads for the working group are choosen by the working group. When leads step down, they can be replaced by [lazy concensus](https://wiki.openoffice.org/wiki/Documentation/FAQ/ProjectLevel/CommunityQuestions/What_is_%22Lazy_Consensus%22%3F). However, working groups can also be disbanded if there is no longer a lead for the working group (within an 8 week grace period).
 
+## Proposing a new Workstream
+
+We welcome proposals for new workstreams. 🎉
+
+Proposals for new workstreams can be made via an [issue](https://github.com/cdfoundation/sig-interoperability/issues) on the Interoperability SIG repo, for discussion and feedback, or via a [PR](https://github.com/cdfoundation/sig-interoperability/pulls) to include the new workstream's README.md in the [workstreams directory](../workstreams/).
+
 ## Current Workstreams
 
 Current workstreams can be found in the [workstreams directory](../workstreams/).
