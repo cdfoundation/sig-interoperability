@@ -69,6 +69,7 @@ interoperability between tools
 * Ravi Lachhman ([@ravilach](https://github.com/ravilach)), Harness
 * Andreas Grimmer ([@agrimmer](https://github.com/agrimmer)), Dynatrace
 * Chun-Hung Hsiao ([@chhsia0](https://github.com/chhsia0)), D2iQ
+* Marky Jackson ([@markyjackson](https://github.com/markyjackson-taulia)), OpsMX
 
 ## New Members
 
