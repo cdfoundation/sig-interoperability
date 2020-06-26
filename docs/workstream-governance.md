@@ -16,11 +16,12 @@ Working groups are temporary in nature. They are formed to focus on specific goa
 
 We welcome proposals for new workstreams. 🎉
 
-Proposals for new workstreams can be made via an [issue](https://github.com/cdfoundation/sig-interoperability/issues) on the Interoperability SIG repo, for discussion and feedback. 
+Proposals for new workstreams can be made via a [PR](https://github.com/cdfoundation/sig-interoperability/pulls) on the Interoperability SIG repo, for discussion and feedback. 
 
-Add your proposal to our [meeting notes](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) as an agenda item, to discuss at the next SIG meeting. 
+Please create a directory in the [workstreams directory](../workstreams/) with a README providing information about the workstream's focus, goals, membership, and meeting logistics. 
 
-New workstreams can create a directory in the [workstreams directory](../workstreams/) with a README providing information about the workstream's focus, goals, membership, and meeting logistics.  
+Add your proposal, and a link to your PR, to our [meeting notes](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) as an agenda item to discuss at the next SIG meeting. Discussion during the SIG is a great way to gather further feedback and support and attract additional collaborators.
+ 
 
 
 ## Current Workstreams
