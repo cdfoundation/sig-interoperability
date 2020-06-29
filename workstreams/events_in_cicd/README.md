@@ -19,11 +19,25 @@ Proposal:
 * Event has no recipient
 * Event is decoupled from consumers
 
+## Members
+Current members:
+* Ravi Lachhman, Harness
+* Andreas Grimmer, Dynatrace
+* Emil Bäckmark, Ericsson
+* Ramin Akhbari, eBay
+
+Membership to this workstream is open to public and self-declared.
+
+New members are advised to:
+* Join the [#events-in-cicd channel on CDF Slack](https://cdeliveryfdn.slack.com/archives/C0151BTKEJX) and introduce yourself.
+* Submit a PR to add yourself to the members list in this README.
+* Regularly join the workstream meetings.
+
 ## Communication Channels
 There is a [Slack channel](https://cdeliveryfdn.slack.com/archives/C0151BTKEJX) for this workstream.
 
 ## Meetings
 Events in CI/CD workstream meets every even week on Mondays at 16.30 UTC. (*See your timezone [here](https://time.is/1630_in_UTC)*).
 
-* Meeting agenda and minutes: [meetings.md](./meetings.md)
-* Register in advance for this meeting: https://zoom.us/meeting/register/tJMrcemvrzksGtSgbE3-44y5nBvCkKI6X2MT. After registering, you will receive a confirmation email containing information about joining the meeting.
+* Meeting agenda and minutes are kept [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md)
+* Register in advance for this meeting [here](https://zoom.us/meeting/register/tJMrcemvrzksGtSgbE3-44y5nBvCkKI6X2MT). After registering, you will receive a confirmation email containing information about joining the meeting.

@@ -70,6 +70,7 @@ interoperability between tools
 * Andreas Grimmer ([@agrimmer](https://github.com/agrimmer)), Dynatrace
 * Chun-Hung Hsiao ([@chhsia0](https://github.com/chhsia0)), D2iQ
 * Marky Jackson ([@markyjackson](https://github.com/markyjackson-taulia)), OpsMX
+* James Rawlings ([@rawlingsj](https://github.com/rawlingsj)), Cloudbees
 
 ## New Members
 
