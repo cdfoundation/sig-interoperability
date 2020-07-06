@@ -8,24 +8,57 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
 ## Meeting July 6th
+Meeeting time in your timezone [here](https://time.is/1630_22_June_2020_in_UTC). You're welcome to join!
+
+Participants:
+* Andreas Grimmer (Dynatrace)
+* Ravi Lachhman (Harness)
+* Emil Bäckmark (Ericsson)
+* Ramin Akhbari (eBay)
+* Marky Jackson (OpsMX)
 
 ### Topics
 
-#### What is an event?
-* Third iteration of this topic :)
+#### What is an event? vs. Message, Notification, ...
+* Tried these definitions:
+  * An event is something of interest that has happened in the past
+  * A notification is a container describing such an event, to be sent over some messaging line
 * What does cloudevents mean with events?
+  * Cloudevents define 'occurrence' and 'event': [Cloudevents terminology](https://github.com/cloudevents/spec/blob/v1.0/spec.md#terminology)
+* We decided to stick with the Cloudevents definitions for now
 
 #### Common vocabulary
 * What's the next step with the 'Rosetta Stone'? Frameworks/tools missing there?
+* Event: Something of interest that has occured in the past in a particular domain. 
+* Eiffel Vocab (https://github.com/eiffel-community/eiffel/tree/master/eiffel-vocabulary)
+
+#### What is working well in the Industry?
+* Keptn is event driven.Follows Cloud Events spec. (https://github.com/cloudevents/spec/blob/v1.0/spec.md)
 
 #### Existing event handling frameworks
-The million dollar question is what to publish!
+What event frameworks do we know of?
 
-* Tekton Triggers
-* [Keptn](https://keptn.sh/)
-* [Eiffel](https://eiffel-community.github.io/)
-* [Cloud Events](https://cloudevents.io/)
+##### Pure event consumers
+* [Tekton Triggers](https://medium.com/@dlorenc/tekton-triggers-3aba132c6344)
 * [Argo Events](https://github.com/argoproj/argo-events)
+* Various [Eiffel consumers](https://eiffel-community.github.io/)
+* Others?
+
+##### Pure event producers
+* Various [Eiffel producers](https://eiffel-community.github.io/)
+* Others?
+
+##### Both producers and consumers 
+* [Keptn](https://keptn.sh/) ?
+* Tekton - Consumer [Tekton Triggers](https://medium.com/@dlorenc/tekton-triggers-3aba132c6344), Producer [Tekton event sending](https://github.com/tektoncd/pipeline/releases/tag/v0.14.0)
+
+##### Event protocol standards (for consumers and producers)
+* [Eiffel](https://eiffel-community.github.io/)
+* [CloudEvents](https://cloudevents.io/)
+
+### Brainstorming event formats
+* Event 101, "Hello SIG"
+
 
 ## Meeting June 22nd
 Meeeting time in your timezone [here](https://time.is/1630_22_June_2020_in_UTC). You're welcome to join!
