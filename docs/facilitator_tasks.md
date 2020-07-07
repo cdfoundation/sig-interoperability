@@ -1,7 +1,6 @@
 # SIG Interoperability Meeting Facilitator Responsibilities
 
 * Craft the agenda before each meeting
-   * On Google Docs: https://docs.google.com/document/d/13hCBpmuAj3e0gADo1TCjsEwmz57_fw74OhQmeY1extk/edit#heading=h.6e8ylf4xy57t
    * In GitHub Repo: https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md
 * Reach out to people who reserved slot for presentation, confirm they can present, and assist them with any help they need
    * https://docs.google.com/document/d/1ZZE-s4OWLJALjs8DNVaBXuS8FruAwuP31d7-lNSD5x8/edit?usp=sharing
