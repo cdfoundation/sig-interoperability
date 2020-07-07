@@ -8,16 +8,11 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 Discuss all about what events should be used for in a CI/CD process
 
 ## Mission
-Standardize events to be used in a CD process
+Standardize events to be used in a CI/CD process
 
 ## What is an event?
-To be defined. Event vs. Message vs. Notification
-Proposal:
-* Things that happen/occur in a CD process.
-* Notifications that are sent out due to things that happen/occur in a CD process.
-* Message = Routable
-* Event has no recipient
-* Event is decoupled from consumers
+We currently stick with the [definition used by CloudEvents](https://github.com/cloudevents/spec/blob/v1.0/spec.md#terminology):
+An *event* is a data record expressing an *occurrence* and its context, where *occurrence* is the capture of a statement of fact during the operation of a software system.
 
 ## Members
 Current members:
