@@ -5,7 +5,9 @@
 - [Meeting Information](#meetings)
 - [Members](#members)
 - [New Members](#new-members)
+- [Governance](#governance)
 - [Communication](#communication)
+- [Meetings](#meetings)
 
 ## Overview
 
