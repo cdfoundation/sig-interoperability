@@ -138,7 +138,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - ~~Tracy to reach out to Spinnaker folks - Kara invited representative from Spinnaker community~~
 
 #### Meeting Recording
-  - \<addme\>
+  - https://www.youtube.com/watch?v=hjhttOywNIE
 
 ### June 11, 2020
 
@@ -210,8 +210,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Tracy to reach out to Spinnaker folks
 
 #### Meeting Recording
-  - \<addme\>
-
+  - https://www.youtube.com/watch?v=ZMfoGg2BM2E
 
 ### May 28, 2020
 
@@ -256,15 +255,15 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Interoperability Podcast
       - JS: Published - 101 downloads - [Podcast](https://cdeliveryfdn.buzzsprout.com/1008697/3778943-cdf-sig-interoperability-chair-cloudbees-puppet-discuss-interoperability)
       - JS: Followup podcasts - anyone interested to take part in the podcast, please reach out to Jacque
- 
- #### Meeting Recording
-  - https://www.youtube.com/watch?v=Z-Ihwminsc0
 
 #### Action Items
   - Chun to reach out to Brandon from Drone community for go-scm library
   - Tracy to invite Andy Bayer, Christie Wilson, and James Rawlings to discuss go-scm
   - Andreas to reach out to Argo folks
   - Tracy to reach out to Spinnaker folks
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=Z-Ihwminsc0
 
 ### May 14, 2020
 
@@ -306,6 +305,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 #### Action Items
   - Kick of co-chair nominations on SIG Maillist, Fatih Degirmenci
   - Start the discussion around SIG Roadmap on Maillist
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=pgEqYfT4whg
 
 ### April 30, 2020
 
@@ -352,6 +354,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - [Flagger](https://flagger.app/) Presentation, Stefan Prodan, Weave Works
       - FD: Slides will be available in [CDF Presentations repository sig-interoperability folder](https://github.com/cdfoundation/presentations/tree/master/sig-interoperability).
 
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=CAU7-qbNZo0
+
 ### April 16, 2020
 
 #### Participants
@@ -380,7 +385,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
     - AG: In order to identify the interfaces, it is important to understand common tasks first - deployment, testing, release, and so on. This could help us to identify the interfaces.
     - Discussion on how to highlight, share, and reach to a shared vocabulary in CI/CD domain. Reaching out to projects, experts, bringing this to CDF TOC’s attention.
 
-
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=7LNYbQBrtvY
+  
 ### April 2, 2020
 
 #### Participants
@@ -415,6 +422,8 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
     - Eric part1: https://medium.com/relay-sh/whats-going-on-with-tekton-part-1-9c3e006d39fc , part 2: https://medium.com/relay-sh/whats-going-on-with-tekton-part-2-ab39176c9c45
   - Jenkins X Presentation, James Rawlings, CloudBees (See video)
 
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=8S98BUZQKRM
 
 ### March 19, 2020
 
@@ -449,9 +458,11 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Zuul Presentation, Jeremy Stanley, OpenDev
     - JS: Slides: http://fungi.yuggoth.org/presentations/2020-cdf/slides.html
 
-
 - **Action Items**
   - Reach out to Spinnaker (Netflix/Armory) and Codefresh and invite them, Fatih Degirmenci
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=TLgcjYe_joM
 
 ### March 5, 2020
 
@@ -488,6 +499,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 - **Action Items**
   - Store Keptn presentation in cdf/presentations repository sig-interoperability folder, Andreas Grimmer, Dynatrace
   - DONE: Store Orange Gitlab Pipelines presentation in cdf/presentations repository sig-interoperability folder, David Blaisonneau, Orange
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=cREQjs5hDLY
 
 ### February 20, 2020
 
@@ -542,6 +556,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - DONE: Upload presentation to CDF presentations repo sig-interoperability folder on GitHub, Christie Wilson
   - DONE: Schedule a presentation from Jenkins X - presentation schedule is here, Tracy Miranda, Jeremy Harley
 
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=0RZikpCG-6k
+  
 ### February 6, 2020
 
 - **Participants**
@@ -584,6 +601,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 - **Action Items**
   - N/A
 
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=thr8-duWvt0
+  
 ### January 23, 2020
 
 - **Participants**
@@ -701,3 +721,6 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - ~~Start nominations for co-chair, Fatih Degirmenci~~
   - ~~Add members listed in README.md as maintainers to sig-interoperability Github repository, Fatih Degirmenci~~
   - ~~Help us get in touch with ebay and CDF projects so we can invite them for presenting to SIG, Tracy Miranda~~
+
+#### Meeting Recording
+  - N/A
