@@ -5,6 +5,7 @@
 - [Logistics](#logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-07-09 Meeting](#july-9-2020)
   - [2020-06-25 Meeting](#june-25-2020)
   - [2020-06-11 Meeting](#june-11-2020)
   - [2020-05-28 Meeting](#may-28-2020)
@@ -31,6 +32,48 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### July 9, 2020
+
+#### Participants
+  - Ramin Akhbari (eBay)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - Emil Bäckmark (Ericsson)
+  - James Rawlings (CloudBees)
+  - Max Körbächer (Storm Reply)
+  - Kara de la Marck (CloudBees)
+  - Thanh Ha (Lumina Networks)
+  - Marky Jackson (OpsMX)
+  - Jeremy Stanley (Zuul community)
+  - Oleg Nenashev (CloudBees)
+  - Mark Waite (CloudBees)
+  - Tracy Miranda (CloudBees)
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - [SIG Roadmap](https://docs.google.com/document/d/1QSzcV-rl3XwkNh4_5a_0YCugF5gprtBR-xRlzuEJ-NA/edit#heading=h.eqpoxxy8gmzz) in the repo, All
+    - FD: A [pull request](https://github.com/cdfoundation/sig-interoperability/pull/40) is opened, moving the roadmap from Google Docs to SIG repository on GitHub.
+    - FD: Few updates have been made to the roadmap while moving it to the repo such as adding the presentations that were made to the SIG.
+    - FD: In addition to the updates, the new work we started doing such as identifying Focus Areas and creating workstreams is also included in the document.
+    - FD: Contributors are also listed on the document.
+    - FD: PR will be kept open few more days to give people chance to review it and provide comments.
+    - FD: Once we finalize the work with the roadmap, we could ask CDF to help us to make this work visible via a blog post/article.
+    - MJ: I can help with that.
+  - SIG Governance, [workstream setup](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/workstream-governance.md), Kara, All
+    - KM: The governance document for the workstreams is [now available in the repo](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/workstream-governance.md).
+    - KM: People who are interested in working on a specific topic are encouraged to create a PR and socialize the idea by presenting it during upcoming SIG meetings to collaborate with others.
+    - MK: WG Robots could be a workstream.
+  - [Jenkinsfile Runner](https://github.com/jenkinsci/jenkinsfile-runner) Presentation, Oleg Nenashev, CloudBees
+
+#### Action Items
+  - ~~Fatih to move Roadmap to GitHub via a PR: https://github.com/cdfoundation/sig-interoperability/pull/40~~
+  - ~~Tracy to take SIG Roadmap document into read-only/comment-only mode~~
+  - ~~Kara to update workstream governance with the process for creation of new workstreams: https://github.com/cdfoundation/sig-interoperability/pull/39~~
+  - **In progress**: Fatih to talk to Jacque to update the invitation with HackMD link: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/201).
+  - **In progress**: Marky to check with Jacque the possibility of storing none-meeting recordings on Youtube: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/202).
+
+#### Meeting Recording
+  - \<addme\>
 
 ### June 25, 2020
 
@@ -88,7 +131,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Kara to update workstream governance with the process for creation of new workstreams
   - **In progress**: Fatih to talk to Dan Lopez to update the invitation with HackMD link: [Issue created in CDF Foundation backlog](https://github.com/cdfoundation/foundation/issues/201).
   - **In progress**: Fatih/Kara to check with Dan Lopez and Jacque the possibility of storing none-meeting recordings on Youtube: [Issue created in CDF Foundation backlog](https://github.com/cdfoundation/foundation/issues/202).
-  - Everyone to review the roadmap and provide feedback as to whether it is ready to be added to GitHub.
+  - ~~Everyone to review the roadmap and provide feedback as to whether it is ready to be added to GitHub.~~
   - ~~Kara to start the document on SIG governance, esp workstreams.~~ 
   - Chun to reach out to Brandon from Drone community for go-scm library
   - ~~Tracy and Kara to invite Andrew Bayer, Christie Wilson, and James Rawlings to discuss go-scm~~
