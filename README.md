@@ -74,6 +74,7 @@ interoperability between tools
 * Marky Jackson ([@markyjackson](https://github.com/markyjackson-taulia)), OpsMX
 * James Rawlings ([@rawlingsj](https://github.com/rawlingsj)), Cloudbees
 * Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), eBay
+* Cameron Motevasselani ([@link108](https://github.com/link108)), Armory
 
 ## New Members
 
