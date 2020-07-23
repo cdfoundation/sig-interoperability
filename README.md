@@ -74,6 +74,7 @@ interoperability between tools
 * Marky Jackson ([@markyjackson](https://github.com/markyjackson-taulia)), OpsMX
 * James Rawlings ([@rawlingsj](https://github.com/rawlingsj)), Cloudbees
 * Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), eBay
+* Dave Sudia ([@thedevelopnik](https://github.com/thedevelopnik)), GoSpotCheck
 
 ## New Members
 
