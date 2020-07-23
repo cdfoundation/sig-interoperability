@@ -75,6 +75,7 @@ interoperability between tools
 * James Rawlings ([@rawlingsj](https://github.com/rawlingsj)), Cloudbees
 * Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), eBay
 * Cameron Motevasselani ([@link108](https://github.com/link108)), Armory
+* Dave Sudia ([@thedevelopnik](https://github.com/thedevelopnik)), GoSpotCheck
 
 ## New Members
 
