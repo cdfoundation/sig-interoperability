@@ -37,20 +37,40 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### July 23, 2020
 
 #### Participants
-  - \<addme\>
+  - Ramin Akhbari (eBay)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - James Rawlings (Jenkins X / CloudBees)
+  - Kara de la Marck (CloudBees)
+  - David Sudia (GoSpotCheck)
+  - Tracy Miranda (CloudBees)
+  - Cameron Motevasselani (Armory / Spinnaker)
+  - Ryan Pei (Armory)
+  - Thanh Ha (Lumina Networks)
 
 #### Agenda and Notes
   - Action Item Review, All
   - Approve/discuss [moving Roadmap to repo](https://github.com/cdfoundation/sig-interoperability/pull/40).
+      - Discussed, general approval. PR merged; Roadmap added to sig-interoperability repo.
+  - Tekton Pipelines Helm Chart: https://github.com/tektoncd/pipeline/issues/1542
+      - JR: move Tekton Helm chart into repo under CDF
+      - FD: propose to TOC having library
+      - TM: Will sync with Tekton community and discuss the way forward
+      - DS: as an end user having a utility etc hosted by a foundation such as CDF is highly reassuring.
+      - FD: CDF repos will be good for visibility for cross-project assets like the Helm charts
+  - go-scm
+      - KM: Reached out to folks to start the discussion. If the SIG thinks this is the way, we could contact Tekton folks.
   - [Spinnaker](https://spinnaker.io/) Presentation, Cameron Motevasselani, Armory
-  - \<addme\>
+      - RA: question on Spinnaker, what was the result of investigation into using Tekton as the engine within Spinnaker rather than Orca
+      - CM: We are not doing that at the moment, but it is something that would be interesting to do in future
+  - Tekton & Jenkins POC 
+      - https://www.jenkins.io/events/ Friday 24th, 7am Eastern
 
 #### Action Items
   - **In progress**: Fatih to talk to Jacque to update the invitation with HackMD link: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/201).
-  - **In progress**: Marky to check with Jacque the possibility of storing none-meeting recordings on Youtube: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/202).
+  - ~~Marky to check with Jacque the possibility of storing none-meeting recordings on Youtube: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/202).~~
 
 #### Meeting Recording
-  - \<addme\>
+  - https://www.youtube.com/watch?v=vBJJoajJAVU
 
 ### July 9, 2020
 
