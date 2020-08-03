@@ -5,6 +5,7 @@
 - [Logistics](#logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-08-06 Meeting](#august-6-2020)
   - [2020-07-23 Meeting](#july-23-2020)
   - [2020-07-09 Meeting](#july-9-2020)
   - [2020-06-25 Meeting](#june-25-2020)
@@ -33,6 +34,26 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### August 6, 2020
+
+#### Participants
+  - \<addme\>
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - Publicizing the work we are doing, All
+      - Should we start working on publishing something like a whitepaper to talk about the challenges, trends, progress and call-for-action?
+  - Reusable Libraries, All
+      - Should we have a workstream to drive & coordinate this work and work with setting things up?
+  - [Lighthouse](https://github.com/jenkins-x/lighthouse) Presentation, Andrew Beyer, CloudBees
+  - \<addme\>
+
+#### Action Items
+  - **In progress**: Fatih to talk to Jacque to update the invitation with HackMD link: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/201).
+
+#### Meeting Recording
+  - \<addme\>
 
 ### July 23, 2020
 
