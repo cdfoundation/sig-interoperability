@@ -5,6 +5,7 @@
 - [Logistics](#logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-08-20 Meeting](#august-20-2020)
   - [2020-08-06 Meeting](#august-6-2020)
   - [2020-07-23 Meeting](#july-23-2020)
   - [2020-07-09 Meeting](#july-9-2020)
@@ -34,6 +35,27 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### August 20, 2020
+
+#### Participants
+  - \<addme\>
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - Reusable Libraries, All
+  - CI/CD Interoperability Whitepaper, All
+      - Outline: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit
+  - TektonCD at eBay, Ramin Akhbari, eBay
+  - \<addme\>
+
+#### Action Items
+  - Tracy to arrange a meeting to discuss way forward with hosting Tekton Helm 3 Chart in CDF
+  - Fatih to send mail on whitepaper to maillist
+  - **In progress**: Fatih to talk to Jacque to update the invitation with HackMD link: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/201).
+
+#### Meeting Recording
+  - \<addme\>
 
 ### August 6, 2020
 
