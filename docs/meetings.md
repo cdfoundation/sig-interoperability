@@ -38,18 +38,35 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### August 6, 2020
 
 #### Participants
-  - \<addme\>
+  - Andrew Bayer (CloudBees)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - Andreas Grimmer (Dynatrace)
+  - Dave Sudia (GoSpotCheck)
+  - Kara de la Marck (CloudBees)
+  - Gareth Evans (CloudBees)
+  - James Rawlings (CloudBees)
+  - Ramin Akhbari (eBay)
+  - Christie Wilson (Google)
+  - Tracy Miranda (CloudBees)
 
 #### Agenda and Notes
   - Action Item Review, All
   - Publicizing the work we are doing, All
       - Should we start working on publishing something like a whitepaper to talk about the challenges, trends, progress and call-for-action?
+      - James and Kara: Can help from Project/Jenkins X perspective.
+      - David and Ramin: Can help from end-user point of view.
+      - Tracy to help with CDF.
+      - Link to outline: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit
+      - This could be brought up to CDF Ambassador call for contributions.
   - Reusable Libraries, All
       - Should we have a workstream to drive & coordinate this work and work with setting things up?
-  - [Lighthouse](https://github.com/jenkins-x/lighthouse) Presentation, Andrew Beyer, CloudBees
-  - \<addme\>
+      - TM: Re: Tekton Helm 3 Chart in CDF - I can setup a session to bring few people together to figure out what it means. 
+      - TM: 13th August 2020 - working session for Tekton Helm 3 chart repo in CDF (same time as interop sig meeting)
+  - [Lighthouse](https://github.com/jenkins-x/lighthouse) Presentation, Andrew Bayer, CloudBees
 
 #### Action Items
+  - Tracy to arrange a meeting to discuss way forward with hosting Tekton Helm 3 Chart in CDF
+  - Fatih to send mail on whitepaper to maillist
   - **In progress**: Fatih to talk to Jacque to update the invitation with HackMD link: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/201).
 
 #### Meeting Recording
