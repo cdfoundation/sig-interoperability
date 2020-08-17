@@ -1,11 +1,59 @@
 # Events in CICD Workstream Meeting Notes
 
+[![hackmd-github-sync-badge](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w/badge)](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w)
+
+
 This workstream meet every second Monday at 16.30 UTC  (See your timezone [here](https://time.is/1630_in_UTC)). Register in advance for this meeting and get an invite to your calendar:
 https://zoom.us/meeting/register/tJMrcemvrzksGtSgbE3-44y5nBvCkKI6X2MT
 
 The forming of this workstream was suggested on a [recent SIG Interoperability meeting]( https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#may-28-2020) and its first meeting was held on June 8th.
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
+
+## Meeting August 17th
+Meeeting time in your timezone [here](https://time.is/1630_17_August_2020_in_UTC). You're welcome to join!
+
+Participants:
+* Emil Bäckmark (Ericsson)
+* Ravi Lachhman (Harness)
+
+### Potential Topics 
+
+
+#### Common Vocabulary
+Time to push (parts of?) this?
+
+One way to start is to define some use cases to report events using. Proposal: go for the Eiffel terminology for 'Activities'.
+https://github.com/eiffel-community/eiffel/tree/master/eiffel-vocabulary
+
+##### Basic For All to Understand #####
+* Start
+    * URI (link to ongoing execution)
+    * LiveLogs (links to active logs)
+* Finish
+    * Outcome
+        * Fail
+        * Success
+    * PersistantLogs (links to finished logs)
+
+##### Intermediate for CI/CD Knowledge #####
+* Trigger
+    * Name
+* Cancel
+* Alerting/Monitoring/Still Processing 
+    *  URI (link to ongoing execution)
+
+##### Links and/or contexts
+* How to connect events to each other and to the source change or other item that triggered their actions? (SIG Feedback please!) AP Emil: Present the Eiffel link model in  a coming meeting.
+
+We should create:
+* Schema
+* Specification 
+* JSON/API Docs for visualization (e.g Swagger) e.g https://www.gremlin.com/docs/api-reference/overview/
+
+#### SIG Interop Whitepaper
+What should we contribute to it?
+* White Paper for SIG: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit#
 
 ## Meeting July 6th
 Meeeting time in your timezone [here](https://time.is/1630_22_June_2020_in_UTC). You're welcome to join!
@@ -25,7 +73,7 @@ Participants:
   * A notification is a container describing such an event, to be sent over some messaging line
 * What does cloudevents mean with events?
   * Cloudevents define 'occurrence' and 'event': [Cloudevents terminology](https://github.com/cloudevents/spec/blob/v1.0/spec.md#terminology)
-* We decided to stick with the Cloudevents definitions for now
+* **We decided to stick with the [Cloudevents definitions]((https://github.com/cloudevents/spec/blob/v1.0/spec.md#terminology)) for now**
 
 #### Common vocabulary
 * What's the next step with the 'Rosetta Stone'? Frameworks/tools missing there?
