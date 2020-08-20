@@ -1,5 +1,7 @@
 # CDF Interoperability SIG Meetings
 
+[![HacmKD documents](https://hackmd.io/badge.svg)](https://hackmd.io/HuufSDMaTPyb3qxkyBKg3A?edit)
+
 ## Quick links
 
 - [Logistics](#logistics)
@@ -30,6 +32,7 @@
 * Zoom International dial-in numbers: https://zoom.us/zoomconference
 * Meeting Recordings: [CDF Youtube Channel SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * CDF Public Calendar: [here](https://calendar.google.com/calendar/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+* Past Presentations in CDF Presentations Repository: https://github.com/cdfoundation/presentations/tree/master/sig-interoperability
 * Presentation Schedule: https://docs.google.com/document/d/1Owg_I52WEXzqF8g_lX6OTdwbHkH4Z2-7TBA7eCSVMqY/edit
 
 ## Agenda and Notes
@@ -39,20 +42,39 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### August 20, 2020
 
 #### Participants
-  - \<addme\>
+  - Ramin Akhbari (eBay)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - Dave Sudia (GoSpotCheck)
+  - Ravi Lachhman (Harness)
+  - Emil Bäckmark (Ericsson)
+  - Mattias Linnér (Ericsson)
+  - Jerop Kipruto (Google)
+  - Christie Wilson (Google)
+  - Cameron Motevasselani (Armory)
+  - Eric Sorenson (Puppet)
+  - Jeremy Stanley (OSF/Zuul)
+  - Kara de la Marck (CloudBees)
 
 #### Agenda and Notes
   - Action Item Review, All
   - Reusable Libraries, All
+      - KM: Had a preliminary meeting to discuss Helm 3 Chart. There are people who are onboard with the idea.
+      - KM: https://github.com/tektoncd/pipeline/issues/1542
   - CI/CD Interoperability Whitepaper, All
       - Outline: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit
-  - TektonCD at eBay, Ramin Akhbari, eBay
-  - \<addme\>
+      - Definitions: Continuous Integration, Continuous Delivery, Continuous Deployment
+      - What does interoperability mean in CI/CD context
+      - Trends: Reusable Libraries, Events in CI/CD
+      - Potential Case Studies: Dave Sudia/GoSpotCheck, Emil Backmark/Ericsson, Jeremy Stanley/Zuul, Kara de la Marck/Jenkins X, Cameron Motevasselani/Spinnaker
+      - The topic will be revisited during upcoming SIG meetings regulary. Towards the end of September, we could attempt to set a target date to publish the paper, granted that we covered the topics sufficiently.
+  - TektonCD at eBay, Ramin Akhbari (eBay)
 
 #### Action Items
-  - Tracy to arrange a meeting to discuss way forward with hosting Tekton Helm 3 Chart in CDF
-  - Fatih to send mail on whitepaper to maillist
-  - **In progress**: Fatih to talk to Jacque to update the invitation with HackMD link: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/201).
+  - Fatih to open a new issue and ask CDF to include Zoom meeting link on it: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/213)
+  - ~~Tracy to arrange a meeting to discuss way forward with hosting Tekton Helm 3 Chart in CDF~~
+  - ~~Fatih to send mail on whitepaper to maillist~~
+  - ~~Fatih to talk to Jacque to update the invitation with HackMD link: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/201).~~
+  
 
 #### Meeting Recording
   - \<addme\>
@@ -92,7 +114,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - **In progress**: Fatih to talk to Jacque to update the invitation with HackMD link: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/201).
 
 #### Meeting Recording
-  - \<addme\>
+  - https://www.youtube.com/watch?v=HyyHI065S_o
 
 ### July 23, 2020
 
