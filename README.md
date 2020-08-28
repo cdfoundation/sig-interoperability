@@ -109,7 +109,7 @@ Charter, roles, and process of the SIG will be documented and made available onc
 Chairs and the TOC Sponsor of the SIG are
 
 * Fatih Degirmenci ([@fdegir](https://github.com/fdegir)), Ericsson Software Technology - Chair
-* *TBD* - Co-chair
+* Kara de la Marck ([@MarckK](https://github.com/MarckK)), CloudBees - Co-chair
 * Dan Lorenc ([@dlorenc](https://github.com/dlorenc)), Google - TOC Sponsor
 
 ## Communication
