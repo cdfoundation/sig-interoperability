@@ -10,6 +10,54 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
+## Meeting August 31st
+Meeeting time in your timezone [here](https://time.is/1630_1_September_2020_in_UTC). You're welcome to join!
+
+Participants:
+* Emil Bäckmark (Ericsson)
+* Ravi Lachhman (Harness)
+* Mattias Linnér (Ericsson)
+* Andreas Grimmer (Dynatrace)
+* Max Körbächer (Storm Reply)
+
+### Potential Topics 
+
+#### Kubecon Europe
+
+https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
+
+Anyone who joined? Anything to share w.r.t. events in CI/CD?
+
+- Weaveworks presented a new version of CD GitOPS
+
+#### Common Vocabulary
+
+- Recap of last meeting discussion
+
+- Activity Started
+  - Live Logs
+- Activity Finished
+  - Status SUCCEEDED/...
+  - Result PASSED/FAILED
+  - Persistant Logs
+- Activity Canceled
+- Activity Triggered
+
+- Status Changed (informs e.g. about Y test cases executed or X canary releases performed)
+  - Context: Refers to the system on which the state is changed
+
+- Collect input from Eiffel, Keptn, Tekton. And more?
+
+- AP on all: Read up on existing frameworks (linked in earlier minutes) and propose high level event terminology
+
+- AP Emil: Prepare Hackmd document for the proposal and share with the group
+
+
+#### SIG Interop Whitepaper
+???
+https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit#
+
+
 ## Meeting August 17th
 Meeeting time in your timezone [here](https://time.is/1630_17_August_2020_in_UTC). You're welcome to join!
 
@@ -17,16 +65,13 @@ Participants:
 * Emil Bäckmark (Ericsson)
 * Ravi Lachhman (Harness)
 
-### Potential Topics 
-
-
-#### Common Vocabulary
+### Common Vocabulary
 Time to push (parts of?) this?
 
 One way to start is to define some use cases to report events using. Proposal: go for the Eiffel terminology for 'Activities'.
 https://github.com/eiffel-community/eiffel/tree/master/eiffel-vocabulary
 
-##### Basic For All to Understand #####
+#### Basic For All to Understand #####
 * Start
     * URI (link to ongoing execution)
     * LiveLogs (links to active logs)
@@ -36,14 +81,14 @@ https://github.com/eiffel-community/eiffel/tree/master/eiffel-vocabulary
         * Success
     * PersistantLogs (links to finished logs)
 
-##### Intermediate for CI/CD Knowledge #####
+#### Intermediate for CI/CD Knowledge #####
 * Trigger
     * Name
 * Cancel
 * Alerting/Monitoring/Still Processing 
     *  URI (link to ongoing execution)
 
-##### Links and/or contexts
+#### Links and/or contexts
 * How to connect events to each other and to the source change or other item that triggered their actions? (SIG Feedback please!) AP Emil: Present the Eiffel link model in  a coming meeting.
 
 We should create:
@@ -51,9 +96,10 @@ We should create:
 * Specification 
 * JSON/API Docs for visualization (e.g Swagger) e.g https://www.gremlin.com/docs/api-reference/overview/
 
-#### SIG Interop Whitepaper
+### SIG Interop Whitepaper
 What should we contribute to it?
 * White Paper for SIG: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit#
+
 
 ## Meeting July 6th
 Meeeting time in your timezone [here](https://time.is/1630_22_June_2020_in_UTC). You're welcome to join!
