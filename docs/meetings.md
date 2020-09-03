@@ -4,25 +4,26 @@
 
 ## Quick links
 
-- [Logistics](#logistics)
+- [Logistics](#Logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
-- [Agenda and Notes](#agenda-and-notes)
-  - [2020-08-20 Meeting](#august-20-2020)
-  - [2020-08-06 Meeting](#august-6-2020)
-  - [2020-07-23 Meeting](#july-23-2020)
-  - [2020-07-09 Meeting](#july-9-2020)
-  - [2020-06-25 Meeting](#june-25-2020)
-  - [2020-06-11 Meeting](#june-11-2020)
-  - [2020-05-28 Meeting](#may-28-2020)
-  - [2020-05-14 Meeting](#may-14-2020)
-  - [2020-04-30 Meeting](#april-30-2020)
-  - [2020-04-16 Meeting](#april-16-2020)
-  - [2020-04-02 Meeting](#april-2-2020)
-  - [2020-03-19 Meeting](#march-19-2020)
-  - [2020-03-05 Meeting](#march-5-2020)
-  - [2020-02-20 Meeting](#february-20-2020)
-  - [2020-02-06 Meeting](#february-6-2020)
-  - [2020-01-23 Meeting](#january-23-2020)
+- [Agenda and Notes](#Agenda-and-Notes)
+  - [2020-09-03 Meeting](#September-3-2020)
+  - [2020-08-20 Meeting](#August-20-2020)
+  - [2020-08-06 Meeting](#August-6-2020)
+  - [2020-07-23 Meeting](#July-23-2020)
+  - [2020-07-09 Meeting](#July-9-2020)
+  - [2020-06-25 Meeting](#June-25-2020)
+  - [2020-06-11 Meeting](#June-11-2020)
+  - [2020-05-28 Meeting](#May-28-2020)
+  - [2020-05-14 Meeting](#May-14-2020)
+  - [2020-04-30 Meeting](#April-30-2020)
+  - [2020-04-16 Meeting](#April-16-2020)
+  - [2020-04-02 Meeting](#April-2-2020)
+  - [2020-03-19 Meeting](#March-19-2020)
+  - [2020-03-05 Meeting](#March-5-2020)
+  - [2020-02-20 Meeting](#February-20-2020)
+  - [2020-02-06 Meeting](#February-6-2020)
+  - [2020-01-23 Meeting](#January-23-2020)
 
 ## Logistics
 
@@ -38,6 +39,62 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### September 3, 2020
+
+#### Participants
+  - Kara de la Marck (CloudBees)
+  - Dave Sudia (GoSpotCheck)
+  - Andreas Grimmer (Dynatrace)
+  - Emil Bäckmark (Ericsson)
+  - Cameron Motevasselani (Armory)
+  - Ramin Akhbari (eBay)
+  - Tracy MIranda (CDF)
+  - Mattias Linnér (Ericsson)
+  - \<addme\>
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - RA: Can we PLEASE get this meeting's zoom link in the invite?
+  - TM: Yes! 
+  - CI/CD Interoperability Whitepaper, All
+      - [Draft](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit)
+      - Excellent additions on defining CI and CD by Christie Wilson, Cameron Motevasselani, and others. Discuss.
+      - Cameron discusses his additions on CI CD definitions (see Whitepaper)
+      - TM: Continuous delivery to include people aspect. Cameron agreement
+      - EB: Continuous Deployment strictly speaking would end at deployment into production, but with recent tools providing canary and blue/green deployments and such to staging environments and sometimes also to production that definition doesn't really hold anymore. The border between Continuous Delivery and Continuous Deployment is more fuzzy now than earlier.
+      - RA: https://semaphoreci.com/blog/2017/07/27/what-is-the-difference-between-continuous-integration-continuous-deployment-and-continuous-delivery.html Contains defitions on these terms that are widely seen as industry standards. C Delivery is process of automating everything. C Deployment means delivering value to customers, ie to production. If it's not that, then it's still C Delivery. Definition on CDF site should be updated.
+      - DS: Cameron's definitions and what we are discussing is kind of the flip of that. So, C Delivery is the total delivery. C Deployment is deployment to different environments.
+      - KM: C Deployment to different environments is interesting. Deploying to different environments (as many as you like) is part of the overall CI/CD process in Jenkins X.
+      - TM: There are many differnt camps. Great to discuss further.
+      - TM: Will take on role of discussing futher with members to find agreement on these terms.
+      - TM is now Executive Director of CDF. Woohoo! 🎉
+      - TM: Starting off with these definitions key and happy to push things forward.
+      - EB & AG: Discuss additions on defining Events in CI/CD 
+  - Updates by EB & AG from Events in CI/CD workstream, Workstream Reps
+      - [Workstream docs](https://github.com/cdfoundation/sig-interoperability/tree/master/workstreams/events_in_cicd)
+      - EB: Have had a few initial meetings, and current focus is to develop event vocabulary in CI/CD context.
+      - AG: Will be adding to whitepaper and will summarise findings.
+  - CI/CD at GoSpotCheck, Dave Sudia, GoSpotCheck
+  - RA: Great talk by Dave. The challenges GoSpotCheck are facing and working through are exactly similar to what ebay is also experiencing.
+  - TM: Great talk. Question on the shift to K8s, what was the process? Small steps? Process complete?
+  - Dave S: IProcess complete except for a few minor long tail microservices.
+  - KM: Interesting that the need for Support to be at the table, especially as with Canary Deployments a section of customers may well be experiencing breaks, etc. Would feature previews be helpful: https://github.com/jenkins-x/enhancements/issues/41
+  - Dave S: Will comment on issue, happy to discuss further with team as well. 
+  - RA: Properly using microservices requires a good deal of maturity in the team and import to do right or will be in a world of pain. (General agreement)
+  - KM: one of the things we do with Jenkins X (and have suggested to other teams/companies) is using version streams. (Dave: would be open to follow up discussion on version streams)
+  - TM: What cloud are you on? Multi-cloud? Or interest / concerns around multi-cloud.
+  - Dave S: 90% GCP. Some buckets, data pipelines on AWS (that is mostly legacy set up and may migrate data pipelines to GCP). Multi-cloud or vendor lock-in is not so much of a concern. Not big enough to really feel that need. In terms of cloud providers, keeping a lid on costs is key priority.
+  - \<addme\>
+
+#### Action Items
+  - Fatih to open a new issue and ask CDF to include Zoom meeting link on it: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/213)
+  - Tracy M: Further discussions with individuals and teams on CI/CD definitions.
+  - Folks can reach out to Tracy to discuss these terms.
+  - Tracy: Will use powers to update meeting invite with zoom link. 🙏
+  
+#### Meeting Recording
+  - \<addme\>
 
 ### August 20, 2020
 
@@ -77,7 +134,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   
 
 #### Meeting Recording
-  - \<addme\>
+  - https://www.youtube.com/watch?v=tdKnEEZGZ0U
 
 ### August 6, 2020
 
