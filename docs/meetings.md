@@ -48,13 +48,15 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 
 #### Agenda and Notes
   - Action Item Review, All
+      - This meeting's Zoom link on calendar is now updated -- thank you Tracy and Fatih.
   - CI/CD Interoperability Whitepaper, All
       - Outline: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit
+      - Continue discussion on definition of Continuous Integration (not that contentious), and Continuous Delivery and Continuous Deployment (lots of discussion last week and on Whitepaper)
+      - Address: What Does Interoperability mean in CI/CD context?
   - \<addme\>
 
 #### Action Items
-  - This meeting's Zoom link on calendar is now updated -- thank you Tracy and Fatih.
-  - - \<addme\>
+  - \<addme\>
 
 #### Meeting Recording
   - \<addme\>
