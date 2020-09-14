@@ -7,6 +7,7 @@
 - [Logistics](#Logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#Agenda-and-Notes)
+  - [2020-09-17 Meeting](#September-17-2020)
   - [2020-09-03 Meeting](#September-3-2020)
   - [2020-08-20 Meeting](#August-20-2020)
   - [2020-08-06 Meeting](#August-6-2020)
@@ -39,6 +40,24 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### September 17, 2020
+
+#### Participants
+  - \<addme\>
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - CI/CD Interoperability Whitepaper, All
+      - Outline: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit
+  - \<addme\>
+
+#### Action Items
+  - This meeting's Zoom link on calendar is now updated -- thank you Tracy and Fatih.
+  - - \<addme\>
+
+#### Meeting Recording
+  - \<addme\>
 
 ### September 3, 2020
 
@@ -94,7 +113,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Tracy: Will use powers to update meeting invite with zoom link. 🙏
   
 #### Meeting Recording
-  - \<addme\>
+  - https://www.youtube.com/watch?v=0dbZwahf0qc&list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG&index=2&t=0s
 
 ### August 20, 2020
 
