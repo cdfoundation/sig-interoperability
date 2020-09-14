@@ -10,8 +10,27 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
+## Meeting September 14th
+Meeeting time in your timezone [here](https://time.is/1630_14_September_2020_in_UTC). You're welcome to join!
+
+Participants:
+* Emil Bäckmark (Ericsson)
+* Mattias Linnér (Ericsson)
+* Andreas Grimmer (Dynatrace)
+* Andrea Frittoli (IBM)
+
+### Topics
+
+#### SIG Interop Whitepaper
+Our contribution: https://docs.google.com/document/d/10m0LVTSAqltN2xNATwKS6dU8cMx08Co9-dnvvsIXD8M/edit
+
+Tekton project with event pipelines: https://github.com/tektoncd/plumbing
+
+#### Events Vocabulary
+https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA
+
 ## Meeting August 31st
-Meeeting time in your timezone [here](https://time.is/1630_1_September_2020_in_UTC). You're welcome to join!
+Meeeting time in your timezone [here](https://time.is/1630_31_August_2020_in_UTC). You're welcome to join!
 
 Participants:
 * Emil Bäckmark (Ericsson)
