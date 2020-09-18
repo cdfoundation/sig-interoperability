@@ -44,19 +44,50 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### September 17, 2020
 
 #### Participants
-  - \<addme\>
+  - Ramin Akhbari (eBay)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - Mattias Linnér (Ericsson)
+  - Christie Wilson (Google)
+  - Kara de la Mark (CloudBees)
+  - Tracy Miranda (CDF)
+  - Jeremy Stanley (OSF/Zuul)
+  - Tracy Ragan (DeployHub)
 
 #### Agenda and Notes
   - Action Item Review, All
       - This meeting's Zoom link on calendar is now updated -- thank you Tracy and Fatih.
+      - Quick discussion on https://github.com/cdfoundation/foundation/issues/214
   - CI/CD Interoperability Whitepaper, All
       - Outline: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit
       - Continue discussion on definition of Continuous Integration (not that contentious), and Continuous Delivery and Continuous Deployment (lots of discussion last week and on Whitepaper)
+          - (Christie) Would like to suggest we use this separate doc to break down the definition before wordsmithing (https://docs.google.com/document/d/1IUSmgtw5eC2JwyfiX7IPK3twl3MSjWAsmCKmJ6Y5z-w/edit#)
+          - Tracy M, Fatih: +1 
+          - Christie: Should we have separate paper for definitions, so doesn't block this White Paper, and this one works from basis of Continuous Delivery containing all of the CI/CD practices under discussion.
+          - Fatih: Keeping definitions is important for understanding interoperability in CI/CD
+          - Ramin: Additional White Paper on definitions good idea
+          - Tracy M, Tracy R: +1
+          - Tracy R: Strong agreement. Stating this is what Continuos Delivery is and CDF address all of it.
+          - Ramen: +1 This is how we think of Continuous Delivery at eBay
+          - Tracy M: This is inline with Accelerate book. CD is umbrella of these different processes
+          - Tracy R: Some of this work on definitions has been done, through process with ToC.
+          - Fatih: Continuous Delivery then includes CI and Continuous Deployment. It is the umbrella term. Are we in agreement?
+          - Ramin, Tracy R: Yes
+          - Tracy M: Christie has been working on CI def, in reponse to questions raised by CDF Ambassadors
+          - Christie: We should be able to have definitions that can be used to address question of 'Am I doing CI?' 
+          - TR: We ned high level definitions. Definitions don't have to relate to a specific step in the process. Think in terms of higher level compliance requirements. Need to think in terms of goals for each of the steps. Benefit statements.
+          - Tracy M: Proposal to start another white paper addressing definitions of these goals. [general support]
+          - Tracy R: Doing a white paper on Continuous Delivery and its goals is important initiative
+          - Fatih: to unblock the current White Paper skip the definitions here, and leave that to the other papers. Parallel White Paper on definitions makes a lot of sense. We will rename the current paper.
+          - TOC CI/CD Definitions document: https://docs.google.com/document/d/1VpNd2v4SjjbOIiMylIlb8NVe_t7YdDVYYUgVUkGuOgg/edit?usp=sharing
+          - CI/CD Definitions document - new: https://docs.google.com/document/d/1IUSmgtw5eC2JwyfiX7IPK3twl3MSjWAsmCKmJ6Y5z-w/edit#heading=h.yl0j54hk33l
       - Address: What Does Interoperability mean in CI/CD context?
-  - \<addme\>
+      - Fatih, review of his notes. Ultimately, Interoperability in CI/CD is broadly in line with text book definition of interoperability -- enabling the exchange of data.
 
 #### Action Items
-  - \<addme\>
+  - Tracy M to followup Zoom Policy change, https://github.com/cdfoundation/foundation/issues/214
+  - ~~Tracy R to find the document the TOC worked on early on the definitions of Continuous Integration/Delivery/Deployment~~
+  - Christie to move the CI/CD definitions section to the new doc and update the whitepaper draft with the link
+  - Tracy M will look at Christie's work and Tracy R's definitions.
 
 #### Meeting Recording
   - \<addme\>
