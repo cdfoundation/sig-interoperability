@@ -7,6 +7,7 @@
 - [Logistics](#Logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#Agenda-and-Notes)
+  - [2020-10-01 Meeting](#October-1-2020)
   - [2020-09-17 Meeting](#September-17-2020)
   - [2020-09-03 Meeting](#September-3-2020)
   - [2020-08-20 Meeting](#August-20-2020)
@@ -40,6 +41,33 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### October 1, 2020
+
+#### Participants
+  - \<addme\>
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - [cdCon](https://events.linuxfoundation.org/cdcon/), Tracy Miranda
+      - Happening next week!
+      - [Schedule](https://events.linuxfoundation.org/cdcon/program/schedule/)
+  - [cdCon SIG Interoperability Birds of a Feather Session](https://cdcon2020.sched.com/event/eicz), Tracy Miranda
+      - [Looking for volunteers](https://docs.google.com/document/d/1U9Cp8Xoa-FqzL5UUUaCaEk3-9AeVQBB9qhPzLAvPmQI/edit#)
+      - [Doc to keep BoF notes](https://hackmd.io/AizhDLlRTyuYWz-XidWdGg?view)
+  - [CI/CD Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
+      - What does interoperability mean in CI/CD?
+      - Trends - Events in CI/CD
+      - Case Studies
+  - \<addme\>
+
+#### Action Items
+  - Tracy M to followup Zoom Policy change, https://github.com/cdfoundation/foundation/issues/214
+  - Christie to move the CI/CD definitions section to the new doc and update the whitepaper draft with the link
+  - Tracy M will look at Christie's work and Tracy R's definitions.
+
+#### Meeting Recording
+  - \<addme\>
 
 ### September 17, 2020
 
