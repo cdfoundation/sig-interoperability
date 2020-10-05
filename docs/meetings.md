@@ -31,7 +31,7 @@
 
 * Meeting notes on HackMD.io: https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL
 * When: every even week on Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
-* Zoom Bridge: https://zoom.us/j/827082528
+* Zoom Bridge: https://zoom.us/j/827082528?pwd=RlN5OUZtVVBuZGZRY0NBRnZyZ0NJQT09
 * Zoom International dial-in numbers: https://zoom.us/zoomconference
 * Meeting Recordings: [CDF Youtube Channel SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * CDF Public Calendar: [here](https://calendar.google.com/calendar/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24%40group.calendar.google.com&ctz=America%2FLos_Angeles)
@@ -45,26 +45,59 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### October 1, 2020
 
 #### Participants
-  - \<addme\>
+  - Andreas Grimmer (Dynatrace)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - James Rawlings (CloudBees)
+  - Gareth Evans (CloudBees)
+  - Emil Bäckmark (Ericsson)
+  - Dave Sudia (GoSpotCheck)
+  - Mattias Linnér (Ericsson)
+  - Cameron Motevasselani (Armory)
+  - Tracy Miranda (CDF)
+
 
 #### Agenda and Notes
   - Action Item Review, All
+      - Tracy Miranda will start a new working group to focus on definitions
+      - Reach out to Tracy if you are intersted to contribute
   - [cdCon](https://events.linuxfoundation.org/cdcon/), Tracy Miranda
       - Happening next week!
       - [Schedule](https://events.linuxfoundation.org/cdcon/program/schedule/)
+      - TM: Registration is free and donations are optional so people can make donations.
+      - TM: Changes were made to the program to accomodate different timezones such as Europe.
+      - TM: Interactive sessions are added to the agenda such as Birds of a Feather sessions.
   - [cdCon SIG Interoperability Birds of a Feather Session](https://cdcon2020.sched.com/event/eicz), Tracy Miranda
       - [Looking for volunteers](https://docs.google.com/document/d/1U9Cp8Xoa-FqzL5UUUaCaEk3-9AeVQBB9qhPzLAvPmQI/edit#)
       - [Doc to keep BoF notes](https://hackmd.io/AizhDLlRTyuYWz-XidWdGg?view)
+      - TM: A BoF Session for SIG Interoperability is scheduled.
+      - TM: SIG participants are urged to join to the BoF, helping others.
   - [CI/CD Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
+      - Definitions
+          - TM: The conversations on definitions ignited the conversation around the need CDF to work on this area on a separate paper.
+          - TM: The term CI/CD needs improving and we can perhaps focus on Continuous Delivery which CI can be considered as a component.
+          - TM: A blog post was published on CDF Website. [Link to blog post](https://cd.foundation/blog/2020/09/24/we-need-to-stop-using-the-term-ci-cd/).
+          - DS: Sizeable chunk of people think in CD terms but others fall back to CI/CD. Lack of consistency.
+          - TM: Will have a keynote during cdCon and terms is one of the topics.
+          - DS: This is something we need to work on together.
       - What does interoperability mean in CI/CD?
+          - Review and work needed.
       - Trends - Events in CI/CD
+          - AG: We worked on problem statement within the workstream and pointed events as something to investigate in our contribution to the whitepaper.
+          - AG: We still have some wording/terminology issue. Any feedback is welcome!
+          - EB: Looked at CNCF Landscape and noticed they use product vs project.
+          - JR: Product is something from a company and project is something developed within community.
       - Case Studies
-  - \<addme\>
+          - JR: Jenkins X native integration Tekton catalog could be a good contribution.
+          - CM: We should have something for Spinnaker.
+          - DS: Summarized the presentation given a month ago. Any feedback is appreciated.
+          - EB: The contribution is under review and it will hopefully come before the next meeting.
+          - TM: FinTech (Capital One) is pretty active in CDF.
 
 #### Action Items
-  - Tracy M to followup Zoom Policy change, https://github.com/cdfoundation/foundation/issues/214
-  - Christie to move the CI/CD definitions section to the new doc and update the whitepaper draft with the link
-  - Tracy M will look at Christie's work and Tracy R's definitions.
+  - Tracy M to add SIG BoF HackMD document to session 
+  - ~~Tracy M to followup Zoom Policy change, https://github.com/cdfoundation/foundation/issues/214~~
+  - Christie and Cameron to move the CI/CD definitions section to the new doc and update the whitepaper draft with the link
+  - ~~Tracy M will look at Christie's work and Tracy R's definitions.~~
 
 #### Meeting Recording
   - \<addme\>
