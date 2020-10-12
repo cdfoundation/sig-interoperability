@@ -4,28 +4,29 @@
 
 ## Quick links
 
-- [Logistics](#Logistics)
-- [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
-- [Agenda and Notes](#Agenda-and-Notes)
-  - [2020-10-01 Meeting](#October-1-2020)
-  - [2020-09-17 Meeting](#September-17-2020)
-  - [2020-09-03 Meeting](#September-3-2020)
-  - [2020-08-20 Meeting](#August-20-2020)
-  - [2020-08-06 Meeting](#August-6-2020)
-  - [2020-07-23 Meeting](#July-23-2020)
-  - [2020-07-09 Meeting](#July-9-2020)
-  - [2020-06-25 Meeting](#June-25-2020)
-  - [2020-06-11 Meeting](#June-11-2020)
-  - [2020-05-28 Meeting](#May-28-2020)
-  - [2020-05-14 Meeting](#May-14-2020)
-  - [2020-04-30 Meeting](#April-30-2020)
-  - [2020-04-16 Meeting](#April-16-2020)
-  - [2020-04-02 Meeting](#April-2-2020)
-  - [2020-03-19 Meeting](#March-19-2020)
-  - [2020-03-05 Meeting](#March-5-2020)
-  - [2020-02-20 Meeting](#February-20-2020)
-  - [2020-02-06 Meeting](#February-6-2020)
-  - [2020-01-23 Meeting](#January-23-2020)
+* [Logistics](#Logistics)
+* [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
+* [Agenda and Notes](#Agenda-and-Notes)
+    * [2020-10-15 Meeting](#October-15-2020)
+    * [2020-10-01 Meeting](#October-1-2020)
+    * [2020-09-17 Meeting](#September-17-2020)
+    * [2020-09-03 Meeting](#September-3-2020)
+    * [2020-08-20 Meeting](#August-20-2020)
+    * [2020-08-06 Meeting](#August-6-2020)
+    * [2020-07-23 Meeting](#July-23-2020)
+    * [2020-07-09 Meeting](#July-9-2020)
+    * [2020-06-25 Meeting](#June-25-2020)
+    * [2020-06-11 Meeting](#June-11-2020)
+    * [2020-05-28 Meeting](#May-28-2020)
+    * [2020-05-14 Meeting](#May-14-2020)
+    * [2020-04-30 Meeting](#April-30-2020)
+    * [2020-04-16 Meeting](#April-16-2020)
+    * [2020-04-02 Meeting](#April-2-2020)
+    * [2020-03-19 Meeting](#March-19-2020)
+    * [2020-03-05 Meeting](#March-5-2020)
+    * [2020-02-20 Meeting](#February-20-2020)
+    * [2020-02-06 Meeting](#February-6-2020)
+    * [2020-01-23 Meeting](#January-23-2020)
 
 ## Logistics
 
@@ -41,6 +42,26 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### October 15, 2020
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* Reflections from [cdCon](https://events.linuxfoundation.org/cdcon/), All
+* Time plan for the whitepaper
+    * Decide on when to have the first draft
+* [CI/CD Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
+* \<addme\>
+ 
+#### Action Items
+  - Tracy M to add SIG BoF HackMD document to session 
+  - Christie and Cameron to move the CI/CD definitions section to the new doc and update the whitepaper draft with the link
+
+#### Meeting Recording
+  - \<addme\>
 
 ### October 1, 2020
 
