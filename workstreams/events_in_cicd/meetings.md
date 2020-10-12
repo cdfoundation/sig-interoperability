@@ -10,6 +10,43 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
+## Meeting October 12th
+Meeeting time in your timezone [here](https://time.is/1630_12_October_2020_in_UTC). You're welcome to join!
+
+Participants:
+* Emil Bäckmark (Ericsson)
+* Ravi Lachhman (Harness)
+* Andrea Frittoli (IBM)
+
+### Topics
+
+#### Meeting setup and recordings
+The meeting can now be joined without the Zoom client 
+
+#### Events Vocabulary
+https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA
+
+
+## Meeting September 28th
+Meeeting time in your timezone [here](https://time.is/1630_28_September_2020_in_UTC). You're welcome to join!
+
+Participants:
+* Andreas Grimmer (Dynatrace)
+* Emil Bäckmark (Ericsson)
+* Mattias Linnér (Ericsson)
+
+### Suggested Topics
+
+#### Meeting setup and recordings
+AP Emil: Check with Jackie (or Tracey) on if this meeting can be held as a zoom browser meeting or just with the Zoom client. What about the recording, where is it stored? Should it be on Youtube?
+
+#### Finalize contribution to SIG Whitepaper
+https://docs.google.com/document/d/10m0LVTSAqltN2xNATwKS6dU8cMx08Co9-dnvvsIXD8M/edit
+The contribution was reviewed during the meeting and moved to the [actual whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit#).
+
+#### Events Vocabulary
+https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA
+
 ## Meeting September 14th
 Meeeting time in your timezone [here](https://time.is/1630_14_September_2020_in_UTC). You're welcome to join!
 
