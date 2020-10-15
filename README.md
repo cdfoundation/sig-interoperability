@@ -76,6 +76,7 @@ interoperability between tools
 * Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), eBay
 * Cameron Motevasselani ([@link108](https://github.com/link108)), Armory
 * Dave Sudia ([@thedevelopnik](https://github.com/thedevelopnik)), GoSpotCheck
+* Andrea Frittoli ([@afrittoli])(https://github.com/afrittoli)), IBM
 
 ## New Members
 
