@@ -46,22 +46,75 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### October 15, 2020
 
 #### Participants
-* \<addme\>
+* Emil Bäckmark, Ericsson
+* Fatih Degirmenci, Ericsson Software Technology
+* Tracy Miranda, CDF
+* Tracy Ragan, DeployHub
+* Christie Wilson, Google
+* James Rawlings, CloudBees
+* Dave Sudia (GoSpotCheck)
+* Cameron Motevasselani (Armory)
+* James Strachan, CloudBees
+* Oliver Nocon, SAP
 
 #### Agenda and Notes
 * Action Item Review, All
 * Reflections from [cdCon](https://events.linuxfoundation.org/cdcon/), All
+    * TM: There were many people with questions like what is CD.
+    * TM: First event online, community coming together
+    * TM: Intereactive sessions were received well
+    * TM: Some Tekton talks were great and A.Frittoli's talk was best talk
+    * TM: To summarize, it was great
+    * TM: 1354 registrants, 70% of them accessed to the platform, 200 first day, 150 second day
+    * TM: Full report will be available soon
+    * TM: Recordings from cdCon should be available soon (starting on 22nd October). BoF reconrdings will not be available
+    * JR: Lots of people were involved in Jenkins BoF.
+    * JS: Next time, we could have more generic talks/none-specific to projects. (e.g. how do you do version control, GitOps) for practicioners to debate on.
+    * JS: Having broader BoF would allow people to discuss general issues.
+    * EB: Interop BoF was some kind of general session.
+    * Conflicts in the schedule made things tricky.
+    * TR: Chatrooms like experts chatroom, speaker chatroom, general chatroom to enable discussions.
+    * EB: Chatrooms could be kept open during the entire summit.
+    * JR: Slack/Discourse like platform may be good to think about. 
+    * TR: On existing slack, cdCon area/channel would be interesting for people to join.
+    * TM: KubeCon people encourage people to have them on Slack to keep them engaged.
+    * TM: How best structure expert/discussion chatrooms?
+    * JR: User forum like thing. Bring your user story? What is your biggest issue/problem, what do you miss from the technology? Fellow users talking to each other.
+    * TM: Planning for the next cdCon started. Probably in June 2021. North America and/or Europe. Contributor Summit for each project could help welcoming people. Any feedback on this, please reach out to Tracy.
+    * EB: It was very late for people joining from Asia so having separate zones would help. Is it possible to run event longer.
+    * DS: Another event was doing rebroadcast which could be an option.
 * Time plan for the whitepaper
     * Decide on when to have the first draft
+    * TM: I can check with creative folks to give feedback.
 * [CI/CD Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
-* \<addme\>
+    * High Level Continuous Delivery Whitepaper document: https://docs.google.com/document/d/1aZT__F57g1BMPzpsV6RAC86k_FfetkAWMhdVT22PZrM/edit?ts=5f875eda#heading=h.rrar1dgps27e
+    * Continuous Delivery Definitions work continue on: https://docs.google.com/document/d/1IUSmgtw5eC2JwyfiX7IPK3twl3MSjWAsmCKmJ6Y5z-w/edit#heading=h.yl0j54hk33l
+    * Jenkins X and Tekton case study will be available soon. We shoul dsee something by the next meeting.
+* CI/CD Industry Workshop, October 24
+    * The workshop runs as part of ISCT 2020
+    * https://conf.researchr.org/home/cciw-2020#program
+* Any low hanging fruits
+    * TM: Standardized metadata for testing (eg junit)
+    * JS: Test results interop, Visualizing test results, commits, releases could be something, should we have canonical format.
+    * EB: We are using events for this type of use case
+    * JS: It would be nice if CDF could come with some kind of format which we all can write tools to generate/consume
+    * JS: Starting simple and small could be really useful
+    * CM: A lot of people look at canary deploys, etc. But testing is generally done on CI part. I would be interested in having standard format of testing.
+    * ON: Collecting release information together would be good. Having some metadata would be helpful.
+    * JS: Once we get started, we can decide if we should have standard way to collect. (eg. CDF released metadata thing)
+* Topics for upcoming meetings
+    * Metadata workstream?
+    * James R & James S for Jenkins X and Tekton Integration demo?
+    * Tracy R for Ortelius demo?
  
 #### Action Items
-  - Tracy M to add SIG BoF HackMD document to session 
-  - Christie and Cameron to move the CI/CD definitions section to the new doc and update the whitepaper draft with the link
+  - Tracy M to come up with proposed time plan for interop whitepaper
+  - Fatih D to add "metadata" topic to next meeting
+  - ~~Tracy M to add SIG BoF HackMD document to session~~ 
+  - ~~Christie and Cameron to move the CI/CD definitions section to the new doc and update the whitepaper draft with the link~~
 
 #### Meeting Recording
-  - \<addme\>
+  - https://www.youtube.com/watch?v=5MBHiHxm_m0
 
 ### October 1, 2020
 
@@ -75,7 +128,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Mattias Linnér (Ericsson)
   - Cameron Motevasselani (Armory)
   - Tracy Miranda (CDF)
-
+  - James Strachan (CloudBees)
 
 #### Agenda and Notes
   - Action Item Review, All
@@ -121,7 +174,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - ~~Tracy M will look at Christie's work and Tracy R's definitions.~~
 
 #### Meeting Recording
-  - \<addme\>
+  - https://youtu.be/Kwf8Nn6lPIA
 
 ### September 17, 2020
 
