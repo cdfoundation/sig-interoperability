@@ -3,12 +3,45 @@
 [![hackmd-github-sync-badge](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w/badge)](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w)
 
 
-This workstream meet every second Monday at 16.30 UTC  (See your timezone [here](https://time.is/1630_in_UTC)). Register in advance for this meeting and get an invite to your calendar:
-https://zoom.us/meeting/register/tJMrcemvrzksGtSgbE3-44y5nBvCkKI6X2MT
+This workstream meet every second Monday at 16.30 UTC  (See your timezone [here](https://time.is/1630_in_UTC)). The meeting can be accessed through this zoom link: https://zoom.us/j/97660712600?pwd=Z3BqYTE5YzNsbEhmck16cjdZNEFIUT09
 
 The forming of this workstream was suggested on a [recent SIG Interoperability meeting]( https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#may-28-2020) and its first meeting was held on June 8th.
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
+
+## Meeting November 9th
+Meeeting time in your timezone [here](https://time.is/1630_9_November_2020_in_UTC). You're welcome to join!
+
+Participants:
+* \<add yourself\>
+
+### Suggested Agenda
+
+- Is the discussion frequency good as it is or should we increase it, through using the Slack channel or comments in the HackMD document?
+- What about decoupled systems, is that something we want to push for when it comes to enabling interoperability?
+
+
+## Meeting October 26th
+Meeeting time in your timezone [here](https://time.is/1630_26_October_2020_in_UTC). You're welcome to join!
+
+Participants:
+* Emil Bäckmark, Ericsson
+* Mattias Linnér, Ericsson
+* Andrea Frittoli (IBM)
+* \<add yourself\>
+
+### Agenda
+
+#### Meeting time
+- Should we stick to 16.30 UTC or should we move the meeting in accordance with daylight savings time in some way?
+- AP Emil: Bring this question to Slack
+
+#### Events Vocabulary
+https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA
+
+- We restructured the discussion section a bit
+- How should we document our discussions? Group on different topics? Timestamp? 
+
 
 ## Meeting October 12th
 Meeeting time in your timezone [here](https://time.is/1630_12_October_2020_in_UTC). You're welcome to join!
