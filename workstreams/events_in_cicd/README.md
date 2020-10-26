@@ -21,6 +21,7 @@ Current members:
 * Emil Bäckmark, Ericsson
 * Ramin Akhbari, eBay
 * Mattias Linnér, Ericsson
+* Andrea Frittoli, IBM
 
 Membership to this workstream is open to public and self-declared.
 
