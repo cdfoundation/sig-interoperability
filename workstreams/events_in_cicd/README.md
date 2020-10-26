@@ -20,6 +20,7 @@ Current members:
 * Andreas Grimmer, Dynatrace
 * Emil Bäckmark, Ericsson
 * Ramin Akhbari, eBay
+* Mattias Linnér, Ericsson
 
 Membership to this workstream is open to public and self-declared.
 
@@ -32,7 +33,4 @@ New members are advised to:
 There is a [Slack channel](https://cdeliveryfdn.slack.com/archives/C0151BTKEJX) for this workstream.
 
 ## Meetings
-Events in CI/CD workstream meets every even week on Mondays at 16.30 UTC. (*See your timezone [here](https://time.is/1630_in_UTC)*).
-
-* Meeting agenda and minutes are kept [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md)
-* Register in advance for this meeting [here](https://zoom.us/meeting/register/tJMrcemvrzksGtSgbE3-44y5nBvCkKI6X2MT). After registering, you will receive a confirmation email containing information about joining the meeting.
+Events in CI/CD workstream meets regularly to discuss a propsal on a common events protocol for CI/CD systems. For details on the agenda, meeting time, and minutes of meeting, please check [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
