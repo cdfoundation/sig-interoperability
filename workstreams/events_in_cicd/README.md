@@ -26,7 +26,7 @@ Membership to this workstream is open to public and self-declared.
 
 New members are advised to:
 * Join the [#events-in-cicd channel on CDF Slack](https://cdeliveryfdn.slack.com/archives/C0151BTKEJX) and introduce yourself.
-* Submit a PR to add yourself to the members list in this README.
+* Update [this HackMD document](https://hackmd.io/AnVkdMb3QEeVQXKfIj4tNQ) with your name and ping Emil Bäckmark on Slack to push the update to Github.
 * Regularly join the workstream meetings.
 
 ## Communication Channels
