@@ -77,6 +77,7 @@ interoperability between tools
 * Cameron Motevasselani ([@link108](https://github.com/link108)), Armory
 * Dave Sudia ([@thedevelopnik](https://github.com/thedevelopnik)), GoSpotCheck
 * Andrea Frittoli ([@afrittoli](https://github.com/afrittoli)), IBM
+* Oliver Nocon ([@olivernocon](https://github.com/olivernocon)), SAP SE
 
 ## New Members
 
