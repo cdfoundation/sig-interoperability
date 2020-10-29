@@ -78,6 +78,7 @@ interoperability between tools
 * Dave Sudia ([@thedevelopnik](https://github.com/thedevelopnik)), GoSpotCheck
 * Andrea Frittoli ([@afrittoli](https://github.com/afrittoli)), IBM
 * Oliver Nocon ([@olivernocon](https://github.com/olivernocon)), SAP SE
+* Emil Bäckmark ([@e-backmark-ericsson](https://github.com/e-backmark-ericsson)), Ericsson
 
 ## New Members
 
