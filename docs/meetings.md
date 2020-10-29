@@ -47,25 +47,101 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### October 29, 2020
 
 #### Participants
-* \<addme\>
+* Ramin Akhbari (eBay)
+* Fatih Degirmenci (Ericsson Software Technology)
+* Nitin
+* Steve Taylor (DeployHub)
+* Tracy Ragan (DeployHub)
+* Christie Wilson (Google)
+* Mattias Linnér (Ericsson)
+* James Rawlings (CloudBees)
+* James Strachan (CloudBees)
+* Vibhav Bobade (RedHat)
+* Jerop Kipruto (Google)
+* Sacha Wharton
+* Jithin Emmanuel (Verizon Media)
+* Tracy Miranda (CDF)
+* Olive Nocon (SAP)
+* Emil Backmark (Ericsson)
+* Kara de la Marck (CloudBees)
 
 #### Agenda and Notes
 * Action Item Review, All
 * Daylight Saving Time ends, Fatih Degirmenci
+    * https://time.is/compare/1500_29_Oct_2020_in_UTC/ET/PT/CT/CET/China
 * Feedback from [ICST2020 CI/CD Industry Workshop](https://conf.researchr.org/home/cciw-2020), Fatih Degirmenci
+    * FD: One of the things raised was availability of *maturity model* so companies could measure themselves against it and whether CDF has something on this
+    * TM: CDF will start a best practices working group. Things will be based on Accelerate Book.
+    * TM: Something that's easy to understand and it may not be called *maturity model*.
+    * FD: The other one was what is continuous/integration/delivery/deployment which we are already working on so we are on the right path here
+    * FD: Standardization was another question
+    * FD: How to get some collaboration going on between academia, industry, and communities which i pointed them to CDF
+    * TM: Academia can be associate members of the CDF.
+    * FD: https://sites.google.com/site/gjournalclub/
+    * FD: https://groups.google.com/forum/#!forum/google-journal-club
+    * FD: Tracy Miranda is meeting with the group leaders
 * Standardized Metadata, James Strachan
-* Time plan for CI/CD Interoperability Whitepaper, Tracy Miranda
+    * JS: There was a conversation around this topic last couple of years
+    * JS: We have been doing releases but never discussed having common metadata
+    * JS: We can start writing a spec and then look at integrating into Jenkins X, Tekton, etc.
+    * ML: How to transport the metadata vs how to define metadata?
+    * JS: Initial focus was on defining metadata. Looks like CRD but it doesn't have to be CRD.
+    * JS: It could be a message, it could be yaml.
+    * JS: Once we agree on metadata, we could look at more.
+    * JS: It doesn't have to be custom resource - it could be a file, URL, message bus.
+    * JS: Lets start with spec/schema, examples. First thing is to start generating this data.
+    * JS: Eventually the tooling to discover this metadata. We can start baking the metadata in.
+    * JS: Start defining metadata first, see what's common between Spinnaker, etc. THere is overlaps with Helm.
+    * JS: There is also app spec in Kubernetes world which may be good to align.
+    * JS: We should be able to come up with common/simplish stuff - git sha, url to pipeline log, etc.
+    * RA: Are you advocating for application metadata standard or release metadata standard.
+    * JS: Bit of both. Basic idea is what could we bake for the consumers doing CD to make it possible to understand what happens going further.
+    * JS: It is good to give people information about what to choose and allow automation so people don't need to click buttons.
+    * RA: eBay created concept of a manifest to list what got deployed. Everything about what's got deployed in the manifest.
+    * RA: Quality gates themselves are associated with the manifest and include series of badges. 
+    * RA: Number of badges: Unit test pass, Integration test pass, security scan pass, etc so admission controller allows what gets deployed.
+    * RA: An object that encompases all the information about a release.
+    * JS: Yes.
+    * RA: Concept of release manifest?
+    * ST: Ortelius project has manifest defining what release has and it is stored in the DB.
+    * ST: When you are dealing with microservices, you end up with many of them. You need to associate them with applications.
+    * ST: Using pointers to data instead of having the data in the manifest.
+    * ST: There is a standard on packages, allowing tracking back. (name??)
+    * CW: There is a Tekton project called "Chains" (https://github.com/tektoncd/chains). in-toto is working on a standard around Software supply chain protection. (https://in-toto.io/specs/)
+    * JS: Adding link is good.
+    * RA: Once you have an object which encapsulates basic data about what is being released (release manifest at eBay), this opens up possibilities.
+    * ST: Is the manifest object immutable?
+    * RA: Once the object is created, it is immutable. You do not modify manifest.
+    * RA: If changes are required, you go through the automated process to get new one created.
+    * RA: I can grab the pieces going there bring to this group. (combination of data - dependencies, git repo, etc.).
+    * TR: We've been asked to add additional data into Ortelius. (hermetic manifest/helm chart)
+    * JS: Starting with discovery, strawman doc
+    * Tracy Miranda, James Strachan, Steve Taylor volunteer
+    * Everyone to share the problems, ideas, etc.
 * [CI/CD Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
+    * Time plan for CI/CD Interoperability Whitepaper
+        * TM: Synched with the creative team and received some guidelines, CDF Template, looks straightforward
+        * TM: Decide on some diagrams.
+        * TM: Aim to get this done before end of the year.
+        * TM: End of November is the target date to get to the creative team.
+    * Any other case studies coming in?
+        * FD: Oliver from SAP
+* Waypoint
+    * Tracy M to make introductions
 * Jenkins X and Tekton Integration Demo, James Rawlings, James Strachan
-* \<addme\>
+    * The recording will be available on Youtube CDF Channel
 
 #### Action Items
-* Tracy M to come up with proposed time plan for interop whitepaper
-* Fatih D to add "metadata" topic to next meeting
-* \<addme\>
+* Fatih D to create HackMD document: https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ
+* Fatih D sync with Oliver on case study for whitepaper
+* Ramin A to bring an example manifest from eBay for metadata topic
+* Tracy R/Steve T to demo Ortelius (manifest/metadata/visibility focused)
+* James S to store slides on https://github.com/cdfoundation/presentations
+* ~~Tracy M to come up with proposed time plan for interop whitepaper~~
+* ~~Fatih D to add "metadata" topic to next meeting~~
 
 #### Meeting Recording
-* \<addme\>
+* TBD
 
 ### October 15, 2020
 
