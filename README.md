@@ -79,6 +79,7 @@ interoperability between tools
 * Andrea Frittoli ([@afrittoli](https://github.com/afrittoli)), IBM
 * Oliver Nocon ([@olivernocon](https://github.com/olivernocon)), SAP SE
 * Emil Bäckmark ([@e-backmark-ericsson](https://github.com/e-backmark-ericsson)), Ericsson
+* Vibhav Bobade ([@waveywaves](https://github.com/waveywaves)), Red Hat
 
 ## New Members
 
