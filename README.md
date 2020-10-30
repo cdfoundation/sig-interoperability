@@ -104,17 +104,24 @@ New members are advised to:
 
 SIG Interoperability is a [CDF Special Interest Group](https://github.com/cdfoundation/toc/tree/master/sigs).
 
-* Charter - *TBD*
-* Roles - *TBD*
-* Process - *TBD*
-
-Charter, roles, and process of the SIG will be documented and made available once the SIG is operational.
+The process SIG Interoperability follows can be seen from [here](https://github.com/cdfoundation/toc/blob/master/GROUPS.md#sigs).
 
 Chairs and the TOC Sponsor of the SIG are
 
 * Fatih Degirmenci ([@fdegir](https://github.com/fdegir)), Ericsson Software Technology - Chair
 * Kara de la Marck ([@MarckK](https://github.com/MarckK)), CloudBees - Co-chair
 * Dan Lorenc ([@dlorenc](https://github.com/dlorenc)), Google - TOC Sponsor
+
+### SIG Workstreams
+
+SIG Interoperability welcomes contributors who take part in the SIG to form workstreams to work on specific areas of interest
+in a more focused and structured way.
+
+Workstream governance is documented [here](./docs/workstream-governance.md).
+
+Existing workstreams are
+
+* [Events in CI/CD](./workstreams/events_in_cicd/README.md)
 
 ## Communication
 
@@ -130,8 +137,8 @@ SIG Interoperability also uses Slack for additional collaboration opportunities.
 
 SIG Interoperability meets every even week on Thursdays at 15:00UTC. (*See your timezone [here](https://time.is/1500_in_UTC)*).
 
-* Meeting agenda and minutes: [docs/meetings.md](docs/meetings.md)
-* Zoom Bridge: https://zoom.us/j/827082528
-* Zoom International dial-in numbers: https://zoom.us/zoomconference
-* CDF Public Calendar: [here](https://calendar.google.com/calendar/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+* Meeting agenda and minutes: [here](./docs/meetings.md)
 * Meeting recordings: [here](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
+* Zoom Bridge: [here](https://zoom.us/j/827082528?pwd=RlN5OUZtVVBuZGZRY0NBRnZyZ0NJQT09)
+* Zoom International dial-in numbers: [here](https://zoom.us/zoomconference)
+* CDF Public Calendar (UTC): [here](https://calendar.google.com/calendar/u/0/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24@group.calendar.google.com&ctz=UTC)
