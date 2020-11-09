@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2020-11-12 Meeting](#November-12-2020)
     * [2020-10-29 Meeting](#October-29-2020)
     * [2020-10-15 Meeting](#October-15-2020)
     * [2020-10-01 Meeting](#October-1-2020)
@@ -44,6 +45,31 @@
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
+### November 12, 2020
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* [Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
+    * New/additional case studies
+    * Remaining chapters
+* [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ), James Strachan, All
+* [Ortelius](https://github.com/ortelius/ortelius) Presentation/Demo, Tracy Ragan, Steve Taylor
+* \<addme\>
+
+#### Action Items
+* Fatih D to create HackMD document: https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ
+* Fatih D sync with Oliver on case study for whitepaper
+* Ramin A to bring an example manifest from eBay for metadata topic
+* Tracy R/Steve T to demo Ortelius (manifest/metadata/visibility focused)
+* James S to store slides on https://github.com/cdfoundation/presentations: https://github.com/cdfoundation/presentations/pull/37
+* \<addme\>
+
+#### Meeting Recording
+* TBD
+
 ### October 29, 2020
 
 #### Participants
@@ -68,7 +94,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 #### Agenda and Notes
 * Action Item Review, All
 * Daylight Saving Time ends, Fatih Degirmenci
-    * https://time.is/compare/1500_29_Oct_2020_in_UTC/ET/PT/CT/CET/China
+    * https://time.is/compare/1500_12_Nov_2020_in_UTC/PT/CT/ET/CET/China
 * Feedback from [ICST2020 CI/CD Industry Workshop](https://conf.researchr.org/home/cciw-2020), Fatih Degirmenci
     * FD: One of the things raised was availability of *maturity model* so companies could measure themselves against it and whether CDF has something on this
     * TM: CDF will start a best practices working group. Things will be based on Accelerate Book.
@@ -100,7 +126,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
     * RA: eBay created concept of a manifest to list what got deployed. Everything about what's got deployed in the manifest.
     * RA: Quality gates themselves are associated with the manifest and include series of badges. 
     * RA: Number of badges: Unit test pass, Integration test pass, security scan pass, etc so admission controller allows what gets deployed.
-    * RA: An object that encompases all the information about a release.
+    * RA: An object that encompases all the information about a release?
     * JS: Yes.
     * RA: Concept of release manifest?
     * ST: Ortelius project has manifest defining what release has and it is stored in the DB.
@@ -141,7 +167,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 * ~~Fatih D to add "metadata" topic to next meeting~~
 
 #### Meeting Recording
-* TBD
+* https://www.youtube.com/watch?v=E_EuPAdhnqM
 
 ### October 15, 2020
 
