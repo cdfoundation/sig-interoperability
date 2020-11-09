@@ -13,13 +13,17 @@ Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/
 Meeeting time in your timezone [here](https://time.is/1630_9_November_2020_in_UTC). You're welcome to join!
 
 Participants:
+* Emil Bäckmark, Ericsson
+* Mattias Linnér, Ericsson
 * \<add yourself\>
 
+### Meeting time
+As it seems to be hard for some members to join at this time, we propose that it is rescheduled to 15.00 UTC instead (same time as SIG meeting on Thursdays). This is posted on Slack in a comment as well.
+
 ### Suggested Agenda
-
 - Is the discussion frequency good as it is or should we increase it, through using the Slack channel or comments in the HackMD document?
-- What about decoupled systems, is that something we want to push for when it comes to enabling interoperability?
-
+- What about [the Standardized Metadata discussion](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#agenda-and-notes-1) that was brought up on last SIG meeting? How should it relate to our work in this workstream? 
+- [Community Specification](https://github.com/CommunitySpecification/1.0), would it be interesting for us to use?
 
 ## Meeting October 26th
 Meeeting time in your timezone [here](https://time.is/1630_26_October_2020_in_UTC). You're welcome to join!
