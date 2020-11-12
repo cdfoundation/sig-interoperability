@@ -122,6 +122,7 @@ Workstream governance is documented [here](./docs/workstream-governance.md).
 Existing workstreams are
 
 * [Events in CI/CD](./workstreams/events_in_cicd/README.md)
+* [Standardized Metadata](./workstreams/standardized_metadata/README.md)
 
 ## Communication
 
