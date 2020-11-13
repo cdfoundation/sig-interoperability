@@ -48,27 +48,51 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### November 12, 2020
 
 #### Participants
-* \<addme\>
+* Fatih Degirmenci, Ericsson Software Technology
+* James Rawlings, CloudBees
+* Jeremy Stanley, OIF/Zuul
+* Mattias Linnér, Ericsson
+* Kara de la Marck, CloudBees
+* Tracy Miranda, CDF
+* Andrea Frittoli, IBM
+* Emil Bäckmark, Ericsson
+* Oliver Nocon, SAP
 
 #### Agenda and Notes
 * Action Item Review, All
+* Meeting time for SIG Interoperability, All
+    * TM: New time makes it challenging for community members from NA to join
+    * TM and Fatih: Move meeting one hour later in UTC time (16:00 UTC). Discussion: agreement. Time may move again for summer time changes. 
 * [Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
+    * TM: Would be good to give context on size of deployments, esp for case studies
+    * Kara: should we have section on APIs/Standards/Open Standards?
+    * Tracy: Open Standards are likely what we are working towards. :)
+    * APIs section good -- Lighthouse uses same APIs as Prow, as an example with CRDs, Tekton, Kubernetes also good examples
     * New/additional case studies
     * Remaining chapters
 * [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ), James Strachan, All
+    * Meeting and workstream setup
+    * We parked the topic until we have more people
 * [Ortelius](https://github.com/ortelius/ortelius) Presentation/Demo, Tracy Ragan, Steve Taylor
-* \<addme\>
+    * This presentation will probably happen on December 10th
+* SIG Best Practices
+    * This SIG is getting started and the first meeting will take place on Monday, November 16. Please check CDF Public Calendar.
+    * The SIG takes Accelerate book as the starting point.
+    * Reach out to Tracy Miranda if you want to be included in the invite.
 
 #### Action Items
-* Fatih D to create HackMD document: https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ
-* Fatih D sync with Oliver on case study for whitepaper
+* Fatih to ping Vibhav on Jenkins Tekton Plugin for whitepaper
+* Fatih to ping Cameron on Jenkins Spinnaker for whitepaper
+* Tracy M to arrange a working session for the whitepaper
+* Tracy M to update the meeting time to 16:00UTC
+* ~~Fatih D to create HackMD document for the metadata work~~: https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ
+* ~~Fatih D sync with Oliver on case study for whitepaper~~
 * Ramin A to bring an example manifest from eBay for metadata topic
 * Tracy R/Steve T to demo Ortelius (manifest/metadata/visibility focused)
-* James S to store slides on https://github.com/cdfoundation/presentations: https://github.com/cdfoundation/presentations/pull/37
-* \<addme\>
+* ~~James S to store slides on https://github.com/cdfoundation/presentations~~: https://github.com/cdfoundation/presentations/pull/37
 
 #### Meeting Recording
-* TBD
+* https://www.youtube.com/watch?v=EH9NAEoWdNI
 
 ### October 29, 2020
 
@@ -87,7 +111,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 * Sacha Wharton
 * Jithin Emmanuel (Verizon Media)
 * Tracy Miranda (CDF)
-* Olive Nocon (SAP)
+* Oliver Nocon (SAP)
 * Emil Backmark (Ericsson)
 * Kara de la Marck (CloudBees)
 
@@ -215,7 +239,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 * [CI/CD Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
     * High Level Continuous Delivery Whitepaper document: https://docs.google.com/document/d/1aZT__F57g1BMPzpsV6RAC86k_FfetkAWMhdVT22PZrM/edit?ts=5f875eda#heading=h.rrar1dgps27e
     * Continuous Delivery Definitions work continue on: https://docs.google.com/document/d/1IUSmgtw5eC2JwyfiX7IPK3twl3MSjWAsmCKmJ6Y5z-w/edit#heading=h.yl0j54hk33l
-    * Jenkins X and Tekton case study will be available soon. We shoul dsee something by the next meeting.
+    * Jenkins X and Tekton case study will be available soon. We should see something by the next meeting.
 * CI/CD Industry Workshop, October 24
     * The workshop runs as part of ISCT 2020
     * https://conf.researchr.org/home/cciw-2020#program
