@@ -80,6 +80,7 @@ interoperability between tools
 * Oliver Nocon ([@olivernocon](https://github.com/olivernocon)), SAP SE
 * Emil Bäckmark ([@e-backmark-ericsson](https://github.com/e-backmark-ericsson)), Ericsson
 * Vibhav Bobade ([@waveywaves](https://github.com/waveywaves)), Red Hat
+* Jerop Kipruto ([@jerop](https://github.com/jerop)), Google
 
 ## New Members
 
