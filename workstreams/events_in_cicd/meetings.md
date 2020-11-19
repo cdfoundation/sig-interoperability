@@ -3,11 +3,27 @@
 [![hackmd-github-sync-badge](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w/badge)](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w)
 
 
-This workstream meet every second Monday at 16.30 UTC  (See your timezone [here](https://time.is/1630_in_UTC)). The meeting can be accessed through this zoom link: https://zoom.us/j/97660712600?pwd=Z3BqYTE5YzNsbEhmck16cjdZNEFIUT09
+This workstream meet every second Monday at 16.00 UTC  (See your timezone [here](https://time.is/1600_in_UTC)). The meeting can be accessed through this zoom link: https://zoom.us/j/97660712600?pwd=Z3BqYTE5YzNsbEhmck16cjdZNEFIUT09
 
 The forming of this workstream was suggested on a [recent SIG Interoperability meeting]( https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#may-28-2020) and its first meeting was held on June 8th.
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
+
+
+## Meeting November 23rd
+Meeeting time in your timezone [here](https://time.is/1600_23_November_2020_in_UTC). You're welcome to join!
+
+Participants:
+* \<add yourself\>
+
+### Meeting Time
+It was decided through a Slack discussion to move our meetings to 16.00 UTC starting from this meeting.
+
+### Suggested Agenda
+- Is the discussion frequency good as it is or should we increase it, through using the Slack channel or comments in the HackMD document?
+- What about [the Standardized Metadata discussion](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#agenda-and-notes-1) that was brought up on last SIG meeting? How should it relate to our work in this workstream? 
+- [Community Specification](https://github.com/CommunitySpecification/1.0), would it be interesting for us to use?
+
 
 ## Meeting November 9th
 Meeeting time in your timezone [here](https://time.is/1630_9_November_2020_in_UTC). You're welcome to join!
