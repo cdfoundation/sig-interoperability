@@ -14,15 +14,49 @@ Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/
 Meeeting time in your timezone [here](https://time.is/1600_23_November_2020_in_UTC). You're welcome to join!
 
 Participants:
-* \<add yourself\>
+* Ravi Lachhman, Harness
+* Emil Bäckmark, Ericsson
+* Mattias Linnér, Ericsson
+* Cameron Motevasselani, Armory
+* Andrea Frittoli, IBM
+* Andreas Grimmer, Dynatrace
+* Tracy Ragan, DeployHub
 
 ### Meeting Time
 It was decided through a Slack discussion to move our meetings to 16.00 UTC starting from this meeting.
 
-### Suggested Agenda
-- Is the discussion frequency good as it is or should we increase it, through using the Slack channel or comments in the HackMD document?
-- What about [the Standardized Metadata discussion](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#agenda-and-notes-1) that was brought up on last SIG meeting? How should it relate to our work in this workstream? 
+### Agenda
+
+#### The life of this worksteam
+- TR: Should this workstream be lifted to become it's own SIG? It would benefit the group and also CDF
+- We should collect input from the SIG Interop about this idea on Thursday.
+- The idea of lifting this to its own SIG should also be lifted to Dan Lorenc, to be discussed on the TOC level
+- Suggested scope
+    - What would an event driven CICD 'practice' look like?
+    - Focusing on the event protocol or a higher level? Also including events infrastructure?
+    - Focusing on a common events listener? Or instead of a provided events listener, it could be a layer on top of an existing cloudevents library meant to listen to and parse events in certain libraries
+- We should get in people from Puppet as well, CircleCI, Argo, Codefresh, JFrog, Gitlab. And of course the existing: Harness, Keptn, Ortelius, Spinnaker, Weaveworks (for Flagger). And end-users like Ramin (eBay)
+- Focus on tools for orchestration/workflows or also release/delivery/deployment tools?
+- TR: Reasons for events in Ortelius
+    - Regardless of platform used, the workflows should be able to state their progress and risk levels in a generic way. To enable 'smart CD pipelines'
+
+#### Note:
+- Member webinar around events next week (see CDF Calendar): 'CDF Ambassador Webinar: A Guide to Event-driven SRE-inspired DevOps', Wednesday December 2nd
+- https://docs.google.com/document/d/11EZfvB2FFI837nMmArnyv-wizsIJvc-4_xdgfoUXF4o/edit?ts=5fb68361#heading=h.mspta0kuuv9j
+
+#### Is the discussion frequency good as it is or should we increase it, through using the Slack channel or comments in the HackMD document?
+- Discussion to be continued on this topic when/if the workstream is lifted to it's own SIG
+
+#### Metadata group
+- What about [the Standardized Metadata discussion](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#agenda-and-notes-1) that was brought up on last SIG meeting? How should it relate to our work in this workstream?
+- If events in CICD will become a SIG then maybe the metadata group should be part of it 
+
+### Community Specification
 - [Community Specification](https://github.com/CommunitySpecification/1.0), would it be interesting for us to use?
+    - It's about getting a head start in defining a new specification. Taking care of legal aspects etc.
+    - It could be cloned or linked to from a new specification that we create for events
+    - What about Cloudevents? Do they use this? Why? Why not?
+    - It might already be covered within CDF, and therefore we might not need it. Should be asked to Tracy Miranda
 
 
 ## Meeting November 9th
@@ -31,7 +65,7 @@ Meeeting time in your timezone [here](https://time.is/1630_9_November_2020_in_UT
 Participants:
 * Emil Bäckmark, Ericsson
 * Mattias Linnér, Ericsson
-* \<add yourself\>
+* Andreas Grimmer, Dynatrace
 
 ### Meeting time
 As it seems to be hard for some members to join at this time, we propose that it is rescheduled to 15.00 UTC instead (same time as SIG meeting on Thursdays). This is posted on Slack in a comment as well.
