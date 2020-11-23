@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2020-11-26 Meeting](#November-26-2020)
     * [2020-11-12 Meeting](#November-12-2020)
     * [2020-10-29 Meeting](#October-29-2020)
     * [2020-10-15 Meeting](#October-15-2020)
@@ -33,7 +34,7 @@
 ## Logistics
 
 * Meeting notes on HackMD.io: https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL
-* When: every even week on Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
+* When: every even week on Thursdays at 16:00UTC (*See your timezone [here](https://time.is/1600_in_UTC)*).
 * Zoom Bridge: https://zoom.us/j/827082528?pwd=RlN5OUZtVVBuZGZRY0NBRnZyZ0NJQT09
 * Zoom International dial-in numbers: https://zoom.us/zoomconference
 * Meeting Recordings: [CDF Youtube Channel SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
@@ -44,6 +45,29 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+
+### November 26, 2020
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All 
+* [Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
+* [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ), All
+* \<addme\>
+
+#### Action Items
+* Fatih to ping Vibhav on Jenkins Tekton Plugin for whitepaper
+* Fatih to ping Cameron on Jenkins Spinnaker for whitepaper
+* Tracy M to arrange a working session for the whitepaper
+* Tracy M to update the meeting time to 16:00UTC
+* Ramin A to bring an example manifest from eBay for metadata topic
+* Tracy R/Steve T to demo Ortelius (manifest/metadata/visibility focused)
+
+#### Meeting Recording
+* \<addme\>
 
 ### November 12, 2020
 
