@@ -50,21 +50,53 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 ### November 26, 2020
 
 #### Participants
-* \<addme\>
+* Andreas Grimmer (Dynatrace)
+* Fatih Degirmenci (Ericsson Software Technology)
+* James Rawlings (CloudBees)
+* Oliver Nocon (SAP)
+* Kara de la Marck (CloudBees)
+* Emil Bäckmark (Ericsson)
+* Mattias Linnér (Ericsson)
+* James Strachan (CloudBees)
+* Vibhav Bobade (Red Hat)
+* Tracy Miranda (CDF)
 
 #### Agenda and Notes
 * Action Item Review, All 
 * [Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
+    * TM: Keep the whitepaper in line with CDF way of expressing things such as CD, Pipeline Orchestration
+    * Updates to the chapters
+        * What are we discussing with Continuous Delivery?
+        * What Does Interoperability Mean in Continuous Delivery context?
+        * Key Considerations, Constraints, and Concerns
+        * Trends
+            * Reusable Libraries
+            * Standardized Metadata
+    * New Case Studies
+        * Tekton Client for Jenkins
+        * Jenkins X and Tekton
+        * Zuul
+    * Questions and Open Issues
+        * Addressing different audiences
+            * Decision makers: Should we have an Executive Summary???
+        * References need to be gathered at the end
+        * Contributors are listed based on history of the doc (people contributed case studies/chapters and commented)
+        * New Chapters added during last meeting
+            * APIs
+            * Secrets
+        * Future and conclusion still missing
 * [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ), All
-* \<addme\>
 
 #### Action Items
-* Fatih to ping Vibhav on Jenkins Tekton Plugin for whitepaper
+* ~~Fatih to ping Vibhav on Jenkins Tekton Plugin for whitepaper~~
 * Fatih to ping Cameron on Jenkins Spinnaker for whitepaper
-* Tracy M to arrange a working session for the whitepaper
-* Tracy M to update the meeting time to 16:00UTC
+* ~~Tracy M to arrange a working session for the whitepaper~~
+* ~~Tracy M to update the meeting time to 16:00UTC~~
 * Ramin A to bring an example manifest from eBay for metadata topic
 * Tracy R/Steve T to demo Ortelius (manifest/metadata/visibility focused)
+* James S to bring Tekton metadata example to standardized metadata discussion
+* Events in CI/CD workstream to provide input based on their discussions
+* Tracy M to bring the whitepaper to the attention of CDF creative team
 
 #### Meeting Recording
 * \<addme\>
