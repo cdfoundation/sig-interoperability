@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2020-12-10 Meeting](#December-10-2020)
     * [2020-11-26 Meeting](#November-26-2020)
     * [2020-11-12 Meeting](#November-12-2020)
     * [2020-10-29 Meeting](#October-29-2020)
@@ -46,6 +47,34 @@
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
+
+### December 10, 2020
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All 
+* Upcoming SIG Meetings
+    * Propose to cancel meeting on December 24 and reconvene on Januar 7
+* Wrapping up [Interoperability Whitepaper](https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit), All
+* Events in CI/CD Workstream to become a separate SIG, Emil Bäckmark
+    * See the [workstream meeting minutes](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w?view) for details
+* [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ), James Strachan
+* [Ortelius](https://github.com/ortelius/ortelius) Presentation/Demo, Tracy Ragan, Steve Taylor
+* \<addme\>
+
+#### Action Items
+* Fatih to ping Cameron on Jenkins Spinnaker for whitepaper
+* Ramin A to bring an example manifest from eBay for metadata topic
+* Tracy R/Steve T to demo Ortelius (manifest/metadata/visibility focused)
+* James S to bring Tekton metadata example to standardized metadata discussion
+* Events in CI/CD workstream to provide input based on their discussions
+* Tracy M to bring the whitepaper to the attention of CDF creative team
+* \<addme\>
+
+#### Meeting Recording
+* \<addme\>
 
 ### November 26, 2020
 
