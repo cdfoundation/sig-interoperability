@@ -10,6 +10,66 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
 
+## Meeting December 7th
+Meeeting time in your timezone [here](https://time.is/1600_7_December_2020_in_UTC). You're welcome to join!
+
+Participants:
+* Ravi Lachhman, Harness
+* Andreas Grimmer, Dynatrace
+* Emil Bäckmark, Ericsson
+* Steve Taylor, DeployHub
+* Mattias Linnér, Ericsson
+* Tracy Ragan, DeployHub
+* Andrea Frittoli, IBM
+
+### Agenda and Notes
+
+#### Use Cases from DeployHub on this workstream
+- Interested in seeing some of the CDF projects move into an event driven pipeline
+- Ortelius keeps track of deliveries that are to be deployed and their relationships
+    - Generate workflows on the fly
+    - Events should be propagated saying for example 'I have completed this step'
+
+#### Events in CICD Workstream to become SIG?
+Let's continue the discussion on this idea brought up on last meeting.
+- What about the relation to SIG Interoperability? To workstream Metadata? Others?
+- Having a SIG means a bit more formality and also provides more visibility of the group.
+- To Do: Level of effort and commitments for Working Group vs SIG. 
+    - Having a SIG might attract more volunteers
+- A charter would be needed for a SIG. We would benefit from creating a charter, given a clear scope and direction
+    - We should work on the charter regardless of if we become a SIG or not
+    - AP Andreas: Set up a Google docs where we could initiate the charter work
+- There is a risk that this group could be slowed down due to the extra work needed
+- What about the metadata workstream? Should it be part of this new SIG or SIG Interop?
+- Sig Interop Charter: https://github.com/cdfoundation/sig-interoperability/blob/master/docs/roadmap.md#charter
+- We should join the TOC in January to discuss this
+    - Tracy will ask for us to get a point on the agenda for January 19th. No preparations needed from our end.
+- Should SIG Interop be renamed to SIG events or should there be a separate SIG for it?
+- Sig Repo: https://github.com/cdfoundation/sig-interoperability
+
+#### cdCon 2021
+We should contribute to it
+- cdCon will be in June
+- CFP is not there yet
+- 'Event driven CI/CD' could be a valid topic
+
+#### Other conferences
+- Online DevOps online summit, on Slack. Tracy has been asked to set up a CI/CD channel for it.
+    - https://devopsonlinesummit.com/
+
+#### Contribute to Metadata workstream
+Metadata workstream is about to get started and we should provide any input we have that relates to metadata to it: [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ)
+- We never discussed this agenda point at this meeting
+
+#### Events Vocabulary
+Let's progress the vocabulary discussions
+- We never discussed this agenda point at this meeting
+
+#### Next Meeting
+Ok to meet December 21st, or should we postpone it till after xmas? What about Monday 4th of January in Epiphany week?
+- Decided to meet December 21st
+- 4th of January is skipped so first meeting after new year will be 18th of January
+
 ## Meeting November 23rd
 Meeeting time in your timezone [here](https://time.is/1600_23_November_2020_in_UTC). You're welcome to join!
 
