@@ -10,6 +10,54 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
 
+## Meeting December 21th
+Meeeting time in your timezone [here](https://time.is/1600_7_December_2020_in_UTC). You're welcome to join!
+
+Participants:
+- Emil Bäckmark, Ericson
+- Andreas Grimmer, Dynatrace
+- Ravi Lachhman, Harness
+- Andrea Frittoli, IBM
+- Mauricio Salatino, Camunda / LearnK8s
+
+### Agenda and Notes
+
+#### Charter
+- On December 7th, we decided on working on a charter for our workstream. You can find the working document [here](https://docs.google.com/document/d/1cuaOHmrvK20WxHxHZZuLif3CW3q1ICZ_RglJRp_IAQ0/edit?usp=sharing)
+- Main focus areas for the Events SIG
+  - Defining a protocol, and documenting it
+  - Providing how to apply the protocol in different use cases, such as monitoring, triggering activities, audits, etc
+  - Providing a reference implementation of services/libraries showcasing the protocol
+- We should all review and contribute to the charter before or on the next meeting
+
+#### CD-Flow
+Mauricio will provide a presentation on this work in a later meeting
+- https://github.com/salaboy/cd-flow/ 
+
+#### FOSDEM CI/CD Devroom
+
+It could be nice to present the work of this group at [FOSDEM 2021](https://fosdem.org/2021/schedule/track/continuous_integration_and_continuous_deployment/).
+The CFP closes on Dec 27, the conference takes place (virtually) on 6, 7 Feb 2021.
+
+#### cdCon 2021
+We should contribute to it
+- cdCon will be in June
+- CFP (not open yet)
+- 'Event driven CI/CD' could be a valid topic
+- https://events.linuxfoundation.org/cdcon/
+
+#### Other conferences
+Online DevOps online summit, on Slack. Tracy has been asked to set up a CI/CD channel for it.
+- https://devopsonlinesummit.com/
+
+#### Contribute to Metadata workstream
+Metadata workstream is about to get started and we should provide any input we have that relates to metadata to it: [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ)
+- We never discussed this agenda point at this meeting
+
+#### Next Meeting
+4th of January is skipped so first meeting after new year will be 18th of January? Or do we want a meeting before the TOC meeting where the workstream becoming a SIG will be lifted? When is the next SIG Interop meeting?
+AP Emil: Ask Tracey/Fatih to cancel the meeting January 4th
+
 ## Meeting December 7th
 Meeeting time in your timezone [here](https://time.is/1600_7_December_2020_in_UTC). You're welcome to join!
 
