@@ -2,6 +2,7 @@
 
 - [Introduction](#introduction)
 - [Terminology Used by CI/CD Tools and Technologies](#terminology-used-by-cicd-tools-and-technologies)
+  - [ArgoCD](#argo-cd)
   - [CircleCI](#circleci)
   - [Eiffel](#eiffel)
   - [GitHub Actions](#github-actions)
@@ -50,6 +51,29 @@ humans to communicate and collaborate better.
 
 This section contains list of some key terms used by various CI/CD tools and
 technologies.
+
+### ArgoCD
+
+[ArgoCD](https://argoproj.github.io/argo-cd/) is a declarative, GitOps continuous delivery tool for Kubernetes.
+
+Some of the core ArgoCD concept are listed below: [[16]]
+
+- **Application**: A group of Kubernetes resources as defined by a manifest. This is a Custom Resource Definition (CRD).
+- **Application controller** [[19]]: Kubernetes controller which continuously monitors running applications and compares live vs. desired state.
+- **Application source type**: Which Tool is used to build the application.
+- **Target state**: The desired state of an application, as represented by files in a Git repository.
+- **Live state**: The live state of that application. What pods etc are deployed.
+- **Sync status**: Whether or not the live state matches the target state. Is the deployed application the same as Git says it should be?
+- **Sync**: The process of making an application move to its target state. E.g. by applying changes to a Kubernetes cluster.
+- **Sync operation status**: Whether or not a sync succeeded.
+- **Refresh**: Compare the latest code in Git with the live state. Figure out what is different.
+- **Health**: The health of the application, is it running correctly? Can it serve requests?
+- **Tool**: A tool to create manifests from a directory of files. E.g. Kustomize or Ksonnet. See Application Source Type.
+- **Configuration management tool**: See Tool.
+- **Configuration management plugin**: A custom tool.
+- **Project** [[17]]: A logical grouping of applications. They enable control over deployment permissions based on source, target and kind, among other criteria.
+- **Sync phases** [[18]]: Pre-sync, sync and post-sync allow for controlled orchestrated execution of sync operations.
+- **Sync waves**: Within any one sync phase, an additional control of sequential execution is accomplished using waves, to ensure certain resources are healthy before subsequent resources are synced.
 
 ### CircleCI
 
@@ -337,7 +361,8 @@ pipeline in corresponding documentation.
 
 | Project            |          |          |          |          |         |              |
 |--------------------|----------|----------|----------|----------|---------|--------------|
-| **CircleCI**       | N/A      | Step     | Job      | Workflow | Trigger | Executor     |
+| **ArgoCD**         | Sync Wave         | Sync Phase  | Sync      |N/A      | Event         |  Application Controller            |
+| **CircleCI**       | N/A      | Step     | Job      | Workflow | Trigger | Executor     |                    |          |          |          |          |         |              |
 | **Eiffel**         | Activity | Activity | Activity | Activity | Event   | Environment  |
 | **GitHub Actions** | Action   | Step     | Job      | Workflow | Event   | Runner       |
 | **GitLab CI/CD**   | N/A      | Job      | Stage    | Pipeline | Trigger | Runner       |
@@ -381,3 +406,7 @@ TBD
 [13]: https://docs.gitlab.com/ee/user/project/merge_requests/
 [14]: https://github.com/eiffel-community/eiffel/tree/master/eiffel-vocabulary
 [15]: https://docs.harness.io/article/4o7oqwih6h-harness-key-concepts
+[16]: https://argoproj.github.io/argo-cd/core_concepts/
+[17]: https://argoproj.github.io/argo-cd/user-guide/projects/
+[18]: https://argoproj.github.io/argo-cd/user-guide/sync-waves/
+[19]: https://argoproj.github.io/argo-cd/operator-manual/architecture/
