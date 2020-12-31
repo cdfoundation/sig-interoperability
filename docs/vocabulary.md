@@ -60,7 +60,7 @@ Some of the core ArgoCD concept are listed below: [[16]]
 
 - **Application**: A group of Kubernetes resources as defined by a manifest. This is a Custom Resource Definition (CRD).
 - **Application controller** [[19]]: Kubernetes controller which continuously monitors running applications and compares live vs. desired state.
-- **Application source type**: Which Tool is used to build the application.
+- **Application source type**: Which tool is used to build the application.
 - **Target state**: The desired state of an application, as represented by files in a Git repository.
 - **Live state**: The live state of that application. What pods etc are deployed.
 - **Sync status**: Whether or not the live state matches the target state. Is the deployed application the same as Git says it should be?
@@ -69,7 +69,7 @@ Some of the core ArgoCD concept are listed below: [[16]]
 - **Refresh**: Compare the latest code in Git with the live state. Figure out what is different.
 - **Health**: The health of the application, is it running correctly? Can it serve requests?
 - **Tool**: A tool to create manifests from a directory of files. E.g. Kustomize or Ksonnet. See Application Source Type.
-- **Configuration management tool**: See Tool.
+- **Configuration management tool**: See tool.
 - **Configuration management plugin**: A custom tool.
 - **Project** [[17]]: A logical grouping of applications. They enable control over deployment permissions based on source, target and kind, among other criteria.
 - **Sync phases** [[18]]: Pre-sync, sync and post-sync allow for controlled orchestrated execution of sync operations.
@@ -359,21 +359,21 @@ this document use the word pipeline to describe pretty similar things. Smaller
 units of terms then mapped based on how they are described in relation to
 pipeline in corresponding documentation.
 
-| Project            |          |          |          |          |         |              |
-|--------------------|----------|----------|----------|----------|---------|--------------|
-| **ArgoCD**         | Sync Wave         | Sync Phase  | Sync      |N/A      | Event         |  Application Controller            |
-| **CircleCI**       | N/A      | Step     | Job      | Workflow | Trigger | Executor     |                    |          |          |          |          |         |              |
-| **Eiffel**         | Activity | Activity | Activity | Activity | Event   | Environment  |
-| **GitHub Actions** | Action   | Step     | Job      | Workflow | Event   | Runner       |
-| **GitLab CI/CD**   | N/A      | Job      | Stage    | Pipeline | Trigger | Runner       |
-| **Harness**        | N/A      | Step     | Pipeline | Workflow | Trigger | Delegate     |
-| **Jenkins**        | N/A      | Job      | Stage    | Pipeline | Trigger | Agent/Node   |
-| **Jenkins X**      | N/A      | Step     | Stage    | Pipeline | Trigger | Agent        |
-| **Keptn**          | N/A      | N/A      | Task     | Workflow | Event   | Keptn-service|
-| **Screwdriver**    | N/A      | Step     | Job      | Pipeline | Trigger | N/A          |
-| **Spinnaker**      | N/A      | Task     | Stage    | Pipeline | Trigger | Cluster      |
-| **Tekton**         | N/A      | Step     | Task     | Pipeline | Trigger | Resource (?) |
-| **Zuul**           | N/A      | N/A      | Job      | Pipeline | Trigger | Node (?)     |
+| Project            |           |            |          |          |         |                        |
+|--------------------|-----------|------------|----------|----------|---------|------------------------|
+| **ArgoCD**         | Sync Wave | Sync Phase | Sync     | N/A      | Event   | Application Controller |
+| **CircleCI**       | N/A       | Step       | Job      | Workflow | Trigger | Executor               |
+| **Eiffel**         | Activity  | Activity   | Activity | Activity | Event   | Environment            |
+| **GitHub Actions** | Action    | Step       | Job      | Workflow | Event   | Runner                 |
+| **GitLab CI/CD**   | N/A       | Job        | Stage    | Pipeline | Trigger | Runner                 |
+| **Harness**        | N/A       | Step       | Pipeline | Workflow | Trigger | Delegate               |
+| **Jenkins**        | N/A       | Job        | Stage    | Pipeline | Trigger | Agent/Node             |
+| **Jenkins X**      | N/A       | Step       | Stage    | Pipeline | Trigger | Agent                  |
+| **Keptn**          | N/A       | N/A        | Task     | Workflow | Event   | Keptn-service          |
+| **Screwdriver**    | N/A       | Step       | Job      | Pipeline | Trigger | N/A                    |
+| **Spinnaker**      | N/A       | Task       | Stage    | Pipeline | Trigger | Cluster                |
+| **Tekton**         | N/A       | Step       | Task     | Pipeline | Trigger | Resource (?)           |
+| **Zuul**           | N/A       | N/A        | Job      | Pipeline | Trigger | Node (?)               |
 
 ### SCM Tools and Technologies
 
