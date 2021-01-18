@@ -9,6 +9,58 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
+## Meeting January 18th
+Meeeting time in your timezone [here](https://time.is/1600_18_January_2021_in_UTC). You're welcome to join!
+
+Participants:
+- Andreas Grimmer, Dynatrace
+- Emil Bäckmark, Ericsson
+- Ravi Lachhman, Harness
+- Mattias Linnér, Ericsson
+- Steve Taylor, DeployHub/Ortelius
+- Mauricio Salatino, Camunda / LearnK8s 
+- Erik Sternerson, doWhile
+- Tracy Ragan, DeployHub/Ortelius
+
+### Agenda and Notes
+
+#### Upcoming Conferences
+- [FOSDEM 2021](https://fosdem.org/2021/) - February 7th - 8th
+    - Andrea will present our workstream in the [CI/CD room](https://fosdem.org/2021/schedule/track/continuous_integration_and_continuous_deployment/)
+    - https://afrittoli.github.io/events-in-cicd/
+- [Devops Online Summit](https://devopsonlinesummit.com/) - April 26th – 30th
+    - [CFP](https://devopsonlinesummit.com/the-tremendous-devops-online-summit-2021-tracks-have-just-arrived/) closes on February 7th
+    - Held on Slack
+    - Tracy Ragan will drive the CI/CD track
+- [cdCon 2021](https://events.linuxfoundation.org/cdcon/) - June 23rd - 24th
+    - [CFP](https://events.linuxfoundation.org/cdcon/program/cfp/) closes March 5th (Early Bird closes February 19th)
+- [Istio-CON](https://sessionize.com/istiocon-2021/) - Feb 22 - 25, 2021 
+    - CFS closes today
+
+#### Becoming a SIG
+- Will possibly be brought up on tomorrow's TOC meeting: https://docs.google.com/document/d/1uBHar55fTInWF9Li4t0lyG3tTC8BRLU0FfBfsgk_Jrs/edit?ts=5c9580be#
+- [CDF Toc Invite for tomorrow](https://calendar.google.com/calendar/event?eid=N2tiaTNwamdlOW0xbnRiYzZodjgzYW10NXJfMjAyMTAxMTlUMTYwMDAwWiBsaW51eGZvdW5kYXRpb24ub3JnX21oZjBrbWdlZG42N2lobmk4cjEyOWF2cDI0QGc)
+- https://zoom.us/j/967220397?pwd=ZW5WQWNvOGhVRG1SeUthamJqQzZXdz09
+Passcode: 77777
+    - Emil could present our workstream there
+- Events should be considered for all areas in the [CD Foundation Landspace](https://landscape.cd.foundation/)
+
+#### Charter
+[Charter document in progress](https://docs.google.com/document/d/1cuaOHmrvK20WxHxHZZuLif3CW3q1ICZ_RglJRp_IAQ0/edit?usp=sharing)
+- Main focus areas for the Events SIG (as written on last meetings minutes)
+  - Defining a protocol, and documenting it
+  - Providing how to apply the protocol in different use cases, such as monitoring, triggering activities, audits, etc
+  - Providing a reference implementation of services/libraries showcasing the protocol
+
+#### Contribute to Metadata workstream
+- Metadata workstream is about to get started and we should provide any input we have that relates to metadata to it: [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ)
+
+#### Upcoming Presentations
+- [CD Flow](https://github.com/salaboy/cd-flow/) - date to be decided
+- [Events Vocabulary](https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA?view)
+
+#### Cloud Events
+- Question from the Interop WG. Did we connect (or plant to) with the CloudEvents team
 
 ## Meeting December 21th
 Meeeting time in your timezone [here](https://time.is/1600_7_December_2020_in_UTC). You're welcome to join!
@@ -35,7 +87,6 @@ Mauricio will provide a presentation on this work in a later meeting
 - https://github.com/salaboy/cd-flow/ 
 
 #### FOSDEM CI/CD Devroom
-
 It could be nice to present the work of this group at [FOSDEM 2021](https://fosdem.org/2021/schedule/track/continuous_integration_and_continuous_deployment/).
 The CFP closes on Dec 27, the conference takes place (virtually) on 6, 7 Feb 2021.
 
