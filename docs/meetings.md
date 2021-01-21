@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-01-21 Meeting](#January-21-2021)
     * [2021-01-07 Meeting](#January-7-2021)
 
 ## Logistics
@@ -26,6 +27,74 @@
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
+
+### January 21, 2021
+
+#### Participants
+* Fatih Degirmenci, Ericsson Software Technology
+* Andreas Grimmer, Dynatrace
+* Mattias Linnér, Ericsson
+* Kara de la Marck, CloudBees
+* Christie Wilson, Google
+* Tracy Miranda, CDF
+* Emil Bäckmark, Ericsson
+* Anthony O'Gorman, Fidelity Investments
+* Oliver Nocon (SAP)
+* Jeremy Stanley, OpenDev/Zuul
+* Andrea Frittoli, IBM
+
+#### Agenda and Notes
+* Action Item Review, All
+* Events in CI/CD becoming SIG, Workstream Members
+    * EB: Draft charter for the SIG was presented to CDF TOC on January 19. Positive response received.
+    * AG: Charter had priority and contribution to standardized metadata is in the backlog.
+* Interoperability Whitepaper, Tracy Miranda
+    * TM: Work is in progress by the creative team. References is empty and will be .
+    * TM: Content will be massaged and visuals will be included.
+    * TM: Additional feedback will be asked to the community members.
+* cdCon Update, Tracy Miranda
+    * TM: CFP is open. 
+    * TM: Early bird submissions are open and 5 proposal will be selected and highlighted as Early Bird picks by the programming committee.
+    * TM: Proposals are welcome.
+    * TM: Hopin platform is integrated with the tool [Miro](https://miro.com) to collaboratively/interactively work on visual material.
+* End User Council Update, Tracy Miranda
+    * TM: End User Council has its [own repo](https://github.com/cdfoundation/end-user-council).
+    * TM: End User Council published 2021 plan and the material is available in [End User Repo on GitHub](https://github.com/cdfoundation/end-user-council/blob/main/End%20User%20Council%20Plan%202021.pdf).
+    * TM: There will be discussions relevant to Interoperability area and there will be discussions on the topic in End User Council.
+* SIG Interoperability One Year Old, All
+    * [Blog post](https://cd.foundation/blog/2021/01/19/cdf-sig-interoperability-2020-year-in-review/) celebrating this 
+* [Continuous Delivery Definitions](https://docs.google.com/document/d/1IUSmgtw5eC2JwyfiX7IPK3twl3MSjWAsmCKmJ6Y5z-w/edit#), [CD timeline](https://github.com/cdfoundation/glossary/blob/main/timeline.md), Christie Wilson
+    * CW: The discussion on definitions started in this group so I wanted to give an update to the group.
+    * CW: The interoperability whitepaper had a section to describe CI and CD and there were lots of conversations on the topic.
+    * CW: One thing I did was to get some progress was to create a timeline to see when/where these things were originated. Both Continues Deliver and Continuous Deployment appeared same year.
+    * CW: First appearance of Continuous Delivery was in [Agile Manifesto](https://agilemanifesto.org/principles.html)
+    * FD: What about related terms such as DevOps, DevSecOps, GitOps, Progressive Delivery? (https://github.com/cdfoundation/glossary/issues/7)
+    * TM: Can help out with them.
+    * CW: Jez Humble tries to explain the differences between and reasons for (e.g., business) Continuous Delivery vs Continuous Deployment. (https://continuousdelivery.com/2010/08/continuous-delivery-vs-continuous-deployment/)
+    * KM & CW: This topic could feed into the work done in CDF Best Practices SIG.
+    * TM: Everybody has a different view on Continuous Delivery and Continuous Deployment. If we say Continuous Delivery is much wider and what other things it compasses.
+    * TM: What are the best practices for using SCM, deployment strategy, trunk based development, GitOps, advanced bots, ChatOps.
+    * TM: Best Practices SIG started the work recently.
+    * AO: [SIG Best Practices](https://github.com/cdfoundation/sig-best-practices) is a good idea an want to be involved in it.
+* Ortelius Presentation/Demo, Tracy Ragan, Steve Taylor
+    * Postponed
+ 
+#### Action Items
+* Ramin A to bring an example manifest from eBay for metadata topic - Fatih to remind
+* Tracy R/Steve T to demo Ortelius (manifest/metadata/visibility focused), 21st January
+* Events in CI/CD workstream to provide input to standardized metadata topic based on their discussions
+* Tracy M to bring the whitepaper to the attention of CDF creative team
+* ~~Tracy M to help with creation of a repo for standardized-metadata, https://github.com/cdfoundation/foundation/issues/262~~
+    * Repo is ready: https://github.com/cdfoundation/standardized-metadata
+* Steve to start the work on commit metadata
+* Dave to start the work on artifact metadata
+* ~~Emil to bring Eiffel example in new repo - https://github.com/cdfoundation/standardized-metadata/pull/3~~
+* Steve/Tracy R to bring Ortelius example in new repo
+* Tracy M to get SIG Interop in touch with Dina Graves Portman and invite her to one of the upcoming SIG meetings
+* Kara and Fatih to populate references in whitepaper
+
+#### Meeting Recording
+* \<addme\>
 
 ### January 7, 2021
 
