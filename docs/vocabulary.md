@@ -3,8 +3,8 @@
 - [Introduction](#introduction)
 - [Terminology Used by CI/CD Tools and Technologies](#terminology-used-by-cicd-tools-and-technologies)
   - [ArgoCD](#argo-cd)
-  - [Codefresh](#codefresh)
   - [CircleCI](#circleci)
+  - [Codefresh](#codefresh)
   - [Eiffel](#eiffel)
   - [GitHub Actions](#github-actions)
   - [GitLab CI/CD](#gitlab-cicd)
@@ -76,17 +76,6 @@ Some of the core ArgoCD concept are listed below: [[16]]
 - **Sync phases** [[18]]: Pre-sync, sync and post-sync allow for controlled orchestrated execution of sync operations.
 - **Sync waves**: Within any one sync phase, an additional control of sequential execution is accomplished using waves, to ensure certain resources are healthy before subsequent resources are synced.
 
-### Codefresh
-
-[Codefresh](https://codefresh.io/) is a modern CI/CD platform with native Docker, Kubernetes and Helm support that allows you to easily build, integrate, and deploy your product.
-
-Some of the core Codefresh concepts are listed below: [[20]]
-
-- **Projects**: The top-level concept in Codefresh. You can create projects to group pipelines that are related. In most cases a single project will be a single application (that itself contains many micro-services).
-- **Pipelines**: Each project can have multiple pipelines. Pipelines that belong to a single project are easily managed all together. 
-- **Pipeline Steps**: Each pipeline has a definition that defines the pipeline steps that are executed each time this pipeline is triggered. The definition of a pipeline is described in a special codefresh.yml file. 
-- **Triggers**: Each pipeline can have zero, one, or more triggers. Triggers are the linking medium between a pipeline and a git repository. Codefresh supports several kinds of triggers such as Git, Cron or Docker push triggers. 
-
 ### CircleCI
 
 [CircleCI](https://circleci.com) allows teams to rapidly build quality
@@ -101,6 +90,17 @@ jobs and their run order. (used interchangeably with pipeline)
 - **Pipeline**: A pipeline is an object that you may configure and run on
 the CircleCI platform.
 - **Executor**: Defines the underlying technology to run a job.
+
+### Codefresh
+
+[Codefresh](https://codefresh.io/) is a modern CI/CD platform with native Docker, Kubernetes and Helm support that allows you to easily build, integrate, and deploy your product.
+
+Some of the core Codefresh concepts are listed below: [[20]]
+
+- **Projects**: The top-level concept in Codefresh. You can create projects to group pipelines that are related. In most cases a single project will be a single application (that itself contains many micro-services).
+- **Pipelines**: Each project can have multiple pipelines. Pipelines that belong to a single project are easily managed all together. 
+- **Pipeline Steps**: Each pipeline has a definition that defines the pipeline steps that are executed each time this pipeline is triggered. The definition of a pipeline is described in a special codefresh.yml file. 
+- **Triggers**: Each pipeline can have zero, one, or more triggers. Triggers are the linking medium between a pipeline and a git repository. Codefresh supports several kinds of triggers such as Git, Cron or Docker push triggers. 
 
 ### Eiffel
 
@@ -374,8 +374,8 @@ pipeline in corresponding documentation.
 | Project            |           |            |          |          |         |                        |
 |--------------------|-----------|------------|----------|----------|---------|------------------------|
 | **ArgoCD**         | Sync Wave | Sync Phase | Sync     | N/A      | Event   | Application Controller |
-| **Codefresh**      | N/A       | Step       | Stage    | Pipeline | Trigger | Runtime environment    |
 | **CircleCI**       | N/A       | Step       | Job      | Workflow | Trigger | Executor               |
+| **Codefresh**      | N/A       | Step       | Stage    | Pipeline | Trigger | Runtime environment    |
 | **Eiffel**         | Activity  | Activity   | Activity | Activity | Event   | Environment            |
 | **GitHub Actions** | Action    | Step       | Job      | Workflow | Event   | Runner                 |
 | **GitLab CI/CD**   | N/A       | Job        | Stage    | Pipeline | Trigger | Runner                 |
