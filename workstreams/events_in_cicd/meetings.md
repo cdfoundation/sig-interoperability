@@ -9,6 +9,71 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
+## Next time
+
+### Agenda
+- (afrittoli) Licenses for content produced by the group / SIG (see https://cdeliveryfdn.slack.com/archives/C0151BTKEJX/p1612211728022200)
+
+## Meeting February 1st
+Meeeting time in your timezone [here](https://time.is/1600_1_February_2021_in_UTC). You're welcome to join!
+
+Participants:
+- Emil Bäckmark, Ericsson
+- Erik Sternerson, doWhile
+- Mattias Linnér, Ericsson
+- Andrea Frittoli, IBM
+- Mauricio Salatino, Camunda / LearnK8s
+- Andreas Grimmer, Keptn
+- Tracy Ragan, DeployHub / Ortelius
+- Gareth Evans, CloudBees
+
+### Agenda and Notes
+
+#### Upcoming Conferences
+- [FOSDEM 2021](https://fosdem.org/2021/) - February 7th - 8th
+- [Istio-CON](https://sessionize.com/istiocon-2021/) - Feb 22 - 25, 2021 
+- [Devops Online Summit](https://devopsonlinesummit.com/) - April 26th – 30th
+    - [CFP](https://devopsonlinesummit.com/the-tremendous-devops-online-summit-2021-tracks-have-just-arrived/) closes on February 7th
+    - Focus topics: Trends in CI/CD and landscape for CI/CD
+- [cdCon 2021](https://events.linuxfoundation.org/cdcon/) - June 23rd - 24th
+    - [CFP](https://events.linuxfoundation.org/cdcon/program/cfp/) closes March 5th (Early Bird closes February 19th)
+    - TR: A panel proposal would be good. They are often well attended.
+- FYI (partly relevant) [Scaling Continuous Delivery](https://continuousdeliveryatscale.splashthat.com/) February 2nd, Ravi and Andrea will be presenting
+
+#### Becoming a SIG
+- [Draft PR created](https://github.com/cdfoundation/toc/pull/91)
+- Will probably be discussed on tomorrow's TOC meeting: https://docs.google.com/document/d/1uBHar55fTInWF9Li4t0lyG3tTC8BRLU0FfBfsgk_Jrs/edit?ts=5c9580be#
+- Meeting cadence needs to be in sync with Best Practices SIG
+    - Events SIG meet every 1st and 3rd Monday of the month
+    - Best Practices SIG should meet every 2nd and 4th Monday of the month. @Mauricio to bring that to Best Practices SIG.
+- Follow-up to be done once the SIG proposal is accepted
+    - Update the [sig interoperability page](https://github.com/cdfoundation/sig-interoperability/README.md) in the cdfoundation repo
+    - Move our stuff from https://github.com/cdfoundation/sig-interoperability/tree/master/workstreams/events_in_cicd
+    - Add the mailing list to the communication channel once allocated
+    - HackMD document updates (title, new hackmd team, github sync). Create new team in Hackmd
+    - Slack channel renamed to sig-events, and change its description.
+    - Write a blog post on the CDF blog. (Mauricio to start it)
+    - CDF Podcast
+    - Setup GitHub repo
+        - Create/ask to create sig-events team, sig-events-admin team
+        - Add chairs as admins, everyone else as maintainer
+
+#### Contribute to Metadata workstream
+- Metadata workstream is about to get started and we should provide any input we have that relates to metadata to it: [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ)
+- We don't have anything to provide on 'artifacts' and 'commits' yet from our group
+- We should define buckets of terms to define, e.g. artifacts, activities, deployments etc and continue diving into those to propose vocabulary for them
+    - Let's discuss how to proceed on that on Slack
+
+#### Upcoming Presentations
+- [CD Flow](https://github.com/salaboy/cd-flow/) - date to be decided
+- [Events Vocabulary](https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA?view)
+- "Enterprise-Scale CI" concepts (link TBW Erik Sternerson)
+
+#### Cloud Events
+- Question from the Interop WG. Did we connect (or plant to) with the CloudEvents team?
+    - Reach out on the cloudevents Slack channel - AP Andrea
+
+
 ## Meeting January 18th
 Meeeting time in your timezone [here](https://time.is/1600_18_January_2021_in_UTC). You're welcome to join!
 
@@ -40,8 +105,7 @@ Participants:
 #### Becoming a SIG
 - Will possibly be brought up on tomorrow's TOC meeting: https://docs.google.com/document/d/1uBHar55fTInWF9Li4t0lyG3tTC8BRLU0FfBfsgk_Jrs/edit?ts=5c9580be#
 - [CDF Toc Invite for tomorrow](https://calendar.google.com/calendar/event?eid=N2tiaTNwamdlOW0xbnRiYzZodjgzYW10NXJfMjAyMTAxMTlUMTYwMDAwWiBsaW51eGZvdW5kYXRpb24ub3JnX21oZjBrbWdlZG42N2lobmk4cjEyOWF2cDI0QGc)
-- https://zoom.us/j/967220397?pwd=ZW5WQWNvOGhVRG1SeUthamJqQzZXdz09
-Passcode: 77777
+- https://zoom.us/j/262239698?pwd%3DNWhQWjg2UUdKT0ZxYW1CSElwbDVodz09&sa=D&source=calendar&ust=1611503983559000&usg=AOvVaw03zXFPiKEUEw29kp-VGUje
     - Emil could present our workstream there
 - Events should be considered for all areas in the [CD Foundation Landspace](https://landscape.cd.foundation/)
 
