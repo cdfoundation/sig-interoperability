@@ -1,5 +1,7 @@
 # Events in CI/CD Readme
 
+***Note! This workstream is suggested to become a SIG through [this PR](https://github.com/cdfoundation/toc/pull/91). If that PR is accepted the information here will be moved to its own repository under [CD Foundation](https://github.com/cdfoundation). References to the new repo will be added here once that is set.***
+
 This is a workstream within the CDF SIG Interoperability.
 
 The forming of this workstream was suggested on a [recent SIG Interoperability meeting]( https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings.md#may-28-2020) and its first meeting was held on June 8th.
