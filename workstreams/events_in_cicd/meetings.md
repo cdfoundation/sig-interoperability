@@ -9,10 +9,51 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 
 Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/QijjoIAiSeCNhaLpXhr05w), and published to GitHub [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md).
 
-## Next time
+## Meeting March 1st
+Meeeting time in your timezone [here](https://time.is/1600_1_March_2021_in_UTC). You're welcome to join!
 
-### Agenda
+Participants:
+- \<addme\>
+
+### Agenda and Notes
+- To be defined
+
+## Meeting February 15th
+Meeeting time in your timezone [here](https://time.is/1600_15_February_2021_in_UTC). You're welcome to join!
+
+Participants:
+- Emil Bäckmark - Ericsson
+- Mauricio Salatino - Camunda / LearnK8s
+- Mattias Linnér - Ericsson
+- Andreas Grimmer, Keptn
+- Erik Sternerson - doWhile
+- Andrea Frittoli - IBM
+- Tracy Ragan - DeployHub
+- Aleksandra Fedorova - Red Hat
+
+### Agenda and Notes
+
+- APs
+- (salaboy) Setting a time in the calendar for Vocabulary discussion and progress
+    - Mauricio will set up a separate meeting to start that discussion. Proposal: same time, different day. AP salaboy
+    - Categories of events added to our vocabulary document - https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA
+- Becoming a SIG
+    - Waiting for votes in TOC
 - (afrittoli) Licenses for content produced by the group / SIG (see https://cdeliveryfdn.slack.com/archives/C0151BTKEJX/p1612211728022200)
+    - Emil reached out to Dan, waiting for reply. Emil pings Dan again :)
+    - Input to this discussion: https://github.com/CommunitySpecification/1.0
+- [Enterprise-Scale CI](https://github.com/erkist/sig-interoperability/tree/erkist-esci/workstreams/events_in_cicd/input/enterprise-scale-ci) concepts - Erik Sternerson
+    - Complementing info from Aleksandra on RedHat (Fedora): https://quantum-integration.org/posts/ci-system-vs-ci-pipeline.html
+    - Also worth relating to the SIG Interoperability vocabulary document (Rosetta Stone): https://github.com/cdfoundation/sig-interoperability/blob/master/docs/vocabulary.md
+- Upcoming Presentations
+  - [Events Vocabulary](https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA?view)
+  - [CD Flow](https://github.com/salaboy/cd-flow/) - date to be decided
+
+### APs
+- ~~Andrea: Reach out on the cloudevents Slack channel - https://cloud-native.slack.com/archives/C9DB5ABAA/p1612448038043100~~
+- ~~All: We should define buckets of terms to define, e.g. artifacts, activities, deployments etc and continue diving into those to propose vocabulary for them - Let's discuss how to proceed on that on Slack~~
+- Mauricio (Salaboy) to set up a meeting series for vocabulary discussions
+
 
 ## Meeting February 1st
 Meeeting time in your timezone [here](https://time.is/1600_1_February_2021_in_UTC). You're welcome to join!
@@ -62,17 +103,21 @@ Participants:
 - Metadata workstream is about to get started and we should provide any input we have that relates to metadata to it: [Standardized Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ)
 - We don't have anything to provide on 'artifacts' and 'commits' yet from our group
 - We should define buckets of terms to define, e.g. artifacts, activities, deployments etc and continue diving into those to propose vocabulary for them
-    - Let's discuss how to proceed on that on Slack
+    - Let's discuss how to proceed on that on Slack. AP all
 
 #### Upcoming Presentations
 - [CD Flow](https://github.com/salaboy/cd-flow/) - date to be decided
 - [Events Vocabulary](https://hackmd.io/B-Z7mLh_Qc6frm51f3GIYA?view)
-- "Enterprise-Scale CI" concepts (link TBW Erik Sternerson)
+- [Enterprise-Scale CI](https://github.com/erkist/sig-interoperability/tree/erkist-esci/workstreams/events_in_cicd/input/enterprise-scale-ci) concepts - Erik Sternerson
 
 #### Cloud Events
 - Question from the Interop WG. Did we connect (or plant to) with the CloudEvents team?
     - Reach out on the cloudevents Slack channel - AP Andrea
 
+### APs
+- Andrea: Reach out on the cloudevents Slack channel
+- All: We should define buckets of terms to define, e.g. artifacts, activities, deployments etc and continue diving into those to propose vocabulary for them
+    - Let's discuss how to proceed on that on Slack
 
 ## Meeting January 18th
 Meeeting time in your timezone [here](https://time.is/1600_18_January_2021_in_UTC). You're welcome to join!
