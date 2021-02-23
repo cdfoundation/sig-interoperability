@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-02-18 Meeting](#February-18-2021)
     * [2021-02-04 Meeting](#February-4-2021)
     * [2021-01-21 Meeting](#January-21-2021)
     * [2021-01-07 Meeting](#January-7-2021)
@@ -28,6 +29,51 @@
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
+
+### February 18, 2021
+
+#### Participants
+* Ramin Akhbari (eBay)
+* Emil Bäckmark (Ericsson)
+* Fatih Degirmenci (Ericsson Software Technology)
+* Mattias Linnér (Ericsson)
+* Oliver Nocon (SAP)
+* Christie Wilson (half!) (Google)
+* Tracy Ragan (DeployHub)
+* Vibhav Bobade (RedHat)
+* Jeremy Stanley (OpenDev/Zuul)
+* Andrea Frittoli (IBM)
+* Tracy Miranda (CDF)
+
+#### Agenda and Notes
+* Action Item Review, All
+* Events SIG, All
+    * It is official!: https://lists.cd.foundation/g/cdf-toc/message/614
+    * Recording of the discussion on events during CDF Meetup: https://lists.cd.foundation/g/cdf-toc/message/614
+* Policy Driven CI/CD, All
+    * The document to collect information is available on [HackMD.io](https://hackmd.io/__6IAnVuR8C8mPD--XMbWg)
+* Standardized Metadata, James Strachan, Dave Sudia, Steve Taylor
+    * [Repository](https://github.com/cdfoundation/standardized-metadata)
+    * [HackMD file](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ)
+* Interopability Whitepaper, All
+* cdCon, All
+    * CFP is open, March 5th is the deadline for final deadline
+    * Early bird deadline is February 19
+ 
+#### Action Items
+* Dave to start the work on artifact metadata, Steve volunteered to help
+* Steve/Tracy R to bring Ortelius standardized metadata example in new repo
+* Tracy M to get SIG Interop in touch with Dina Graves Portman and invite her to one of the upcoming SIG meetings
+* Fatih D to create a new document to start the work on Policy Driven CI/CD and send an email
+* Tracy R to include policy related information from Ortelius and DeployHub Pro on the policy document as examples
+* Andrea F to include policy related information from Tekton on the policy document as an example
+* Events & Interop SIGs to provide quotes for CDF announcement of SIG Events - deadline March 1st, Emil, Andrea, Kara, Fatih
+* ~~Fatih D to contact Tracy R for possible Policy Driven CI/CD presentation to CDF Meetup~~
+* Fatih D to add user/project input to policy document based on the discussion from the meeting
+* Fatih D to add Project Piper to the agenda of upcoming SIG meeting
+
+#### Meeting Recording
+* https://www.youtube.com/watch?v=7fVPnBVTMYA
 
 ### February 4, 2021
 
@@ -68,7 +114,7 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
     * The group will come back when there is progress with commit and artifact metadata
 * ~~Tracy M to bring the whitepaper to the attention of CDF creative team~~
 * ~~Steve to start the work on commit metadata~~
-* Dave to start the work on artifact metadata
+* Dave to start the work on artifact metadata, Steve volunteered to help
 * Steve/Tracy R to bring Ortelius example in new repo
 * Tracy M to get SIG Interop in touch with Dina Graves Portman and invite her to one of the upcoming SIG meetings
 * ~~Kara and Fatih to populate references in whitepaper~~
@@ -78,7 +124,7 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 * Fatih D to contact Tracy R for possible Policy Driven CI/CD presentation to CDF Meetup
 
 #### Meeting Recording
-* \<addme\>
+* https://www.youtube.com/watch?v=VqoZy4E-ijo
 
 ### January 21, 2021
 
