@@ -61,7 +61,7 @@ A pipeline, in the context of Continuous Integration, is the definition of a set
 
 - **PipelineInstance Queued**: a PipelineInstance has been schedule to run
 - **PipelineInstance Started**: a PipelineInstance has started and it is running
-- **PipelineRun Finished**: a Pipeline has finished it execution, the event will contain the finished status, success, error or failure
+- **PipelineInstance Finished**: a Pipeline has finished it execution, the event will contain the finished status, success, error or failure
 - **Build Queued**: a Build task has been queued, this build process usually is in charge of producing a binary from source code
 - **Build Started**: a Build task has started 
 - **Build Finished**: a Build task has finished, the event will contain the finished status, success, error or failure
@@ -71,6 +71,7 @@ A pipeline, in the context of Continuous Integration, is the definition of a set
 - **Artifact Released**: an artifact has been released and it can be advertised for others to use
 
 Pipeline Events MUST include the following attributes:
+- **Event Type**: the type is restricted to include `CD.Pipeline**` prefix. For example `CD.Pipeline.PipelineInstance.Queued` or `CD.Pipeline.Tests.Started`
 - **Pipeline Instance Id**: unique identifier for a pipeline execution
 - **Pipeline Name**: unique identifier for the pipeline, not for the instance. A pipeline can have multiple instances/runs.  
 - **Pipeline Status**: current status of the pipeline at the time when the event was emitted. If the pipeline is finished, this attribute should reflect if it finished successfully or if there was an error on the execution.  
@@ -96,7 +97,7 @@ The term Environment represent any platform which has all the means to run a Ser
 - **Service Undeployed**: an existing instance of a Service has been terminated an it is not longer present in an environment
 
 Continous Deployment Events MUST include the following attributes:
-
+- **Event Type**: the type is restricted to include `CD.Environment**` prefix. For example `CD.Environment.Service.Upgraded` or `CD.Environment.Created`
 - **Environment ID**: unique identifier for the Environment
 
 
