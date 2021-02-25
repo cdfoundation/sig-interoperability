@@ -10,13 +10,14 @@ The phases covered by this proposal are:
 - **Continuous Integration Pipelines Events**: includes events related to building, testings, packaging and releasing software artifacts, usually binaries.
 - **Continuous Deployment Pipelines Events**: include events related with environments where the artifacts produced by the integration pipelines actually run. These are usually services running in a specific environment (dev, QA, production), or embeded software running in a specific hardware. 
 
+These phases can also be considered as different profiles of the vocabulary that can be adopted independently. 
 
 # Required Metadata for CD Events
 
 The following attributes are REQUIRED to be present in all the Events defined in this vocabulary:
 
 - **Event ID**: defines a unique identifier for the event
-- **Event Type**: defines a textual description of the event type, only event types described in this document are supported
+- **Event Type**: defines a textual description of the event type, only event types described in this document are supported. All event types should be prefixed with `CD.`
 - **Event Source**: defines the context in which an event happened
 - **Event Timestamp**: defines the time when the event was produced
 
@@ -41,6 +42,14 @@ These events are related to Source Code repositories
 - **Change Merged**: a change request has been merged to a branch in an existing repository
 
 
+Repository Events MUST include the following attributes:
+- **Event Type**: the type is restricted to include `CD.Repository**` prefix. For example `CD.Repository.Created` or `CD.Repository.ChangeApproved`
+- **Repository URL**: indicates the location of the source code repository
+- **Repository Name**: friendly name to list this repository to users
+
+Optional attributes: 
+- **Repository Owner**: indicates who is the owner of the repository, usually a `user` or an `organization`
+
 
 # Continuous Integration Pipeline Events
 
@@ -48,9 +57,11 @@ These events are related to continuous integration pipelines, this pipelines usu
 Due the dynamic nature of Pipelines, most of actual work needs to be queued to happen in a distributed way, hence Queued events are added. 
 Adopters can choose to ignore these events if they don't apply to their use cases. 
 
-- **Pipeline Queued**: a Pipeline has been schedule to start
-- **Pipeline Started**: a Pipeline has started
-- **Pipeline Finished**: a Pipeline has finished, the event will contain the finished status, success, error or failure
+A pipeline, in the context of Continuous Integration, is the definition of a set of tasks that needs to be performed to build, test, package and release software artifacts. A pipeline can be instanciated multiple times, for example to build different versions of the same artifact. That instance will have a unique Id and it will help us to track the build and release progress on a particular software artifact. 
+
+- **PipelineInstance Queued**: a PipelineInstance has been schedule to run
+- **PipelineInstance Started**: a PipelineInstance has started and it is running
+- **PipelineRun Finished**: a Pipeline has finished it execution, the event will contain the finished status, success, error or failure
 - **Build Queued**: a Build task has been queued, this build process usually is in charge of producing a binary from source code
 - **Build Started**: a Build task has started 
 - **Build Finished**: a Build task has finished, the event will contain the finished status, success, error or failure
@@ -58,6 +69,15 @@ Adopters can choose to ignore these events if they don't apply to their use case
 - **Tests Finished**: a Test task has finished, the event will contain the finished status, success, error or failure
 - **Artifact Packaged**: an artifact has been packaged for distribution, this artifact is now versioned with a fixed version
 - **Artifact Released**: an artifact has been released and it can be advertised for others to use
+
+Pipeline Events MUST include the following attributes:
+- **Pipeline Instance Id**: unique identifier for a pipeline execution
+- **Pipeline Name**: unique identifier for the pipeline, not for the instance. A pipeline can have multiple instances/runs.  
+- **Pipeline Status**: current status of the pipeline at the time when the event was emitted. If the pipeline is finished, this attribute should reflect if it finished successfully or if there was an error on the execution.  
+
+Optional attributes: 
+- **Pipeline URL**: URL to locate where  pipeline instances are running
+- **Pipeline Instance Errors**: error field to indicate possible compilation, test, build and package errors.
 
 
 # Continuous Deployment Pipelines Events 
@@ -74,3 +94,14 @@ The term Environment represent any platform which has all the means to run a Ser
 - **Service Deployed**: a new instance of the Service has been deployed
 - **Service Upgraded**: an existing instance of a Service has been upgraded to a new version
 - **Service Undeployed**: an existing instance of a Service has been terminated an it is not longer present in an environment
+
+Continous Deployment Events MUST include the following attributes:
+
+- **Environment ID**: unique identifier for the Environment
+
+
+Optional attributes: 
+
+- **Environment Name**: user-friendly name for the environment, to be displayed in tools or User Interfaces
+- **Environment URL**: URL to reference where the environment is located
+
