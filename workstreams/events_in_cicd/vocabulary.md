@@ -44,11 +44,12 @@ These events are related to Source Code repositories
 
 Repository Events MUST include the following attributes:
 - **Event Type**: the type is restricted to include `CD.Repository**` prefix. For example `CD.Repository.Created` or `CD.Repository.ChangeApproved`
-- **Repository URL**: indicates the location of the source code repository
+- **Repository URL**: indicates the location of the source code repository for API operations, this URL needs to include the protocol used to connect to the repository. For example git:// , ssh://, https://
 - **Repository Name**: friendly name to list this repository to users
 
 Optional attributes: 
 - **Repository Owner**: indicates who is the owner of the repository, usually a `user` or an `organization`
+- **Repository URL View**: URL to access the repository from a user web browser
 
 
 # Continuous Integration Pipeline Events
@@ -57,14 +58,15 @@ These events are related to continuous integration pipelines, this pipelines usu
 Due the dynamic nature of Pipelines, most of actual work needs to be queued to happen in a distributed way, hence Queued events are added. 
 Adopters can choose to ignore these events if they don't apply to their use cases. 
 
-A pipeline, in the context of Continuous Integration, is the definition of a set of tasks that needs to be performed to build, test, package and release software artifacts. A pipeline can be instanciated multiple times, for example to build different versions of the same artifact. That instance will have a unique Id and it will help us to track the build and release progress on a particular software artifact. 
+A pipeline, in the context of Continuous Integration, is the definition of a set of tasks that needs to be performed to build, test, package and release software artifacts. A pipeline can be instanciated multiple times, for example to build different versions of the same artifact. We are refering to this instance as PipelineRun. It will have a unique Id and it will help us to track the build and release progress on a particular software artifact. 
 
-- **PipelineInstance Queued**: a PipelineInstance has been schedule to run
-- **PipelineInstance Started**: a PipelineInstance has started and it is running
-- **PipelineInstance Finished**: a Pipeline has finished it execution, the event will contain the finished status, success, error or failure
+- **PipelineRun Queued**: a PipelineRun has been schedule to run
+- **PipelineRun Started**: a PipelineRun has started and it is running
+- **PipelineRun Finished**: a PipelineRun has finished it execution, the event will contain the finished status, success, error or failure
 - **Build Queued**: a Build task has been queued, this build process usually is in charge of producing a binary from source code
 - **Build Started**: a Build task has started 
 - **Build Finished**: a Build task has finished, the event will contain the finished status, success, error or failure
+- **Tests Queued**: a Test task has been queued, and it is waiting to be started
 - **Tests Started**: a Test task has started
 - **Tests Finished**: a Test task has finished, the event will contain the finished status, success, error or failure
 - **Artifact Packaged**: an artifact has been packaged for distribution, this artifact is now versioned with a fixed version
@@ -78,7 +80,7 @@ Pipeline Events MUST include the following attributes:
 
 Optional attributes: 
 - **Pipeline URL**: URL to locate where  pipeline instances are running
-- **Pipeline Instance Errors**: error field to indicate possible compilation, test, build and package errors.
+- **PipelineRun Errors**: error field to indicate possible compilation, test, build and package errors.
 
 
 # Continuous Deployment Pipelines Events 
