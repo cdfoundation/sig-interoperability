@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-03-04 Meeting](#March-4-2021)
     * [2021-02-18 Meeting](#February-18-2021)
     * [2021-02-04 Meeting](#February-4-2021)
     * [2021-01-21 Meeting](#January-21-2021)
@@ -29,6 +30,39 @@
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
+
+### March 4, 2021
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* Daylight Saving Time Changes, All
+* Heads up on upcoming discussion with Dina Portman, Tracy Miranda
+    * Dina will join our meeting on March 18th
+    * The project Dina is working on [Four Keys](https://github.com/GoogleCloudPlatform/fourkeys)
+* Policy Driven CI/CD, All
+    * Discussion on the latest contributions
+* Standardized Metadata, James Strachan, Dave Sudia, Steve Taylor
+    * [Repository](https://github.com/cdfoundation/standardized-metadata)
+    * [HackMD file](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ)
+* [Project "Piper"](https://www.project-piper.io/) Presentation, Oliver Nocon
+* \<addme\>
+ 
+#### Action Items
+* Dave to start the work on artifact metadata, Steve volunteered to help
+* Steve/Tracy R to bring Ortelius standardized metadata example in new repo
+* Tracy M to get SIG Interop in touch with Dina Graves Portman and invite her to one of the upcoming SIG meetings
+* Fatih D to create a new document to start the work on Policy Driven CI/CD and send an email
+* Tracy R to include policy related information from Ortelius and DeployHub Pro on the policy document as examples
+* Andrea F to include policy related information from Tekton on the policy document as an example
+* Events & Interop SIGs to provide quotes for CDF announcement of SIG Events - deadline March 1st, Emil, Andrea, Kara, Fatih
+* Fatih D to add user/project input to policy document based on the discussion from the meeting
+* Fatih D to add Project Piper to the agenda of upcoming SIG meeting
+
+#### Meeting Recording
+* \<addme\>
 
 ### February 18, 2021
 
