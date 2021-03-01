@@ -13,10 +13,74 @@ Meeting notes for the workstream are managed on HackMD [here](https://hackmd.io/
 Meeeting time in your timezone [here](https://time.is/1600_1_March_2021_in_UTC). You're welcome to join!
 
 Participants:
+- Emil Bäckmark, Ericsson
+- Erik Sternerson, doWhile
+- Ravi Lachhman, Harness
+- Mattias Linnér, Ericsson
+- Steve Taylor, DeployHub
+- Tracy Ragan, DeployHub
+- Kara de la Marck, CloudBees
+- Andrea Frittoli, IBM
+- Mauricio Salatino, Camunda / LearnK8s
 - \<addme\>
 
 ### Agenda and Notes
-- To be defined
+- Tracy M: Promoting the SIG
+    - Roxanne is here to prepare for the announcement
+    - https://docs.google.com/document/d/1-dITtHInAnwpdoYo2_idQP2IG1CvNI6whqSzE8VckZk/edit#
+        - We will provide some quotes to that. Exampel from Jenkins https://cd.foundation/announcement/2020/08/04/cd-foundation-announces-jenkins-graduation/
+    - Podcast
+        - Ravi, Mauricio and Andrea will join
+        - Postcast template: https://docs.google.com/document/d/1K-taXA4k5wc82tFQMVXvMDJArCANT2D4nneSmeVldzs/edit
+    - Blog posts
+        - Can be sent at any time to Roxanne, and not only about the Events SIG
+- Daylight Savings Time
+    - US starts on March 14th already: https://www.timeanddate.com/time/change/usa/new-york
+    - Europe two weeks later: https://www.timeanddate.com/time/change/sweden/stockholm
+    - What is [your time](https://time.is/1600_15_March_2021_in_UTC) on Monday in two weeks? Ok to keep the current time slot (4pm UTC)?
+    - Decision: We keep the same time UTC next occasion as well
+- We're a SIG!
+  - Tracy M has asked us (during last SIG Interop meeting) to provide quotes for a CDF announcement of SIG Events - deadline March 1st. Example of topics:
+      - About the problem space
+      - The connection to CloudEvents
+      - How it as been a spinoff from SIG Interoperability (Kara/Fatih)
+  - New repo created for SIG Events
+      - https://github.com/cdfoundation/sig-events/ 
+      - Everyone can create a PR to that repo to be automatically included as contributors to the repo, and can then be added to the team
+  - Update the [sig interoperability page](https://github.com/cdfoundation/sig-interoperability/README.md) in the cdfoundation repo
+      - (Andrea) Make a PR to move documents and update links
+  - Move our stuff from https://github.com/cdfoundation/sig-interoperability/tree/master/workstreams/events_in_cicd
+      - (Andrea) Make a PR to move documents into the new repo
+  - Add the mailing list to the communication channel once allocated
+      - Tracy M will create the maillist for us sig-events@lists.cd.foundation subscribe via  https://lists.cd.foundation/g/sig-events
+      - Andrea will add info about it to our readmes
+  - HackMD document updates (title, new hackmd team, github sync). Create new team in Hackmd
+      - Emil to create a new hackmd team and connect its docs to the new SIG Events github
+      - Emil put a note in the old document saying this is now archived and is continued in the new document
+  - Slack channel renamed to sig-events, and change its description.
+      - Tracy M will reach out to Gale to rename our channel to sig-events
+      - Emil updates the description in the Slack channel
+      - Andrea to update info in the README
+  - Write a blog post on the CDF blog
+      - Mauricio to start it
+      - A follow up on the announcement
+          - Mentioning specific initiatives if applicable
+          - Use cases
+  - CDF Podcast
+      - See above
+  - Setup GitHub repo
+    - Created sig-events team, sig-events-admin team
+    - Add chairs as admins, everyone else as maintainer
+    - https://github.com/cdfoundation/sig-events/
+- Initial Vocabulary Proposal
+    - First vocabulary meeting brief
+    - Initial Vocabulary Proposal PR https://github.com/cdfoundation/sig-interoperability/pull/64/files
+    - Proposed inital workflow for working on the vocabulary
+        - Break the PR into smaller chunks to be able to merge sooner. Mauricio will fix.
+        - PR comments for discussions directly related to the PR
+        - GitHub Discussions for "more involved" topics, consider announcing on Slack when there is a new discussion you want some attention on.
+            - Who can enable GitHub Discussions for our repo?
+    
 
 ## Meeting February 15th
 Meeeting time in your timezone [here](https://time.is/1600_15_February_2021_in_UTC). You're welcome to join!
