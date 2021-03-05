@@ -34,35 +34,63 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 ### March 4, 2021
 
 #### Participants
+* Kara de la Marck (CloudBees)
+* Ramin Akhbari (eBay)
+* Mattias Linnér (Ericsson)
+* Fatih Degirmenci (Ericsson Software Technology)
+* Emil Bäckmark (Ericsson)
+* Steve Taylor (DeployHub)
+* Oliver Nocon (SAP)
+* Andrea Frittoli (IBM)
+* Jeremy Stanley (OpenDev/Zuul)
+* Andreas Grimmer (Dynatrace)
+* Tracy Ragan (DeployHub)
 * \<addme\>
 
 #### Agenda and Notes
 * Action Item Review, All
 * Daylight Saving Time Changes, All
+    * US@March 14th, Europe@March 28th
+    * The meeting on March 18th falls in between...
+    * 16:00UTC - 9am for PT, 10am MT, 12noon ET, 4pm BST/CET
+    * https://time.is/1600_18_March_2021_in_UTC
+* cdCon, All
+    * CFP is open, March 5th is the deadline for final deadline
+    * Tomorrow is the deadline!
+    * https://events.linuxfoundation.org/cdcon/program/cfp/
 * Heads up on upcoming discussion with Dina Portman, Tracy Miranda
     * Dina will join our meeting on March 18th
     * The project Dina is working on [Four Keys](https://github.com/GoogleCloudPlatform/fourkeys)
+    * Please do invite additional attendees who may be interested in this work -- from other SIG groups, etc
 * Policy Driven CI/CD, All
     * Discussion on the latest contributions
+    * https://hackmd.io/__6IAnVuR8C8mPD--XMbWg?view
 * Standardized Metadata, James Strachan, Dave Sudia, Steve Taylor
     * [Repository](https://github.com/cdfoundation/standardized-metadata)
     * [HackMD file](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ)
+    * Note: Share and discuss with Dina Portman, as her feedback would be beneficial.
 * [Project "Piper"](https://www.project-piper.io/) Presentation, Oliver Nocon
-* \<addme\>
+    * JobDSL blog post: https://jenkins-x.io/v3/admin/guides/jenkins/getting-started/#job-dsl
+* An abrupt end to the meeting! :-)
+* However, we will continue discussing using events to enable greater flexibility and composability between pipelines at the next meeting.
+
  
 #### Action Items
-* Dave to start the work on artifact metadata, Steve volunteered to help
-* Steve/Tracy R to bring Ortelius standardized metadata example in new repo
-* Tracy M to get SIG Interop in touch with Dina Graves Portman and invite her to one of the upcoming SIG meetings
-* Fatih D to create a new document to start the work on Policy Driven CI/CD and send an email
-* Tracy R to include policy related information from Ortelius and DeployHub Pro on the policy document as examples
-* Andrea F to include policy related information from Tekton on the policy document as an example
-* Events & Interop SIGs to provide quotes for CDF announcement of SIG Events - deadline March 1st, Emil, Andrea, Kara, Fatih
-* Fatih D to add user/project input to policy document based on the discussion from the meeting
-* Fatih D to add Project Piper to the agenda of upcoming SIG meeting
+* Steve T to start the work on artifact metadata and bring example from Ortelius
+* Fatih D to send mail to CDF SIG/TOC/End User maillists for Dina Portman's visit to SIG Interoperability on March 18th
+* Kara M to help with Jenkins and CloudBees policy approach
+* Fatih D to reach out to Cameron for Armory policy approach
+* Oliver N to upload Project "Piper" presentation to [CDF Presentations repository](https://github.com/cdfoundation/presentations)
+* ~~Tracy M to get SIG Interop in touch with Dina Graves Portman and invite her to one of the upcoming SIG meetings~~
+* ~~Fatih D to create a new document to start the work on Policy Driven CI/CD and send an email~~
+* ~~Tracy R to include policy related information from Ortelius and DeployHub Pro on the policy document as examples~~
+* ~~Andrea F to include policy related information from Tekton on the policy document as an example~~
+* ~~Events & Interop SIGs to provide quotes for CDF announcement of SIG Events - deadline March 1st, Emil, Andrea, Kara, Fatih~~
+* ~~Fatih D to add user/project input to policy document based on the discussion from the meeting~~
+* ~~Fatih D to add Project Piper to the agenda of upcoming SIG meeting~~
 
 #### Meeting Recording
-* \<addme\>
+* https://www.youtube.com/watch?v=LbdMG0O4m6Y
 
 ### February 18, 2021
 
