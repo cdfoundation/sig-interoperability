@@ -28,4 +28,8 @@ Add your proposal, and a link to your PR, to our [meeting notes](https://hackmd.
 
 Current workstreams can be found in the [workstreams directory](../workstreams/).
 
-* [Events in CICD](../workstreams/events_in_cicd/)
+## Archived Workstreams
+
+Archived workstreams can be found in the [archived workstreams directory](../workstreams/archived/).
+
+* [Events in CICD](../workstreams/archived/events_in_cicd/README.md)

@@ -120,9 +120,9 @@ in a more focused and structured way.
 
 Workstream governance is documented [here](./docs/workstream-governance.md).
 
-Existing workstreams are
+Archived workstreams are:
 
-* [Events in CI/CD](./workstreams/events_in_cicd/README.md)
+* [Events in CI/CD](./workstreams/archived/events_in_cicd/README.md): now the [CDF SIG Events](https://github.com/cdfoundation/sig-events/)
 
 ## Communication
 
