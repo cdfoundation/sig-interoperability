@@ -56,7 +56,15 @@ TBD
 
 #### Jenkins
 
-TBD
+Jenkins Pipeline has a check for insecure pipeline interpolation. This check is run before the pipeline and is not yet integrated into a policy, so it will not block a pipeline from running. If the check fails, a warning will be shown.
+
+There is interest within the Jenkins community to support OPA.
+
+#### [CloudBeees Pipeline Policies Plugin](https://docs.cloudbees.com/docs/admin-resources/latest/pipelines/pipeline-policies)
+
+This plugin enables pipeline policies. Currently, the plugin has one rule to enforce timeouts. Administrators can add multiple policies to govern pipeline execution. Each policy can have multiple rules for limiting timeouts either for the entire pipeline, paused actions, or for specific agents. Each pipeline policy can be set to issue a warning or to fail and have the pipeline stop executing.
+
+The intention is to add more policy rules in the future.
 
 #### Spinnaker
 
@@ -125,11 +133,9 @@ A few ways that DeployHub Pro could integrate with Policy frameworks:
 
 #### Zuul
 
-Zuul's configuration covers job definitions and mapping them to build triggers with project pipelines. Because this configuration can be distributed across any of the Git repositories it knows about (even speculatively consuming configuration from proposed changes not yet merged), the people who control the content of those repositories or who can propose changes for them.
-The system has particular means of centralizing configuration so the operators control certain aspects.
-Zuul has trusted configuration repositories which could mean that specific jobs are run on specific events and these jobs are immutable.
+Policy enforcement in Zuul is achieved through layered management of job definitions, and their mapping to build triggers via project pipelines. Because this configuration can be distributed across any of the Git repositories included in a tenant, even speculatively incorporating configuration from proposed changes not yet merged, people who control the content of those repositories or who can propose changes for them have the ability to influence what jobs are run and what those jobs do. In order to provide a central means of administration, any of this configuration can also reside in trusted repositories under the control of tenant managers, and is immutable from the perspective of untrusted repositories, or at least designed to limit what variables may be externally overridden. The upshot of this model is that tenant managers have the ability to specify particular jobs which must run and succeed before changes can merge, or mandate that certain playbooks are included within jobs, in addition to those which the maintainers of untrusted repositories might wish to add.
 
-
+While Zuul configuration can be organized in a variety of ways to provide policy enforcement, the documentation recommendeds a popular arrangement referred to as the Project Testing Interface: https://zuul-ci.org/docs/zuul/howtos/pti.html
 
 ### Users
 
@@ -144,7 +150,7 @@ When they are ready to deploy to staging environment, it requires manifests to h
 Otherwise, deployment is denied.
 This ensures things are done as per the company policy for different environments. (feature environment, staging environment, pre-production environment, production environment)
 
-This is similar to gating - gate allows or prevents deployment of a certain environments based on badges.
+This is similar to gating - gate allows or prevents deployment of a certain application version to different environments based on badges.
 
 #### Ericsson
 
