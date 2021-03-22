@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-03-18 Meeting](#March-18-2021)
     * [2021-03-04 Meeting](#March-4-2021)
     * [2021-02-18 Meeting](#February-18-2021)
     * [2021-02-04 Meeting](#February-4-2021)
@@ -31,6 +32,52 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
 
+### March 18, 2021
+
+#### Participants
+* Kara de la Marck (CloudBees)
+* Fatih Degirmenci (Ericsson Software Technology)
+* Oliver Nocon (SAP)
+* Mattias Linnér (Ericsson)
+* Emil Bäckmark (Ericsson)
+* Jeremy Stanley (OpenDev/Zuul)
+* Tracy Miranda (CDF)
+* Terry Cox (Bootstrap)
+* Andrea Frittoli (IBM)
+* Ramin Akhbari (eBay)
+* Andreas Grimmer (Dynatrace)
+* Dina Graves Portman (Google)
+* Gareth Evans (CloudBees)
+
+#### Agenda and Notes
+* Action Item Review, All
+* Daylight Saving Time Changes Check, All
+    * US@March 14th, Europe@March 28th
+    * Meeting time on April 1st?
+    * https://time.is/1600_1_April_2021_in_UTC
+    * SIG Interoperability switches to 15:00UTC for summer.
+* [PR to add CD definitions](https://github.com/cdfoundation/glossary/pull/10) (from Christie who can't make it, just wanted to make sure ppl know about it!)
+* End User Forum Discussion on Measuring DevOps Success, Tracy Miranda
+    * There will be a discussion/panel on this topic on 31 March
+    * [link to Register](https://www.crowdcast.io/e/356fkadm/register) 
+* Four Keys Project, Dina Portman
+    * Presentation on [Four Keys](https://github.com/GoogleCloudPlatform/fourkeys)
+    * Follow up discussion on potential collaboration opportunities
+* Policy Driven CI/CD, All
+    * Discussion on the latest contributions if time permits
+    * https://hackmd.io/__6IAnVuR8C8mPD--XMbWg?view
+ 
+#### Action Items
+* Steve T to start the work on artifact metadata and bring example from Ortelius
+* ~~Fatih D to send mail to CDF SIG/TOC/End User maillists for Dina Portman's visit to SIG Interoperability on March 18th~~
+* ~~Kara M to help with Jenkins and CloudBees policy approach~~
+* ~~Fatih D to reach out to Cameron for Armory policy approach~~
+* ~~Oliver N to upload Project "Piper" presentation to [CDF Presentations repository](https://github.com/cdfoundation/presentations)~~
+* Fatih D and Tracy M to update SIG Interopereability meeting time to 15:00UTC.
+
+#### Meeting Recording
+* https://www.youtube.com/watch?v=H3Lc2URIKXo
+
 ### March 4, 2021
 
 #### Participants
@@ -45,7 +92,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 * Jeremy Stanley (OpenDev/Zuul)
 * Andreas Grimmer (Dynatrace)
 * Tracy Ragan (DeployHub)
-* \<addme\>
 
 #### Agenda and Notes
 * Action Item Review, All
