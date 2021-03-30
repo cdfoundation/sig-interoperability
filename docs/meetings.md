@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-04-01 Meeting](#April-1-2021)
     * [2021-03-18 Meeting](#March-18-2021)
     * [2021-03-04 Meeting](#March-4-2021)
     * [2021-02-18 Meeting](#February-18-2021)
@@ -17,7 +18,7 @@
 ## Logistics
 
 * **Meeting notes on HackMD.io**: https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL
-* **When**: First and third Thursdays at 16:00UTC (*See your timezone [here](https://time.is/1600_in_UTC)*).
+* **When**: First and third Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
 * **Zoom Bridge**: https://zoom.us/j/827082528?pwd=RlN5OUZtVVBuZGZRY0NBRnZyZ0NJQT09
 * **Zoom International dial-in numbers**: https://zoom.us/zoomconference
 * **Meeting Recordings**: [CDF Youtube Channel SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
@@ -31,6 +32,30 @@
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
+
+### April 1, 2021
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* Standardized Metadata, All
+    * Discussion on [Artifact Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ?view#Artifacts) contributed by Steve T
+* Policy Driven CI/CD, All
+    * Discussion on the [latest contributions](https://hackmd.io/__6IAnVuR8C8mPD--XMbWg?view)
+* DORA and SPACE metrics with Jenkins X, Vincent Behar
+    * [More on Nicole Forsgren's SPACE metrics](https://queue.acm.org/detail.cfm?id=3454124)
+    * See [Vincent's recent presentation at Jenkins X Office Hours](https://www.youtube.com/watch?v=ncxVtltXgno)
+* \<addme\>
+ 
+#### Action Items
+* Steve T to start the work on artifact metadata and bring example from Ortelius
+* Fatih D and Tracy M to update SIG Interopereability meeting time to 15:00UTC.
+* \<addme\>
+
+#### Meeting Recording
+* \<addme\>
 
 ### March 18, 2021
 
