@@ -36,26 +36,46 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 ### April 1, 2021
 
 #### Participants
-* \<addme\>
+* Kara de la Marck (CloudBees)
+* Ramin Akhbari (eBay)
+* Fatih Degirmenci (Ericsson Software Technology)
+* Steve Taylor (DeployHub/Ortelius)
+* Oliver Nocon (SAP)
+* Tracy Miranda (CDF)
+* Andrea Frittoli (IBM)
+* Emil Bäckmark (Ericsson)
+* Vincent Behar (Dailymotion)
+* Tracy Ragan (DeployHub/Ortelius)
 
 #### Agenda and Notes
 * Action Item Review, All
 * Standardized Metadata, All
     * Discussion on [Artifact Metadata](https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ?view#Artifacts) contributed by Steve T
-* Policy Driven CI/CD, All
-    * Discussion on the [latest contributions](https://hackmd.io/__6IAnVuR8C8mPD--XMbWg?view)
+    * ST: Summarizes the contribution he made for artifact metadata
+    * Collaboration with [SPDX](https://github.com/spdx)
+    * FD: [Announcement of SPDX Submission to ISO](https://www.linuxfoundation.org/blog/spdx-specification-becomes-the-second-iso-iec-jtc-1-submission-from-jdf/)
+    * FD: [Draft Spec Preview](https://www.iso.org/obp/ui/#iso:std:iso-iec:5962:dis:ed-1:v1:en)
+    * FD: [SPDX Topic in LF Spring Member Meeting](https://www.youtube.com/watch?v=DrRJXi5aGuI&t=780s)
+    * ST: Shares his thoughts on SPDX Version 1.2. Version 2 is little bit harder.
+    * TM: SPDX community is working on Version 3. Related work such as SBOM is rolling under SPDX.
+    * TM: We could bring the perspective from CI/CD domain.
+    * FD: Kate Stewart from SPDX will join to SIG Interoperability Meeting on April 15th.
 * DORA and SPACE metrics with Jenkins X, Vincent Behar
     * [More on Nicole Forsgren's SPACE metrics](https://queue.acm.org/detail.cfm?id=3454124)
     * See [Vincent's recent presentation at Jenkins X Office Hours](https://www.youtube.com/watch?v=ncxVtltXgno)
-* \<addme\>
+    * [Jenkins X doc for CD Indicators](https://jenkins-x.io/v3/admin/guides/observability/cd-indicators/)
+    * [Jenkins X CD Indicators Collector (github repo)](https://github.com/jenkins-x/cd-indicators)
+* Policy Driven CI/CD, All
+    * Postponed to one of the upcoming meetings.
+    * Discussion on the [latest contributions](https://hackmd.io/__6IAnVuR8C8mPD--XMbWg?view)
  
 #### Action Items
-* Steve T to start the work on artifact metadata and bring example from Ortelius
-* Fatih D and Tracy M to update SIG Interopereability meeting time to 15:00UTC.
-* \<addme\>
+* ~~Steve T to start the work on artifact metadata and bring example from Ortelius~~
+* ~~Fatih D and Tracy M to update SIG Interopereability meeting time to 15:00UTC.~~
+* Emil B to add notes on mandatory, optional data and digest to artifact metadata document. *Done, comments added to the metadata document.*
 
 #### Meeting Recording
-* \<addme\>
+* https://www.youtube.com/watch?v=-YPPa-wrTo8
 
 ### March 18, 2021
 
