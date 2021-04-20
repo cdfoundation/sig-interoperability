@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-04-15 Meeting](#April-15-2021)
     * [2021-04-01 Meeting](#April-1-2021)
     * [2021-03-18 Meeting](#March-18-2021)
     * [2021-03-04 Meeting](#March-4-2021)
@@ -32,6 +33,50 @@
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
+
+### April 15, 2021
+
+#### Participants
+* Ramin Akhbari (eBay)
+* Fatih Degirmenci (Ericsson Software Technology)
+* Kara de la Marck (CloudBees)
+* Mattias Linnér (Ericsson)
+* Kate Stewart (LF)
+* Emil Bäckmark (Ericsson)
+* Andrea Frittoli (IBM)
+* Alois Reitbauer (Dynatrace)
+* Gale McCommons (LF)
+* Tracy Miranda (CDF)
+* Gopinath Rebala (OpsMX)
+* Tracy Ragan (DeployHub/Ortelius)
+* Ola (Telus)
+* Victor Martinez (Elastic)
+* Steve Taylor (DeployHub/Ortelius)
+
+#### Agenda and Notes
+* Action Item Review, All
+* Next SIG Interoperability Meeting, All
+    * Next meeting is on May 6, 2021.
+    * KubeCon CloudNativeCon Europe 2021 takes place between May 4-7, 2021.
+    * We will meet as usual and see how many joins
+* cdCon Schedule Announcement, All
+    * [cdCon Schedule](https://events.linuxfoundation.org/cdcon/program/schedule/)
+    * [GitOps Summit Schedule](https://events.linuxfoundation.org/gitops-summit/program/schedule/)
+    * [Spinnaker Summit Schedule](https://events.linuxfoundation.org/spinnaker-summit/program/schedule/)
+    * [Registration Link](https://events.linuxfoundation.org/cdcon/register/)
+* SPDX Presentation and Discussion, Kate Stewart, All
+    * SBOM (Software Bill of Materials) -- formal record of details and supply chain relationships of the components used in building software. Anything running on a system you should be able to represent and be able to query that representation.
+    * https://spdx.github.io/spdx-spec/7-relationships-between-SPDX-elements/
+    * https://github.com/spdx/spdx-spec/issues
+    * https://docs.google.com/presentation/d/1YNtXPRGuj9hri_rGid_E7LZ9OODcNASbdNmNOOOzFAk/edit#slide=id.gd25d926f37_0_155
+* Policy Driven CI/CD, All
+    * Discussion on the [latest contributions](https://hackmd.io/__6IAnVuR8C8mPD--XMbWg?view)
+ 
+#### Action Items
+* ~~Emil B to add notes on mandatory, optional data and digest to artifact metadata document. *Done, comments added to the metadata document.*~~
+
+#### Meeting Recording
+* https://www.youtube.com/watch?v=pW7_x9nWC7s
 
 ### April 1, 2021
 
