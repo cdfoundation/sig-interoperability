@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-05-06 Meeting](#May-6-2021)
     * [2021-04-15 Meeting](#April-15-2021)
     * [2021-04-01 Meeting](#April-1-2021)
     * [2021-03-18 Meeting](#March-18-2021)
@@ -33,6 +34,39 @@
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
+
+### May 6, 2021
+
+#### Participants
+* Fatih Degirmenci (Ericsson Software Technology)
+* Steve Taylor (DeployHub/Ortelius)
+* Mattias Linnér (Ericsson)
+* Oliver Nocon (SAP)
+* Kara de la Marck (CloudBees)
+* Ramin Akhbari (eBay)
+* Jeremy Stanley (OpenDev/Zuul)
+* Emil Bäckmark (Ericsson) [just first few minutes]
+
+#### Agenda and Notes
+* Action Item Review, All
+* Standardized Metadata, All
+    * https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ
+* IEEE Standard for DevOps, All
+    * [Standard is available for purchase](https://standards.ieee.org/standard/2675-2021.html)
+* Policy Driven CI/CD, All
+    * Discussion on the [latest contributions](https://hackmd.io/__6IAnVuR8C8mPD--XMbWg?view)
+    * CDF End User Council Plan is available here: https://github.com/cdfoundation/end-user-council/blob/main/End%20User%20Council%20Plan%202021.pdf
+* \<addme\>
+
+#### Action Items
+* Fatih and Steve to start a discussion around selected area(s)/topic(s) as GitHub discussions
+    * Candidate is File Information from SPDX Specification: https://spdx.github.io/spdx-spec/4-file-information/
+* Fatih to enable GitHub discussions for sig-interoperability repository
+    * Done: https://github.com/cdfoundation/sig-interoperability/discussions
+* Kara to help out reaching out to OPA community
+
+#### Meeting Recording
+* \<addme\>
 
 ### April 15, 2021
 
