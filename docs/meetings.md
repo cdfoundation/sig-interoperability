@@ -7,6 +7,8 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-06-03 Meeting](#June-3-2021)
+    * [2021-05-20 Meeting](#May-20-2021) - *Cancelled*
     * [2021-05-06 Meeting](#May-6-2021)
     * [2021-04-15 Meeting](#April-15-2021)
     * [2021-04-01 Meeting](#April-1-2021)
@@ -35,6 +37,50 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
 
+### June 3, 2021
+
+#### Participants
+* Ramin Akhbari (eBay)
+* Steve Taylor (DeployHub/Ortelius)
+* Kara de la Marck (CloudBees)
+* Mattias Linnér (Ericsson)
+* Andrea Frittoli (IBM)
+* Emil Bäckmark (Ericsson)
+* Tracy Ragan (DeployHub/Ortelius)
+* Gopinath Rebala (OpsMx)
+* Anders Eknert (Styra)
+* Fatih Degirmenci (Ericsson Software Technology)
+* Jeremy Stanley (OpenDev/Zuul) 
+
+#### Agenda and Notes
+* Action Item Review, All
+* cdCon SIG Interoperability BoF Session
+    * June 24, 11:25am EDT: https://sched.co/j07e
+    * All BoF Sessions: https://cdcon2021.sched.com/overview/type/BoF+Sessions
+* SPDX File Information, All
+    * File information in SPDX Spec: https://spdx.github.io/spdx-spec/4-file-information/
+* Note about the CNCF Operations doc
+    * The doc is available on: https://github.com/cncf/tag-app-delivery/blob/public-comment/operator-wg/whitepaper/Operator-WhitePaper_v1-0.md
+    * It is currently under public comment period
+* CNCF App Delivery pod tato Head
+    * https://github.com/cncf/podtato-head
+* Open Policy Agent Presentation, Anders Eknert
+
+#### Action Items
+* Fatih to check with Jennifer Crowley et al to see if BoF schedule can be adjusted to minimize conflicts
+* Fatih and Steve to start a discussion around selected area(s)/topic(s) as GitHub discussions
+    * Candidate is File Information from SPDX Specification: https://spdx.github.io/spdx-spec/4-file-information/
+* ~~Fatih to enable GitHub discussions for sig-interoperability repository~~
+    * Done: https://github.com/cdfoundation/sig-interoperability/discussions
+* ~~Kara to help out reaching out to OPA community~~
+
+#### Meeting Recording
+* https://www.youtube.com/watch?v=m7Gt_3JazNs
+
+### May 20, 2021
+
+**Meeting is cancelled.**
+
 ### May 6, 2021
 
 #### Participants
@@ -56,7 +102,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 * Policy Driven CI/CD, All
     * Discussion on the [latest contributions](https://hackmd.io/__6IAnVuR8C8mPD--XMbWg?view)
     * CDF End User Council Plan is available here: https://github.com/cdfoundation/end-user-council/blob/main/End%20User%20Council%20Plan%202021.pdf
-* \<addme\>
 
 #### Action Items
 * Fatih and Steve to start a discussion around selected area(s)/topic(s) as GitHub discussions
@@ -66,7 +111,7 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 * Kara to help out reaching out to OPA community
 
 #### Meeting Recording
-* \<addme\>
+* https://www.youtube.com/watch?v=fNRiLtQFhkI
 
 ### April 15, 2021
 
