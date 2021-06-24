@@ -7,8 +7,10 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-06-24 BoF SIG Interoperability](#June-24-2021-SIG-Interoperability-BoF)
+    * [2021-06-17 Meeting](#June-17-2021) - **Cancelled**
     * [2021-06-03 Meeting](#June-3-2021)
-    * [2021-05-20 Meeting](#May-20-2021) - *Cancelled*
+    * [2021-05-20 Meeting](#May-20-2021)
     * [2021-05-06 Meeting](#May-6-2021)
     * [2021-04-15 Meeting](#April-15-2021)
     * [2021-04-01 Meeting](#April-1-2021)
@@ -36,6 +38,35 @@
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
+
+### June 24, 2021 SIG Interoperability BoF
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Welcome and the format of BoF, Fatih Degirmenci
+* Who is who, All
+* Integration vs Interoperability and SIG Interoperability, Kara de la Marck
+    * Both terms used to describe the openness of a system
+    * Often used synonymously, they have significant differences
+    * Integration: combining applications to function together. Don't necessarily have common interfaces and often use different data formats.
+    * This means glue code => hard to maintain, often results in coupling.
+    * Interoperability: open interfaces, enabling controled and defined access to services from a different application or system.
+    * If interface is well defined and openly available, then multiple providers  can implement the service in a known way and it can be consumed using the defined interface.
+    * Client A can switch to provider B or C with no failures.
+    * Well defined, open interfaces enable interoperability by enabling both access and multiple implementations.
+    * Users have a choice on which implementation to consume and can switch between them with no failures.
+    * Interoperability in CI/CD context:
+        * pipeline standardization/languages
+        * connecting/integrating pipelines
+        * pipeline data for traceability/visualization
+        * events in CI/CD
+* Open Discussion, All
+
+### June 17, 2021
+
+**Meeting is cancelled.**
 
 ### June 3, 2021
 
