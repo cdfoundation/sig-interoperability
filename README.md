@@ -84,6 +84,7 @@ interoperability between tools
 * Emil Bäckmark ([@e-backmark-ericsson](https://github.com/e-backmark-ericsson)), Ericsson
 * Vibhav Bobade ([@waveywaves](https://github.com/waveywaves)), Red Hat
 * Jerop Kipruto ([@jerop](https://github.com/jerop)), Google
+* Saif Ul Islam ([@rubix982](https://github.com/rubix982)), Mapillary
 
 ## New Members
 
