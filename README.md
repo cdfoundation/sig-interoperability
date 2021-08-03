@@ -2,12 +2,15 @@
 
 ## Quick links
 
-- [Meeting Information](#meetings)
-- [Members](#members)
-- [New Members](#new-members)
-- [Governance](#governance)
-- [Communication](#communication)
-- [Meetings](#meetings)
+- [CDF Interoperability SIG](#cdf-interoperability-sig)
+  - [Quick links](#quick-links)
+  - [Overview](#overview)
+  - [Members](#members)
+  - [New Members](#new-members)
+  - [Governance](#governance)
+    - [SIG Workstreams](#sig-workstreams)
+  - [Communication](#communication)
+  - [Meetings](#meetings)
 
 ## Overview
 
@@ -81,6 +84,7 @@ interoperability between tools
 * Emil Bäckmark ([@e-backmark-ericsson](https://github.com/e-backmark-ericsson)), Ericsson
 * Vibhav Bobade ([@waveywaves](https://github.com/waveywaves)), Red Hat
 * Jerop Kipruto ([@jerop](https://github.com/jerop)), Google
+* Saif Ul Islam ([@rubix982](https://github.com/rubix982)), Mapillary
 
 ## New Members
 
