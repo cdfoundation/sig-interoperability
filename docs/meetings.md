@@ -7,8 +7,11 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-08-05 Meeting](#August-5-2021)
+    * [2021-07-15 Meeting](#July-15-2021) - **Cancelled**
+    * [2021-07-01 Meeting](#July-1-2021) - **Cancelled**
     * [2021-06-24 BoF SIG Interoperability](#June-24-2021-SIG-Interoperability-BoF)
-    * [2021-06-17 Meeting](#June-17-2021) - **Cancelled**
+    * [2021-06-17 Meeting](#June-17-2021)
     * [2021-06-03 Meeting](#June-3-2021)
     * [2021-05-20 Meeting](#May-20-2021)
     * [2021-05-06 Meeting](#May-6-2021)
@@ -39,10 +42,70 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
 
-### June 24, 2021 SIG Interoperability BoF
+### August 5, 2021
 
 #### Participants
+* Fatih Degirmenci, Ericsson Software Technology
+* Mattias Linnér , Ericsson
+* Kara de la Marck, CloudBees
+* Matty Noble, AWS
+* Jeremy Stanley, OpenDev/Zuul
+* Saif Ul Islam
+* Tracy Miranda, CDF
+
+#### Agenda and Notes
+* Action Item Review, All
+* CDF Jenkins-themed Newsletter for September on “Paving the way for Jenkins interoperability in the Cloud”. 
+    * Submissions are open and welcome!
+    * The articles will be posted on the cd.foundation blog and the best ones will be included in the newsletter.
+    * Content Deadline: Friday, August 20
+    * Format: GDoc
+    * Length: Depends on the type of article, some have more text, some more images, some more code. Trust your judgement.
+    * Submit here: https://cd.foundation/cdf-blog-submission-form/ 
+* Recap of cdCon, All
+        * Questions/comments from BoF
+        * Metadata standardization
+        * Why do we need to put effort on interoperability
+        * Policy
+        * cdCon Recordings on Youtube: https://www.youtube.com/watch?v=MQU4fKhau1w&list=PL2KXbZ9-EY9TWsV-Jz8ARSt1ko0Yd36ah
+* Status of the Interoperability Whitepaper, All
+    * Whitepaper draft: https://docs.google.com/document/d/1Bgr6EHhW4wUTphU8xyMg87qzSee43PEA_gGdMnPHq9Q/edit
+* Standardized Metadata, All
+    * Pick up where we left off
+    * The original HackMD document which is now archived: https://hackmd.io/BYbkuR8uSlKt_w7Y4KE1OQ
+    * Work will continue as GitHub Discussion on SIG Interoperability repo: https://github.com/cdfoundation/sig-interoperability/discussions
+    * CISQ: https://www.it-cisq.org/software-bill-of-materials/index.htm
+* Supply Chain Security 
+    * https://events.linuxfoundation.org/supplychainsecuritycon-north-america/
+* Open Discussion on Next/New Topics, All
+    * Any topics we should start talking about
+    * SIG Roadmap: https://github.com/cdfoundation/sig-interoperability/blob/master/docs/roadmap.md
+    * We may look at the roadmap and see where we are at, what we missed, what we achieved, and refresh/update it accordingly
+    * Slack GitHub Discussions integration?
+* CDF Booth at KubeCon NA
+    * It may be possible to do the booth duty virtually
+    * More info/link TBD
+* CDF Public Calendar
+    * https://calendar.google.com/calendar/u/0/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24@group.calendar.google.com&ctz=America/Los_Angeles
 * \<addme\>
+
+#### Action Items
+* ~~Fatih to check with Jennifer Crowley et al to see if BoF schedule can be adjusted to minimize conflicts~~
+* ~~Fatih and Steve to start a discussion around selected area(s)/topic(s) as GitHub discussions~~
+    * Candidate is File Information from SPDX Specification: https://spdx.github.io/spdx-spec/4-file-information/
+* Matty to start a new discussion on other metadata standardization efforts, more specifically in-toto
+* Tracy M to find about CISQ Software Bill of Materials
+* \<addme\>
+
+### July 15, 2021
+
+**Cancelled**
+
+### July 1, 2021
+
+**Cancelled**
+
+### June 24, 2021 SIG Interoperability BoF
 
 #### Agenda and Notes
 * Welcome and the format of BoF, Fatih Degirmenci
