@@ -1,29 +1,31 @@
 # Establishing Shared Vocabulary
 
-- [Introduction](#introduction)
-- [Terminology Used by CI/CD Tools and Technologies](#terminology-used-by-cicd-tools-and-technologies)
-  - [ArgoCD](#argo-cd)
-  - [CircleCI](#circleci)
-  - [Codefresh](#codefresh)
-  - [Eiffel](#eiffel)
-  - [GitHub Actions](#github-actions)
-  - [GitLab CI/CD](#gitlab-cicd)
-  - [Harness](#harness)
-  - [Jenkins](#jenkins)
-  - [Jenkins X](#jenkins-x)
-  - [Keptn](#Keptn)
-  - [Screwdriver](#screwdriver)
-  - [Spinnaker](#spinnaker)
-  - [Tekton](#tekton)
-  - [Zuul](#zuul)
-- [Terminology Used by SCM Tools and Technologies](#terminology-used-by-scm-tools-and-technologies)
-  - [Gerrit](#gerrit)
-  - [GitHub](#github)
-  - [GitLab](#gitlab)
-- [Mapping of Terms](#mapping-of-terms)
-  - [CI/CD Tools and Technologies](#mapping-cicd)
-  - [SCM Tools and Technologies](#mapping-scm)
-- [Shared Vocabulary](#shared-vocabulary)
+- [Establishing Shared Vocabulary](#establishing-shared-vocabulary)
+  - [Introduction](#introduction)
+  - [Terminology Used by CI/CD Tools and Technologies](#terminology-used-by-cicd-tools-and-technologies)
+    - [ArgoCD](#argocd)
+    - [CircleCI](#circleci)
+    - [Codefresh](#codefresh)
+    - [Eiffel](#eiffel)
+    - [GitHub Actions](#github-actions)
+    - [GitLab CI/CD](#gitlab-cicd)
+    - [Harness](#harness)
+    - [Jenkins](#jenkins)
+    - [Jenkins X](#jenkins-x)
+    - [Keptn](#keptn)
+    - [Screwdriver](#screwdriver)
+    - [Spinnaker](#spinnaker)
+    - [Tekton](#tekton)
+    - [Zuul](#zuul)
+  - [Terminology Used by SCM Tools and Technologies](#terminology-used-by-scm-tools-and-technologies)
+    - [Gerrit](#gerrit)
+    - [GitHub](#github)
+    - [GitLab](#gitlab)
+  - [Mapping of Terms](#mapping-of-terms)
+    - [CI/CD Tools and Technologies](#cicd-tools-and-technologies)
+    - [SCM Tools and Technologies](#scm-tools-and-technologies)
+    - [SCM Personnas](#scm-personnas)
+  - [Shared Vocabulary](#shared-vocabulary)
 
 ## Introduction
 
@@ -393,12 +395,18 @@ pipeline in corresponding documentation.
 The table below is an attempt to create a mapping of different terms used
 by SCM Tools and Technologies.
 
-| Project    |               |               |          |               |        |
-|------------|---------------|---------------|----------|---------------|--------|
-| **Eiffel** | (Change)      | Source Change | Activity | N/A           | Submit |
-| **Gerrit** | Change        | Patch Set     | Review   | Change State? | Submit |
-| **GitHub** | Pull Request  | (PR commit)   | Review   | Check?        | Merge  |
-| **GitLab** | Merge Request | (MR commit)   | Review   | Merge Check?  | Merge  |
+| Project    | Code Contribuion |               |          |               |        |
+|------------|------------------|---------------|----------|---------------|--------|
+| **Eiffel** | (Change)         | Source Change | Activity | N/A           | Submit |
+| **Gerrit** | Change           | Patch Set     | Review   | Change State? | Submit |
+| **GitHub** | Pull Request     | (PR commit)   | Review   | Check?        | Merge  |
+| **GitLab** | Merge Request    | (MR commit)   | Review   | Merge Check?  | Merge  |
+
+
+### SCM Personnas
+
+- **Contributor**: A contributor is someone that wants to contribute some changes to a project
+- **Maintainer**: A maintainer has commit access to the head repository of the project
 
 ## Shared Vocabulary
 
