@@ -7,9 +7,8 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-09-16 Meeting](#September-16-2021)
     * [2021-08-05 Meeting](#August-5-2021)
-    * [2021-07-15 Meeting](#July-15-2021) - **Cancelled**
-    * [2021-07-01 Meeting](#July-1-2021) - **Cancelled**
     * [2021-06-24 BoF SIG Interoperability](#June-24-2021-SIG-Interoperability-BoF)
     * [2021-06-17 Meeting](#June-17-2021)
     * [2021-06-03 Meeting](#June-3-2021)
@@ -41,6 +40,49 @@
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
+
+### September 16, 2021
+
+#### Participants
+* Kara de la Marck, CloudBees
+* Mattias Linnér, Ericsson
+* Oliver Nocon, SAP
+* Fatih Degirmenci, Ericsson Sotware Technology
+* Emil Bäckmark, Ericsson
+* Andrea Frittoli, IBM
+* Oleg Nenashev, Jenkins
+* Matty Noble, AWS
+* Shruti Chaturvedi
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* Standardized Metadata, All
+    * SPDX:
+        * SPDX Becomes Internationally Recognized Standard for Software Bill of Materials - [announcement](https://www.linuxfoundation.org/press-release/spdx-becomes-internationally-recognized-standard-for-software-bill-of-materials/)
+        * v3 development is [in progress](https://spdx.github.io/spdx-spec/v3-draft/)
+        * What could we contribute?
+        * SPDX SBOM Generator GitHub Action: https://github.com/niravpatel27/gh-action-spdx-sbom-generator
+    * [in-toto](https://in-toto.io/)
+        * Jenkins in-toto plugin: https://plugins.jenkins.io/in-toto/
+* Updating [Interoperability SIG Roadmap](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/roadmap.md), All
+    * Items referring to events in the roadmap can be dropped and we refer to SIG Events instead given that the work is driven there. But this doesn't mean interoperability is not thinking about events.
+    * Potential new items in the roadmap are
+        * Supply Chain, SBOM, Standardized Metadata
+        * Policy Driven CI/CD
+        * Frameworks/tools/technologies other than CI/CD orchestrators such as build tools (e.g., Shipwright) and test tools (e.g. Junit) and how they relate to interoperability
+* [CloudEvents Plugin for Jenkins](https://github.com/jenkinsci/cloudevents-plugin), Shruti Chaturvedi 
+    * [Article on Jenkins Interoperability and the CloudEvents Plugin for Jenkins](https://medium.com/codex/the-what-why-and-how-of-interoperability-and-how-is-jenkins-interoperating-ab68002b663f)
+* \<addme\>
+
+#### Action Items
+* ~~Matty to start a new discussion on other metadata standardization efforts, more specifically in-toto~~: https://github.com/cdfoundation/sig-interoperability/discussions/74
+* Tracy M to find about [CISQ Software Bill of Materials](https://www.it-cisq.org/software-bill-of-materials/)
+* ~~Fatih D to look at integrating GitHub Discussions to Slack~~
+* Matty to reach out to Kate Stewart
+* Fatih to speak with Santiago Torres-Arias 
+* Kara + Fatih to update Interoperability SIG Roadmap, starting with the suggestions from today's meeting
+* \<addme\>
 
 ### August 5, 2021
 
@@ -87,7 +129,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
     * More info/link TBD
 * CDF Public Calendar
     * https://calendar.google.com/calendar/u/0/embed?src=linuxfoundation.org_mhf0kmgedn67ihni8r129avp24@group.calendar.google.com&ctz=America/Los_Angeles
-* \<addme\>
 
 #### Action Items
 * ~~Fatih to check with Jennifer Crowley et al to see if BoF schedule can be adjusted to minimize conflicts~~
@@ -95,15 +136,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
     * Candidate is File Information from SPDX Specification: https://spdx.github.io/spdx-spec/4-file-information/
 * Matty to start a new discussion on other metadata standardization efforts, more specifically in-toto
 * Tracy M to find about CISQ Software Bill of Materials
-* \<addme\>
-
-### July 15, 2021
-
-**Cancelled**
-
-### July 1, 2021
-
-**Cancelled**
 
 ### June 24, 2021 SIG Interoperability BoF
 
@@ -126,10 +158,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
         * pipeline data for traceability/visualization
         * events in CI/CD
 * Open Discussion, All
-
-### June 17, 2021
-
-**Meeting is cancelled.**
 
 ### June 3, 2021
 
