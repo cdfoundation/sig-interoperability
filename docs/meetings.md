@@ -7,6 +7,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2021-10-21 Meeting](#October-21-2021)
     * [2021-09-16 Meeting](#September-16-2021)
     * [2021-08-05 Meeting](#August-5-2021)
     * [2021-06-24 BoF SIG Interoperability](#June-24-2021-SIG-Interoperability-BoF)
@@ -41,6 +42,58 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
 
+### October 21, 2021
+
+#### Participants
+* Ramin Akhbari (eBay)
+* Oliver Nocon (SAP)
+* Mattias Linnér (Ericsson)
+* Kara de la Marck (CDF)
+* Fatih Degirmenci (Ericsson Software Technology)
+* Emil Bäckmark (Ericsson)
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* DST Ending - Meeting Time Adjustment, All
+    * Europe@October 31st, NA@November 7th
+    * Proposal is to move meeting time to 16:00UTC
+    * This time for the meeting is unanimously acceptable for those on this call.
+    * Skip meeting on November 4th
+    * Next meeting is on November 18th
+* Fatih to update on his interoperability keynote 
+    * https://www.etsi.org/events/1885-2021-10-8th-ucaat-user-conference-on-advanced-automated-testing
+    * Spoke on interoperability and this SIG
+    * Good opportunity to reach out to telecom industry and invite them to CDF and the SIG. 
+    * Hopefully, we will have increased participation and collaboration. 
+* Reflections from conferences, All
+    * SupplyChainSecurityCon
+    * KubeCon CloudNativeCon
+* Updating SIG Interoperability Roadmap, All
+    * Software Supply Chain
+        * Standardized Metadata
+        * Artifact Handling
+        * Policy Driven CD 
+    * Events
+    * Link to the document: https://docs.google.com/document/d/1uf3sb-WJUp3Acd3WYL5SvgVECHevonufJOxd6KftOxc/edit#
+    * \<addme\>
+* All: please review [CDF Landscape site](https://github.com/cdfoundation/cdf-landscape)
+    * Please add missing projects to the landscape and raise suggestions or comments on the landscape categories.
+    * [Let's (re)Consider Categories on CDF Landscape](https://github.com/cdfoundation/cdf-landscape/issues/175)
+    * [Suggested list of projects to add to landscape](https://github.com/cdfoundation/cdf-landscape/issues/123)
+    * [Project Board for adding additional projects to landscape](https://github.com/cdfoundation/cdf-landscape/projects/1)
+    * [Ensure all CDF Members represented](https://github.com/cdfoundation/cdf-landscape/issues/147)  -- Completed
+* \<addme\>
+
+#### Action Items
+* ~~Matty to start a new discussion on other metadata standardization efforts, more specifically in-toto~~: https://github.com/cdfoundation/sig-interoperability/discussions/74
+* Tracy M to find about [CISQ Software Bill of Materials](https://www.it-cisq.org/software-bill-of-materials/)
+* Matty to reach out to Kate Stewart
+* Fatih to speak with Santiago Torres-Arias 
+* Kara + Fatih to update Interoperability SIG Roadmap, starting with the suggestions from Sept 16 meeting
+* Kara to see about presentation of SIG work + Roadmap to End User Council, plus potentially have more input from their side.
+* \<addme\>
+
 ### September 16, 2021
 
 #### Participants
@@ -53,7 +106,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 * Oleg Nenashev, Jenkins
 * Matty Noble, AWS
 * Shruti Chaturvedi
-* \<addme\>
 
 #### Agenda and Notes
 * Action Item Review, All
@@ -73,7 +125,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
         * Frameworks/tools/technologies other than CI/CD orchestrators such as build tools (e.g., Shipwright) and test tools (e.g. Junit) and how they relate to interoperability
 * [CloudEvents Plugin for Jenkins](https://github.com/jenkinsci/cloudevents-plugin), Shruti Chaturvedi 
     * [Article on Jenkins Interoperability and the CloudEvents Plugin for Jenkins](https://medium.com/codex/the-what-why-and-how-of-interoperability-and-how-is-jenkins-interoperating-ab68002b663f)
-* \<addme\>
 
 #### Action Items
 * ~~Matty to start a new discussion on other metadata standardization efforts, more specifically in-toto~~: https://github.com/cdfoundation/sig-interoperability/discussions/74
@@ -82,7 +133,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 * Matty to reach out to Kate Stewart
 * Fatih to speak with Santiago Torres-Arias 
 * Kara + Fatih to update Interoperability SIG Roadmap, starting with the suggestions from today's meeting
-* \<addme\>
 
 ### August 5, 2021
 
