@@ -138,10 +138,10 @@ configured event occurs.
 
 ### GitLab CI/CD
 
-[GitLab CI/CD](https://docs.gitlab.com/ee/ci/introduction/) is a powerful tool
-built into GitLab that allows users to apply all the continuous methods
-(Continuous Integration, Delivery, and Deployment) to their software with no
-third-party application or integration needed.
+[GitLab CI/CD](https://docs.gitlab.com/ee/ci/introduction/) is a part of the 
+GitLab DevOps platform that allows users to apply all the continuous methods 
+(Continuous Integration, Delivery, and Deployment) to their software with 
+no third-party application or integration needed.
 
 Some of the core GitLab CI/CD terms are listed below. [[3]]
 
