@@ -388,6 +388,32 @@ pipeline in corresponding documentation.
 | **Tekton**         | N/A       | Step       | Task     | Pipeline | Trigger | Resource (?)           |
 | **Zuul**           | N/A       | N/A        | Job      | Pipeline | Trigger | Node (?)               |
 
+### Build Step Types
+
+The table below is an attempt to create a mapping of common names for the various types of build steps (the unit of work two degrees smaller than a build pipeline). While CI/CD Tools and Technologies generally give developers broad leeway in naming and implementing their build steps, agreeing upon some common terms will help develop more pluggable build pipelines. This list is not meant to be exhaustive.
+
+| Step      | Semantics     | Aliases       | Inputs   | Outputs and Results  |
+|-----------|---------------|---------------|----------|----------------------|
+| **Setup** | Provision build resources, set up the build workspace. | Initialize, Start, Prepare Workspace | Build Request Parameters, Build Container Image Name and Version | Workspace, Running Build Environment |
+| **Source** | Download, retrieve or copy software, images, and documentation into the build workspace.  | N/A | Source Code Repository, Source Code Branch or Commit | Source Code, Other Software Artifacts, Documentation Source |
+| **Detect Secrets** | Detect secrets in the source code, other software, or documentation.  | N/A | Source Code Repository, Source Code Branch or Commit, Source Code, Other Software Artifacts, Documentation Source | Secret Detection Report, Revoked Secrets |
+| **Policy Check** | Verifies that policies are followed, for example:  software is from a trusted source, source repositories are configured correctly, dependencies are signed, code standards are followed, code reviews are completed, there is a secure chain of custody, or appropriate work items or change requests are associated with the change. | Provenance Check | Source Code Repository, Source Code Branch or Commit, Source Code, Other Software Artifacts, Documentation Source | Policy or Provenance Reports |
+| **Build** | Assemble and/or compile software and documentation into an executable and usable format. | Compile, Install, Assemble | Source Code, Other Software Artifacts, Documentation Source | Executable Software, Compiled Documentation |
+| **Test** | Run the default test suite for the build. Typically includes unit tests, linting, and low-level integration tests that don't require connecting to a deployed server. | Unit Test | Executable Software, Compiled Documentation | Test/Lint Results, Test/Lint Reports, Test/Lint Coverage Reports |
+| **Coverage** | Verifies that the testing coverage meets a standard. | Code Coverage, Test Coverage | Test Coverage Reports | Coverage Verification Report |
+| **Scan** | Use a tool to do verification of software and documenation other than testing. Examples include static code analysis, checking for known vulnerabilities in code or binaries, dynamic security scans, license checks, and code smells. | N/A | Source Code, Other Software Artifacts, Documentation Source, Executable Software, Compiled Documentation | Scan Results, Scan Reports, Scan Coverage Reports |
+| **Package** | Create the software artifact(s) that will be published. Typically updates the software version. | N/A | Source Code, Other Software Artifacts, Documentation Source, Executable Software, Compiled Documentation | Packaged Software or Documentation, Images, Binaries, Archives |
+| **Bill of Materials** | Construct a Software Bill of Materials (SBOM) that includes both direct and indirect dependencies that are included in the software and documentation as packaged. | SBOM | Source Code, Other Software Artifacts, Documentation Source, Executable Software, Compiled Documentation | SBOM |
+| **Sign** | Use a cryptographic method to authenticate the software. | N/A | Packaged Software or Documentation, Images, Binaries, Archives | Signed Packages, Signing Record(s) |
+| **Publish** | Upload software artifacts and documentation to another repository. May also update catalogs, mirrors, release notes, etc. | Upload | Packaged (Signed) Software or Documentation, Images, Binaries, Archives | Repositories Updated  |
+| **Provision** | Request that a new environment or other resources be provisioned, for example, a test cluster or object storage. | Obtain Environment, Cluster, Storage | Resource Request Parameters | Provisioned Environment/Resource(s)  |
+| **Deploy** | Make changes to any environment other than the build environment. Configure the environment. Deploy dependencies, software artificts and/or documentation. | N/A   | Software Artifacts, Documentation | Software running in another environment. Documentation hosted in another environment. Routes to Deployments. Deployment Records. |
+| **Verify Deployment** | Verify successful deployment of software or documentation. | Smoke Test | Routes to Deployments | Deployment Verification Records|
+| **Analyze** | Perform additional processing and analytics based on the results of a previous activity. | Metrics, Scoring, Grading | Output of previous build steps | Analysis Results, Analysis Reports |
+| **Create Request** | Create a request in another system; for example, a Change Request that must be approved for a deployment to production. | Approval, Ticket | Output of previous build steps | Request Created, Link to Request |
+| **Record and Report Results** | Final recording and reporting of build results. Update work items and change requests. Upload build logs and other artifacts for long-term archival. | Build Status, Build Report, Build Archive | Build Logs, Output of previous build steps | Compliance Evidence, Build Results, Build Reports, Build Archives |
+| **Cleanup** | Release build resources, de-provision environments, delete build workspace and build container(s). | Finalize   | (Change)   | (Change)  |
+
 ### SCM Tools and Technologies
 
 The table below is an attempt to create a mapping of different terms used
