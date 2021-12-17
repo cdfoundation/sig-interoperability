@@ -388,6 +388,18 @@ pipeline in corresponding documentation.
 | **Tekton**         | N/A       | Step       | Task     | Pipeline | Trigger | Resource (?)           |
 | **Zuul**           | N/A       | N/A        | Job      | Pipeline | Trigger | Node (?)               |
 
+### Build Stages
+
+The table below is an attempt to create a mapping of common names for build stages (the unit of work one degree smaller than a pipeline). While CI/CD Tools and Technologies generally give developers broad leeway in naming and implementing their build stages, agreeing upon some common terms will help develop more pluggable build pipelines.
+
+| Stage      | Semantics     | Aliases       | Inputs   | Outputs and Results  |
+|------------|---------------|---------------|----------|-----------------------|
+| **Build** | Set up the build workspace and provision build resources. Download, retrieve, assemble, and/or compile software into an executable and testable format. Download, retrieve, assemble, and/or compile documentation into a consumable format. | N/A | Source Code, Other Software Artifacts, Documentation | Executable Software, Compiled Documentation |
+| **Test** | Test, scan, verify, and lint software and documentation. | Verify | Executable Software, Compiled Documentation | Test/Lint/Scan Results, Test/Lint/Scan Reports, Test/Lint/Scan Coverage Reports |
+| **Release** | Package, version, sign, and publish software artifacts and documentation. | Publish | Software Artifacts, Documentation | Release Reports, Software Artifacts and Documentation: packaged, signed, and published to a repository. |
+| **Deploy** | Deploy software artificats and documentation to any environment other than the build environment. Verify successful deployment. | N/A   | Software Artifacts, Documentation | Software running in another environment. Documentation hosted in another environment. |
+| **Maintain** | Automatically update or upgrade previously built software. May include some or all of the previous stages. | Update, Upgrade | See Above | See Above |
+
 ### SCM Tools and Technologies
 
 The table below is an attempt to create a mapping of different terms used
