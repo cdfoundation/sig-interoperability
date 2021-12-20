@@ -388,17 +388,64 @@ pipeline in corresponding documentation.
 | **Tekton**         | N/A       | Step       | Task     | Pipeline | Trigger | Resource (?)           |
 | **Zuul**           | N/A       | N/A        | Job      | Pipeline | Trigger | Node (?)               |
 
-### Build Stages
+### Stages
 
-The table below is an attempt to create a mapping of common names for build stages (the unit of work one degree smaller than a pipeline). While CI/CD Tools and Technologies generally give developers broad leeway in naming and implementing their build stages, agreeing upon some common terms will help develop more pluggable build pipelines.
+The list below is an attempt to create a mapping of common names for Stages, where a Stage is the unit of work one degree smaller than a Pipeline. While CI/CD Tools and Technologies generally give developers broad leeway in naming and implementing their Stages, agreeing upon some common terms will help develop more pluggable Pipelines.
 
-| Stage      | Semantics     | Aliases       | Inputs   | Outputs and Results  |
-|------------|---------------|---------------|----------|-----------------------|
-| **Build** | Set up the build workspace and provision build resources. Download, retrieve, assemble, and/or compile software into an executable and testable format. Download, retrieve, assemble, and/or compile documentation into a consumable format. | N/A | Source Code, Other Software Artifacts, Documentation | Executable Software, Compiled Documentation |
-| **Test** | Test, scan, verify, and lint software and documentation. | Verify | Executable Software, Compiled Documentation | Test/Lint/Scan Results, Test/Lint/Scan Reports, Test/Lint/Scan Coverage Reports |
-| **Release** | Package, version, sign, and publish software artifacts and documentation. | Publish | Software Artifacts, Documentation | Release Reports, Software Artifacts and Documentation: packaged, signed, and published to a repository. |
-| **Deploy** | Deploy software artificats and documentation to any environment other than the build environment. Verify successful deployment. | N/A   | Software Artifacts, Documentation | Software running in another environment. Documentation hosted in another environment. |
-| **Maintain** | Automatically update or upgrade previously built software. May include some or all of the previous stages. | Update, Upgrade | See Above | See Above |
+The concepts below can be re-ordered in Pipeline implementations. For example, it is often the case that software linting (logically a test) is done prior to the Build Stage. Also, deployment to a staging environment is often done prior to the Release Stage, while the deployment for production often happens after the Release Stage.
+
+In the lists and table below, Software Artifacts includes: Documentation Source Files, Source Code, Baseline/Composition/Dependency Information, Infrastructure as Code.
+
+#### Build Stage
+* Semantics: Set up the build workspace and provision build resources. Download, retrieve, assemble, and/or compile software into an executable and testable format. Download, retrieve, assemble, and/or compile documentation into a consumable format.
+* Aliases: N/A
+* Inputs: Software Artifacts, Container Images
+* Outputs: Compiled Documentation, Executable Software, Baseline/Composition/Dependencies, Container Images
+* Other Results and Side Effects: N/A
+
+#### Test Stage
+* Semantics: Test, scan, verify, and lint software and documentation.
+* Aliases: Verify
+* Inputs: Compiled Documentation, Executable Software, Software Artifacts, Container Images
+* Outputs: Test/Lint/Scan Records, Test/Lint/Scan Reports, Test/Lint/Scan Coverage Reports
+* Other Results and Side Effects: N/A
+
+#### Release Stage
+* Semantics: Package, version, sign, and publish software artifacts and documentation.
+* Aliases: Deliver, Publish
+* Inputs: Compiled Documentation, Executable Software, Software Artifacts, Container Images
+* Outputs: Release Records, Release Reports
+* Other Results and Side Effects: Documentation and Software: packaged, signed, and published to a repository.
+
+#### Deploy Stage
+* Semantics: Deploy software artificats and documentation to any environment other than the build environment. Verify successful deployment.
+* Aliases: Install
+* Inputs: Compiled Documentation, Executable Software, Software Artifacts, Container Images
+* Outputs: Deployment Records, Deployment Reports, Secrets to access deployed resources
+* Other Results and Side Effects: Documentation hosted in a review, staging or production environment. Software running in a review, staging or production environment.
+
+#### Maintain Stage
+* Semantics: Automatically update or upgrade previously built software. May include some or all of the previous stages.
+* Aliases: Update, Upgrade
+* Inputs: See Above
+* Outputs: See Above
+* Other Results and Side Effects: Updated documentation and software built, tested, released and deployed.
+
+#### Any Stage
+* Semantics: Some inputs and outputs are used across any and all stages.
+* Aliases: N/A
+* Inputs: Secrets, Build Environment, Build Workspace
+* Outputs: Stage Results and Return Codes, Logs
+
+#### Inputs and Outputs for Pipeline Stages
+
+| Stage Name | Software Artifacts | Container Images | Compiled Documentation | Executable Software | Secrets | Build Environment | Build Workspace | Return Codes | Results, Records and Reports | Logs |
+| :--------: | ------------------ | ---------------- | ---------------------- | ------------------- | ------- | ----------------- | ---------------- | ------------ | ---------------------------- | ---- |
+| Build | I, O | I, O | O | O | I | I | I | O | O | O |
+| Test | I | I | I | I | I | I | I | O | O | O |
+| Release | I | I | I | I | I | I | I | O | O | O |
+| Deploy | I | I | I | I | I, O | I | I | O | O | O |
+| Maintain | I, O | I, O | I, O | I, O | I, O | I | I | O | O | O |
 
 ### SCM Tools and Technologies
 
