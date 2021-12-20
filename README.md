@@ -85,6 +85,7 @@ interoperability between tools
 * Vibhav Bobade ([@waveywaves](https://github.com/waveywaves)), Red Hat
 * Jerop Kipruto ([@jerop](https://github.com/jerop)), Google
 * Saif Ul Islam ([@rubix982](https://github.com/rubix982)), Mapillary
+* Ann Marie Fred ([@amfred](https://github.com/amfred)), Red Hat
 
 ## New Members
 
