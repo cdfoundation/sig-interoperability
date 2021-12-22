@@ -487,8 +487,8 @@ Each type of step will generally have several implementations that are tool spec
 * Outputs: Repository URLs. Repositories updated.
 
 #### Provision
-* Semantics: Request that a new environment, infrastructure, or other resources be provisioned, for example, a test cluster or object storage.
-* Aliases: Obtain, Request
+* Semantics: Request that a new physical or virtual server, network, or other resource be allocated or created.  Examples include a test cluster or object storage.
+* Aliases: Obtain, Request, Allocate
 * Inputs: Resource Request Parameters
 * Outputs: Provisioned Resources (with connection info) 
 
