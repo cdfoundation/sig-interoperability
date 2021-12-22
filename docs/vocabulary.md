@@ -390,169 +390,190 @@ pipeline in corresponding documentation.
 
 ### Pipeline Step Types
 
-The table below is an attempt to create a mapping of common names for the various types of build steps (the unit of work two degrees smaller than a build pipeline). While CI/CD tools and technologies generally give developers broad leeway in naming and implementing their pipeline steps, agreeing upon some common terms will help develop more pluggable pipelines. This list is not meant to be exhaustive.
+The table below is an attempt to create a mapping of common names for the various types of build Steps (the unit of work two degrees smaller than a build pipeline). (The effort of proposing a common vocabulary across CI/CD Tools and Technologies is not yet performed, but we'll use the most common term from the table above as the working term.)
+
+While CI/CD tools and technologies generally give developers broad leeway in naming and implementing their pipeline steps, agreeing upon some common terms will help develop more pluggable pipelines. This list is not meant to be exhaustive.
 
 Each type of step will generally have several implementations that are tool specific. For example, Source will have implementations for various Source Code Management (SCM) tools. Publish will have implementations for each type of repository, and so on.
-
-"Software Source" refers to human-readable source files that are inputs to the pipeline, such as: Source Code, Configuration Files, Documentation Source Files
-
-"Binary Source" refers to executables that are inputs to the pipeline, such as: Executable Software Dependencies, Container Images, Virtual Machine Images
-
-"Generated Software" refers to human-readable files that are outputs of the pipeline, such as: Compiled Software, Generated Configuration Files, Compiled Documentation
-
-"Generated Binaries" refers to executables that are outputs of the pipeline, such as: Executable Software, Container Images, Virtual Machine Images
 
 #### Setup
 * Semantics: Provision build resources, set up the build workspace.
 * Aliases: Initialize, Start, Prepare, Workspace
 * Inputs: Build Request Parameters, Build Container Image Name and Version
 * Outputs: Secrets, Build Environment, Build Workspace
+* Other Results and Side Effects: N/A
 
 #### Source
 * Semantics: Download, retrieve or copy software, images, and documentation into the build workspace. Fetch configuration data.
 * Aliases: Clone, Fetch
 * Inputs: Source Code Repository, Source Code Branch or Commit
 * Outputs: Software Source, Binary Source
+* Other Results and Side Effects: N/A
 
 #### Detect Secrets
 * Semantics: Detect secrets in the source code, other software, or documentation.
 * Aliases: N/A
 * Inputs: Source Code Repository, Source Code Branch or Commit, Software Source, Binary Source
-* Outputs: Secret Detection Report, Revoked Secrets
+* Outputs: Secret Detection Report
+* Other Results and Side Effects: Revoked Secrets
 
 #### Build
 * Semantics: Assemble and/or compile software and documentation into an executable and usable format.
 * Aliases: Compile, Install, Assemble
 * Inputs: Software Source, Binary Source
 * Outputs: Generated Software, Generated Binaries
+* Other Results and Side Effects: N/A
 
 #### Discovery
 * Semantics: Perform deep discovery to identify all dependencies (including transitive dependencies) in the software and documentation as packaged.
 * Aliases: Dependencies
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries
 * Outputs: Dependency List/Graph
+* Other Results and Side Effects: N/A
 
 #### Remediate
 * Semantics: Find and automatically fix known vulnerabilities for application package dependencies, container base images and os packages.
 * Aliases: Fix, Update
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Source Code Repository, Source Code Branch or Commit, Dependency List/Graph
 * Outputs: Remediated Software or Documentation, Container Images, Binaries, Source Code Branch or Commit, Dependency List/Graph
+* Other Results and Side Effects: May also update the Source Code Repository with new dependencies, create a pull request with the updates, or open an issue requesting the updates.
 
 #### Test
 * Semantics: Run a test suite. Examples includes unit tests, linting, integration tests, acceptance tests, performance tests.
 * Aliases: N/A
 * Inputs: Any
 * Outputs: Test/Lint Results, Test/Lint Reports, Test Coverage Reports
+* Other Results and Side Effects: N/A
 
 #### Coverage
 * Semantics: Verifies that the testing coverage meets a standard.
 * Aliases: Code Coverage, Test Coverage
 * Inputs: Test Coverage Reports 
 * Outputs: Coverage Verification Report
+* Other Results and Side Effects: N/A
 
 #### Scan
 * Semantics: Use a tool to do verification of software and documenation other than testing. Examples include static code analysis, checking for known vulnerabilities in code or binaries, dynamic security scans, license checks, and code smells.
 * Aliases: Check
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Dependency List/Graph
 * Outputs: Scan Results, Scan Reports, Scan Coverage Reports
+* Other Results and Side Effects: N/A
 
 #### Bill of Materials
 * Semantics: Create a Software Bill of Materials (SBoM) for a given repository that captures pedigree of all the dependencies and is collected at different granularities.
 * Aliases: BOM, SBOM
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Dependency List/Graph, Packaged Artifacts
 * Outputs: BOM
+* Other Results and Side Effects: N/A
 
 #### Package
 * Semantics: Create the software artifact(s) that will be published. Typically updates the software version.
 * Aliases: Containerize
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Dependency List/Graph
 * Outputs: Packaged Artifacts (Software, Documentation or Binaries), Container Images, Image Tags, Image Digests, Archives
+* Other Results and Side Effects: N/A
 
 #### Sign
 * Semantics: Use a cryptographic method to authenticate the software.
 * Aliases: N/A
 * Inputs: Packaged Artifacts
 * Outputs: Signed Artifacts, Signing Record(s)
+* Other Results and Side Effects: N/A
 
 #### Policy
 * Semantics: Verifies that policies are followed, for example:  software is from a trusted source, source repositories are configured correctly, Kubernetes manifests are configured securely, dependencies are signed, code standards are followed, code reviews are completed, there is a secure chain of custody, or appropriate work items or change requests are associated with the change.
 * Aliases: Check, Gate, Provenance
 * Inputs: Any
 * Outputs: Policy and/or Provenance Reports
+* Other Results and Side Effects: N/A
 
 #### Publish
 * Semantics: Upload software artifacts and documentation to another repository. May also update catalogs, mirrors, release notes, etc.
 * Aliases: Push, Upload, Release
 * Inputs: Packaged (Signed) Artifacts
-* Outputs: Repository URLs. Repositories updated.
+* Outputs: Repository URLs
+* Other Results and Side Effects: Repositories updated.
 
 #### Provision
 * Semantics: Request that a new physical or virtual server, network, or other resource be allocated or created.  Examples include a test cluster or object storage.
 * Aliases: Obtain, Request, Allocate
 * Inputs: Resource Request Parameters
-* Outputs: Provisioned Resources (with connection info) 
+* Outputs: Provisioned Resources (with connection info)
+* Other Results and Side Effects: Resources are provisioned.
 
 #### Deploy
 * Semantics: Make changes to any environment other than the build environment. Configure the environment. Deploy dependencies, software artificts and/or documentation.
 * Aliases: Install, Configure
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Dependency List/Graph, Packaged Artifacts, Provisioned Resources
-* Outputs: Software running in another environment. Documentation hosted in another environment. Routes to Deployments (with connection info). Deployment Records. Secrets to access deployed resources.
+* Outputs: Routes to Deployments (with connection info). Deployment Records. Secrets to access deployed resources.
+* Other Results and Side Effects: Software running in another environment. Documentation hosted in another environment. 
 
 #### Verify Deployment
 * Semantics: Verify successful deployment of software or documentation.
 * Aliases: Smoke Test
 * Inputs: Provisioned Resources, Routes to Deployments, Secrets to access deployed resources.
 * Outputs: Deployment Verification Results, Deployment Verification Records
+* Other Results and Side Effects: N/A
 
 #### Analyze
 * Semantics: Perform additional processing and analytics based on the results of a previous activity.
 * Aliases: Metrics, Score, Grade, Parse
 * Inputs: Any
 * Outputs: Analysis Results, Analysis Reports
+* Other Results and Side Effects: N/A
 
 #### Message
 * Semantics: Send a message to another system; for example, a Slack message or a PagerDuty alert.
 * Aliases: N/A
 * Inputs: Output of previous steps.
-* Outputs: Message Sent
+* Outputs: Message Return Code / Results
+* Other Results and Side Effects: Message sent.
 
 #### Create Request
 * Semantics: Create a request in another system; for example, create a Change Request that must be approved for a deployment to production.
 * Aliases: Approval, Ticket, Issue, Work Item
 * Inputs: Source Code Repo/Branch/Commit, Link to Previous Work Item, Provisioned Resources, Routes to Deployments
-* Outputs: Request Created, Link to New Request
+* Outputs: Request Return Code/Results, Link to New Request
+* Other Results and Side Effects: Request created.
 
 #### Update Record
 * Semantics: Update a record in another system; for example, update and close a Change Request after a deployment to production; or, update a Github issue with the results of a policy check.
 * Aliases: Editor
 * Inputs: Source Code Repo/Branch/Commit, Link to Previous Request, Provisioned Resources, Routes to Deployments
-* Outputs: Request Record Updated
+* Outputs: Update Return Code/Results, Link to Request
+* Other Results and Side Effects: Request record updated.
 
 #### Execute
 * Semantics: Run a script or program that doesn't fall into one of the other categories. Often executes in another container.
 * Aliases: Run
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Packaged Artifacts, Provisioned Resources, Routes to Deployments
 * Outputs: Output or results of the script or program.
+* Other Results and Side Effects: Whatever the script or program has done.
 
 #### Record Results
-* Semantics: Final recording and reporting of build results. Upload build logs and other artifacts for long-term archival.
+* Semantics: Final recording and reporting of build results and compliance evidence. Upload artifacts for long-term archival.
 * Aliases: Audit, Evidence, Report, Archive
 * Inputs: Any
-* Outputs: Compliance Evidence, Build Archives
+* Outputs: Compliance Reports, Archive Files, Return Code/Results
+* Other Results and Side Effects: Results, logs, compliance evidence, and other artifacts are uploaded and/or archived.
 
 #### Cleanup
 * Semantics: Release build resources, de-provision environments, delete build workspace and build container(s).
 * Aliases: Finalize
 * Inputs: Build Environment, Build Workspace, Provisioned Resources, Routes to Deployments
-* Outputs: Deleted Build Environment and Build Workspace, De-provisioned Resources, Deleted Deployments
+* Outputs: Return Code/Results
+* Other Results and Side Effects: Deleted Build Environment and Build Workspace, De-provisioned Resources, Deleted Deployments
 
 #### Any Step
 * Semantics: Some inputs and outputs are used across any and all stages.
 * Aliases: N/A
 * Inputs: Secrets, Build Environment, Build Workspace, Parameters for the Step
 * Outputs: Return Codes, Results, Records and Reports, Logs
+* Other Results and Side Effects: N/A
 
 #### Inputs and Outputs for Pipeline Steps
+
+The inputs and outputs listed in this table are the ones that are used by more than one step. These inputs and outputs need to be in a location and/or format that the pipeline steps expect so they can be processed correctly.
 
 With the exception of the Setup and Cleanup steps, all steps have the following inputs: Secrets, Build Environment, Build Workspace, Parameters for the Step; and the following outputs: Return Codes, Results, Records and Reports, Logs.
 
