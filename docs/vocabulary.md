@@ -577,7 +577,7 @@ The inputs and outputs listed in this table are the ones that are used by more t
 
 With the exception of the Setup and Cleanup steps, all steps have the following inputs: Secrets, Build Environment, Build Workspace, Parameters for the Step; and the following outputs: Return Codes, Results, Records and Reports, Logs.
 
-| Step Name | Software Source | Binary Source | Generated Software | Generated Binaries | Source Code Repo/Branch/Commit | Dependency List/Graph | Test Coverage Reports | Packaged Artifacts | Provisioned Resources | Routes to Deployments | Request Link |
+| Step Name | Software Source | Binary Source | Generated Software | Generated Binaries | Source Code Reference | Dependency List/Graph | Test Coverage Reports | Packaged Artifacts | Provisioned Resources | Routes to Deployments | Request Link |
 | :-------: | ------------------ | ---------------- | ---------------------- | ------------------- | ------------------------------ | --------------------- | --------------------- | ------------------ | --------------------- | --------------------- | -------------- |
 | Setup | | | | | | | | | O | | |
 | Source | O | O | | | I | | | | | | |
