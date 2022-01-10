@@ -2,7 +2,7 @@
 
 - [Introduction](#introduction)
 - [Terminology Used by CI/CD Tools and Technologies](#terminology-used-by-cicd-tools-and-technologies)
-  - [ArgoCD](#argo-cd)
+  - [ArgoCD](#argocd)
   - [CircleCI](#circleci)
   - [Codefresh](#codefresh)
   - [Eiffel](#eiffel)
@@ -11,7 +11,7 @@
   - [Harness](#harness)
   - [Jenkins](#jenkins)
   - [Jenkins X](#jenkins-x)
-  - [Keptn](#Keptn)
+  - [Keptn](#keptn)
   - [Screwdriver](#screwdriver)
   - [Spinnaker](#spinnaker)
   - [Tekton](#tekton)
@@ -21,8 +21,9 @@
   - [GitHub](#github)
   - [GitLab](#gitlab)
 - [Mapping of Terms](#mapping-of-terms)
-  - [CI/CD Tools and Technologies](#mapping-cicd)
-  - [SCM Tools and Technologies](#mapping-scm)
+  - [CI/CD Tools and Technologies](#cicd-tools-and-technologies)
+  - [Pipeline Step Types](#pipeline-step-types)
+  - [SCM Tools and Technologies](#scm-tools-and-technologies)
 - [Shared Vocabulary](#shared-vocabulary)
 
 ## Introduction
@@ -406,14 +407,14 @@ Each type of Pipeline Step will generally have several implementations that are 
 #### Source
 * Semantics: Download, retrieve or copy software, images, and documentation into the build workspace. Fetch configuration data.
 * Aliases: Clone, Fetch
-* Inputs: Source Code Repository, Source Code Branch or Commit
+* Inputs: Source Code Reference (Repository, Branch, Commit)
 * Outputs: Software Source, Binary Source
 * Other Results and Side Effects: N/A
 
 #### Secret Detection
 * Semantics: Detect secrets in the source code, other software, or documentation. Examples include passwords, SSH keys, API keys, and so on.
 * Aliases: N/A
-* Inputs: Source Code Repository, Source Code Branch or Commit, Software Source, Binary Source
+* Inputs: Source Code Reference (Repository, Branch, Commit), Software Source, Binary Source
 * Outputs: Secret Detection Report
 * Other Results and Side Effects: Revoked Secrets
 
@@ -434,8 +435,8 @@ Each type of Pipeline Step will generally have several implementations that are 
 #### Remediate
 * Semantics: Find and automatically fix known vulnerabilities for application package dependencies, container base images and os packages.
 * Aliases: Fix, Update
-* Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Source Code Repository, Source Code Branch or Commit, Dependency List/Graph
-* Outputs: Remediated Software or Documentation, Container Images, Binaries, Source Code Branch or Commit, Dependency List/Graph
+* Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Source Code Reference (Repository, Branch, Commit), Dependency List/Graph
+* Outputs: Remediated Software or Documentation, Container Images, Binaries, Source Code Reference (Repository, Branch, Commit), Dependency List/Graph
 * Other Results and Side Effects: May also update the Source Code Repository with new dependencies, create a pull request with the updates, or open an issue requesting the updates.
 
 #### Test
@@ -532,14 +533,14 @@ Each type of Pipeline Step will generally have several implementations that are 
 #### Create Request
 * Semantics: Create a request in another system; for example, create a Change Request that must be approved for a deployment to production.
 * Aliases: Approval, Ticket, Issue, Work Item
-* Inputs: Source Code Repo/Branch/Commit, Link to Previous Work Item, Provisioned Resources, Routes to Deployments
+* Inputs: Source Code Reference (Repository, Branch, Commit), Link to Previous Work Item, Provisioned Resources, Routes to Deployments
 * Outputs: Request Return Code/Results, Link to New Request
 * Other Results and Side Effects: Request created.
 
 #### Update Record
 * Semantics: Update a record in another system; for example, update and close a Change Request after a deployment to production; or, update a Github issue with the results of a policy check.
 * Aliases: Editor
-* Inputs: Source Code Repo/Branch/Commit, Link to Previous Request, Provisioned Resources, Routes to Deployments
+* Inputs: Source Code Reference (Repository, Branch, Commit), Link to Previous Request, Provisioned Resources, Routes to Deployments
 * Outputs: Update Return Code/Results, Link to Request
 * Other Results and Side Effects: Request record updated.
 
