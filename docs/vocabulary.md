@@ -390,11 +390,11 @@ pipeline in corresponding documentation.
 
 ### Pipeline Step Types
 
-The table below is an attempt to create a mapping of common names for the various types of build Steps (the unit of work two degrees smaller than a build pipeline). (The effort of proposing a common vocabulary across CI/CD Tools and Technologies is not yet performed, but we'll use the most common term from the table above as the working term.)
+The table below is an attempt to create a mapping of common names for the various types of Pipeline Steps (the unit of work two degrees smaller than a Pipeline). (The effort of proposing a common vocabulary across CI/CD Tools and Technologies is not yet performed, but we'll use the most common term from the table above as the working term.)
 
-While CI/CD tools and technologies generally give developers broad leeway in naming and implementing their pipeline steps, agreeing upon some common terms will help develop more pluggable pipelines. This list is not meant to be exhaustive.
+While CI/CD tools and technologies generally give developers broad leeway in naming and implementing their Pipeline Steps, agreeing upon some common terms will help develop more pluggable pipelines. This list is not meant to be exhaustive.
 
-Each type of step will generally have several implementations that are tool specific. For example, Source will have implementations for various Source Code Management (SCM) tools. Publish will have implementations for each type of repository, and so on.
+Each type of Pipeline Step will generally have several implementations that are tool specific. For example, Source will have implementations for various Source Code Management (SCM) tools. Publish will have implementations for each type of repository, and so on.
 
 #### Setup
 * Semantics: Provision build resources, set up the build workspace.
@@ -410,8 +410,8 @@ Each type of step will generally have several implementations that are tool spec
 * Outputs: Software Source, Binary Source
 * Other Results and Side Effects: N/A
 
-#### Detect Secrets
-* Semantics: Detect secrets in the source code, other software, or documentation.
+#### Secret Detection
+* Semantics: Detect secrets in the source code, other software, or documentation. Examples include passwords, SSH keys, API keys, and so on.
 * Aliases: N/A
 * Inputs: Source Code Repository, Source Code Branch or Commit, Software Source, Binary Source
 * Outputs: Secret Detection Report
@@ -463,7 +463,7 @@ Each type of step will generally have several implementations that are tool spec
 * Semantics: Create a Software Bill of Materials (SBoM) for a given repository that captures pedigree of all the dependencies and is collected at different granularities.
 * Aliases: BOM, SBOM
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Dependency List/Graph, Packaged Artifacts
-* Outputs: BOM
+* Outputs: Build BOM
 * Other Results and Side Effects: N/A
 
 #### Package
@@ -474,7 +474,7 @@ Each type of step will generally have several implementations that are tool spec
 * Other Results and Side Effects: N/A
 
 #### Sign
-* Semantics: Use a cryptographic method to authenticate the software.
+* Semantics: Use a cryptographic method to authenticate the software. The signature may also include information about the source of the software, how or where it was built, and what level of approval it has received (staging, production, etc.).
 * Aliases: N/A
 * Inputs: Packaged Artifacts
 * Outputs: Signed Artifacts, Signing Record(s)
@@ -543,15 +543,15 @@ Each type of step will generally have several implementations that are tool spec
 * Outputs: Update Return Code/Results, Link to Request
 * Other Results and Side Effects: Request record updated.
 
-#### Execute
+#### Run
 * Semantics: Run a script or program that doesn't fall into one of the other categories. Often executes in another container.
-* Aliases: Run
+* Aliases: Execute
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Packaged Artifacts, Provisioned Resources, Routes to Deployments
 * Outputs: Output or results of the script or program.
 * Other Results and Side Effects: Whatever the script or program has done.
 
 #### Record Results
-* Semantics: Final recording and reporting of build results and compliance evidence. Upload artifacts for long-term archival.
+* Semantics: Record and report pipeline results and compliance evidence. Store artifacts for long-term archival.
 * Aliases: Audit, Evidence, Report, Archive
 * Inputs: Any
 * Outputs: Compliance Reports, Archive Files, Return Code/Results
@@ -559,7 +559,7 @@ Each type of step will generally have several implementations that are tool spec
 
 #### Cleanup
 * Semantics: Release build resources, de-provision environments, delete build workspace and build container(s).
-* Aliases: Finalize
+* Aliases: Finalize, Finish
 * Inputs: Build Environment, Build Workspace, Provisioned Resources, Routes to Deployments
 * Outputs: Return Code/Results
 * Other Results and Side Effects: Deleted Build Environment and Build Workspace, De-provisioned Resources, Deleted Deployments
@@ -581,7 +581,7 @@ With the exception of the Setup and Cleanup steps, all steps have the following 
 | :-------: | ------------------ | ---------------- | ---------------------- | ------------------- | ------------------------------ | --------------------- | --------------------- | ------------------ | --------------------- | --------------------- | -------------- |
 | Setup | | | | | | | | | O | | |
 | Source | O | O | | | I | | | | | | |
-| Detect Secrets | I | I | | | I | | | | | | |
+| Secret Detection | I | I | | | I | | | | | | |
 | Build | I | I | O | O | | | | | | | |
 | Discovery | I | I | I | I | | O | | | | | |
 | Remediate | I, O | I, O | I, O | I, O | I, O | I, O | | | | | |
@@ -600,7 +600,7 @@ With the exception of the Setup and Cleanup steps, all steps have the following 
 | Message | | | | | I | | I | I | I | I | |
 | Create Request | | | | | I | | | | I | I | I, O |
 | Update Record | | | | | I | | | | I | I | I, O |
-| Execute | I | I | I | I | | | | I | I | I | |
+| Run | I | I | I | I | | | | I | I | I | |
 | Record Results | I | I | I | I | I | I | I | I | I | I | I |
 | Cleanup | | | | | | | | | I | I | |
 
