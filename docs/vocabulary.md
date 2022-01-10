@@ -2,7 +2,7 @@
 
 - [Introduction](#introduction)
 - [Terminology Used by CI/CD Tools and Technologies](#terminology-used-by-cicd-tools-and-technologies)
-  - [ArgoCD](#argo-cd)
+  - [ArgoCD](#argocd)
   - [CircleCI](#circleci)
   - [Codefresh](#codefresh)
   - [Eiffel](#eiffel)
@@ -11,7 +11,7 @@
   - [Harness](#harness)
   - [Jenkins](#jenkins)
   - [Jenkins X](#jenkins-x)
-  - [Keptn](#Keptn)
+  - [Keptn](#keptn)
   - [Screwdriver](#screwdriver)
   - [Spinnaker](#spinnaker)
   - [Tekton](#tekton)
@@ -21,8 +21,8 @@
   - [GitHub](#github)
   - [GitLab](#gitlab)
 - [Mapping of Terms](#mapping-of-terms)
-  - [CI/CD Tools and Technologies](#mapping-cicd)
-  - [SCM Tools and Technologies](#mapping-scm)
+  - [CI/CD Tools and Technologies](#cicd-tools-and-technologies)
+  - [SCM Tools and Technologies](#scm-tools-and-technologies)
 - [Shared Vocabulary](#shared-vocabulary)
 
 ## Introduction
