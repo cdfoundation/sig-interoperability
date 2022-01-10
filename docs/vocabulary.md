@@ -2,7 +2,7 @@
 
 - [Introduction](#introduction)
 - [Terminology Used by CI/CD Tools and Technologies](#terminology-used-by-cicd-tools-and-technologies)
-  - [ArgoCD](#argo-cd)
+  - [ArgoCD](#argocd)
   - [CircleCI](#circleci)
   - [Codefresh](#codefresh)
   - [Eiffel](#eiffel)
@@ -11,7 +11,7 @@
   - [Harness](#harness)
   - [Jenkins](#jenkins)
   - [Jenkins X](#jenkins-x)
-  - [Keptn](#Keptn)
+  - [Keptn](#keptn)
   - [Screwdriver](#screwdriver)
   - [Spinnaker](#spinnaker)
   - [Tekton](#tekton)
@@ -21,8 +21,9 @@
   - [GitHub](#github)
   - [GitLab](#gitlab)
 - [Mapping of Terms](#mapping-of-terms)
-  - [CI/CD Tools and Technologies](#mapping-cicd)
-  - [SCM Tools and Technologies](#mapping-scm)
+  - [CI/CD Tools and Technologies](#cicd-tools-and-technologies)
+  - [Stages](#stages)
+  - [SCM Tools and Technologies](#scm-tools-and-technologies)
 - [Shared Vocabulary](#shared-vocabulary)
 
 ## Introduction
@@ -411,7 +412,7 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 * Aliases: Compile
 * Inputs: Software Source, Binary Source
 * Outputs: Generated Software, Generated Binaries
-* Other Results and Side Effects: N/A
+* Other Results and Side Effects: The build may also capture point-in-time details about the build environment and tools (compiler versions, package manager versions, task container versions in tekton, OS versions etc.) for anyone who wants to rebuild or understand a build.
 
 #### Test Stage
 * Semantics: Test, scan, verify, and lint software and documentation.
