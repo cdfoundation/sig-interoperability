@@ -440,10 +440,10 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Other Results and Side Effects: May also update the Source Code Repository with new dependencies, create a pull request with the updates, or open an issue requesting the updates.
 
 #### Test
-* Semantics: Run a test suite. Examples includes unit tests, linting, integration tests, acceptance tests, performance tests.
+* Semantics: Run a test suite. Examples includes unit tests, integration tests, acceptance tests, performance tests.
 * Aliases: N/A
 * Inputs: Any
-* Outputs: Test/Lint Results, Test/Lint Reports, Test Coverage Reports
+* Outputs: Test Results, Test Reports, Test Coverage Reports
 * Other Results and Side Effects: N/A
 
 #### Coverage
@@ -454,7 +454,7 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Other Results and Side Effects: N/A
 
 #### Scan
-* Semantics: Use a tool to do verification of software and documenation other than testing. Examples include static code analysis, checking for known vulnerabilities in code or binaries, dynamic security scans, license checks, and code smells.
+* Semantics: Use a tool to do verification of software and documenation other than testing. Examples include static code analysis, linting, checking for known vulnerabilities in code or binaries, dynamic security scans, license checks, and code smells.
 * Aliases: Check
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Dependency List/Graph
 * Outputs: Scan Results, Scan Reports, Scan Coverage Reports
