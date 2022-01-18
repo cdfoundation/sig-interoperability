@@ -411,6 +411,13 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Outputs: Software Source, Binary Source
 * Other Results and Side Effects: N/A
 
+#### Tag
+* Semantics: Annotate source code, images, etc. with information, such as the version number and a description.
+* Aliases: Annotate, Version
+* Inputs: Source Code Reference (Repository, Branch, Commit), Software Source, Binary Source, Generated Software, Generated Binaries
+* Outputs: Tag/annotation metadata
+* Other Results and Side Effects: Tags/annotations have been added to the software.
+
 #### Secret Detection
 * Semantics: Detect secrets in the source code, other software, or documentation. Examples include passwords, SSH keys, API keys, and so on.
 * Aliases: N/A
@@ -420,7 +427,7 @@ Each type of Pipeline Step will generally have several implementations that are 
 
 #### Build
 * Semantics: Assemble and/or compile software and documentation into an executable and usable format.
-* Aliases: Compile, Install, Assemble
+* Aliases: Compile, Install, Assemble, Generate
 * Inputs: Software Source, Binary Source
 * Outputs: Generated Software, Generated Binaries
 * Other Results and Side Effects: N/A
@@ -440,8 +447,8 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Other Results and Side Effects: May also update the Source Code Repository with new dependencies, create a pull request with the updates, or open an issue requesting the updates.
 
 #### Test
-* Semantics: Run a test suite. Examples includes unit tests, integration tests, acceptance tests, performance tests.
-* Aliases: N/A
+* Semantics: Run a test suite. Examples includes unit tests, integration tests, acceptance tests, performance tests, canary tests, A/B tests, smoke tests.
+* Aliases: Validate
 * Inputs: Any
 * Outputs: Test Results, Test Reports, Test Coverage Reports
 * Other Results and Side Effects: N/A
@@ -552,11 +559,11 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Other Results and Side Effects: Whatever the script or program has done.
 
 #### Record Results
-* Semantics: Record and report pipeline results and compliance evidence. Store artifacts for long-term archival.
-* Aliases: Audit, Evidence, Report, Archive
+* Semantics: Record and report pipeline results and compliance evidence. Store pipeline artifacts for long-term archival.
+* Aliases: Audit, Attestation, Evidence, Report
 * Inputs: Any
 * Outputs: Compliance Reports, Archive Files, Return Code/Results
-* Other Results and Side Effects: Results, logs, compliance evidence, and other artifacts are uploaded and/or archived.
+* Other Results and Side Effects: Results, logs, reports, compliance evidence, and other pipeline artifacts are uploaded and/or archived.
 
 #### Cleanup
 * Semantics: Release build resources, de-provision environments, delete build workspace and build container(s).
@@ -582,6 +589,7 @@ With the exception of the Setup and Cleanup steps, all steps have the following 
 | :-------: | ------------------ | ---------------- | ---------------------- | ------------------- | ------------------------------ | --------------------- | --------------------- | ------------------ | --------------------- | --------------------- | -------------- |
 | Setup | | | | | | | | | O | | |
 | Source | O | O | | | I | | | | | | |
+| Tag | I | I | I | I | I | | | | | | |
 | Secret Detection | I | I | | | I | | | | | | |
 | Build | I | I | O | O | | | | | | | |
 | Discovery | I | I | I | I | | O | | | | | |
