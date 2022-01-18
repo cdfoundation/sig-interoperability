@@ -7,6 +7,9 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-01-20 Meeting](#January-20-2022)
+    * [2021-12-02 Meeting](#December-2-2021)
+    * [2021-11-18 Meeting](#November-18-2021)
     * [2021-10-21 Meeting](#October-21-2021)
     * [2021-09-16 Meeting](#September-16-2021)
     * [2021-08-05 Meeting](#August-5-2021)
@@ -27,7 +30,7 @@
 ## Logistics
 
 * **Meeting notes on HackMD.io**: https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL
-* **When**: First and third Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
+* **When**: First and third Thursdays at 16:00UTC (*See your timezone [here](https://time.is/1600_in_UTC)*).
 * **Zoom Bridge**: https://zoom.us/j/827082528?pwd=RlN5OUZtVVBuZGZRY0NBRnZyZ0NJQT09
 * **Zoom International dial-in numbers**: https://zoom.us/zoomconference
 * **Meeting Recordings**: [CDF Youtube Channel SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
@@ -42,6 +45,96 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 
 If you are looking for 2020 minutes of meetings, please take a look at [Meetings 2020 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md) in SIG Interoperability repository on GitHub.
 
+### January 20, 2022
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* cdCon Updates, CFP, Kara de la Marck
+* SIG Interoperability Co-chair nominations/elections, Fatih Degirmenci, All
+* New work around terminology for pipeline [stages](https://github.com/cdfoundation/sig-interoperability/pull/76) and [steps](https://github.com/cdfoundation/sig-interoperability/pull/81) - see links to PRs. Ann Marie Fred 
+* Updating SIG Interoperability Roadmap, Reminder
+    * Software Supply Chain
+        * Standardized Metadata
+        * Artifact Handling
+        * Policy Driven CD 
+    * Events
+    * Link to the document: https://docs.google.com/document/d/1uf3sb-WJUp3Acd3WYL5SvgVECHevonufJOxd6KftOxc/edit#
+* \<addme\>
+
+#### Action Items
+* \<addme\>
+
+
+### December 2, 2021
+
+#### Participants
+* Mattias Linnér, Ericsson
+* Oliver Nocon, SAP
+* Emil Bäckmark, Ericsson (joined late)
+* Jeremy Stanley, OpenDev/Zuul
+* Dan Lorenc, Chainguard/Sigstore
+* Fatih Degirmenci, Ericsson Software Technology
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* Updating SIG Interoperability Roadmap, Reminder
+    * Software Supply Chain
+        * Standardized Metadata
+        * Artifact Handling
+        * Policy Driven CD 
+    * Events
+    * Link to the document: https://docs.google.com/document/d/1uf3sb-WJUp3Acd3WYL5SvgVECHevonufJOxd6KftOxc/edit#
+* Status with interoperability whitepaper, All
+* Sigstore Presentation, Dan Lorenc
+    * Sigstore Website: https://www.sigstore.dev
+* \<addme\>
+
+#### Action Items
+* ~~Kara + Fatih to update Interoperability SIG Roadmap, starting with the suggestions from Sept 16 meeting~~
+* Kara to see about presentation of SIG work + Roadmap to End User Council, plus potentially have more input from their side.
+* Fatih to check the status of whitepaper with Tracy
+* \<addme\>
+
+### November 18, 2021
+
+#### Participants
+* Emil Bäckmark, Ericsson
+* Mattias Linnér, Ericsson
+* Kara de la Marck, CDF
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* CISQ SBoM Project, Santiago Torres-Arias
+    * Started as a project around 2019 to identify tool to tool exchange of SBoMs among pipelines, build tools, etc.
+    * A lot of SBoMs bits are merged with SPDX
+    * How to write tooling that could understand SBOM
+    * Successor of CISQ is SCIM: https://github.com/microsoft/scim
+    * People involved in CISQ are now involved in other communities like SPDX and SCIM
+* Reminder on the new meeting time, All
+    * 16:00UTC
+* Updating SIG Interoperability Roadmap, All
+    * Software Supply Chain
+        * Standardized Metadata
+        * Artifact Handling
+        * Policy Driven CD 
+    * Events
+    * Link to the document: https://docs.google.com/document/d/1uf3sb-WJUp3Acd3WYL5SvgVECHevonufJOxd6KftOxc/edit#
+* in-toto Presentation, Santiago Torres-Arias
+    * in-toto website: https://in-toto.io 
+
+#### Action Items
+* ~~Matty to start a new discussion on other metadata standardization efforts, more specifically in-toto~~: https://github.com/cdfoundation/sig-interoperability/discussions/74
+* ~~Tracy M to find about [CISQ Software Bill of Materials](https://www.it-cisq.org/software-bill-of-materials/)~~
+* Matty to reach out to Kate Stewart
+* ~~Fatih to speak with Santiago Torres-Arias~~
+* Kara + Fatih to update Interoperability SIG Roadmap, starting with the suggestions from Sept 16 meeting
+* Kara to see about presentation of SIG work + Roadmap to End User Council, plus potentially have more input from their side.
+
 ### October 21, 2021
 
 #### Participants
@@ -51,7 +144,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 * Kara de la Marck (CDF)
 * Fatih Degirmenci (Ericsson Software Technology)
 * Emil Bäckmark (Ericsson)
-* \<addme\>
 
 #### Agenda and Notes
 * Action Item Review, All
@@ -83,7 +175,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
     * [Suggested list of projects to add to landscape](https://github.com/cdfoundation/cdf-landscape/issues/123)
     * [Project Board for adding additional projects to landscape](https://github.com/cdfoundation/cdf-landscape/projects/1)
     * [Ensure all CDF Members represented](https://github.com/cdfoundation/cdf-landscape/issues/147)  -- Completed
-* \<addme\>
 
 #### Action Items
 * ~~Matty to start a new discussion on other metadata standardization efforts, more specifically in-toto~~: https://github.com/cdfoundation/sig-interoperability/discussions/74
@@ -92,7 +183,6 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 * Fatih to speak with Santiago Torres-Arias 
 * Kara + Fatih to update Interoperability SIG Roadmap, starting with the suggestions from Sept 16 meeting
 * Kara to see about presentation of SIG work + Roadmap to End User Council, plus potentially have more input from their side.
-* \<addme\>
 
 ### September 16, 2021
 
