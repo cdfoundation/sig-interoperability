@@ -1,3 +1,5 @@
+###### tags: `CDF` `SIG Interoperability`
+
 # CDF Interoperability SIG Meetings
 
 [![HacmKD documents](https://hackmd.io/badge.svg)](https://hackmd.io/HuufSDMaTPyb3qxkyBKg3A?edit)
@@ -48,12 +50,30 @@ If you are looking for 2020 minutes of meetings, please take a look at [Meetings
 ### January 20, 2022
 
 #### Participants
-* \<addme\>
+* Fatih Degirmenci, Ericsson Software Technology
+* Kara de la Marck, CDF
+* Jeremy Stanley, OpenDev/Zuul
+* Ann Marie Fred, Red Hat
+* Emil Backmark, Ericsson
+* Mattias Linnér, Ericsson
+* Jalander Ramagiri, Ericsson Software Technology
+* Ramin Akhbari, Salesforce
+* Erik Sternerson, doWhile
+* Justin Abrahms, eBay
 
 #### Agenda and Notes
 * Action Item Review, All
 * cdCon Updates, CFP, Kara de la Marck
+    * cdCon CFP is open: https://events.linuxfoundation.org/cdcon/program/cfp/#overview
+        - Suggestion from Kara is to submit a talk even if we don’t know if we’re allowed to travel yet
 * SIG Interoperability Co-chair nominations/elections, Fatih Degirmenci, All
+* Open Infra Summit Berlin, Jeremy Stanley
+    * CFP for upcoming Open Infra Summit is open
+    * There is a CI/CD track as part of summit
+    * CFP is available here: https://cfp.openinfra.dev/app/berlin-2022
+* SupplyChainSecurityCon
+    * It will be colocated in Open Source Summit NA
+    * CFP is available here: https://events.linuxfoundation.org/open-source-summit-north-america/about/supplychainsecuritycon/
 * New work around terminology for pipeline [stages](https://github.com/cdfoundation/sig-interoperability/pull/76) and [steps](https://github.com/cdfoundation/sig-interoperability/pull/81) - see links to PRs. Ann Marie Fred 
 * Updating SIG Interoperability Roadmap, Reminder
     * Software Supply Chain
