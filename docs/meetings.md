@@ -64,10 +64,10 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
         * Artifact Handling
         * Policy Driven CD
     * CDEvents 
-    * Would be interesting to outline or create would be a catalogue of quality gates. 
+    * Would be interesting to outline or create a catalogue of quality gates. 
         * Gather a list of what quality gates companies and teams are using in the wild. 
-            * Mini case studies for different quality gates would be really interesting.
-            * Survey? Shoutout on channels? See action items below.
+            * Mini case studies for different quality gates would be interesting.
+            * How to gather: Survey? Shoutout on channels? See action items below.
             * Relates to best practices
             * Also, would be interesting to consider how to evaluate pipelines (not testing the actual pipeline or security concerns, necessarily), but really what should a pipeline contain. Again, very much a best practices question.
             * What signals do we use for quality?
@@ -77,7 +77,7 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
 * \<addme\>
 
 #### Action Items
-* Justin Abrahms to create discussion on Interop SIG repo on what quality gates on being used by teams. 
+* [Justin Abrahms to create discussion on Interop SIG repo on what quality gates on being used by teams.](https://github.com/cdfoundation/sig-interoperability/discussions/83)
 * Kara to make sure CDF publicizes the discussion.
 
 ### January 20, 2022
