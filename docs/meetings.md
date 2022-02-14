@@ -31,6 +31,36 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
+### February 17, 2022
+
+#### Participants
+* Kara de la Marck, CDF
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* SIG Interoperability Co-chair nominations/elections, Fatih Degirmenci, All
+* [cdCon](https://events.linuxfoundation.org/cdcon/) Updates, CFP, Kara de la Marck
+    * cdCon CFP is open until midnight 18 February -- TOMORROW!!: https://events.linuxfoundation.org/cdcon/program/cfp/#overview
+        - Please submit a talk even if you don’t know if your company is sponsoring travel yet. 
+        - We do ask that speakers be at cdCon in person and present their talks live at cdCon.
+    * If you think you may attend cdCon and would like to participate in a CDEvents Contributor Summit, [please fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSeZGMEGldtkrj1viMcT9nQgAgHZVkIlzQZ45aTvN74992Mawg/viewform?usp=sf_link)
+        * For each Contributor Summit, we should normally be able to provide breakfast, snacks at breaks, and beverages throughout the day. :coffee: :croissant:  
+        - So it is important for CDF to have an estimate of number of attendees
+* CDEvents 
+    * Repo: https://github.com/cdevents
+    * CDEvents logo finalised: https://github.com/cdfoundation/artwork/tree/main/cdevents
+    * CDEvents website (beta): https://cdevents.dev/
+    * CDEvents are on the landscape 😄  https://landscape.cd.foundation/
+    * And on CDF website, listed with all the other projects  https://cd.foundation/projects/
+* KubeCon update: CDEvents will have a full day co-located at KubeCon EU 🥳 
+    * https://github.com/cdfoundation/sig-events/issues/115
+    * This will be officially announced soon. If you will be at [KubeCon EU](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/) please do join us!
+* Discussion on Quality Gates:
+    * GH Discussion: https://github.com/cdfoundation/sig-interoperability/discussions/83
+    * Anders Eknert, from Styra, is joining us to discuss quality gates.
+
+
 ### February 3, 2022
 
 #### Participants
@@ -79,6 +109,7 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
 #### Action Items
 * [Justin Abrahms to create discussion on Interop SIG repo on what quality gates on being used by teams.](https://github.com/cdfoundation/sig-interoperability/discussions/83)
 * Kara to make sure CDF publicizes the discussion.
+* Kara to bring in others, from Styra, etc, to discuss how they see quality gates being used in practice.
 
 ### January 20, 2022
 
