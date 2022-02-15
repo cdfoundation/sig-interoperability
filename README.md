@@ -86,6 +86,7 @@ interoperability between tools
 * Jerop Kipruto ([@jerop](https://github.com/jerop)), Google
 * Saif Ul Islam ([@rubix982](https://github.com/rubix982)), Mapillary
 * Ann Marie Fred ([@amfred](https://github.com/amfred)), Red Hat
+* Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog
 
 ## New Members
 
@@ -141,7 +142,7 @@ SIG Interoperability also uses Slack for additional collaboration opportunities.
 
 ## Meetings
 
-SIG Interoperability meets first and third Thursdays at 15:00UTC. (*See your timezone [here](https://time.is/1500_in_UTC)*).
+SIG Interoperability meets first and third Thursdays at 16:00UTC. (*See your timezone [here](https://time.is/1600_in_UTC)*).
 
 * Meeting agenda and minutes: [here](./docs/meetings.md)
 * Meeting recordings: [here](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
