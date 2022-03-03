@@ -9,6 +9,8 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-03-03 Meeting](#March-3-2022)
+    * [2022-02-17 Meeting](#February-17-2022)
     * [2022-02-03 Meeting](#February-3-2022)
     * [2022-01-20 Meeting](#January-20-2022)
 
@@ -31,10 +33,41 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
+### March 3, 2022
+
+#### Participants
+* Kara de la Marck, CDF
+* Fatih Degirmenci, Ericsson Software Technology
+* Justin Abrahms, eBay
+* Mattias Linnér, Ericsson
+* Melissa McKay, JFrog
+* Ann Marie Fred, Red Hat
+
+#### Agenda and Notes
+* Action Item Review, All
+* [cdCon](https://events.linuxfoundation.org/cdcon/) Updates, CFP, Kara de la Marck
+* SIG Interoperability Co-chair nominations/elections
+    * Melissa McKay has been nominated as new SIG Interoperability Chair and has accepted! Welcome Melissa McKay! 🎉
+* Pipeline [Steps](https://github.com/cdfoundation/sig-interoperability/pull/81)/[Stages](https://github.com/cdfoundation/sig-interoperability/pull/76)/[Quality Gates](https://github.com/cdfoundation/sig-interoperability/discussions/83) and Software Supply Chain, All
+    * [CNCF Security TAG Software Supply Chain Best Practices](https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/CNCF_SSCP_v1.pdf)
+    * [Secure Software Factory RFC](https://docs.google.com/document/d/15M_Mzfqy634E_sqoslmOXsZJl4TedpbXpBjOfz-hnXk/edit#)
+    * [SLSA](https://slsa.dev/)
+    * [in-toto](https://in-toto.io)
+* Pipeline certification/badge discussion
+    * SRE, DevOps, Quality criteria
+    * [Operate First](https://www.operate-first.cloud/)
+* [Flow Framework](https://flowframework.org/)
+
 ### February 17, 2022
 
 #### Participants
 * Kara de la Marck, CDF
+* Fatih Degirmenci, Ericsson Software Technology
+* Anders Eknert, Styra
+* Jeremy Stanley, OpenDev/Zuul
+* Melissa McKay, JFrog
+* Mattias Linnér, Ericsson
+* Justin Abrahms, eBay
 * \<addme\>
 
 #### Agenda and Notes
