@@ -397,12 +397,19 @@ While CI/CD tools and technologies generally give developers broad leeway in nam
 
 Each type of Pipeline Step will generally have several implementations that are tool specific. For example, Source will have implementations for various Source Code Management (SCM) tools. Publish will have implementations for each type of repository, and so on.
 
+#### Any Step
+* Semantics: Some inputs and outputs are used across any and all stages. They're listed here once, rather than repeating them for each step.
+* Aliases: N/A
+* Inputs: Secrets, Build Environment, Build Workspace, Parameters for the Step
+* Outputs: Return Codes, Results, Records and Reports, Logs
+* Other Results and Side Effects: N/A
+
 #### Setup
-* Semantics: Provision build resources, set up the build workspace.
-* Aliases: Initialize, Start, Prepare, Workspace
+* Semantics: Provision pipeline resources, set up the pipeline workspace. It's possible to have one Setup step at the beginning of each pipeline run, and additional Setup steps as the pipeline progresses.
+* Aliases: Initialize, Start, Prepare, Workspace, Orchestrate
 * Inputs: Build Request Parameters, Build Container Image Name and Version
 * Outputs: Secrets, Build Environment, Build Workspace
-* Other Results and Side Effects: N/A
+* Other Results and Side Effects: May set up persistent storage or another method for pipeline steps to share inputs and outputs with each other.
 
 #### Source
 * Semantics: Download, retrieve or copy software, images, and documentation into the build workspace. Fetch configuration data.
@@ -410,13 +417,6 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Inputs: Source Code Reference (Repository, Branch, Commit)
 * Outputs: Software Source, Binary Source
 * Other Results and Side Effects: N/A
-
-#### Tag
-* Semantics: Annotate source code, images, etc. with information, such as the version number and a description.
-* Aliases: Annotate, Version
-* Inputs: Source Code Reference (Repository, Branch, Commit), Software Source, Binary Source, Generated Software, Generated Binaries
-* Outputs: Tag/annotation metadata
-* Other Results and Side Effects: Tags/annotations have been added to the software.
 
 #### Secret Detection
 * Semantics: Detect secrets in the source code, other software, or documentation. Examples include passwords, SSH keys, API keys, and so on.
@@ -432,7 +432,7 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Outputs: Generated Software, Generated Binaries
 * Other Results and Side Effects: N/A
 
-#### Discovery
+#### Dependency Discovery
 * Semantics: Perform deep discovery to identify all dependencies (including transitive dependencies) in the software and documentation as packaged.
 * Aliases: Dependencies
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries
@@ -444,20 +444,13 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Aliases: Fix, Update
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Source Code Reference (Repository, Branch, Commit), Dependency List/Graph
 * Outputs: Remediated Software or Documentation, Container Images, Binaries, Source Code Reference (Repository, Branch, Commit), Dependency List/Graph
-* Other Results and Side Effects: May also update the Source Code Repository with new dependencies, create a pull request with the updates, or open an issue requesting the updates.
+* Other Results and Side Effects: May also update the Source Code Repository with new dependencies, create a pull request with the updates, use APIs to request an update, open an issue requesting the updates. In the case of mutable infrastructure, this step could update a running system.
 
 #### Test
-* Semantics: Run a test suite. Examples includes unit tests, integration tests, acceptance tests, performance tests, canary tests, A/B tests, smoke tests.
+* Semantics: Run a test suite. Examples includes unit tests, integration tests, acceptance tests, performance tests, canary tests, A/B tests, smoke tests, code coverage checks.
 * Aliases: Validate
 * Inputs: Any
 * Outputs: Test Results, Test Reports, Test Coverage Reports
-* Other Results and Side Effects: N/A
-
-#### Coverage
-* Semantics: Verifies that the testing coverage meets a standard.
-* Aliases: Code Coverage, Test Coverage
-* Inputs: Test Coverage Reports 
-* Outputs: Coverage Verification Report
 * Other Results and Side Effects: N/A
 
 #### Scan
@@ -475,11 +468,18 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Other Results and Side Effects: N/A
 
 #### Package
-* Semantics: Create the software artifact(s) that will be published. Typically updates the software version.
+* Semantics: Create the software artifact(s) that will be published. To specify the version of the software this pipeline is producing, the package step(s) may use a software version that's specified in the source code, or calculate and automatically update the version using semver logic.
 * Aliases: Containerize
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Dependency List/Graph
 * Outputs: Packaged Artifacts (Software, Documentation or Binaries), Container Images, Image Tags, Image Digests, Archives
 * Other Results and Side Effects: N/A
+
+#### Tag
+* Semantics: Annotate source code, artifacts/images, and so on with information, such as the version number and a description.
+* Aliases: Annotate, Version
+* Inputs: Source Code Reference (Repository, Branch, Commit), Software Source, Binary Source, Generated Software, Generated Binaries
+* Outputs: Tag/annotation metadata
+* Other Results and Side Effects: Tags/annotations have been added to the software.
 
 #### Sign
 * Semantics: Use a cryptographic method to authenticate the software. The signature may also include information about the source of the software, how or where it was built, and what level of approval it has received (staging, production, etc.).
@@ -491,16 +491,16 @@ Each type of Pipeline Step will generally have several implementations that are 
 #### Policy
 * Semantics: Verifies that policies are followed, for example:  software is from a trusted source, source repositories are configured correctly, Kubernetes manifests are configured securely, dependencies are signed, code standards are followed, code reviews are completed, there is a secure chain of custody, or appropriate work items or change requests are associated with the change.
 * Aliases: Check, Gate, Provenance
-* Inputs: Any
+* Inputs: Policies, Outputs of other steps
 * Outputs: Policy and/or Provenance Reports
-* Other Results and Side Effects: N/A
+* Other Results and Side Effects: Side effects could include blocking a PR/commit so it can't be merged, discarding or approving an artifact/image.
 
 #### Publish
 * Semantics: Upload software artifacts and documentation to another repository. May also update catalogs, mirrors, release notes, etc.
 * Aliases: Push, Upload, Release
 * Inputs: Packaged (Signed) Artifacts
 * Outputs: Repository URLs
-* Other Results and Side Effects: Repositories updated.
+* Other Results and Side Effects: Repositories are updated.
 
 #### Provision
 * Semantics: Request that a new physical or virtual server, network, or other resource be allocated or created.  Examples include a test cluster or object storage.
@@ -531,14 +531,14 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Other Results and Side Effects: N/A
 
 #### Message
-* Semantics: Send a message to another system; for example, a Slack message or a PagerDuty alert.
+* Semantics: Send a message to another system; for example, a Slack message or an Email. This is different from "Create Request" because the pipeline doesn't need to store a link/handle for the new request.
 * Aliases: N/A
 * Inputs: Output of previous steps.
 * Outputs: Message Return Code / Results
 * Other Results and Side Effects: Message sent.
 
 #### Create Request
-* Semantics: Create a request in another system; for example, create a Change Request that must be approved for a deployment to production.
+* Semantics: Create a request in another system; for example, create a Change Request that must be approved for a deployment to production. This is different from "Message" because we need to get a link/reference for the new request, and store it, so we can potentially update it later.
 * Aliases: Approval, Ticket, Issue, Work Item
 * Inputs: Source Code Reference (Repository, Branch, Commit), Link to Previous Work Item, Provisioned Resources, Routes to Deployments
 * Outputs: Request Return Code/Results, Link to New Request
@@ -572,13 +572,6 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Outputs: Return Code/Results
 * Other Results and Side Effects: Deleted Build Environment and Build Workspace, De-provisioned Resources, Deleted Deployments
 
-#### Any Step
-* Semantics: Some inputs and outputs are used across any and all stages.
-* Aliases: N/A
-* Inputs: Secrets, Build Environment, Build Workspace, Parameters for the Step
-* Outputs: Return Codes, Results, Records and Reports, Logs
-* Other Results and Side Effects: N/A
-
 #### Inputs and Outputs for Pipeline Steps
 
 The inputs and outputs listed in this table are the ones that are used by more than one step. These inputs and outputs need to be in a location and/or format that the pipeline steps expect so they can be processed correctly.
@@ -589,16 +582,15 @@ With the exception of the Setup and Cleanup steps, all steps have the following 
 | :-------: | ------------------ | ---------------- | ---------------------- | ------------------- | ------------------------------ | --------------------- | --------------------- | ------------------ | --------------------- | --------------------- | -------------- |
 | Setup | | | | | | | | | O | | |
 | Source | O | O | | | I | | | | | | |
-| Tag | I | I | I | I | I | | | | | | |
 | Secret Detection | I | I | | | I | | | | | | |
 | Build | I | I | O | O | | | | | | | |
-| Discovery | I | I | I | I | | O | | | | | |
+| Dependency Discovery | I | I | I | I | | O | | | | | |
 | Remediate | I, O | I, O | I, O | I, O | I, O | I, O | | | | | |
 | Test | I | I | I | I | | | O | I | I | I | |
-| Coverage | | | | | | | I | | | | |
 | Scan | I | I | I | I | | I | | | | | |
 | Bill of Materials | I | I | I | I | | I | | | | | |
 | Package | I | I | I | I | | I | | O | | | |
+| Tag | I | I | I | I | I | | | | | | |
 | Sign | | | | | | | | I, O | | | |
 | Policy | I | I | I | I | I | I | I | I | I | I | I |
 | Publish | | | | | | | | I | | | |
