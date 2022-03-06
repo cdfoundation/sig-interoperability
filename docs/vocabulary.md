@@ -398,21 +398,21 @@ While CI/CD tools and technologies generally give developers broad leeway in nam
 Each type of Pipeline Step will generally have several implementations that are tool specific. For example, Source will have implementations for various Source Code Management (SCM) tools. Publish will have implementations for each type of repository, and so on.
 
 #### Any Step
-* Semantics: Some inputs and outputs are used across any and all stages. They're listed here once, rather than repeating them for each step.
+* Semantics: Some inputs and outputs are used across any and all steps. They're listed here once, rather than repeating them for each step.
 * Aliases: N/A
-* Inputs: Secrets, Build Environment, Build Workspace, Parameters for the Step
+* Inputs: Secrets, Pipeline Environment, Pipeline Workspace, Parameters for the Step
 * Outputs: Return Codes, Results, Records and Reports, Logs
 * Other Results and Side Effects: N/A
 
 #### Setup
 * Semantics: Provision pipeline resources, set up the pipeline workspace. It's possible to have one Setup step at the beginning of each pipeline run, and additional Setup steps as the pipeline progresses.
 * Aliases: Initialize, Start, Prepare, Workspace, Orchestrate
-* Inputs: Build Request Parameters, Build Container Image Name and Version
-* Outputs: Secrets, Build Environment, Build Workspace
+* Inputs: Pipeline Request Parameters, Pipeline Container Image Name and Version
+* Outputs: Secrets, Pipeline Environment, Pipeline Workspace
 * Other Results and Side Effects: May set up persistent storage or another method for pipeline steps to share inputs and outputs with each other.
 
 #### Source
-* Semantics: Download, retrieve or copy software, images, and documentation into the build workspace. Fetch configuration data.
+* Semantics: Download, retrieve or copy software, images, and documentation into the pipeline workspace. Fetch configuration data.
 * Aliases: Clone, Fetch
 * Inputs: Source Code Reference (Repository, Branch, Commit)
 * Outputs: Software Source, Binary Source
@@ -510,7 +510,7 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Other Results and Side Effects: Resources are provisioned.
 
 #### Deploy
-* Semantics: Make changes to any environment other than the build environment. Configure the environment. Deploy dependencies, software artificts and/or documentation.
+* Semantics: Make changes to any environment other than the pipeline environment. Configure the environment. Deploy dependencies, software artificts and/or documentation.
 * Aliases: Install, Configure
 * Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Dependency List/Graph, Packaged Artifacts, Provisioned Resources
 * Outputs: Routes to Deployments (with connection info). Deployment Records. Secrets to access deployed resources.
@@ -566,17 +566,17 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Other Results and Side Effects: Results, logs, reports, compliance evidence, and other pipeline artifacts are uploaded and/or archived.
 
 #### Cleanup
-* Semantics: Release build resources, de-provision environments, delete build workspace and build container(s).
+* Semantics: Release pipeline resources, de-provision environments, delete pipeline workspace and pipeline container(s).
 * Aliases: Finalize, Finish
-* Inputs: Build Environment, Build Workspace, Provisioned Resources, Routes to Deployments
+* Inputs: Pipeline Environment, Pipeline Workspace, Provisioned Resources, Routes to Deployments
 * Outputs: Return Code/Results
-* Other Results and Side Effects: Deleted Build Environment and Build Workspace, De-provisioned Resources, Deleted Deployments
+* Other Results and Side Effects: Deleted Pipeline Environment and Pipeline Workspace, De-provisioned Resources, Deleted Deployments
 
 #### Inputs and Outputs for Pipeline Steps
 
 The inputs and outputs listed in this table are the ones that are used by more than one step. These inputs and outputs need to be in a location and/or format that the pipeline steps expect so they can be processed correctly.
 
-With the exception of the Setup and Cleanup steps, all steps have the following inputs: Secrets, Build Environment, Build Workspace, Parameters for the Step; and the following outputs: Return Codes, Results, Records and Reports, Logs.
+With the exception of the Setup and Cleanup steps, all steps have the following inputs: Secrets, Pipeline Environment, Pipeline Workspace, Parameters for the Step; and the following outputs: Return Codes, Results, Records and Reports, Logs.
 
 | Step Name | Software Source | Binary Source | Generated Software | Generated Binaries | Source Code Reference | Dependency List/Graph | Test Coverage Reports | Packaged Artifacts | Provisioned Resources | Routes to Deployments | Request Link |
 | :-------: | ------------------ | ---------------- | ---------------------- | ------------------- | ------------------------------ | --------------------- | --------------------- | ------------------ | --------------------- | --------------------- | -------------- |
