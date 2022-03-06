@@ -397,6 +397,8 @@ While CI/CD Tools and Technologies generally give developers broad leeway in nam
 
 The concepts below can be re-ordered in Pipeline implementations. For example, it is often the case that software linting (logically a test) is done prior to the Build Stage. Also, deployment to a staging environment is often done prior to the Release Stage, while the deployment for production often happens after the Release Stage.
 
+In Pipeline implementations, there may also be other Stages preceding or following the ones listed below.
+
 In the lists and table below, Software Artifacts includes: Documentation Source Files, Source Code, Baseline/Composition/Dependency Information, Infrastructure as Code.
 
 "Software Source" refers to human-readable source files that are inputs to the pipeline, such as: Source Code, Configuration Files, Documentation Source Files, Declared Dependencies, Baseline/Composition Information (i.e. lock files in source control)
@@ -407,12 +409,18 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 
 "Generated Binaries" refers to executables that are outputs of the pipeline, such as: Executable Software, Container Images, Virtual Machine Images
 
+#### Any Stage
+* Semantics: Some inputs and outputs are used across any and all stages. They're listed here once, rather than repeating them for each stage.
+* Aliases: N/A
+* Inputs: Secrets, Pipeline Environment, Pipeline Workspace, Pipeline Utility Tools
+* Outputs: Stage Results and Return Codes, Logs
+
 #### Build Stage
-* Semantics: Set up the build workspace and provision build resources. Download, retrieve, assemble, and/or compile software into an executable and testable format. Download, retrieve, assemble, and/or compile documentation into a consumable format.
+* Semantics: Download, retrieve, assemble, and/or compile software into an executable and testable format. Download, retrieve, assemble, and/or compile documentation into a consumable format.
 * Aliases: Compile
 * Inputs: Software Source, Binary Source
 * Outputs: Generated Software, Generated Binaries
-* Other Results and Side Effects: The build may also capture point-in-time details about the build environment and tools (compiler versions, package manager versions, task container versions in tekton, OS versions etc.) for anyone who wants to rebuild or understand a build.
+* Other Results and Side Effects: The Build stage may also captur and store point-in-time details about the build environment and tools (compiler versions, package manager versions, task container versions in tekton, OS versions etc.). While the pipeline configuration should ideally be in source code, in reality some settings will likely depend on external factors. Storing this information in an immutable data store facilitates debugging, rebuilds, pipeline verification, audit records, and forensics. 
 
 #### Test Stage
 * Semantics: Test, scan, verify, and lint software and documentation.
@@ -424,39 +432,25 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 #### Release Stage
 * Semantics: Package, version, sign, and publish software artifacts and documentation.
 * Aliases: Deliver, Publish
-* Inputs: Software Source, Binary Source, Generated Software, Generated Binaries
-* Outputs: Release Records, Release Reports
+* Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Release Approvals
+* Outputs: Release Records, Release Reports, Generated Software, Generated Binaries
 * Other Results and Side Effects: Documentation and Software: packaged, signed, and published to a repository.
 
 #### Deploy Stage
 * Semantics: Deploy software artificats and documentation to any environment other than the build environment. Verify successful deployment.
 * Aliases: Install
-* Inputs: Software Source, Binary Source, Generated Software, Generated Binaries
+* Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Deployment KPIs
 * Outputs: Deployment Records, Deployment Reports, Secrets to access deployed resources
-* Other Results and Side Effects: Documentation hosted in a review, staging or production environment. Software running in a review, staging or production environment.
-
-#### Maintain Stage
-* Semantics: Automatically update or upgrade previously built software. May invoke some or all of the previous stages.
-* Aliases: Update, Upgrade
-* Inputs: See Above
-* Outputs: See Above
-* Other Results and Side Effects: Updated documentation and software built, tested, released and deployed. This stage can also update source code repositories, for example, with new Declared Dependencies or Baseline/Composition Information. 
-
-#### Any Stage
-* Semantics: Some inputs and outputs are used across any and all stages.
-* Aliases: N/A
-* Inputs: Secrets, Build Environment, Build Workspace
-* Outputs: Stage Results and Return Codes, Logs
+* Other Results and Side Effects: Documentation hosted in a review, staging or production environment. Software running in a review, staging or production environment. Deployment KPIs might influence how the deployment proceeds; for example, for Canary or Blue/Green deployments.
 
 #### Inputs and Outputs for Pipeline Stages
 
-| Stage Name | Software Source | Binary Source | Generated Software | Generated Binaries | Secrets | Build Environment | Build Workspace | Return Codes | Results, Records and Reports | Logs |
+| Stage Name | Software Source | Binary Source | Generated Software | Generated Binaries | Secrets | Pipeline Environment | Pipeline Workspace | Return Codes | Results, Records and Reports | Logs |
 | :--------: | ------------------ | ---------------- | ---------------------- | ------------------- | ------- | ----------------- | ---------------- | ------------ | ---------------------------- | ---- |
 | Build | I | I | O | O | I | I | I | O | O | O |
 | Test | I | I | I | I | I | I | I | O | O | O |
-| Release | I | I | I | I | I | I | I | O | O | O |
+| Release | I | I | I, O | I, O | I | I | I | O | O | O |
 | Deploy | I | I | I | I | I, O | I | I | O | O | O |
-| Maintain | I | I | I, O | I, O | I, O | I | I | O | O | O |
 
 ### SCM Tools and Technologies
 
