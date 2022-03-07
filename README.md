@@ -76,7 +76,7 @@ interoperability between tools
 * Chun-Hung Hsiao ([@chhsia0](https://github.com/chhsia0)), D2iQ
 * Marky Jackson ([@markyjackson](https://github.com/markyjackson-taulia)), OpsMX
 * James Rawlings ([@rawlingsj](https://github.com/rawlingsj)), Cloudbees
-* Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), eBay
+* Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), Salesforce
 * Cameron Motevasselani ([@link108](https://github.com/link108)), Armory
 * Dave Sudia ([@thedevelopnik](https://github.com/thedevelopnik)), GoSpotCheck
 * Andrea Frittoli ([@afrittoli](https://github.com/afrittoli)), IBM
