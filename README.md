@@ -115,7 +115,7 @@ The process SIG Interoperability follows can be seen from [here](https://github.
 
 Chairs and the TOC Sponsor of the SIG are
 
-* Fatih Degirmenci ([@fdegir](https://github.com/fdegir)), Ericsson Software Technology - Chair
+* Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog - Chair
 * Kara de la Marck ([@MarckK](https://github.com/MarckK)), CloudBees - Co-chair
 * Dan Lorenc ([@dlorenc](https://github.com/dlorenc)), Google - TOC Sponsor
 
