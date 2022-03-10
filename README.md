@@ -116,7 +116,7 @@ The process SIG Interoperability follows can be seen from [here](https://github.
 Chairs and the TOC Sponsor of the SIG are
 
 * Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog - Chair
-* Kara de la Marck ([@MarckK](https://github.com/MarckK)), CloudBees - Co-chair
+* Kara de la Marck ([@MarckK](https://github.com/MarckK)), Continuous Delivery Foundation - Chair
 * Dan Lorenc ([@dlorenc](https://github.com/dlorenc)), Google - TOC Sponsor
 
 ### SIG Workstreams
