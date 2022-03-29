@@ -76,7 +76,7 @@ interoperability between tools
 * Chun-Hung Hsiao ([@chhsia0](https://github.com/chhsia0)), D2iQ
 * Marky Jackson ([@markyjackson](https://github.com/markyjackson-taulia)), OpsMX
 * James Rawlings ([@rawlingsj](https://github.com/rawlingsj)), Cloudbees
-* Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), eBay
+* Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), Salesforce
 * Cameron Motevasselani ([@link108](https://github.com/link108)), Armory
 * Dave Sudia ([@thedevelopnik](https://github.com/thedevelopnik)), GoSpotCheck
 * Andrea Frittoli ([@afrittoli](https://github.com/afrittoli)), IBM
@@ -116,7 +116,7 @@ The process SIG Interoperability follows can be seen from [here](https://github.
 Chairs and the TOC Sponsor of the SIG are
 
 * Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog - Chair
-* Kara de la Marck ([@MarckK](https://github.com/MarckK)), CloudBees - Co-chair
+* Kara de la Marck ([@MarckK](https://github.com/MarckK)), Continuous Delivery Foundation - Chair
 * Dan Lorenc ([@dlorenc](https://github.com/dlorenc)), Google - TOC Sponsor
 
 ### SIG Workstreams
