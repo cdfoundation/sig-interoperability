@@ -16,8 +16,8 @@
 
 ## Logistics
 
-* **Meeting notes on HackMD.io**: https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL
-* **When**: First and third Thursdays at 16:00UTC (*See your timezone [here](https://time.is/1600_in_UTC)*).
+* **Meeting notes on HackMD.io**: https://hackmd.io/@cdfoundation/ry3TTB5DL
+* **When**: First and third Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
 * **Zoom Bridge**: https://zoom.us/j/827082528?pwd=RlN5OUZtVVBuZGZRY0NBRnZyZ0NJQT09
 * **Zoom International dial-in numbers**: https://zoom.us/zoomconference
 * **Meeting Recordings**: [CDF Youtube Channel SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
@@ -29,7 +29,7 @@
 
 ## Agenda and Notes
 
-Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
