@@ -87,6 +87,7 @@ interoperability between tools
 * Saif Ul Islam ([@rubix982](https://github.com/rubix982)), Mapillary
 * Ann Marie Fred ([@amfred](https://github.com/amfred)), Red Hat
 * Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog
+* Justin Abrahms ([@justinabrahms](https://github.com/justinabrahms)), eBay
 
 ## New Members
 
