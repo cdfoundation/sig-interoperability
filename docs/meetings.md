@@ -1,4 +1,4 @@
-###### tags: `CDF` `SIG Interoperability`
+###### tags: `SIG Interoperability`
 
 # CDF Interoperability SIG Meetings
 
@@ -9,6 +9,8 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-04-07 Meeting](#April-7-2022)
+    * [2022-03-17 Meeting](#March-17-2022)
     * [2022-03-03 Meeting](#March-3-2022)
     * [2022-02-17 Meeting](#February-17-2022)
     * [2022-02-03 Meeting](#February-3-2022)
@@ -17,7 +19,7 @@
 ## Logistics
 
 * **Meeting notes on HackMD.io**: https://hackmd.io/@cdfoundation/ry3TTB5DL
-* **When**: First and third Thursdays at 15:00UTC (*See your timezone [here](https://time.is/1500_in_UTC)*).
+* **When**: First and third Thursdays at [3pm UTC](https://time.is/3pm_in_UTC) during summer time and at [4pm UTC](https://time.is/4pm_in_UTC) during winter time).
 * **Zoom Bridge**: https://zoom.us/j/827082528?pwd=RlN5OUZtVVBuZGZRY0NBRnZyZ0NJQT09
 * **Zoom International dial-in numbers**: https://zoom.us/zoomconference
 * **Meeting Recordings**: [CDF Youtube Channel SIG Interoperability Playlist](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
@@ -32,6 +34,42 @@
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
+
+### April 7, 2022
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* Open PR Reviews
+    * [Pipeline step types proposal](https://github.com/cdfoundation/sig-interoperability/pull/81)
+    * [Initial proposal for pipeline stage terminology](https://github.com/cdfoundation/sig-interoperability/pull/76)
+* Open Discussion
+    * [What quality gates do you have?](https://github.com/cdfoundation/sig-interoperability/discussions/83)
+* New Discussion
+    * [Slack thread (in general channel)](https://cdeliveryfdn.slack.com/archives/CJQU6EHHP/p1648923213508359)
+    * [Intent-based pipelines](https://github.com/cdfoundation/sig-interoperability/discussions/91)
+* \<addme\>
+
+### March 17, 2022
+
+#### Participants
+* Melissa McKay, JFrog
+* Mattias Linnér, Ericsson
+* Mike Beemer, Dynatrace
+* Fatih Degirmenci, Ericsson Software Technology
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* Meeting time change
+    * Meeting time change to 15:00 UTC to match up with seasonal time changes
+    * Melissa will update on the public calendar
+* Presentation on the Open Feature Project by Michael Beemer
+    * Open standard for feature flag management
+    * https://open-feature.github.io/\<addme\>
+* \<addme\>
 
 ### March 3, 2022
 
