@@ -68,7 +68,7 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
     * Melissa will update on the public calendar
 * Presentation on the Open Feature Project by Michael Beemer
     * Open standard for feature flag management
-    * https://open-feature.github.io/\<addme\>
+    * https://openfeature.dev/
 * \<addme\>
 
 ### March 3, 2022
