@@ -9,6 +9,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-04-07 Meeting](#April-21-2022)
     * [2022-04-07 Meeting](#April-7-2022)
     * [2022-03-17 Meeting](#March-17-2022)
     * [2022-03-03 Meeting](#March-3-2022)
@@ -35,9 +36,23 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
+### April 21, 2022
+
+#### Participants
+* \<addme\>
+
+#### Agenda and Notes
+* Action Item Review, All
+* Documentation Consult with Best Practices SIG - Terry Cox & Tara Hernandez
+* \<addme\>
+
 ### April 7, 2022
 
 #### Participants
+* Melissa McKay, JFrog
+* Fatih Degirmenci, Ericsson Software Technology
+* Mattias Linnér, Ericsson
+* Justin Abrahms, eBay
 * \<addme\>
 
 #### Agenda and Notes
@@ -45,11 +60,25 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
 * Open PR Reviews
     * [Pipeline step types proposal](https://github.com/cdfoundation/sig-interoperability/pull/81)
     * [Initial proposal for pipeline stage terminology](https://github.com/cdfoundation/sig-interoperability/pull/76)
+    * ACTION ITEM: Fatih pinging all involved to resolve all items between now and next meeting, open issues where needed
 * Open Discussion
     * [What quality gates do you have?](https://github.com/cdfoundation/sig-interoperability/discussions/83)
+    * ACTION ITEM: Justin - begin composing documentation on Quality Gates (from discussion material)
+* Documentation considerations
+    * Sync with Best Practices
+    * Consider using HackMD
+    * Split up the documentation resulting from most recent PRs into high level vs technical implementation details
+    * ACTION ITEM: Melissa - reach out to Best Practices SIG on documentation (invite to meeting)
 * New Discussion
     * [Slack thread (in general channel)](https://cdeliveryfdn.slack.com/archives/CJQU6EHHP/p1648923213508359)
     * [Intent-based pipelines](https://github.com/cdfoundation/sig-interoperability/discussions/91)
+        * dagger.io
+        * take a look at (for inspiration): 
+          -  [shipa](https://shipa.io/miscellaneous/kubernetes-dagger-deployment-with-shipa/)?
+          -  [Crossplane & Kubernetes Workshop](https://devrel.shipa.io/cp-idp-workshop)
+          -  [Jenkins X](https://jenkins-x.io/blog/2020/11/11/accelerate-tekton/)
+    * ACTION ITEM: Melissa - reach out to dagger.io for a possible presentation, come up with CI yaml (ideal example)
+    * ACTION ITEM: Justin - work on blog post about intent based pipelines (the high level concept)
 * \<addme\>
 
 ### March 17, 2022
@@ -68,7 +97,7 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
     * Melissa will update on the public calendar
 * Presentation on the Open Feature Project by Michael Beemer
     * Open standard for feature flag management
-    * https://openfeature.dev/
+    * https://open-feature.github.io/\<addme\>
 * \<addme\>
 
 ### March 3, 2022
