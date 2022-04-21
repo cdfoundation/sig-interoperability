@@ -9,7 +9,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
-    * [2022-04-07 Meeting](#April-21-2022)
+    * [2022-04-21 Meeting](#April-21-2022)
     * [2022-04-07 Meeting](#April-7-2022)
     * [2022-03-17 Meeting](#March-17-2022)
     * [2022-03-03 Meeting](#March-3-2022)
@@ -43,6 +43,7 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
 
 #### Agenda and Notes
 * Action Item Review, All
+* SIG Interoperability Co-chair nominations/elections
 * Documentation Consult with Best Practices SIG - Terry Cox & Tara Hernandez
 * \<addme\>
 
