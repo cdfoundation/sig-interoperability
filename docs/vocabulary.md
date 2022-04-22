@@ -595,7 +595,7 @@ Each type of Pipeline Step will generally have several implementations that are 
 * Other Results and Side Effects: N/A
 
 #### Message
-* Semantics: Send a message to another system; for example, a Slack message or an Email. This is different from "Create Request" because the pipeline doesn't need to store a link/handle for the new request.
+* Semantics: Send a message to another system; for example, a Slack message or an Email. This is different from "Create Request" because the pipeline doesn't need to store a link/handle for the message.
 * Aliases: N/A
 * Inputs: Output of previous steps.
 * Outputs: Message Return Code / Results
