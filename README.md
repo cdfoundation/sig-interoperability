@@ -76,7 +76,7 @@ interoperability between tools
 * Chun-Hung Hsiao ([@chhsia0](https://github.com/chhsia0)), D2iQ
 * Marky Jackson ([@markyjackson](https://github.com/markyjackson-taulia)), OpsMX
 * James Rawlings ([@rawlingsj](https://github.com/rawlingsj)), Cloudbees
-* Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), eBay
+* Ramin Akhbari ([@rakhbari](https://github.com/rakhbari)), Salesforce
 * Cameron Motevasselani ([@link108](https://github.com/link108)), Armory
 * Dave Sudia ([@thedevelopnik](https://github.com/thedevelopnik)), GoSpotCheck
 * Andrea Frittoli ([@afrittoli](https://github.com/afrittoli)), IBM
@@ -87,6 +87,7 @@ interoperability between tools
 * Saif Ul Islam ([@rubix982](https://github.com/rubix982)), Mapillary
 * Ann Marie Fred ([@amfred](https://github.com/amfred)), Red Hat
 * Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog
+* Justin Abrahms ([@justinabrahms](https://github.com/justinabrahms)), eBay
 
 ## New Members
 
@@ -115,8 +116,8 @@ The process SIG Interoperability follows can be seen from [here](https://github.
 
 Chairs and the TOC Sponsor of the SIG are
 
-* Fatih Degirmenci ([@fdegir](https://github.com/fdegir)), Ericsson Software Technology - Chair
-* Kara de la Marck ([@MarckK](https://github.com/MarckK)), CloudBees - Co-chair
+* Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog - Chair
+* Kara de la Marck ([@MarckK](https://github.com/MarckK)), Continuous Delivery Foundation - Chair
 * Dan Lorenc ([@dlorenc](https://github.com/dlorenc)), Google - TOC Sponsor
 
 ### SIG Workstreams
@@ -142,7 +143,7 @@ SIG Interoperability also uses Slack for additional collaboration opportunities.
 
 ## Meetings
 
-SIG Interoperability meets first and third Thursdays at 16:00UTC. (*See your timezone [here](https://time.is/1600_in_UTC)*).
+SIG Interoperability meets first and third Thursdays at 15:00UTC. (*See your timezone [here](https://time.is/1500_in_UTC)*).
 
 * Meeting agenda and minutes: [here](./docs/meetings.md)
 * Meeting recordings: [here](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
