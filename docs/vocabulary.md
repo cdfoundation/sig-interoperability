@@ -22,7 +22,7 @@
   - [GitLab](#gitlab)
 - [Mapping of Terms](#mapping-of-terms)
   - [CI/CD Tools and Technologies](#cicd-tools-and-technologies)
-  - [Stages](#stages)
+  - [Stages](#pipeline-stages)
   - [Pipeline Step Types](#pipeline-step-types)
   - [SCM Tools and Technologies](#scm-tools-and-technologies)
 - [Shared Vocabulary](#shared-vocabulary)
