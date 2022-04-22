@@ -490,7 +490,7 @@ Each type of Pipeline Step will generally have several implementations that are 
 
 #### Policy
 * Semantics: Verifies that policies are followed, for example:  software is from a trusted source, source repositories are configured correctly, Kubernetes manifests are configured securely, dependencies are signed, code standards are followed, code reviews are completed, there is a secure chain of custody, or appropriate work items or change requests are associated with the change.
-* Aliases: Check, Gate, Provenance
+* Aliases: Check, Provenance
 * Inputs: Policies, Outputs of other steps
 * Outputs: Policy and/or Provenance Reports
 * Other Results and Side Effects: Side effects could include blocking a PR/commit so it can't be merged, discarding or approving an artifact/image.
