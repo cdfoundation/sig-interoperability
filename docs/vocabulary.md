@@ -22,7 +22,7 @@
   - [GitLab](#gitlab)
 - [Mapping of Terms](#mapping-of-terms)
   - [CI/CD Tools and Technologies](#cicd-tools-and-technologies)
-  - [Stages](#stages)
+  - [Pipeline Stages](#pipeline-stages)
   - [Pipeline Step Types](#pipeline-step-types)
   - [SCM Tools and Technologies](#scm-tools-and-technologies)
 - [Shared Vocabulary](#shared-vocabulary)
@@ -390,7 +390,7 @@ pipeline in corresponding documentation.
 | **Tekton**         | N/A       | Step       | Task     | Pipeline | Trigger | Resource (?)           |
 | **Zuul**           | N/A       | N/A        | Job      | Pipeline | Trigger | Node (?)               |
 
-### Stages
+### Pipeline Stages
 
 The list below is an attempt to create a mapping of common names for Stages, where a Stage is defined here as the unit of work one degree smaller than a Pipeline. (The effort of proposing a common vocabulary across CI/CD Tools and Technologies is not yet performed, but we'll use the most common term from the table above as the working term.)
 
@@ -421,7 +421,7 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 * Aliases: Compile
 * Inputs: Software Source, Binary Source
 * Outputs: Generated Software, Generated Binaries
-* Other Results and Side Effects: The Build stage may also captur and store point-in-time details about the pipeline environment and tools (compiler versions, package manager versions, task container versions in tekton, OS versions etc.). While the pipeline configuration should ideally be in source code, in reality some settings will likely depend on external factors. Storing this information in an immutable data store facilitates debugging, rebuilds, pipeline verification, audit records, and forensics. 
+* Other Results and Side Effects: The Build stage may also capture and store point-in-time details about the pipeline environment and tools (compiler versions, package manager versions, task container versions in tekton, OS versions etc.). While the pipeline configuration should ideally be in source code, in reality some settings will likely depend on external factors. Storing this information in an immutable data store facilitates debugging, rebuilds, pipeline verification, audit records, and forensics. 
 
 #### Test Stage
 * Semantics: Test, scan, verify, and lint software and documentation.
