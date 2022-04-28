@@ -430,6 +430,13 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 * Outputs: Metadata, records, reports, logs, SBOM, source code of the primary OSS on internal/secure/trusted repository, source code of the dependencies on internal/secure/trusted repository, evaluation result/score based on organizational policies
 * Other Results and Side Effects: The Storage stage may also generate delta report for the dependencies of the primary OSS using the previously introduced version of the same OSS and the curent one. Additionally, this stage may also contribute to evaluation result/score based on the dependencies that go through OSS Introduction stage individually and if they are not adherent to organizational policies due to various reasons such as copyright/license and community health.
 
+#### OSS Consumption Stage
+* Semantics: Build primary OSS and its dependencies using their source code stored on internal/secure/trusted repositories on a secure build environment and store resulting signed artifacts/binaries on internal/secure/trusted repositories.
+* Aliases: Consume
+* Inputs: Internal URL to source code repository of the primary OSS, version of the primary OSS, Internal URL to source code repository of the dependencies
+* Outputs: Metadata, records, reports, logs, build BOM, signed artifacts/binaries
+* Other Results and Side Effects: The Consumption stage may also generate delta report using the build BOM of the previously build artifact and the build BOM of the current artifact.
+
 #### Build Stage
 * Semantics: Download, retrieve, assemble, and/or compile software into an executable and testable format. Download, retrieve, assemble, and/or compile documentation into a consumable format.
 * Aliases: Compile
