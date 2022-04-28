@@ -416,6 +416,13 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 * Inputs: Secrets, Pipeline Environment, Pipeline Workspace, Pipeline Utility Tools
 * Outputs: Stage Results and Return Codes, Logs
 
+#### OSS Introduction Stage
+* Semantics: Download open source software source code in order to analyze it to determine if it adheres to organizational policies from licensing, security, and compliance perspective.
+* Aliases: Introduce
+* Inputs: Public/Upstream URL to source code repository of the primary OSS, version of the primary OSS, Organizational Policies
+* Outputs: Metadata, records, logs, SBOM, evaluation result/score based on organizational policies
+* Other Results and Side Effects: The Introducation stage may also download community generated SBOM for the given version of the OSS if available, generate SBOM using the tools organization uses, generate statistics for determining community health (e.g., no of contributors, release frequency), analyze the primary OSS to identify its dependencies, identify license/copyright information, analyze software for vulnerabilities and malware, perform basic quality analysis. One or more of these outputs may contribute to final evaluation result/score and may result in blocking the introduction of the primary OSS.
+
 #### Build Stage
 * Semantics: Download, retrieve, assemble, and/or compile software into an executable and testable format. Download, retrieve, assemble, and/or compile documentation into a consumable format.
 * Aliases: Compile
