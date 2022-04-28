@@ -423,6 +423,13 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 * Outputs: Metadata, records, logs, SBOM, evaluation result/score based on organizational policies
 * Other Results and Side Effects: The Introducation stage may also download community generated SBOM for the given version of the OSS if available, generate SBOM using the tools organization uses, generate statistics for determining community health (e.g., no of contributors, release frequency), analyze the primary OSS to identify its dependencies, identify license/copyright information, analyze software for vulnerabilities and malware, perform basic quality analysis. One or more of these outputs may contribute to final evaluation result/score and may result in blocking the introduction of the primary OSS.
 
+#### OSS Storage Stage
+* Semantics: Download the source code of the primary OSS from its origin, analyze it for its dependencies, download the source code of the dependencies from their origin, and store them on internal/secure/trusted repositories for further activities as well as for making it available for consumption by the rest of the development organization.
+* Aliases: Store
+* Inputs: Public/Upstream URL to source code repository of the primary OSS, version of the primary OSS, Organizational Policies
+* Outputs: Metadata, records, reports, logs, SBOM, source code of the primary OSS on internal/secure/trusted repository, source code of the dependencies on internal/secure/trusted repository, evaluation result/score based on organizational policies
+* Other Results and Side Effects: The Storage stage may also generate delta report for the dependencies of the primary OSS using the previously introduced version of the same OSS and the curent one. Additionally, this stage may also contribute to evaluation result/score based on the dependencies that go through OSS Introduction stage individually and if they are not adherent to organizational policies due to various reasons such as copyright/license and community health.
+
 #### Build Stage
 * Semantics: Download, retrieve, assemble, and/or compile software into an executable and testable format. Download, retrieve, assemble, and/or compile documentation into a consumable format.
 * Aliases: Compile
