@@ -9,6 +9,9 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-06-02 Meeting](#June-2-2022)
+    * 2022-05-19 Meeting (Cancelled)
+    * 2022-05-05 Meeting (Cancelled)
     * [2022-04-21 Meeting](#April-21-2022)
     * [2022-04-07 Meeting](#April-7-2022)
     * [2022-03-17 Meeting](#March-17-2022)
@@ -36,15 +39,45 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
-### April 21, 2022
+### June 2, 2022
 
 #### Participants
 * \<addme\>
-
+    
 #### Agenda and Notes
 * Action Item Review, All
 * SIG Interoperability Co-chair nominations/elections
+    NOMINATION: Justin Abrahms, eBay
+* \<addme\>
+
+
+### April 21, 2022
+
+#### Participants
+* Fatih Degirmenci, Ericsson Software Technology
+* Kara de la Marck, CDF
+* Melissa McKay, JFrog
+
+#### Agenda and Notes
+* Action Item Review, All
+    * **ACTION ITEM:** Melissa still needs to reach out to dagger.io
+    * **ACTION ITEM:** Justin/Melissa - wrap up intent driven pipeline thoughts for article
+* SIG Interoperability Co-chair nominations/elections
+    * Look for email in the mailing list and submit your nominations!
 * Documentation Consult with Best Practices SIG - Terry Cox & Tara Hernandez
+    * Web site in development: [https://deploy-preview-4--preview-site-cdf-bp.netlify.app/](https://deploy-preview-4--preview-site-cdf-bp.netlify.app/)
+    * Consider audience - our current documentation is geared toward a more technical and implementation level
+        * Step 1: link our current reference docs as they are in resources/references section
+            * Keep our own copy for updates and maintenance in our own repo
+            * Update the publication on Best Practices site periodically
+            * **ACTION ITEM:** Kara to link intial resource docs
+        * Consider higher level audience documentation (less detail)
+            * What is the problem you are trying to solve???
+            * **ACTION ITEM:** Fatih will work on higher level documentation
+* Discussion about maturity models
+    * [SLSA](https://slsa.dev/)
+    * DORA metrics
+    * Be careful about making value judgements based on maturity/effectiveness levels
 * \<addme\>
 
 ### April 7, 2022
