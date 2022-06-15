@@ -9,6 +9,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-06-16 Meeting](#June-16-2022)
     * [2022-06-02 Meeting](#June-2-2022)
     * 2022-05-19 Meeting (Cancelled)
     * 2022-05-05 Meeting (Cancelled)
@@ -39,16 +40,35 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
+### June 16, 2022
+* \<addme\>
+
+#### Agenda and Notes
+* Presentation - dagger.io by Jeremy Adams
+* Open Discussion
+
 ### June 2, 2022
 
 #### Participants
+* Melissa McKay
+* Kara de la Marck, CDF
+* Ann Marie Fred, Red Hat
+* Jeremy Adams, Dagger
+* Justin Abrahms, eBay
+* Emil Bäckmark, Ericsson
+* Fatih Degirmenci
 * \<addme\>
     
 #### Agenda and Notes
 * Action Item Review, All
+    * Jeremy Adams, Dagger.io - June 16th scheduled presentation
 * SIG Interoperability Co-chair nominations/elections
-    NOMINATION: Justin Abrahms, eBay
-* \<addme\>
+    * NOMINATION: Justin Abrahms, eBay
+* Ann Marie has [a talk repping this sig](https://drive.google.com/file/d/1UoufcCfqYzcBsD2zUDaKPg9V3BBFTF4g/view?usp=sharing) next week at cdCon virtual ([sched session link](https://cdcon2022.sched.com/event/12vF9/virtual-session-continuous-integration-and-continuous-delivery-pipelines-for-beginners-and-managers-ann-marie-fred-red-hat)) and OpenInfra Summit Berlin!
+* [CDEventsCon wrap up blog post](https://cd.foundation/blog/2022/05/25/cdeventscon-2022-wrap-up/), including link to YouTube channel to all the talks and presentations at CDEventsCon
+* **ACTION ITEM:** Fatih & Ann Marie address vocabulary split and conflicts in outstanding PRs
+* **ACTION ITEM:** Melissa - Determine WHERE in the best practices site to add vocabulary documentation (https://bestpractices.cd.foundation/); Review Terry's suggestions from last meeting
+* **ACTION ITEM:** Melissa & Justin finish up article next week at cdCon
 
 
 ### April 21, 2022
@@ -57,6 +77,7 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
 * Fatih Degirmenci, Ericsson Software Technology
 * Kara de la Marck, CDF
 * Melissa McKay, JFrog
+
 
 #### Agenda and Notes
 * Action Item Review, All
