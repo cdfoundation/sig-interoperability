@@ -88,6 +88,7 @@ interoperability between tools
 * Ann Marie Fred ([@amfred](https://github.com/amfred)), Red Hat
 * Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog
 * Justin Abrahms ([@justinabrahms](https://github.com/justinabrahms)), eBay
+* Brett Smith ([@xbcsmith](https://github.com/xbcsmith)), SAS Institute Inc.
 
 ## New Members
 
