@@ -9,6 +9,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-07-07 Meeting](#July-7-2022)
     * [2022-06-16 Meeting](#June-16-2022)
     * [2022-06-02 Meeting](#June-2-2022)
     * 2022-05-19 Meeting (Cancelled)
@@ -40,7 +41,29 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
+### July 7, 2022
+
+#### Participants
+* \<AddMe\>
+
+#### Agenda and Notes
+* Introduction - Justin Abrahms, new Co-Chair
+* Presentation - Uffizzi by Josh Thurman
+* Open Action Items
+* CDEvents and Pipeline terminology alignment (if time permits)
+
 ### June 16, 2022
+
+#### Participants
+* Melissa McKay, JFrog
+* Kara de la Marck, CDF
+* Andres Almiray
+* Josh Thurman
+* Jeremy Adams
+* Maria Ashby
+* Richard Kilmurray
+* Fatih Degirmenci
+* Andrea Frittoli
 * \<addme\>
 
 #### Agenda and Notes
@@ -50,7 +73,7 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
 ### June 2, 2022
 
 #### Participants
-* Melissa McKay
+* Melissa McKay, JFrog
 * Kara de la Marck, CDF
 * Ann Marie Fred, Red Hat
 * Jeremy Adams, Dagger
