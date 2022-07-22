@@ -89,6 +89,7 @@ interoperability between tools
 * Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog
 * Justin Abrahms ([@justinabrahms](https://github.com/justinabrahms)), eBay
 * Brett Smith ([@xbcsmith](https://github.com/xbcsmith)), SAS Institute Inc.
+* Muktesh Mishra ([@mukteshkrmishra](https://github.com/mukteshkrmishra)), Adobe
 
 ## New Members
 
