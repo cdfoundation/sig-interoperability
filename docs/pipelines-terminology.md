@@ -66,9 +66,17 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 #### Deploy Stage
 * Semantics: Deploy software artificats and documentation to any environment other than the pipeline environment. Verify successful deployment.
 * Aliases: Install
-* Inputs: Software Source, Binary Source, Generated Software, Generated Binaries, Deployment KPIs
+* Inputs: Deployment Configuration, Software Source, Binary Source, Generated Software, Generated Binaries, Deployment KPIs
 * Outputs: Deployment Records, Deployment Reports, Secrets to access deployed resources
 * Other Results and Side Effects: Documentation hosted in a review, staging or production environment. Software running in a review, staging or production environment. Deployment KPIs might influence how the deployment proceeds; for example, for Canary or Blue/Green deployments.
+
+#### Operations Stage
+* Semantics: monitoring of deployed assets
+* Aliases:
+* Inputs: Deployment and Monitoring Configuration, Artifact Versions, Operational Metrics, Vulnerability and Security Updates
+* Outputs: Operational Metrics, Alerts, Bug Reports, Logs
+* Other Results and Side Effects: Automated Rollbacks, Vulnerability Mitigation
+  via Rebuild / Redeploy, Human Interventions
 
 #### Inputs and Outputs for Pipeline Stages
 
@@ -78,6 +86,7 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 | Test | I | I | I | I | I | I | I | O | O | O |
 | Release | I | I | I, O | I, O | I | I | I | O | O | O |
 | Deploy | I | I | I | I | I, O | I | I | O | O | O |
+| Operations | I | I | I | I | I | I | N/A | O | O | O |
 
 ### Pipeline Step Types
 
