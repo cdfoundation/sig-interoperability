@@ -176,6 +176,7 @@ Delivery tasks by connecting to your infrastructure.
 - **Workflow**: Model how your application is deployed, verified, and rolled back in steps. 
 - **Pipeline**: Model your entire release process in stages. 
 - **Infrastructure Provisioner**: Infrastructure as code orchestration. 
+- **Triggers**: To automate deployments using a variety of conditions, such as Git events, new artifacts, schedules, and the success of other Pipelines.
 
 ### Jenkins
 
