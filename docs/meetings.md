@@ -9,6 +9,9 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-08-18 Meeting](#August-18-2022)
+    * [2022-08-04 Meeting](#August-4-2022)
+    * [2022-07-21 Meeting](#July-21-2022)
     * [2022-07-07 Meeting](#July-7-2022)
     * [2022-06-16 Meeting](#June-16-2022)
     * [2022-06-02 Meeting](#June-2-2022)
@@ -41,16 +44,90 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
+### August 18, 2022
+
+#### Participants
+* \<AddMe\>
+
+#### Agenda & Notes
+* Open Action Items (outstanding from previous meetings)
+    * Justin: Intent based pipelines article
+    * Melissa: Determine WHERE in the best practices site to add vocabulary documentation (https://bestpractices.cd.foundation/); Review Terry's suggestions from last meeting
+    * Fatih & Ann Marie: address vocabulary split and conflicts in outstanding PRs
+    * CDEvents and Pipeline terminology alignment
+* Other announcements
+    * JReleaser will be presenting Sep 1
+    * Our github default branch has been renamed from master to main - thank you Kara!
+* \<Add\>
+
+### August 4, 2022
+
+#### Participants
+* Melissa McKay, JFrog
+* Kara de la Marck, CDF
+* Tim Miller, Kusari
+
+#### Agenda & Notes
+* Reference Architecture discussions will be continued in the Best Practices SIG (possibly a new working group)
+* New projects to present to the SIG
+    * go-scm - [ACTION] agree on a scheduled time for presentation
+    * JReleaser - schedule presentation Sep 1
+* FRSCA Project - https://github.com/buildsec/frsca
+    * [ACTION] - schedule a presentation
+* [CDF Landscape](https://github.com/cdfoundation/cdf-landscape)
+    * We welcome PRs to add projects -- JReleaser now added 
+    * If you feel a category is missing, please raise an issue
+
+
+### July 21, 2022
+
+#### Participants
+* Justin Abrahms, eBay
+* Kara de la Marck, CDF
+* Fatih Degirmenci, CDF
+* Terry Cox
+
+#### Agenda & Notes
+* Reference Architecture chat
+    * [deck around what a reference architecture is](https://docs.google.com/presentation/d/1SSSHPLSXEUgg0vu644zrZPvCW9sUYSBwzSCDO_fZtF8/edit#slide=id.g13b9833d9a3_0_28)
+    * current docs/projects are "open source & bottom up" which don't take a hollistic view of the whole problem space
+    * There are two camps, from user interviews: 
+        * folks who are steeped in CD culture
+        * folks who have a loose grasp on what CD means but need some help understanding how to get value from it or get from where they are to where they need to be
+    * The work will be to define the common patterns used in pipelines
+    * The MLOps space, as an example, is not very well connected to traditional CD pipelines.
+        * https://github.com/cdfoundation/sig-mlops/blob/master/roadmap/2021/MLOpsRoadmap2021.md
+
 ### July 7, 2022
 
 #### Participants
+* Justin Abrahms, eBay
+* Kara de la Marck, CDF
+* Melissa McKay, JFrog
+* Andrea Frittoli, IBM
+* Ann Marie Fred, Red Hat
 * \<AddMe\>
 
 #### Agenda and Notes
 * Introduction - Justin Abrahms, new Co-Chair
 * Presentation - Uffizzi by Josh Thurman
+    * on demand environments in k8s
+    * designed to work with any ci/cd platform
+    * triggered by cd events (maybe also CDEvents??)
+    * QUICK LINKS-
+        * Open Source Repo https://github.com/UffizziCloud/uffizzi_app
+        * Public Road Map https://github.com/UffizziCloud/roadmap
+        * GHA https://github.com/UffizziCloud/preview-action
+        * Uffizzi  https://uffizzi.com/
+        * Docs https://docs.uffizzi.com.  https://github.com/UffizziCloud/docs
+        * Uffizzi Users Slack https://uffizzi.slack.com/join/shared_invite/zt-ffr4o3x0-J~0yVT6qgFV~wmGm19Ux9A#/shared-invite/email
+        * Uffizzi Helm Chart https://artifacthub.io/packages/helm/uffizzi-app/uffizzi-app
+        * Uffizzi Newsletter Sign-up. http://eepurl.com/hsws0b
 * Open Action Items
-* CDEvents and Pipeline terminology alignment (if time permits)
+    * Justin: intent based pipelines article
+    * Melissa: Determine WHERE in the best practices site to add vocabulary documentation (https://bestpractices.cd.foundation/); Review Terry's suggestions from last meeting
+    * Fatih & Ann Marie: address vocabulary split and conflicts in outstanding PRs - move to early-August meeting
+* CDEvents and Pipeline terminology alignment (if time permits) - move to early-August meeting
 
 ### June 16, 2022
 
@@ -64,6 +141,7 @@ If you are looking for 2021 minutes of meetings, please take a look at [Meetings
 * Richard Kilmurray
 * Fatih Degirmenci
 * Andrea Frittoli
+* Brett Smith
 * \<addme\>
 
 #### Agenda and Notes
