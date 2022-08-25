@@ -72,7 +72,7 @@ In the lists and table below, Software Artifacts includes: Documentation Source 
 
 #### Operations Stage
 * Semantics: monitoring of deployed assets
-* Aliases:
+* Aliases: Steady state, Production, Production Management
 * Inputs: Deployment and Monitoring Configuration, Artifact Versions, Operational Metrics, Vulnerability and Security Updates
 * Outputs: Operational Metrics, Alerts, Bug Reports, Logs
 * Other Results and Side Effects: Automated Rollbacks, Vulnerability Mitigation
