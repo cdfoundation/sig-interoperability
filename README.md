@@ -64,7 +64,7 @@ interoperability between tools
 * Andy Glover ([@aglover](https://github.com/aglover)), Netflix
 * Christie Wilson ([@bobcatfish](https://github.com/bobcatfish)), Google
 * Eric Sorenson ([@ahpook](https://github.com/ahpook)), Puppet
-* Fatih Degirmenci ([@fdegir](https://github.com/fdegir)), Ericsson Software Technology
+* Fatih Degirmenci ([@fdegir](https://github.com/fdegir)), CDFoundation
 * FuQiao ([@fuqiao123](https://github.com/fuqiao123)), China Mobile
 * Kara de la Marck ([@MarckK](https://github.com/MarckK)), Cloudbees
 * Priyanka Sharma ([@pritianka](https://github.com/pritianka)), Gitlab
