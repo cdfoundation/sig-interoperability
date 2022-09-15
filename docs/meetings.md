@@ -9,6 +9,8 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-09-15 Meeting](#September-15-2022)
+    * [2022-09-01 Meeting](#September-1-2022)
     * [2022-08-18 Meeting](#August-18-2022)
     * [2022-08-04 Meeting](#August-4-2022)
     * [2022-07-21 Meeting](#July-21-2022)
@@ -38,27 +40,91 @@
 * **2021 Meeting Minutes**: https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md
 * **2020 Meeting Minutes**: https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md
 
+## Upcoming Talks
+- Oct 6th: [FRSCA](https://buildsec.github.io/frsca/)
+- Oct 20th: [KubeVela](https://kubevela.io/)
+
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
-### August 18, 2022
+### October 6th, 2022
 
 #### Participants
 * \<AddMe\>
 
 #### Agenda & Notes
+* Open Action Items, All
+* News/Announcements
+    * Oct 20th: [KubeVela](https://kubevela.io/)
+* New Action Items
+* Presentation & Open Discussion: [FRSCA](https://buildsec.github.io/frsca/) with Parth Patel
+
+
+### September 15, 2022
+
+_This meeting was cancelled due to issues with Zoom._
+
+
+### September 1, 2022
+
+#### Participants
+* Melissa McKay, JFrog
+* Andres Almiray
+* Justin Abrahms
+* Fatih Degirmenci
+* Kara de la Marck
+* Rajat Gupta
+* \<AddMe\>
+
+#### Agenda & Notes
+* Open Action Items, All
+* News/Announcements
+* New Action Items
+* Presentation & Open Discussion: [JReleaser](https://jreleaser.org/) with Andres Almiray
+
+
+### August 18, 2022
+
+#### Participants
+* Justin Abrahms, eBay
+* Andrea Frittoli, IBM
+* Fatih Degirmenci, CDF
+* Melissa McKay, JFrog
+* Andres Almiray
+* Kara de la Marck, CDF
+* Rajat Gupta, Jenkins X
+* \<AddMe\>
+
+#### Agenda & Notes
 * Open Action Items (outstanding from previous meetings)
-    * Justin: Intent based pipelines article
+    * Justin: [Intent based pipelines article](https://cd.foundation/blog/2022/07/13/help-wanted-intent-based-pipelines/)
+        * possibly an abstraction layer between definition and implementation?
+        * Take a look at [GitOps Toolkit - WeaveWorks](https://github.com/weaveworks/weave-gitops)
+        * Possible follow up with tweet/etc
     * Melissa: Determine WHERE in the best practices site to add vocabulary documentation (https://bestpractices.cd.foundation/); Review Terry's suggestions from last meeting
+        * Possibly Learn section or Resources?
+        * Posting vendor specific information on the Best Practices site feels off, but perhaps linking via a References section makes sense
     * Fatih & Ann Marie: address vocabulary split and conflicts in outstanding PRs
-    * CDEvents and Pipeline terminology alignment
+        * Waiting for review
+    * Melissa/Justin: scheduling a presentation time for go-scm & FRSCA
+        * Queries have gone to both for availability
+* CDEvents and Pipeline terminology alignment
 * Other announcements
     * JReleaser will be presenting Sep 1
     * Our github default branch has been renamed from master to main - thank you Kara!
-* \<Add\>
+* Future topics for the Interoperability SIG to consider (open discussion)
+* New Landscape Category
+    * https://github.com/cdfoundation/cdf-landscape/issues/243
+    * Moving forward with adding new category (open to later name change)
+* New Action Items:
+    * Andrea: Make PR for link back to tools doc from Best Practices site
+        * https://github.com/cdfoundation/best-practices-site/pull/26
+    * Fatih: Give Justin a list of names of project maintainers
+    * Justin: Reach out to project maintainers regarding Interoperability issues
+    * Melissa: Start convo in slack channel(s) regarding new ideas for Interoperability topics
 
 ### August 4, 2022
 
