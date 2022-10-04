@@ -9,6 +9,7 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * [2022-10-06 Meeting](#October-6-2022)
     * [2022-09-15 Meeting](#September-15-2022)
     * [2022-09-01 Meeting](#September-1-2022)
     * [2022-08-18 Meeting](#August-18-2022)
@@ -50,7 +51,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
-### October 6th, 2022
+### October 6, 2022
 
 #### Participants
 * \<AddMe\>
