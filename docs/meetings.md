@@ -9,6 +9,8 @@
 * [Logistics](#Logistics)
 * [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 * [Agenda and Notes](#Agenda-and-Notes)
+    * 2022-11-03 Meeting (Cancelled)
+    * [2022-10-20 Meeting](#October-20-2022)
     * [2022-10-06 Meeting](#October-6-2022)
     * [2022-09-15 Meeting](#September-15-2022)
     * [2022-09-01 Meeting](#September-1-2022)
@@ -42,8 +44,7 @@
 * **2020 Meeting Minutes**: https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2020.md
 
 ## Upcoming Talks
-- Oct 6th: [FRSCA](https://buildsec.github.io/frsca/)
-- Oct 20th: [KubeVela](https://kubevela.io/)
+Looking for  more! Feel free to suggest ideas in the Interoperability SIG slack channel.
 
 ## Agenda and Notes
 
@@ -51,9 +52,27 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdfoundation
 
 If you are looking for 2021 minutes of meetings, please take a look at [Meetings 2021 document](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/meetings_2021.md) in SIG Interoperability repository on GitHub.
 
+### October 20, 2022
+
+#### Participants
+* Justin Abrahms, eBay
+* Fatih Degirmenci, CDF
+* Fog Dong, KubeVela/Alibaba Cloud
+* Da Ying, KubeVela/Alibaba Cloud
+* Qingguo Zeng
+* Qiao Zhongpei
+* Sun Jianbo
+* Richard Kilmurray
+* Terry Cox
+* Vedran Zdesic
+
+#### Agenda & Notes
+* Presentation & Open Discussion [KubeVela](https://kubevela.io/) with Da Yin & Fog Dong
+
 ### October 6, 2022
 
 #### Participants
+* Oliver Nocon, SAP
 * \<AddMe\>
 
 #### Agenda & Notes
