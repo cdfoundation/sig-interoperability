@@ -160,9 +160,7 @@ spin up or down as needed.
 
 ### Harness
 
-[Harness](https://harness.io/) is a Continuous Delivery as a Service platform 
-which enables confidence building orchestration and release strategies across a 
-multitude of platforms. 
+[Harness](https://harness.io/) is a modern software delivery platform which enables developers to fully automate and govern the build and deploy processes, with faster feedback loops thereby enhancing the developer experience.
 
 Some of the core Harness terms are listed below. [[15]]
 
