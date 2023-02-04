@@ -3,6 +3,7 @@
 - [Introduction](#introduction)
 - [Terminology Used by CI/CD Tools and Technologies](#terminology-used-by-cicd-tools-and-technologies)
   - [ArgoCD](#argocd)
+  - [CDEvents](#cdevents)
   - [CircleCI](#circleci)
   - [Codefresh](#codefresh)
   - [Eiffel](#eiffel)
@@ -79,6 +80,32 @@ Some of the core ArgoCD concept are listed below: [[16]]
 - **Project** [[17]]: A logical grouping of applications. They enable control over deployment permissions based on source, target and kind, among other criteria.
 - **Sync phases** [[18]]: Pre-sync, sync and post-sync allow for controlled orchestrated execution of sync operations.
 - **Sync waves**: Within any one sync phase, an additional control of sequential execution is accomplished using waves, to ensure certain resources are healthy before subsequent resources are synced.
+
+### CDEvents
+
+[CDEvents](https://cdevents.dev) is a common specification for Continuous
+Delivery events, enabling interoperability in the complete software production
+ecosystem.
+
+***Note:*** *The CDEvents vocabulary is under early development and might thus
+change quite a lot before reaching a stable set of terms. That work can be
+followed on the [CDEvents Documentation page](https://cdevents.dev/docs/).*
+
+Some of the core CDEvents terms are listed below. [[21]]
+
+- **Event**: An Event is a data record expressing an occurrence, within the
+software production ecosystem, and its context.
+- **Task**: A Task could for example perform a build, run some tests or publish
+an artifact.
+- **Pipeline**: A Pipeline is composed by a set of Tasks to be performed.
+- **TaskRun**: An instantiation of a Task.
+- **PipelineRun**: An instantiation of a Pipeline.
+- **Change**: A Change identifies a proposed set of changes to the content of a
+source code repository.
+- **Artifact**: An Artifact is usually produced as output of a build process.
+- **Environment**: An Environment is a platform which may run a service.
+- **Service**: A service can represent for example a binary that is running, a
+daemon, an application or a docker container.
 
 ### CircleCI
 
@@ -379,6 +406,7 @@ pipeline in corresponding documentation.
 | Project            |           |            |          |          |         |                        |
 |--------------------|-----------|------------|----------|----------|---------|------------------------|
 | **ArgoCD**         | Sync Wave | Sync Phase | Sync     | N/A      | Event   | Application Controller |
+| **CDEvents**       | ?         | ?          | Task     | Pipeline | Event   | Environment            |
 | **CircleCI**       | N/A       | Step       | Job      | Workflow | Trigger | Executor               |
 | **Codefresh**      | N/A       | Step       | Stage    | Pipeline | Trigger | Runtime environment    |
 | **Eiffel**         | Activity  | Activity   | Activity | Activity | Event   | Environment            |
@@ -398,12 +426,13 @@ pipeline in corresponding documentation.
 The table below is an attempt to create a mapping of different terms used
 by SCM Tools and Technologies.
 
-| Project    |               |               |          |               |        |
-|------------|---------------|---------------|----------|---------------|--------|
-| **Eiffel** | (Change)      | Source Change | Activity | N/A           | Submit |
-| **Gerrit** | Change        | Patch Set     | Review   | Change State? | Submit |
-| **GitHub** | Pull Request  | (PR commit)   | Review   | Check?        | Merge  |
-| **GitLab** | Merge Request | (MR commit)   | Review   | Merge Check?  | Merge  |
+| Project      |               |                 |               |               |        |
+|--------------|---------------|-----------------|---------------|---------------|--------|
+| **CDEvents** | Change        | (Not defined)   | (Not defined) | N/A           | Merge  |
+| **Eiffel**   | (Change)      | Source Change   | Activity      | N/A           | Submit |
+| **Gerrit**   | Change        | Patch Set       | Review        | Change State? | Submit |
+| **GitHub**   | Pull Request  | (PR commit)     | Review        | Check?        | Merge  |
+| **GitLab**   | Merge Request | (MR commit)     | Review        | Merge Check?  | Merge  |
 
 ## References
 
@@ -427,3 +456,4 @@ by SCM Tools and Technologies.
 [18]: https://argoproj.github.io/argo-cd/user-guide/sync-waves/
 [19]: https://argoproj.github.io/argo-cd/operator-manual/architecture/
 [20]: https://codefresh.io/docs/docs/configure-ci-cd-pipeline/pipelines/
+[21]: https://cdevents.dev/docs
