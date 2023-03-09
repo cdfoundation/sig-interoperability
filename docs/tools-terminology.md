@@ -299,12 +299,10 @@ Some of the core Tekton terms are listed below. [[9]]
 - **Step**: a specific function to perform.
 - **Task**: is a collection of sequential steps you would want to run as part
 of your continuous integration flow. A task will run inside a pod on your cluster.
-- **ClusterTask**: Similar to Task, but with a cluster scope.
 - **Pipeline**: stateless, reusable, parameterized collection of tasks. Tasks are
 linked together in a Pipeline, which describes the end-to-end deployment for an application.
 - **PipelineRun**: an instantiation of a Pipeline definition, filling in the 
 Pipeline's parameters with concrete values
-- **Pipeline Resource**: objects that will be input to or output from tasks
 - **Trigger**: Triggers is a Kubernetes Custom Resource Defintion (CRD) controller 
 that allows you to extract information from event payloads (a "trigger") to create Kubernetes resources.
 
