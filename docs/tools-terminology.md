@@ -16,6 +16,7 @@
   - [Screwdriver](#screwdriver)
   - [Spinnaker](#spinnaker)
   - [Tekton](#tekton)
+  - [Woodpecker](#woodpecker)
   - [Zuul](#zuul)
 - [Terminology Used by SCM Tools and Technologies](#terminology-used-by-scm-tools-and-technologies)
   - [Gerrit](#gerrit)
@@ -304,6 +305,20 @@ Pipeline's parameters with concrete values
 - **Trigger**: Triggers is a Kubernetes Custom Resource Defintion (CRD) controller 
 that allows you to extract information from event payloads (a "trigger") to create Kubernetes resources.
 
+### Woodpecker
+
+[Woodpecker](https://woodpecker-ci.org/) is an open source, simple CI/CD engine with great extensibility.
+
+Some of the core Tekton terms are listed below. [[22]]
+
+- **Pipeline**: Triggered by events like webhooks, crons or manual events. It contains one or more Workflows.
+- **Workflow**: Represent one task an Agent do execute. It contains steps and report the result back to SCM Tools.
+- **Workspace**: Contains the shared state of a workflow.
+- **Step**: Are commands to be executed in a sequence within a specific environment (container image) declared by it.
+- **Plugin**: Are steps that have pre declared commands witch are just configured by settings.
+- **Agent**: Do have a backend engine, default is docker. They execute workflows.
+- **Server**: Interacts with the SCM Tools and orchestrate tasks to agents.
+
 ### Zuul
 
 [Zuul](https://zuul-ci.org/) is a program that drives continuous integration,
@@ -415,6 +430,7 @@ pipeline in corresponding documentation.
 | **Screwdriver**    | N/A       | Step       | Job      | Pipeline | Trigger | N/A                    |
 | **Spinnaker**      | N/A       | Task       | Stage    | Pipeline | Trigger | Cluster                |
 | **Tekton**         | N/A       | Step       | Task     | Pipeline | Trigger | Resource (?)           |
+| **Woodpecker**     | N/A       | Step       | Workflow | Pipeline | Event   | Agent                  |
 | **Zuul**           | N/A       | N/A        | Job      | Pipeline | Trigger | Node (?)               |
 
 ### SCM Tools and Technologies
@@ -453,3 +469,4 @@ by SCM Tools and Technologies.
 [19]: https://argoproj.github.io/argo-cd/operator-manual/architecture/
 [20]: https://codefresh.io/docs/docs/configure-ci-cd-pipeline/pipelines/
 [21]: https://cdevents.dev/docs
+[22]: https://github.com/woodpecker-ci/woodpecker/issues/745
