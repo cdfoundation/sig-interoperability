@@ -309,9 +309,9 @@ that allows you to extract information from event payloads (a "trigger") to crea
 
 [Woodpecker](https://woodpecker-ci.org/) is an open source, simple CI/CD engine with great extensibility.
 
-Some of the core Tekton terms are listed below. [[22]]
+Some of the core Woodpecker terms are listed below. [[22]]
 
-- **Pipeline**: Triggered by events like webhooks, crons or manual events. It contains one or more Workflows.
+- **Pipeline**: Triggered by events like webhooks, crons or manual events. It contains one or more workflows.
 - **Workflow**: Represent one task an Agent do execute. It contains steps and report the result back to SCM Tools.
 - **Workspace**: Contains the shared state of a workflow.
 - **Step**: Are commands to be executed in a sequence within a specific environment (container image) declared by it.
