@@ -312,7 +312,7 @@ that allows you to extract information from event payloads (a "trigger") to crea
 Some of the core Woodpecker terms are listed below. [[22]]
 
 - **Pipeline**: Triggered by events like webhooks, crons or manual events. It contains one or more workflows.
-- **Workflow**: Represent one task an Agent do execute. It contains steps and report the result back to SCM Tools.
+- **Workflow**: Represents a sequential list of steps which are executed as a task by an agent. The results of the workflow reports the result back to SCM Tools.
 - **Workspace**: Contains the shared state of a workflow.
 - **Step**: Are commands to be executed in a sequence within a specific environment (container image) declared by it.
 - **Plugin**: Are steps that have pre declared commands witch are just configured by settings.
