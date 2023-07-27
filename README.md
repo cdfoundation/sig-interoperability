@@ -119,8 +119,14 @@ The process SIG Interoperability follows can be seen from [here](https://github.
 Chairs and the TOC Sponsor of the SIG are
 
 * Melissa McKay ([@mjmckay](https://github.com/mjmckay)), JFrog - Chair
-* Dadisi Sanyika([@dsanyika](https://github.com/dsanyika)), Apple - Chair
+* Dadisi Sanyika ([@dsanyika](https://github.com/dsanyika)), Apple - Chair
 * Dan Lorenc ([@dlorenc](https://github.com/dlorenc)), Google - TOC Sponsor
+
+## SIG Alumni
+
+* Fatih Degirmenci, Ericsson Software Technology, 01/2020-03/2022
+* Kara de la Marck, CloudBees/CDF, 06/2020-04/2022
+* Justin Abrahms, eBay, 04-2022-06/2023
 
 ### SIG Workstreams
 
