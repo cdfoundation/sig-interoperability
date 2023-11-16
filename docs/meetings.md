@@ -29,28 +29,7 @@
     * [2023-02-02 Meeting](#February-2-2023)(Cancelled)
     * [2023-01-19 Meeting](#January-19-2023) 
     * 2022-12-15/2023-01-05 Meeting Cancelled for Winter Break
-    * [2022-12-01 Meeting](#December-1-2022)
-    * [2022-11-17 Meeting](#November-17-2022)
-    * 2022-11-03 Meeting (Cancelled)
-    * [2022-10-20 Meeting](#October-20-2022)
-    * [2022-10-06 Meeting](#October-6-2022)
-    * [2022-09-15 Meeting](#September-15-2022)
-    * [2022-09-01 Meeting](#September-1-2022)
-    * [2022-08-18 Meeting](#August-18-2022)
-    * [2022-08-04 Meeting](#August-4-2022)
-    * [2022-07-21 Meeting](#July-21-2022)
-    * [2022-07-07 Meeting](#July-7-2022)
-    * [2022-06-16 Meeting](#June-16-2022)
-    * [2022-06-02 Meeting](#June-2-2022)
-    * 2022-05-19 Meeting (Cancelled)
-    * 2022-05-05 Meeting (Cancelled)
-    * [2022-04-21 Meeting](#April-21-2022)
-    * [2022-04-07 Meeting](#April-7-2022)
-    * [2022-03-17 Meeting](#March-17-2022)
-    * [2022-03-03 Meeting](#March-3-2022)
-    * [2022-02-17 Meeting](#February-17-2022)
-    * [2022-02-03 Meeting](#February-3-2022)
-    * [2022-01-20 Meeting](#January-20-2022)
+
 
 ## Logistics
 
