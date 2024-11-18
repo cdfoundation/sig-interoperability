@@ -1,4 +1,13 @@
-# CDF Interoperability SIG
+# CDF Interoperability SIG - **Archived**
+
+The work produced by the Interoperability SIG is available in this repository.
+The conversation about interoperability continues at the CDF through the work
+of the [CDEvents Project](https://cdevents.dev) and its
+[CDEvents Implementation Working Group](https://github.com/cdevents/implementation-wg).
+
+If you are interested in interoperability please join us at the CDEvents project.
+If you would like to resume the work of this SIG, please reach out to the
+CDF's [Technical Oversight Committee](https://cd.foundation/about/toc/).
 
 ## Quick links
 
